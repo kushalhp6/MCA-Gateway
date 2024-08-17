@@ -9,10 +9,10 @@ CREATE TABLE users (
 );
 
 -- password resets table
-CREATE TABLE password_resets (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT NOT NULL,
-    token VARCHAR(255) UNIQUE NOT NULL,
-    expires_at DATETIME NOT NULL,
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
+-- CREATE TABLE password_resets (
+--     id INT AUTO_INCREMENT PRIMARY KEY,
+--     user_id INT NOT NULL,
+--     token VARCHAR(255) UNIQUE NOT NULL,
+--     expires_at DATETIME NOT NULL,
+--     FOREIGN KEY (user_id) REFERENCES users(id)
+-- );
