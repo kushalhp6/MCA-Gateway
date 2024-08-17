@@ -15,15 +15,26 @@ include 'views/partials/navbar.php';
     <title>Home - MCA Gateway</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to MCA Gateway</h1>
-        <?php if ($loggedIn): ?>
-            <p>Welcome back, <?php echo htmlspecialchars($_SESSION['user_name']); ?>!</p>
-            <a href="/MCA-Gateway/views/dashboard.php">Go to your Dashboard</a>
-        <?php else: ?>
-            <p>Welcome to our platform. <a href="/MCA-Gateway/views/signup.php">Sign up</a> or <a href="/MCA-Gateway/views/login.php">log in</a> to get started.</p>
-        <?php endif; ?>
-    </div>
+    <!-- hero section -->
+    <?php include './sections/hero.php'; ?>
+
+    <!-- 1st call to action -->
+    <?php include './sections/cta1.php'; ?>
+
+
+    <!-- features section -->
+    <?php include './sections/features.php'; ?>
+
+<!-- testimony section -->
+<?php include './sections/testimonials.php'; ?>
+
+<!-- call to action -->
+<?php include './sections/cta2.php'; ?>
+
+<!-- FAQ section -->
+<?php include './sections/faq.php'; ?>
+
+
     <?php include 'views/partials/footer.php'; ?>
 </body>
 </html>
