@@ -1,4 +1,16 @@
-<?php include 'partials/navbar.php'; ?>
+<?php
+session_start(); // Start the session
+
+// Check if the user is already logged in
+if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
+    header("Location: dashboard.php");
+    exit();
+}
+
+// Rest of your signup page code
+include 'partials/navbar.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

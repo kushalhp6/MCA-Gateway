@@ -1,4 +1,7 @@
-<?php include 'partials/navbar.php'; ?>
+<?php
+session_start(); // Start the session
+include 'partials/navbar.php'; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

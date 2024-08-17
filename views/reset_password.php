@@ -1,4 +1,4 @@
-<!-- // Password reset page (views/reset_password.php) -->
+<!-- // Password reset page (views/reset_password.php)
 <?php include 'partials/navbar.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,4 +21,4 @@
         </form>
     </div>
 </body>
-</html>
+</html> -->

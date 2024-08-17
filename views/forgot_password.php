@@ -1,5 +1,5 @@
-<!-- // Forgot password page (views/forgot_password.php) -->
-<?php include 'partials/navbar.php'; ?>
+  <!-- Forgot password page (views/forgot_password.php)
+  <?php include 'partials/navbar.php'; ?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,4 +20,4 @@
         </form>
     </div>
 </body>
-</html>
+</html>  -->
