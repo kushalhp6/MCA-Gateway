@@ -8,11 +8,55 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- password resets table
--- CREATE TABLE password_resets (
---     id INT AUTO_INCREMENT PRIMARY KEY,
---     user_id INT NOT NULL,
---     token VARCHAR(255) UNIQUE NOT NULL,
---     expires_at DATETIME NOT NULL,
---     FOREIGN KEY (user_id) REFERENCES users(id)
--- );
+-- Create the cards table
+CREATE TABLE cards (
+    id INT AUTO_INCREMENT PRIMARY KEY,                -- Unique identifier for each card
+    month VARCHAR(20) NOT NULL,                       -- Month or type of access (e.g., 'September', 'All Months Access')
+    price DECIMAL(10, 2) NOT NULL,                    -- Price of the card
+    status ENUM('available', 'sold') NOT NULL,        -- Availability status of the card
+    card_type ENUM('monthly', 'full_access') DEFAULT 'monthly'  -- Type of card, can be 'monthly' or 'full_access'
+);
+
+-- Insert sample data into the cards table
+INSERT INTO cards (month, price, status, card_type) VALUES 
+('September', 600.00, 'available', 'monthly'),
+('October', 600.00, 'available', 'monthly'),
+('November', 600.00, 'available', 'monthly'),
+('December', 600.00, 'available', 'monthly'),
+('January', 600.00, 'available', 'monthly'),
+('February', 600.00, 'available', 'monthly'),
+('March', 600.00, 'available', 'monthly'),
+('April', 600.00, 'available', 'monthly'),
+('May', 600.00, 'available', 'monthly'),
+('All Months Access', 5000.00, 'available', 'full_access');  -- Special card for all months access
+
+
+-- Create the user_card_access table
+CREATE TABLE user_card_access (
+    id INT AUTO_INCREMENT PRIMARY KEY,  -- Unique identifier for each record
+    user_id INT NOT NULL,               -- User ID (foreign key)
+    card_id INT NOT NULL,               -- Card ID (foreign key)
+    access_granted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,  -- When access was granted
+    FOREIGN KEY (user_id) REFERENCES users(id),  -- Reference to the users table
+    FOREIGN KEY (card_id) REFERENCES cards(id)   -- Reference to the cards table
+);
+
+-- Insert sample data into the user_card_access table
+-- Assuming user ID 1 purchased the September card
+INSERT INTO user_card_access (user_id, card_id) VALUES 
+(1, (SELECT id FROM cards WHERE month = 'September' AND card_type = 'monthly'));
+
+-- Insert sample data for a user who purchased the special 'All Months Access' card
+-- Assuming user ID 2 purchased the 'All Months Access' card
+INSERT INTO user_card_access (user_id, card_id) VALUES 
+(2, (SELECT id FROM cards WHERE card_type = 'full_access'));
+
+-- Grant access to all monthly cards for the user who purchased 'All Months Access'
+INSERT INTO user_card_access (user_id, card_id)
+SELECT 2, id
+FROM cards
+WHERE card_type = 'monthly';
+
+
+
+
