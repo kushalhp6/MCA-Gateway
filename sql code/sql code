@@ -28,7 +28,9 @@ INSERT INTO cards (month, price, status, card_type) VALUES
 ('March', 600.00, 'available', 'monthly'),
 ('April', 600.00, 'available', 'monthly'),
 ('May', 600.00, 'available', 'monthly'),
+('June', 600.00, 'available', 'monthly'),  -- Added June card
 ('All Months Access', 5000.00, 'available', 'full_access');  -- Special card for all months access
+  -- Special card for all months access
 
 
 -- Create the user_card_access table
