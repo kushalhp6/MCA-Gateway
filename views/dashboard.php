@@ -20,28 +20,68 @@ $stmt->bind_result($user_name);
 $stmt->fetch();
 $stmt->close();
 
-// Fetch user card access (similar to dash_back.php)
+// Fetch user card access
 $sql = "SELECT card_id FROM user_card_access WHERE user_id = ?";
 $stmt = $conn->prepare($sql);
+
+// Check if the prepare was successful
+if ($stmt === false) {
+    die('Prepare failed: ' . htmlspecialchars($conn->error));
+}
+
 $stmt->bind_param('i', $user_id);
-$stmt->execute();
+$execute_result = $stmt->execute();
+
+// Check if the execute was successful
+if ($execute_result === false) {
+    die('Execute failed: ' . htmlspecialchars($stmt->error));
+}
+
 $result = $stmt->get_result();
+
+// Check if the get_result was successful
+if ($result === false) {
+    die('Get result failed: ' . htmlspecialchars($stmt->error));
+}
+
 $access_cards = [];
 while ($row = $result->fetch_assoc()) {
     $access_cards[] = $row['card_id'];
 }
+
 $stmt->close();
 
-// Determine access
-$has_full_access = in_array(11, $access_cards); // Assuming Full Access card ID is 10
+
+// Fetch card ID for 'Full Access'
+$sql = "SELECT id FROM cards WHERE name = 'Full Access'";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+$stmt->bind_result($full_access_card_id);
+$stmt->fetch();
+$stmt->close();
+
+// Check if the user has 'Full Access'
+$has_full_access = in_array($full_access_card_id, $access_cards);
+
+
 $card_access = [];
-$months = ['September', 'October', 'November', 'December', 'January', 'February', 'March', 'April', 'May', 'June'];
-foreach ($months as $index => $month) {
-    $card_id = $index + 1; // Card IDs start from 1 for September
-    $card_access[$month] = in_array($card_id, $access_cards);
+$card_names = ['Module1', 'Module2', 'Module3', 'Module4', 'Mock'];
+
+foreach ($card_names as $card_name) {
+    // Get the card_id based on the card name
+    $sql = "SELECT id FROM cards WHERE name = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param('s', $card_name);
+    $stmt->execute();
+    $stmt->bind_result($card_id);
+    $stmt->fetch();
+    $stmt->close();
+
+    $card_access[$card_name] = in_array($card_id, $access_cards);
 }
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -99,36 +139,36 @@ foreach ($months as $index => $month) {
     <?php endif; ?>
 </div>
 
-<!-- September Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['September'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">September</h3>
+<!-- Module1 -->
+<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['Module1'] ? '' : 'opacity-50'; ?>">
+    <h3 class="text-xl font-semibold mb-4">Module1</h3>
     <ul class="list-disc list-inside mb-4">
         <li>C Programming Live Classes</li>
         <li>Class Records</li>
         <li>Module-wise Online Tests in C</li>
         <li>Syllabus-wise Notes</li>
     </ul>
-    <?php if ($card_access['September'] || $has_full_access): ?>
+    <?php if ($card_access['Module1'] || $has_full_access): ?>
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
     <?php else: ?>
-        <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a> 
+        <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 1500</button></a> 
     <?php endif; ?>
 </div>
 
-<!-- October Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['October'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">October</h3>
+<!-- Module2 -->
+<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['Module2'] ? '' : 'opacity-50'; ?>">
+    <h3 class="text-xl font-semibold mb-4">Module2</h3>
     <ul class="list-disc list-inside mb-4">
         <li>C Programming Live Classes</li>
         <li>Class Records</li>
         <li>Module-wise Online Tests in C</li>
         <li>Syllabus-wise Notes</li>
     </ul>
-    <?php if ($card_access['October'] || $has_full_access): ?>
+    <?php if ($card_access['Module2'] || $has_full_access): ?>
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
     <?php else: ?>
-        <?php if ($card_access['September'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
+        <?php if ($card_access['Module1'] || $has_full_access): ?>
+            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 1500</button></a>
         <?php else: ?>
             <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
         <?php endif; ?>
@@ -136,148 +176,48 @@ foreach ($months as $index => $month) {
 </div>
 
 
-<!-- November Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['November'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">November</h3>
+<!-- Module3 -->
+<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['Module3'] ? '' : 'opacity-50'; ?>">
+    <h3 class="text-xl font-semibold mb-4">Module3</h3>
     <ul class="list-disc list-inside mb-4">
         <li>C Programming Live Classes</li>
         <li>Class Records</li>
         <li>Module-wise Online Tests in C</li>
         <li>Syllabus-wise Notes</li>
     </ul>
-    <?php if ($card_access['November'] || $has_full_access): ?>
+    <?php if ($card_access['Module3'] || $has_full_access): ?>
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
     <?php else: ?>
-        <?php if ($card_access['October'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
+        <?php if ($card_access['Module2'] || $has_full_access): ?>
+            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 1500</button></a>
         <?php else: ?>
             <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
         <?php endif; ?>
     <?php endif; ?>
 </div>
 
-<!-- December Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['December'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">December</h3>
+<!-- Module4 -->
+<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['Module4'] ? '' : 'opacity-50'; ?>">
+    <h3 class="text-xl font-semibold mb-4">Module4</h3>
     <ul class="list-disc list-inside mb-4">
         <li>C Programming Live Classes</li>
         <li>Class Records</li>
         <li>Module-wise Online Tests in C</li>
         <li>Syllabus-wise Notes</li>
     </ul>
-    <?php if ($card_access['December'] || $has_full_access): ?>
+    <?php if ($card_access['Module4'] || $has_full_access): ?>
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
     <?php else: ?>
-        <?php if ($card_access['November'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
+        <?php if ($card_access['Module3'] || $has_full_access): ?>
+            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 1500</button></a>
         <?php else: ?>
             <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
         <?php endif; ?>
     <?php endif; ?>
 </div>
 
-<!-- January Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['January'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">January</h3>
-    <ul class="list-disc list-inside mb-4">
-        <li>C Programming Live Classes</li>
-        <li>Class Records</li>
-        <li>Module-wise Online Tests in C</li>
-        <li>Syllabus-wise Notes</li>
-    </ul>
-    <?php if ($card_access['January'] || $has_full_access): ?>
-        <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
-    <?php else: ?>
-        <?php if ($card_access['December'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
-        <?php else: ?>
-            <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
-        <?php endif; ?>
-    <?php endif; ?>
-</div>
-
-<!-- February Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['February'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">February</h3>
-    <ul class="list-disc list-inside mb-4">
-        <li>C Programming Live Classes</li>
-        <li>Class Records</li>
-        <li>Module-wise Online Tests in C</li>
-        <li>Syllabus-wise Notes</li>
-    </ul>
-    <?php if ($card_access['February'] || $has_full_access): ?>
-        <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
-    <?php else: ?>
-        <?php if ($card_access['January'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
-        <?php else: ?>
-            <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
-        <?php endif; ?>
-    <?php endif; ?>
-</div>
-
-<!-- March Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['March'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">March</h3>
-    <ul class="list-disc list-inside mb-4">
-        <li>C Programming Live Classes</li>
-        <li>Class Records</li>
-        <li>Module-wise Online Tests in C</li>
-        <li>Syllabus-wise Notes</li>
-    </ul>
-    <?php if ($card_access['March'] || $has_full_access): ?>
-        <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
-    <?php else: ?>
-        <?php if ($card_access['February'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
-        <?php else: ?>
-            <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
-        <?php endif; ?>
-    <?php endif; ?>
-</div>
-
-<!-- April Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['April'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">April</h3>
-    <ul class="list-disc list-inside mb-4">
-        <li>C Programming Live Classes</li>
-        <li>Class Records</li>
-        <li>Module-wise Online Tests in C</li>
-        <li>Syllabus-wise Notes</li>
-    </ul>
-    <?php if ($card_access['April'] || $has_full_access): ?>
-        <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
-    <?php else: ?>
-        <?php if ($card_access['March'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
-        <?php else: ?>
-            <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
-        <?php endif; ?>
-    <?php endif; ?>
-</div>
-
-<!-- May Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['May'] ? '' : 'opacity-50'; ?>">
-    <h3 class="text-xl font-semibold mb-4">May</h3>
-    <ul class="list-disc list-inside mb-4">
-        <li>C Programming Live Classes</li>
-        <li>Class Records</li>
-        <li>Module-wise Online Tests in C</li>
-        <li>Syllabus-wise Notes</li>
-    </ul>
-    <?php if ($card_access['May'] || $has_full_access): ?>
-        <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a> 
-    <?php else: ?>
-        <?php if ($card_access['May'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
-        <?php else: ?>
-            <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
-        <?php endif; ?>
-    <?php endif; ?>
-</div>
-
-<!-- Access the Full Mock tests only Card -->
-<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['June'] ? '' : 'opacity-50'; ?>">
+<!-- Mock -->
+<div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 <?php echo $card_access['Mock'] ? '' : 'opacity-50'; ?>">
     <h3 class="text-xl font-semibold mb-4">Full Syllabus Tests</h3>
     <ul class="list-disc list-inside mb-4">
         <li>C Programming Live Classes</li>
@@ -285,14 +225,10 @@ foreach ($months as $index => $month) {
         <li>Module-wise Online Tests in C</li>
         <li>Syllabus-wise Notes</li>
     </ul>
-    <?php if ($card_access['June'] || $has_full_access): ?>
+    <?php if ($card_access['Mock'] || $has_full_access): ?>
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">Try Mock Tests</button></a> 
     <?php else: ?>
-        <?php if ($card_access['May'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 667</button></a>
-        <?php else: ?>
-            <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
-        <?php endif; ?>
+            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 999</button></a>
     <?php endif; ?>
 </div>
 

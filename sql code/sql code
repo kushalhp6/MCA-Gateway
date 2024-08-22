@@ -8,29 +8,22 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create the cards table
 CREATE TABLE cards (
     id INT AUTO_INCREMENT PRIMARY KEY,                -- Unique identifier for each card
-    month VARCHAR(20) NOT NULL,                       -- Month or type of access (e.g., 'September', 'All Months Access')
+    name VARCHAR(20) NOT NULL,                        -- Name of the card (e.g., 'Module1', 'Full Access')
     price DECIMAL(10, 2) NOT NULL,                    -- Price of the card
     status ENUM('available', 'sold') NOT NULL,        -- Availability status of the card
-    card_type ENUM('monthly', 'full_access') DEFAULT 'monthly'  -- Type of card, can be 'monthly' or 'full_access'
+    card_type ENUM('module', 'mock', 'full_access')   -- Type of card, can be 'module', 'mock', or 'full_access'
 );
 
 -- Insert sample data into the cards table
-INSERT INTO cards (month, price, status, card_type) VALUES 
-('September', 600.00, 'available', 'monthly'),
-('October', 600.00, 'available', 'monthly'),
-('November', 600.00, 'available', 'monthly'),
-('December', 600.00, 'available', 'monthly'),
-('January', 600.00, 'available', 'monthly'),
-('February', 600.00, 'available', 'monthly'),
-('March', 600.00, 'available', 'monthly'),
-('April', 600.00, 'available', 'monthly'),
-('May', 600.00, 'available', 'monthly'),
-('June', 600.00, 'available', 'monthly'),  -- Added June card
-('All Months Access', 5000.00, 'available', 'full_access');  -- Special card for all months access
-  -- Special card for all months access
+INSERT INTO cards (name, price, status, card_type) VALUES 
+('Module1', 1500, 'available', 'module'),
+('Module2', 1500, 'available', 'module'),
+('Module3', 1500, 'available', 'module'),
+('Module4', 1500, 'available', 'module'),
+('Mock', 1000, 'available', 'mock'),
+('Full Access', 5000.00, 'available', 'full_access');
 
 
 -- Create the user_card_access table
@@ -44,20 +37,21 @@ CREATE TABLE user_card_access (
 );
 
 -- Insert sample data into the user_card_access table
--- Assuming user ID 1 purchased the September card
+-- Assuming user ID 1 purchased the Module1 card
 INSERT INTO user_card_access (user_id, card_id) VALUES 
-(1, (SELECT id FROM cards WHERE month = 'September' AND card_type = 'monthly'));
+(1, (SELECT id FROM cards WHERE name = 'Module1' AND card_type = 'module'));
 
--- Insert sample data for a user who purchased the special 'All Months Access' card
--- Assuming user ID 2 purchased the 'All Months Access' card
+-- Insert sample data for a user who purchased the 'Full Access' card
+-- Assuming user ID 2 purchased the 'Full Access' card
 INSERT INTO user_card_access (user_id, card_id) VALUES 
-(2, (SELECT id FROM cards WHERE card_type = 'full_access'));
+(2, (SELECT id FROM cards WHERE name = 'Full Access' AND card_type = 'full_access'));
 
--- Grant access to all monthly cards for the user who purchased 'All Months Access'
+-- Grant access to all module and mock cards for the user who purchased 'Full Access'
 INSERT INTO user_card_access (user_id, card_id)
 SELECT 2, id
 FROM cards
-WHERE card_type = 'monthly';
+WHERE card_type IN ('module', 'mock');
+
 
 
 
