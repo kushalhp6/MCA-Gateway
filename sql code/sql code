@@ -63,4 +63,17 @@ CREATE TABLE admin (
 
 INSERT INTO admin (email) VALUES ('kdalalhp@gmail.com');
 
-
+-- to create exam_results table
+CREATE TABLE exam_results (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    exam_id VARCHAR(255) NOT NULL,
+    user_id INT NOT NULL,
+    marks FLOAT NOT NULL,
+    status ENUM('submitted', 'incomplete') DEFAULT 'submitted',
+    time_taken INT NOT NULL,
+    correct INT NOT NULL,
+    incorrect INT NOT NULL,
+    unattempted INT NOT NULL,
+    submission_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);

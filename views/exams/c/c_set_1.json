@@ -1,0 +1,57 @@
+{
+    "exam_name": "C Programming Set 1",
+    "total_marks": 5,
+    "time_limit": 6,
+    "questions": [
+        {
+            "question": "Which of the following is the correct syntax to declare a pointer?",
+            "options": {
+                "A": "int *ptr;",
+                "B": "int ptr*;",
+                "C": "ptr int*;",
+                "D": "int ptr[];"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is used to terminate a C program?",
+            "options": {
+                "A": "end",
+                "B": "quit",
+                "C": "stop",
+                "D": "exit"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the size of an int data type in a 64-bit machine?",
+            "options": {
+                "A": "4 bytes",
+                "B": "2 bytes",
+                "C": "8 bytes",
+                "D": "Depends on the compiler"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which keyword is used to prevent any changes to a variable?",
+            "options": {
+                "A": "const",
+                "B": "volatile",
+                "C": "static",
+                "D": "register"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What will be the output of the following code?\n\nint main() {\n   int x = 5;\n   printf(\"%d\", ++x);\n   return 0;\n}",
+            "options": {
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "None of the above"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

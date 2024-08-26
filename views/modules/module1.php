@@ -28,7 +28,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <div class="bg-blue-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-blue-200 transition-all duration-300">
                 <span class="font-medium text-lg text-blue-800 mb-2">C Set 1</span>
-                <a href="c_set_1_link" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Start Exam</a>
+                <a href="/MCA-GATEWAY/views/exams/rules.php?exam_id=c_set_1" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Start Exam</a>
             </div>
             <div class="bg-blue-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-blue-200 transition-all duration-300">
                 <span class="font-medium text-lg text-blue-800 mb-2">OOPs Set 1</span>
