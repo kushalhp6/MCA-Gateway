@@ -1,6 +1,10 @@
 <?php
-// Start the session
+// Start session and check if user is logged in
 session_start();
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    header("Location: /MCA-Gateway/views/login.php");
+    exit;
+}
 
 // Include the database connection
 include_once './db.php'; // Adjust the path if necessary
@@ -13,7 +17,7 @@ $examMapping = [
 ];
 
 // Get the JSON file name from the query string
-$examId = $_GET['exam_id'] ?? '';
+$examId = $_POST['exam_id'] ?? '';
 
 // Adjust the path to the JSON file
 $basePath = __DIR__ . "/c/"; // Adjust this path to your actual file structure
@@ -55,18 +59,18 @@ if (file_exists($fullPath)) {
     $timeTaken = $_SESSION['time_limit'] - (time() - $_SESSION['start_time']);
 
 
-    // Define the status variable
+ // Define the status variable
 $status = 'submitted';
 
-// Prepare the SQL statement
-$stmt = $conn->prepare("INSERT INTO exam_results (exam_id, user_id, marks, status, time_taken, correct, incorrect, unattempted) VALUES (?, ?, ?, ?, ?, ?, ?)");
+// Prepare the SQL statement with 8 placeholders
+$stmt = $conn->prepare("INSERT INTO exam_results (exam_id, user_id, marks, status, time_taken, correct, incorrect, unattempted) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
 
 if ($stmt === false) {
     die('Prepare failed: ' . $conn->error);
 }
 
 // Bind the parameters to the SQL query
-$stmt->bind_param("ssiiiii", $examId, $_SESSION['user_id'], $marks, $status, $timeTaken, $correct, $incorrect, $unattempted);
+$stmt->bind_param("ssissiii", $examId, $_SESSION['user_id'], $marks, $status, $timeTaken, $correct, $incorrect, $unattempted);
 
 // Execute the query
 $stmt->execute();
@@ -74,19 +78,25 @@ $stmt->close();
 
 
 
+
+
     
     // Clear session data
-    session_unset();
-    session_destroy();
+    // session_unset();
+    // session_destroy();
 
     // Display results
-    echo "<div class='max-w-4xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md'>";
-    echo "<h2 class='text-3xl font-semibold mb-4 text-gray-800'>Exam Results</h2>";
-    echo "<p class='text-lg text-gray-700 mb-2'><strong>Marks:</strong> $marks</p>";
-    echo "<p class='text-lg text-gray-700 mb-2'><strong>Correct Answers:</strong> $correct</p>";
-    echo "<p class='text-lg text-gray-700 mb-2'><strong>Incorrect Answers:</strong> $incorrect</p>";
-    echo "<p class='text-lg text-gray-700 mb-2'><strong>Unattempted:</strong> $unattempted</p>";
-    echo "</div>";
+echo "<div class='max-w-4xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md'>";
+echo "<h2 class='text-3xl font-semibold mb-4 text-gray-800'>Exam Results</h2>";
+echo "<p class='text-lg text-gray-700 mb-2'><strong>Marks:</strong> $marks</p>";
+echo "<p class='text-lg text-gray-700 mb-2'><strong>Correct Answers:</strong> $correct</p>";
+echo "<p class='text-lg text-gray-700 mb-2'><strong>Incorrect Answers:</strong> $incorrect</p>";
+echo "<p class='text-lg text-gray-700 mb-2'><strong>Unattempted:</strong> $unattempted</p>";
+
+// Add View Answers button
+echo "<a href='rules.php?exam_id=$examId' class='mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700'>View Answers</a>";
+echo "</div>";
+
 } else {
     echo "Error: Exam file not found.";
 }

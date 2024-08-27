@@ -1,6 +1,11 @@
 <?php
-// Start the session
+// Start session and check if user is logged in
 session_start();
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    header("Location: /MCA-Gateway/views/login.php");
+    exit;
+}
+
 
 // Get the exam ID from the query string
 $examId = $_GET['exam_id'] ?? '';
@@ -70,6 +75,13 @@ if ($examId && array_key_exists($examId, $examMapping)) {
     <title><?= htmlspecialchars($examName) ?> - Exam</title>
     <!-- Tailwind CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <script type="text/javascript" >
+        function preventBack(){window.history.forward();}
+        setTimeout("preventBack()", 0);
+        window.onunload=function(){null};
+    </script>
+    
     <script>
         let remainingTime = <?= $remainingTime ?>;
         let currentQuestionIndex = 0;
