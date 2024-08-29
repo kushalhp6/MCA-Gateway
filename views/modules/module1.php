@@ -54,11 +54,11 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 flex justify-between items-center">
                 <span class="text-lg font-bold text-white">C Set 2</span>
-                <a href="c_set_2_link" class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">Start Exam</a>
+                <a href="/MCA-GATEWAY/views/exams/rules.php?exam_id=c_set_2" class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">Start Exam</a>
             </div>
             <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 flex justify-between items-center">
                 <span class="text-lg font-bold text-white">C Set 3</span>
-                <a href="c_set_3_link" class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">Start Exam</a>
+                <a href="/MCA-GATEWAY/views/exams/rules.php?exam_id=c_set_3" class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">Start Exam</a>
             </div>
             <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 flex justify-between items-center">
                 <span class="text-lg font-bold text-white">C Set 4</span>

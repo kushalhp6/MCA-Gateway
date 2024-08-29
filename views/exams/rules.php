@@ -11,6 +11,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 $examMapping = [
     'c_set_1' => 'c_set_1.json',
     'c_set_2' => 'c_set_2.json',
+    'c_set_3' => 'c_set_3.json',
+
     // Add more mappings as needed
 ];
 
@@ -75,11 +77,20 @@ if (isset($examMapping[$examId])) {
             </ul>
         </div>
 
-        <!-- Start Exam Button -->
-        <a href="exam.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors">
-            Start Exam
-        </a>
+        <!-- Buttons -->
+        <div class="flex justify-between mt-4">
+            <!-- Back to Dashboard Button -->
+            <a href="/MCA-Gateway/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
+                Back to Resources
+            </a>
+            
+            <!-- Start Exam Button -->
+            <a href="exam.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors">
+                Start Exam
+            </a>
+        </div>
     </div>
 
 </body>
+
 </html>

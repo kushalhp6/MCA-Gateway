@@ -17,6 +17,8 @@ $basePath = __DIR__ . "/c/";
 $examMapping = [
     'c_set_1' => 'c_set_1.json',
     'c_set_2' => 'c_set_2.json',
+    'c_set_3' => 'c_set_3.json',
+
     // Add more mappings as needed
 ];
 
@@ -158,7 +160,8 @@ if ($examId && array_key_exists($examId, $examMapping)) {
     <form id="examForm" action="submit_exam.php" method="POST">
         <?php foreach ($questions as $index => $question): ?>
             <div class="question mb-6" id="question-<?= $index ?>" style="display: none;">
-                <p class="text-lg text-gray-700 mb-2"><strong>Question <?= $index + 1 ?>:</strong> <?= htmlspecialchars($question['question']) ?></p>
+            <p class="text-lg text-gray-700 mb-2"><strong>Question <?= $index + 1 ?>:</strong></p>
+            <div class="text-gray-700 mb-2"><?= nl2br(htmlspecialchars_decode($question['question'])) ?></div>
                 <?php foreach ($question['options'] as $key => $option): ?>
                     <label class="block text-gray-600">
                         <input type="radio" name="answers[<?= $index ?>]" value="<?= htmlspecialchars($key) ?>" class="mr-2">

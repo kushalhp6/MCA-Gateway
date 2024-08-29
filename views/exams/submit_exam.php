@@ -13,6 +13,8 @@ include_once './db.php'; // Adjust the path if necessary
 $examMapping = [
     'c_set_1' => 'c_set_1.json',
     'c_set_2' => 'c_set_2.json',
+    'c_set_3' => 'c_set_3.json',
+
     // Add more mappings as needed
 ];
 
@@ -36,25 +38,32 @@ if (file_exists($fullPath)) {
     $userAnswers = $_POST['answers'] ?? [];
 
     // Initialize counters
-    $correct = 0;
-    $incorrect = 0;
-    $unattempted = 0;
+$correct = 0;
+$incorrect = 0;
+$unattempted = 0;
+$totalMarks = 20; // Example total marks, adjust as necessary
 
-    // Check the user's answers
-    foreach ($questions as $index => $question) {
-        if (isset($userAnswers[$index])) {
-            if ($userAnswers[$index] === $question['correct_answer']) {
-                $correct++;
-            } else {
-                $incorrect++;
-            }
+// Check the user's answers
+foreach ($questions as $index => $question) {
+    if (isset($userAnswers[$index])) {
+        if ($userAnswers[$index] === $question['correct_answer']) {
+            $correct++;
         } else {
-            $unattempted++;
+            $incorrect++;
         }
+    } else {
+        $unattempted++;
     }
+}
 
-    // Calculate marks
-    $marks = ($correct / count($questions)) * $totalMarks;
+// Calculate marks
+$initialMarks = ($correct / count($questions)) * $totalMarks;
+
+// Apply penalty for incorrect attempts
+$penalty = $incorrect * 0.25;
+$marks = $initialMarks - $penalty;
+
+
     // Calculate the time taken
     $timeTaken = $_SESSION['time_limit'] - (time() - $_SESSION['start_time']);
 

@@ -1,0 +1,218 @@
+{
+    "exam_name": "C Programming Set 2",
+    "total_marks": 21,
+    "time_limit": 21,
+    "questions": [
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> int main()<br> {<br> enum {ORANGE = 5, MANGO, BANANA = 4, PEACH};<br> printf(\"PEACH = %d\\n\", PEACH);<br> }</code>",
+        "options": {
+          "A": "PEACH = 3",
+          "B": "PEACH = 4",
+          "C": "PEACH = 5",
+          "D": "PEACH = 6"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What will be the value of result after the following code snippet?<br><br><code>int arr[] = {2, 5, 7, 10};<br>int *p = arr;<br>int result = ++*p + ++*(p + 2);</code>",
+        "options": {
+          "A": "9",
+          "B": "12",
+          "C": "7",
+          "D": "15"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the output of the following program?<br><br><code>#include <stdio.h><br>void main() {<br>    int a = 10, b = 5;<br>    a = a ^ b;<br>    b = a ^ b;<br>    a = a ^ b;<br>    printf(\"%d, %d\", a, b);<br>}</code>",
+        "options": {
+          "A": "10, 5",
+          "B": "5, 10",
+          "C": "0, 5",
+          "D": "5, 0"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br>#define a 10<br> int main()<br> {<br>    const int a = 5;<br>    printf(\"a = %d\\n\", a);<br>}</code>",
+        "options": {
+          "A": "a = 5",
+          "B": "a = 10",
+          "C": "Compilation error",
+          "D": "Runtime error"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> int main()<br> {<br> int var = 010;<br> printf(\"%d\", var);<br>}</code>",
+        "options": {
+          "A": "2",
+          "B": "8",
+          "C": "9",
+          "D": "10"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the output of the following program?<br><br><code>#include <stdio.h><br>void main() {<br>    char str[] = \"Hello\";<br>    char *ptr = str;<br>    ptr += 2;<br>    printf(\"%s\", ptr);<br>}</code>",
+        "options": {
+          "A": "Hello",
+          "B": "ello",
+          "C": "llo",
+          "D": "Compiler Error"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What will be the output of the following C function?<br><br><code>#include <stdio.h><br> enum birds {SPARROW, PEACOCK, PARROT};<br> enum animals {TIGER = 8, LION, RABBIT, ZEBRA};<br> int main()<br> {<br>    enum birds m = TIGER;<br>    int k;<br>    k = m;<br>    printf(\"%d\\n\", k);<br>    return 0;<br>}</code>",
+        "options": {
+          "A": "0",
+          "B": "Compile time error",
+          "C": "1",
+          "D": "8"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "What is the output of the following program?<br><br><code>#include <stdio.h><br>void main() {<br>    int a = 5, b = 7;<br>    printf(\"%d\", a+++b);<br>}</code>",
+        "options": {
+          "A": "12",
+          "B": "11",
+          "C": "6",
+          "D": "Compiler Error"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> void main()<br> {<br>int x = 5.3 % 2;<br> printf(\"Value of x is %d\", x);<br>}</code>",
+        "options": {
+          "A": "Value of x is 2.3",
+          "B": "Value of x is 1",
+          "C": "Value of x is 0.3",
+          "D": "Compile time error"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "What is the output of the following program?<br><br><code>#include <stdio.h><br>void main() {<br>    int a = 5, b = 3;<br>    printf(\"%d\", a > b ? a++ : b++);<br>}</code>",
+        "options": {
+          "A": "3",
+          "B": "5",
+          "C": "4",
+          "D": "6"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> void main()<br> {<br> int a = 3;<br> int b = ++a + a++ + --a;<br> printf(\"Value of b is %d\", b);<br>}</code>",
+        "options": {
+          "A": "Value of x is 12",
+          "B": "Value of x is 13",
+          "C": "Value of x is 10",
+          "D": "Undefined behaviour"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "What is the precedence of arithmetic operators (from highest to lowest)?<br><br><code>a) %, *, /, +, –<br>b) %, +, /, *, –<br>c) +, -, %, *, /<br>d) %, +, -, *, /</code>",
+        "options": {
+          "A": "%, *, /, +, -",
+          "B": "%, +, /, *, -",
+          "C": "+, -, %, *, /",
+          "D": "%, +, -, *, /"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> void main()<br> {<br> int x = 1, y = 0, z = 5;<br> int a = x && y || z++;<br> printf(\"%d\", z);<br>}</code>",
+        "options": {
+          "A": "6",
+          "B": "5",
+          "C": "0",
+          "D": "Varies"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> void main()<br> {<br> int x = 1, y = 0, z = 5;<br> int a = x && y && z++;<br> printf(\"%d\", z);<br>}</code>",
+        "options": {
+          "A": "6",
+          "B": "5",
+          "C": "0",
+          "D": "Varies"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> void main()<br> {<br> int x = 97;<br> char y = x;<br> printf(\"%c\\n\", y);<br>}</code>",
+        "options": {
+          "A": "a",
+          "B": "b",
+          "C": "97",
+          "D": "Run time error"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> int main()<br> {<br> int a = 1, b = 1, c;<br> c = a++ + b;<br> printf(\"%d, %d\", a, b);<br> }</code>",
+        "options": {
+          "A": "a = 1, b = 1",
+          "B": "a = 2, b = 1",
+          "C": "a = 1, b = 2",
+          "D": "a = 2, b = 2"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> int main()<br> {<br> int a = 1, b = 1, d = 1;<br> printf(\"%d, %d, %d\", ++a + ++a + a++, a++ + ++b, ++d + d++ + a++);<br> }</code>",
+        "options": {
+          "A": "15, 4, 5",
+          "B": "9, 6, 9",
+          "C": "9, 3, 5",
+          "D": "Undefined (Compiler Dependent)"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> int main()<br> {<br> int a = 10, b = 10;<br> if (a = 5)<br> b--;<br> printf(\"%d, %d\", a, b--);<br> }</code>",
+        "options": {
+          "A": "a = 10, b = 9",
+          "B": "a = 10, b = 8",
+          "C": "a = 5, b = 9",
+          "D": "a = 5, b = 8"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> void main()<br> {<br> int x = 4, y, z;<br> y = --x;<br> z = x--;<br> printf(\"%d%d%d\", x, y, z);<br>}</code>",
+        "options": {
+          "A": "3 2 3",
+          "B": "2 3 3",
+          "C": "3 2 2",
+          "D": "2 3 4"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> void main()<br> {<br> int a = 5, b = -7, c = 0, d;<br> d = ++a && ++b || ++c;<br> printf(\"\\n%d%d%d%d\", a, b, c, d);<br>}</code>",
+        "options": {
+          "A": "6 -6 0 0",
+          "B": "6 -5 0 1",
+          "C": "-6 -6 0 1",
+          "D": "6 -6 0 1"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "What will be the output of the following C code?<br><br><code>#include <stdio.h><br> void main()<br> {<br> int a = -5;<br> int k = (a++, ++a);<br> printf(\"%d\\n\", k);<br>}</code>",
+        "options": {
+          "A": "-4",
+          "B": "-5",
+          "C": "4",
+          "D": "-3"
+        },
+        "correct_answer": "D"
+      }
+    ]
+  }
+  
