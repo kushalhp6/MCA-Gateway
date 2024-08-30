@@ -6,18 +6,20 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     exit;
 }
 
+// Database connection
+require 'db.php'; // Adjust this path to your actual database connection script
+
 
 // Get the exam ID from the query string
 $examId = $_GET['exam_id'] ?? '';
 
 // Base Path for the JSON files
-$basePath = __DIR__ . "/c/";
+$basePath = __DIR__ . "/json/";
 
 // Exam ID to file mapping
 $examMapping = [
     'c_set_1' => 'c_set_1.json',
-    'c_set_2' => 'c_set_2.json',
-    'c_set_3' => 'c_set_3.json',
+    
 
     // Add more mappings as needed
 ];
@@ -41,6 +43,21 @@ if ($examId && array_key_exists($examId, $examMapping)) {
         $marks = $examData['total_marks'] ?? 0;
         $timeLimit = $examData['time_limit'] ?? 0;
         $questions = $examData['questions'] ?? [];
+
+        // Check if the exam has already been submitted
+        $userId = $_SESSION['user_id'];
+        $sql = "SELECT status FROM exam_results WHERE user_id = ? AND exam_id = ?";
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("ii", $userId, $examId);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $submission = $result->fetch_assoc();
+
+        // If the status is 'submitted', redirect to the rules page
+        if ($submission && $submission['status'] === 'submitted') {
+            header("Location: rules.php?exam_id=" . urlencode($examId));
+            exit;
+        }
 
         // If session time is not set, start the timer
         if (!isset($_SESSION['start_time'])) {

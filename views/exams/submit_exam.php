@@ -12,8 +12,7 @@ include_once './db.php'; // Adjust the path if necessary
 // Exam ID to file mapping
 $examMapping = [
     'c_set_1' => 'c_set_1.json',
-    'c_set_2' => 'c_set_2.json',
-    'c_set_3' => 'c_set_3.json',
+    
 
     // Add more mappings as needed
 ];
@@ -22,7 +21,7 @@ $examMapping = [
 $examId = $_POST['exam_id'] ?? '';
 
 // Adjust the path to the JSON file
-$basePath = __DIR__ . "/c/"; // Adjust this path to your actual file structure
+$basePath = __DIR__ . "/json/"; // Adjust this path to your actual file structure
 $fullPath = $basePath . basename($examId) . ".json"; // Ensure the correct extension is added
 
 // Load the JSON file
