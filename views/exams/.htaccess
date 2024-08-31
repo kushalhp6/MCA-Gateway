@@ -1,7 +1,7 @@
 # Prevent directory listing
 Options -Indexes
 
-# Deny access to JSON files
+# Deny access to JSON files via HTTP but allow PHP to access
 <FilesMatch "\.json$">
     Order Allow,Deny
     Deny from all

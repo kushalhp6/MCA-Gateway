@@ -10,11 +10,80 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 // Database connection
 require 'db.php'; // Adjust this path to your actual database connection script
 
+// Fetch user ID
+$user_id = $_SESSION['user_id'];
+
+// Fetch user card access
+$sql = "SELECT card_id FROM user_card_access WHERE user_id = ?";
+$stmt = $conn->prepare($sql);
+
+// Check if the prepare was successful
+if ($stmt === false) {
+    die('Prepare failed: ' . htmlspecialchars($conn->error));
+}
+
+$stmt->bind_param('i', $user_id);
+$execute_result = $stmt->execute();
+
+// Check if the execute was successful
+if ($execute_result === false) {
+    die('Execute failed: ' . htmlspecialchars($stmt->error));
+}
+
+$result = $stmt->get_result();
+
+// Check if the get_result was successful
+if ($result === false) {
+    die('Get result failed: ' . htmlspecialchars($stmt->error));
+}
+
+$access_cards = [];
+while ($row = $result->fetch_assoc()) {
+    $access_cards[] = $row['card_id'];
+}
+
+$stmt->close();
+
+// Fetch card ID for 'Full Access'
+$sql = "SELECT id FROM cards WHERE name = 'Full Access'";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+$stmt->bind_result($full_access_card_id);
+$stmt->fetch();
+$stmt->close();
+
+// Check if the user has 'Full Access'
+$has_full_access = in_array($full_access_card_id, $access_cards);
+
+// Fetch card ID for 'Module1'
+$sql = "SELECT id FROM cards WHERE name = 'Module1'";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+$stmt->bind_result($module1_card_id);
+$stmt->fetch();
+$stmt->close();
+
+// Check if the user has 'Module1'
+$has_module1_access = in_array($module1_card_id, $access_cards);
+
+// Redirect if the user does not have access
+if (!$has_module1_access && !$has_full_access) {
+    header("Location: /MCA-Gateway/views/dashboard.php");
+    exit;
+}
+
 // Exam ID to file mapping
 $examMapping = [
-    'c_set_1' => 'c_set_1.json',
-    'oops_set_1' => 'oops_set_1.json',
-    'unix_set_1' => 'unix_set_1.json',
+    'c_set_2' => 'c/c_set_2.json',
+    'c_set_3' => 'c/c_set_3.json',
+    'c_set_4' => 'c/c_set_4.json',
+    'c_set_5' => 'c/c_set_5.json',
+    'c_set_6' => 'c/c_set_6.json',
+    'c_set_7' => 'c/c_set_7.json',
+    'c_set_8' => 'c/c_set_8.json',
+    'c_set_9' => 'c/c_set_9.json',
+    'c_set_10' => 'c/c_set_10.json',
+
     // Add more mappings as needed
 ];
 
@@ -24,8 +93,8 @@ $examId = $_GET['exam_id'] ?? '';
 // Check if the exam ID exists in the mapping
 if (isset($examMapping[$examId])) {
     $jsonFile = $examMapping[$examId];
-    $basePath = __DIR__ . "/json/"; // Adjust this path to your actual file structure
-    $fullPath = $basePath . basename($jsonFile);
+    $basePath = __DIR__ . "/"; // Points to the current directory 'exams1'
+    $fullPath = $basePath . $jsonFile;
 
     // Load the JSON file
     if (file_exists($fullPath)) {
@@ -95,10 +164,10 @@ $isSubmitted = $submission !== false;
                 <a href="/MCA-Gateway/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     Back to Resources
                 </a>
-                <a href="view_answers.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+                <a href="view_answers1.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
                     View Answers
                 </a>
-                <a href="leaderboard.php?exam_id=<?= urlencode($examId) ?>" class="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors">
+                <a href="leaderboard1.php?exam_id=<?= urlencode($examId) ?>" class="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors">
                     Leaderboard
                 </a>
             </div>
@@ -123,7 +192,7 @@ $isSubmitted = $submission !== false;
                 </a>
                 
                 <!-- Start Exam Button -->
-                <a href="exam.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors">
+                <a href="exam1.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors">
                     Start Exam
                 </a>
             </div>

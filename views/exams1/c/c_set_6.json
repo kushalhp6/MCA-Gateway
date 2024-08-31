@@ -1,0 +1,208 @@
+{
+    "exam_name": "C Programming Set 6",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> enum Days {SUNDAY, MONDAY, TUESDAY, WEDNESDAY};<br><br> int main() {<br> enum Days today = WEDNESDAY;<br> int nextDay = today + 1;<br><br> printf(\"%d\", nextDay);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "0",
+          "B": "3",
+          "C": "4",
+          "D": "Compiler error"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "Consider the following structure definition:<br><br><code>struct Point {<br> int x;<br> int y;<br> };</code><br>What is the size of an instance of this structure on a typical 32-bit system?",
+        "options": {
+          "A": "2 bytes",
+          "B": "4 bytes",
+          "C": "8 bytes",
+          "D": "16 bytes"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What does the following code snippet do?<br><br><code>#include <stdio.h><br> union Data {<br> int i;<br> float f;<br> char str[20];<br> };<br><br> int main() {<br> union Data data;<br><br> data.i = 10;<br> data.f = 20.5;<br><br> printf(\"%d, %f\", data.i, data.f);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "Prints \"10, 20.5\"",
+          "B": "Prints \"20, 20.5\"",
+          "C": "Compiler error",
+          "D": "Undefined behavior"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 5;<br> int *ptr = &x;<br><br> (*ptr)++;<br><br> printf(\"%d\", x);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "Compiler error",
+          "D": "Undefined behavior"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "Given the array declaration <code>int arr[5] = {1, 2, 3, 4, 5};</code>, what is the value of arr[3]?",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> char str[] = \"C Programming\";<br> int len = sizeof(str) / sizeof(str[0]);<br><br> printf(\"%d\", len);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "13",
+          "B": "14",
+          "C": "12",
+          "D": "Compiler error"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What will be the value of x after executing the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 10;<br> int *ptr = &x;<br><br> (*ptr)--;<br><br> printf(\"%d\", x);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "10",
+          "B": "9",
+          "C": "Compiler error",
+          "D": "Undefined behavior"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> char str[] = \"Hello, World!\";<br> int count = 0;<br><br> while (str[count] != '\\0') {<br> count++;<br> }<br><br> printf(\"%d\", count);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "12",
+          "B": "13",
+          "C": "14",
+          "D": "15"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "Given the following enum declaration:<br><br><code>enum Months {JAN, FEB, MAR, APR, MAY};</code><br>What is the value of FEB?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "2",
+          "D": "3"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int arr[] = {1, 2, 3, 4, 5};<br> int *ptr = arr;<br><br> printf(\"%d\", *ptr + 2);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "5"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What does the following code snippet do?<br><br><code>#include <stdio.h><br> struct Student {<br> char name[50];<br> int age;<br> };<br><br> int main() {<br> struct Student s1 = {\"Alice\", 20};<br> struct Student s2 = s1;<br><br> printf(\"%s, %d\", s2.name, s2.age);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "Copies the contents of s1 to s2",
+          "B": "Swaps the values of s1 and s2",
+          "C": "Compiler error",
+          "D": "Undefined behavior"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 5;<br> int *p = &x;<br><br> printf(\"%d\", (*p)++);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "4",
+          "D": "Compiler error"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> char str1[] = \"Hello\";<br> char str2[] = \"World\";<br><br> strcat(str1, str2);<br><br> printf(\"%s\", str1);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "HelloWorld",
+          "B": "Hello World",
+          "C": "WorldHello",
+          "D": "Compiler error"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the purpose of the volatile keyword in C?",
+        "options": {
+          "A": "To declare a constant variable",
+          "B": "To declare a variable as global",
+          "C": "To indicate that a variable may be changed by external factors",
+          "D": "To specify the return type of a function"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int arr[] = {1, 2, 3, 4, 5};<br> int *ptr = &arr[3];<br><br> printf(\"%d\", (*ptr)--);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "5",
+          "D": "2"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 10;<br> int *ptr = &x;<br><br> (*ptr)++;<br> (*ptr)--;<br><br> printf(\"%d\", x);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "10",
+          "B": "11",
+          "C": "9",
+          "D": "Compiler error"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "Given the union definition:<br><br><code>union Data {<br> int i;<br> float f;<br> char str[20];<br> };</code><br>What is the size of the union on a typical 32-bit system?",
+        "options": {
+          "A": "2 bytes",
+          "B": "4 bytes",
+          "C": "8 bytes",
+          "D": "20 bytes"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 5;<br> int *p = &x;<br><br> printf(\"%p\", p + 1);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "The address of x incremented by 1",
+          "B": "The value of x",
+          "C": "A memory error",
+          "D": "A random memory address"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 10;<br> int *ptr = &x;<br><br> (*ptr)++;<br> ptr = NULL;<br><br> (*ptr)++;<br><br> printf(\"%d\", x);<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "10",
+          "B": "11",
+          "C": "0",
+          "D": "Segmentation fault"
+        },
+        "correct_answer": ""
+      },
+      {
+        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 5;<br> int *p = &x;<br><br> printf(\"%d\", ++(*p));<br><br> return 0;<br>}</code>",
+        "options": {
+          "A": "6",
+          "B": "5",
+          "C": "7",
+          "D": "Compiler error"
+        },
+        "correct_answer": ""
+      }
+    ]
+  }
+  
