@@ -12,6 +12,8 @@ include_once './db.php'; // Adjust the path if necessary
 // Exam ID to file mapping
 $examMapping = [
     'c_set_1' => 'c_set_1.json',
+    'oops_set_1' => 'oops_set_1.json',
+    'unix_set_1' => 'unix_set_1.json',
     
 
     // Add more mappings as needed

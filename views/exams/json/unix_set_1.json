@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 1",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which command is used to display the current directory in Unix/Linux?",
+            "options": {
+                "A": "pwd",
+                "B": "cd",
+                "C": "ls",
+                "D": "dir"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to display the contents of a file in Unix/Linux?",
+            "options": {
+                "A": "cat",
+                "B": "view",
+                "C": "show",
+                "D": "read"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to search for a specific text pattern in a file in Unix/Linux?",
+            "options": {
+                "A": "search",
+                "B": "find",
+                "C": "locate",
+                "D": "grep"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which command is used to display the first few lines of a file in Unix/Linux?",
+            "options": {
+                "A": "head",
+                "B": "start",
+                "C": "lines",
+                "D": "first"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to display the last few lines of a file in Unix/Linux?",
+            "options": {
+                "A": "tail",
+                "B": "end",
+                "C": "bottom",
+                "D": "last"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to change the ownership of a file in Unix/Linux?",
+            "options": {
+                "A": "own",
+                "B": "chown",
+                "C": "usermod",
+                "D": "chmod"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to compress files in Unix/Linux?",
+            "options": {
+                "A": "zip",
+                "B": "tar",
+                "C": "gzip",
+                "D": "pack"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to decompress files in Unix/Linux?",
+            "options": {
+                "A": "extract",
+                "B": "unzip",
+                "C": "gunzip",
+                "D": "uncompress"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to display the manual page for a Unix/Linux command?",
+            "options": {
+                "A": "help",
+                "B": "man",
+                "C": "info",
+                "D": "readme"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to list all environment variables in Unix/Linux?",
+            "options": {
+                "A": "env",
+                "B": "variables",
+                "C": "showenv",
+                "D": "printenv"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which command is used to schedule tasks to run at specific times in Unix/Linux?",
+            "options": {
+                "A": "timer",
+                "B": "at",
+                "C": "schedule",
+                "D": "plan"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to terminate a running process in Unix/Linux?",
+            "options": {
+                "A": "stop",
+                "B": "end",
+                "C": "kill",
+                "D": "terminate"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to display the disk space usage of files and directories in Unix/Linux?",
+            "options": {
+                "A": "df",
+                "B": "disk",
+                "C": "usage",
+                "D": "du"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which command is used to display a calendar in Unix/Linux?",
+            "options": {
+                "A": "cal",
+                "B": "date",
+                "C": "time",
+                "D": "calendar"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to change the permissions of a file in Unix/Linux?",
+            "options": {
+                "A": "chmod",
+                "B": "permissions",
+                "C": "changeperm",
+                "D": "permmode"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to create a new user in Unix/Linux?",
+            "options": {
+                "A": "adduser",
+                "B": "newuser",
+                "C": "useradd",
+                "D": "createUser"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to display the network configuration on Unix/Linux?",
+            "options": {
+                "A": "netconf",
+                "B": "ifconfig",
+                "C": "network",
+                "D": "config"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to display the list of currently logged in users in Unix/Linux?",
+            "options": {
+                "A": "users",
+                "B": "who",
+                "C": "logged",
+                "D": "online"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to change the password for a user in Unix/Linux?",
+            "options": {
+                "A": "passwd",
+                "B": "passchange",
+                "C": "change-pass",
+                "D": "chpasswd"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to display the process status in Unix/Linux?",
+            "options": {
+                "A": "status",
+                "B": "ps",
+                "C": "process",
+                "D": "taskstatus"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

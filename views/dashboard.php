@@ -95,11 +95,13 @@ foreach ($card_names as $card_name) {
     <?php include 'partials/navbar.php'; ?>
 
     <div class="container mx-auto px-4 py-8">
+    <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold mb-4">Welcome, <?php echo htmlspecialchars($user_name); ?>!</h1>
+            </div>
 
         <!-- Conditional Welcome and Cost Information -->
         <?php if (!$has_full_access): ?>
             <div class="text-center mb-8">
-                <h1 class="text-3xl font-bold mb-4">Welcome, <?php echo htmlspecialchars($user_name); ?>!</h1>
                 <div class="bg-gradient-to-r from-blue-500 to-teal-500 text-white py-4 px-6 rounded-lg shadow-lg font-semibold text-lg">
                     <p class="mb-2 text-2xl">Total Prep Costs: <span class="font-bold">₹6000</span></p>
                     <p class="text-lg">Buy at Once and Save <span class="bg-yellow-300 text-black px-2 py-1 rounded-lg font-bold">₹1000</span>!</p>

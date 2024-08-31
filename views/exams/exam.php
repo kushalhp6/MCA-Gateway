@@ -19,6 +19,8 @@ $basePath = __DIR__ . "/json/";
 // Exam ID to file mapping
 $examMapping = [
     'c_set_1' => 'c_set_1.json',
+    'oops_set_1' => 'oops_set_1.json',
+    'unix_set_1' => 'unix_set_1.json',
     
 
     // Add more mappings as needed
@@ -48,7 +50,7 @@ if ($examId && array_key_exists($examId, $examMapping)) {
         $userId = $_SESSION['user_id'];
         $sql = "SELECT status FROM exam_results WHERE user_id = ? AND exam_id = ?";
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param("ii", $userId, $examId);
+        $stmt->bind_param("is", $userId, $examId);
         $stmt->execute();
         $result = $stmt->get_result();
         $submission = $result->fetch_assoc();

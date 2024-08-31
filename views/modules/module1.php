@@ -14,11 +14,11 @@
         </div>
         <div class="bg-green-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-green-200 transition-all duration-300">
             <span class="font-medium text-lg text-green-800 mb-2">OOPs PDF</span>
-            <a href="path_to_oops.pdf" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
+            <a href="/MCA-Gateway/assets/pdfs/c++.pdf" download class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
         </div>
         <div class="bg-green-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-green-200 transition-all duration-300">
             <span class="font-medium text-lg text-green-800 mb-2">UNIX PDF</span>
-            <a href="path_to_unix.pdf" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
+            <a href="/MCA-Gateway/assets/pdfs/unix for jeca.pdf" download class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
         </div>
     </div>
 
@@ -32,11 +32,11 @@
             </div>
             <div class="bg-blue-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-blue-200 transition-all duration-300">
                 <span class="font-medium text-lg text-blue-800 mb-2">OOPs Set 1</span>
-                <a href="oop_set_1_link" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Start Exam</a>
+                <a href="/MCA-GATEWAY/views/exams/rules.php?exam_id=oops_set_1" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Start Exam</a>
             </div>
             <div class="bg-blue-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-blue-200 transition-all duration-300">
                 <span class="font-medium text-lg text-blue-800 mb-2">UNIX Set 1</span>
-                <a href="unix_set_1_link" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Start Exam</a>
+                <a href="/MCA-GATEWAY/views/exams/rules.php?exam_id=unix_set_1" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Start Exam</a>
             </div>
         </div>
     </div>

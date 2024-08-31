@@ -1,0 +1,207 @@
+{
+  "exam_name": "OOPs Set 1",
+  "total_marks": 20,
+  "time_limit": 20,
+  "questions": [
+      {
+          "question": "Which is the most appropriate comment on the following class definition?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass Student\n{\n int a;\n public : float a;\n};\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Error : same variable name can’t be used twice",
+              "B": "Error : Public must come first",
+              "C": "Error : data types are different for same variable",
+              "D": "It is correct"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "Which feature of OOP is indicated by the following code?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass student{ int marks; };\nclass topper:public student{ int age; topper(int age){ this.age=age; } };\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Inheritance",
+              "B": "Polymorphism",
+              "C": "Inheritance and polymorphism",
+              "D": "Encapsulation and Inheritance"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "Which class/set of classes can illustrate polymorphism in the following code?<br><br><code>&lt;pre&gt;&lt;code&gt;\nabstract class student\n{\n public : int marks;\n calc_grade();\n}\nclass topper:public student\n{\n public : calc_grade()\n {\n return 10;\n }\n};\nclass average:public student\n{\n public : calc_grade()\n {\n return 20;\n }\n};\nclass failed{ int marks; };\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Only class student can show polymorphism",
+              "B": "Only class student and topper together can show polymorphism",
+              "C": "All class student, topper, and average together can show polymorphism",
+              "D": "Class failed should also inherit class student for this code to work for polymorphism"
+          },
+          "correct_answer": "C"
+      },
+      {
+          "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass student\n{\n public : int marks;\n void disp()\n {\n cout &lt;&lt; \"its base class\";\n }\n};\nclass topper:public student\n{\n public :\n void disp()\n {\n cout &lt;&lt; \"Its derived class\";\n }\n};\nvoid main() {\n student s;\n topper t;\n s.disp();\n t.disp();\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Its base classIts derived class",
+              "B": "Its base class Its derived class",
+              "C": "Its derived classIts base class",
+              "D": "Its derived class Its base class"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "Find the output of the following program.<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass education\n{\n char name[10];\n public : disp()\n {\n cout &lt;&lt; \"Its education system\";\n }\n};\nclass school:public education\n{\n public: void dsip()\n {\n cout &lt;&lt; \"Its school education system\";\n }\n};\nvoid main()\n{\n school s;\n s.disp();\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Its school education system",
+              "B": "Its education system",
+              "C": "Its school education systemIts education system",
+              "D": "Its education systemIts school education system"
+          },
+          "correct_answer": "B"
+      },
+      {
+          "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;iostream&gt;\nusing namespace std;\n\nvoid foo(int x) {\n    cout &lt;&lt; x;\n}\n\nvoid foo(double x) {\n    cout &lt;&lt; x;\n}\n\nint main() {\n    foo(5);\n    return 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "5",
+              "B": "5.0",
+              "C": "Compile Error",
+              "D": "Runtime Error"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "Consider the following code and select the correct option.<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass student\n{\n int marks;\n public : int* fun()\n {\n return &amp;marks;\n }\n};\nmain()\n{\n student s;\n int *ptr=s.fun();\n return 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "This code is good to go",
+              "B": "This code may result in undesirable conditions",
+              "C": "This code will generate error",
+              "D": "This code violates encapsulation"
+          },
+          "correct_answer": "D"
+      },
+      {
+          "question": "Consider the code and select the wrong choice.<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass hero\n{\n char name[10];\n public : void disp()\n {\n cout &lt;&lt; name;\n }\n};\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "This maintains encapsulation",
+              "B": "This code doesn’t maintain encapsulation",
+              "C": "This code is vulnerable",
+              "D": "This code gives error"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "Which object will be created first?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass student\n{\n int marks;\n};\nstudent s1, s2, s3;\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "s1 then s2 then s3",
+              "B": "s3 then s2 then s1",
+              "C": "s2 then s3 then s1",
+              "D": "all are created at same time"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "Which among the following is correct for the class defined below?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass student\n{\n int marks;\n public: student(){}\n student(int x)\n {\n marks=x;\n }\n};\nmain()\n{\n student s1(100);\n student s2();\n student s3=100;\n return 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Object s3, syntax error",
+              "B": "Only object s1 and s2 will be created",
+              "C": "Program runs and all objects are created",
+              "D": "Program will give compile time error"
+          },
+          "correct_answer": "C"
+      },
+      {
+          "question": "Which constructor will be called from the object created in the code below?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass A\n{\n int i;\n A()\n {\n i=0; cout &lt;&lt; i;\n }\n A(int x=0)\n {\n i=x; cout &lt;&lt; i;\n }\n};\nA obj1;\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Default constructor",
+              "B": "Parameterized constructor",
+              "C": "Compile time error",
+              "D": "Run time error"
+          },
+          "correct_answer": "C"
+      },
+      {
+          "question": "Which constructor will be called from the object obj2 in the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass A\n{\n int i;\n A()\n {\n i=0;\n }\n A(int x)\n {\n i=x+1;\n }\n A(int y, int x)\n {\n i=x+y;\n }\n};\nA obj1(10);\nA obj2(10,20);\nA obj3;\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "A(int x)",
+              "B": "A(int y)",
+              "C": "A(int y, int x)",
+              "D": "A(int y; int x)"
+          },
+          "correct_answer": "C"
+      },
+      {
+          "question": "Which among the following is correct for the code given below?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass student\n{\n private: student()\n {\n }\n public : student(int x)\n {\n marks =x;\n }\n};\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "The object can never be created",
+              "B": "The object can be created without parameters",
+              "C": "Only the object with only 1 parameter can be created",
+              "D": "Only the object with some parameters can be created"
+          },
+          "correct_answer": "C"
+      },
+      {
+          "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;iostream&gt;\nusing namespace std;\n\nvoid changeValue(int &ref) {\n ref = 10;\n }\n\nint main() {\n int x = 5;\n changeValue(x);\n cout &lt;&lt; x;\n return 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "5",
+              "B": "10",
+              "C": "Compile Error",
+              "D": "0"
+          },
+          "correct_answer": "B"
+      },
+      {
+          "question": "Which option is false for the following code?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass A\n{\n private : int sum(int x, int y)\n {\n return x+y;\n }\n public: A()\n {\n }\n A(int x, int y)\n {\n cout &lt;&lt; sum(x,y);\n }\n};\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Constructor can be created with zero argument",
+              "B": "Constructor prints sum, if two parameters are passed with object creation",
+              "C": "Constructor will give error if float values are passed",
+              "D": "Constructor will take 0 as default value of parameters if not passed"
+          },
+          "correct_answer": "D"
+      },
+      {
+          "question": "Which member will never be used from the following class?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass A()\n{\n int marks; char name[20];\n public : A()\n {\n marks=100;\n }\n void disp()\n {\n cout &lt;&lt; \"Marks= \" &lt;&lt; marks;\n cout &lt;&lt; \"Student\";\n }\n};\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "name variable will never be used",
+              "B": "marks variable will never be used",
+              "C": "constructor will never be used",
+              "D": "disp() function will never be used"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "Which data member in the following code will be used whenever an object is created?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass A\n{\n int x; int y; int z;\n public : A()\n {\n y=100; x=100*y;\n }\n};\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "x will be used",
+              "B": "y will be used",
+              "C": "z will be used",
+              "D": "All will be used"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "Which member can be considered most secure in the code below?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass A()\n{\n int a;\n private : int b;\n protected : int c;\n public : int d;\n};\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "a",
+              "B": "b",
+              "C": "c",
+              "D": "d"
+          },
+          "correct_answer": "B"
+      },
+      {
+          "question": "Which among the following is correct for the code given below?<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass A\n{\n private : A()\n {\n }\n public : A(int x)\n {\n }\n};\nA a;\nA b(100);\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "Program will give compile time error",
+              "B": "Program will run fine",
+              "C": "Program will give runtime error",
+              "D": "Program will give logical error"
+          },
+          "correct_answer": "A"
+      },
+      {
+          "question": "For the following code, choose the correct option.<br><br><code>&lt;pre&gt;&lt;code&gt;\nclass A\n{\n int marks;\n protected : A()\n {\n marks=100;\n }\n public : A(int x)\n {\n marks=x;\n }\n};\n&lt;/code&gt;&lt;/pre&gt;</code>",
+          "options": {
+              "A": "The instances can be created only in subclasses",
+              "B": "The instances can be created only in main() function",
+              "C": "The instances can be created only in parent class",
+              "D": "The instances can be created anywhere in the program"
+          },
+          "correct_answer": "A"
+      }
+  ]
+}
