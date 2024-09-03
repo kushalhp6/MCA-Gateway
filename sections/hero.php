@@ -1,4 +1,4 @@
-<div class="relative bg-cover bg-center min-h-screen flex items-center justify-center" style="background-image: url('/MCA-GATEWAY/assets/images/bg.png');">
+<div class="relative bg-cover bg-center min-h-screen flex items-center justify-center" style="background-image: url('/assets/images/bg.png');">
         <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Dark overlay -->
 
             <div class="relative z-10 text-center text-white p-6 max-w-3xl mx-auto">
