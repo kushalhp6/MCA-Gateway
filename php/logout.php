@@ -16,6 +16,6 @@ if (ini_get("session.use_cookies")) {
 session_destroy();
 
 // Redirect to login or home page
-header("Location: /MCA-Gateway/index.php");
+header("Location: /index.php");
 exit;
 ?>

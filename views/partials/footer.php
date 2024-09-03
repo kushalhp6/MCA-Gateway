@@ -12,12 +12,14 @@
             <div>
                 <h4 class="text-xl font-bold text-white mb-4">Quick Links</h4>
                 <ul class="space-y-2">
-                    <li><a href="/MCA-Gateway/index.php" class="hover:text-white transition duration-300">Home</a></li>
-                    <li><a href="/MCA-Gateway/views/about.php" class="hover:text-white transition duration-300">About</a></li>
-                    <li><a href="/MCA-Gateway/views/contact.php" class="hover:text-white transition duration-300">Contact</a></li>
-                    <li><a href="/MCA-Gateway/views/info.php" class="hover:text-white transition duration-300">Info</a></li>
-                    <li><a href="/MCA-Gateway/views/login.php" class="hover:text-white transition duration-300">Login</a></li>
-                    <li><a href="/MCA-Gateway/views/signup.php" class="hover:text-white transition duration-300">Signup</a></li>
+                    <li><a href="/index.php" class="hover:text-white transition duration-300">Home</a></li>
+                    <li><a href="/views/about.php" class="hover:text-white transition duration-300">About</a></li>
+                    <li><a href="/views/contact.php" class="hover:text-white transition duration-300">Contact</a></li>
+                    <li><a href="/views/info.php" class="hover:text-white transition duration-300">Info</a></li>
+                    <li><a href="/views/login.php" class="hover:text-white transition duration-300">Login</a></li>
+                    <li><a href="/views/signup.php" class="hover:text-white transition duration-300">Signup</a></li>
+                    <li><a href="/admin/admin.php" class="hover:text-white transition duration-300">Admin</a></li>
+
                 </ul>
             </div>
 

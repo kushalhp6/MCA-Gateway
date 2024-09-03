@@ -2,7 +2,7 @@
 // Start session and check if user is logged in
 session_start();
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: /MCA-Gateway/views/login.php");
+    header("Location: /views/login.php");
     exit;
 }
 
@@ -67,7 +67,7 @@ $has_module1_access = in_array($module1_card_id, $access_cards);
 
 // Redirect if the user does not have access
 if (!$has_module1_access && !$has_full_access) {
-    header("Location: /MCA-Gateway/views/dashboard.php");
+    header("Location: /views/dashboard.php");
     exit;
 }
 

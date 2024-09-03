@@ -3,7 +3,7 @@ session_start();
 
 // Check if the user is logged in and is an admin
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: login.php");
+    header("Location: /views/login.php");
     exit;
 }
 
@@ -29,7 +29,7 @@ $result = $stmt->get_result();
 
 if ($result->num_rows == 0) {
     // If the user is not an admin, redirect to the home page or show an error
-    header("Location: ../index.php");
+    header("Location: /index.php");
     exit;
 }
 

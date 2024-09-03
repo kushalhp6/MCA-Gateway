@@ -11,7 +11,7 @@
     // Start session and check if user is logged in
     session_start();
     if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-        header("Location: /MCA-Gateway/views/login.php");
+        header("Location: /views/login.php");
         exit;
     }
 

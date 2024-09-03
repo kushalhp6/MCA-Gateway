@@ -17,7 +17,7 @@ include 'partials/navbar.php';
             <div class="md:pr-8">
                 <h2 class="text-4xl font-bold mb-6">Welcome to MCA Gateway</h2>
                 <p class="text-lg mb-6">MCA Gateway is your ultimate companion for excelling in MCA entrance exams like JECA. We are committed to providing aspiring students with the best resources, guidance, and support to achieve their academic goals.</p>
-                <a href="/MCA-Gateway/views/signup.php" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition duration-300">Join Us Today</a>
+                <a href="/views/signup.php" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition duration-300">Join Us Today</a>
             </div>
             <div>
                 <img src="your-image-url-here" alt="MCA Gateway" class="rounded-lg shadow-lg">

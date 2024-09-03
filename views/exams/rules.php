@@ -3,7 +3,7 @@
 // Start session and check if user is logged in
 session_start();
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: /MCA-Gateway/views/login.php");
+    header("Location: /views/login.php");
     exit;
 }
 
@@ -92,7 +92,7 @@ $isSubmitted = $submission !== false;
 
             <!-- Buttons for View Answers and Leaderboard -->
             <div class="flex justify-between mt-4">
-                <a href="/MCA-Gateway/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
+                <a href="/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     Back to Resources
                 </a>
                 <a href="view_answers.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
@@ -118,7 +118,7 @@ $isSubmitted = $submission !== false;
             <!-- Buttons -->
             <div class="flex justify-between mt-4">
                 <!-- Back to Resources Button -->
-                <a href="/MCA-Gateway/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
+                <a href="/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     Back to Resources
                 </a>
                 

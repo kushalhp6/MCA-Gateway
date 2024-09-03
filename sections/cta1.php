@@ -30,7 +30,7 @@
                 <li>Gain admission to prestigious government colleges like JU, CU, and KGEC</li>
                 <li>Access stress-busting techniques and effective study strategies</li>
             </ul>
-            <p class="text-lg">This is just the beginning. <a href="/MCA-Gateway/views/signup.php" class="text-blue-400 hover:text-blue-300 font-bold">Sign up</a> or <a href="/MCA-Gateway/views/login.php" class="text-blue-400 hover:text-blue-300 font-bold">log in</a> to get started and unlock all the resources we offer!</p>
+            <p class="text-lg">This is just the beginning. <a href="/views/signup.php" class="text-blue-400 hover:text-blue-300 font-bold">Sign up</a> or <a href="/views/login.php" class="text-blue-400 hover:text-blue-300 font-bold">log in</a> to get started and unlock all the resources we offer!</p>
         </div>
     </div>
 </section>

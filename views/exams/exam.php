@@ -2,7 +2,7 @@
 // Start session and check if user is logged in
 session_start();
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: /MCA-Gateway/views/login.php");
+    header("Location: /views/login.php");
     exit;
 }
 
@@ -70,7 +70,7 @@ if ($examId && array_key_exists($examId, $examMapping)) {
         // Calculate remaining time
         $elapsedTime = time() - $_SESSION['start_time'];
         $remainingTime = $_SESSION['time_limit'] - $elapsedTime;
-
+        
         if ($remainingTime <= 0) {
             // Time's up - end the exam
             header("Location: submit_exam.php?exam_id=" . urlencode($examId));

@@ -80,7 +80,7 @@
 <?php else: ?>
                     <div class="bg-red-600 p-6 rounded-lg shadow-lg">
                         <p class="mb-4">Unlock the premium section by purchasing Module4.</p>
-                        <a href="dashboard.php" class="bg-yellow-400 text-black py-2 px-4 rounded-md hover:bg-yellow-500 focus:outline-none transition-colors">Unlock Premium Section</a>
+                        <a href="../dashboard.php" class="bg-yellow-400 text-black py-2 px-4 rounded-md hover:bg-yellow-500 focus:outline-none transition-colors">Unlock Premium Section</a>
                     </div>
                 <?php endif; ?>
 

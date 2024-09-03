@@ -3,7 +3,7 @@
 // Start session and check if user is logged in
 session_start();
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: /MCA-Gateway/views/login.php");
+    header("Location: /views/login.php");
     exit;
 }
 
@@ -68,7 +68,7 @@ $has_module1_access = in_array($module1_card_id, $access_cards);
 
 // Redirect if the user does not have access
 if (!$has_module1_access && !$has_full_access) {
-    header("Location: /MCA-Gateway/views/dashboard.php");
+    header("Location: /views/dashboard.php");
     exit;
 }
 
@@ -161,7 +161,7 @@ $isSubmitted = $submission !== false;
 
             <!-- Buttons for View Answers and Leaderboard -->
             <div class="flex justify-between mt-4">
-                <a href="/MCA-Gateway/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
+                <a href="/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     Back to Resources
                 </a>
                 <a href="view_answers1.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
@@ -187,7 +187,7 @@ $isSubmitted = $submission !== false;
             <!-- Buttons -->
             <div class="flex justify-between mt-4">
                 <!-- Back to Resources Button -->
-                <a href="/MCA-Gateway/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
+                <a href="/views/resources.php" class="bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     Back to Resources
                 </a>
                 
