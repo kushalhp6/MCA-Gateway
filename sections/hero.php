@@ -2,7 +2,7 @@
         <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Dark overlay -->
 
             <div class="relative z-10 text-center text-white p-6 max-w-3xl mx-auto">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6">Welcome to MCA Gateway</h1>
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">MCA Gateway</h1>
         
         <?php if ($loggedIn): ?>
             <p class="text-xl mb-4">Welcome back, <?php echo htmlspecialchars($_SESSION['user_name']); ?>!</p>
