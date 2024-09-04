@@ -29,7 +29,7 @@ include 'partials/navbar.php';
             
             <!-- Developer and CTO -->
             <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-start">
-                <img src="/assets/images/cto.jpg" alt="Kushal Dalal" class="w-32 h-32 rounded-full mb-4 object-cover">
+                <img src="/assets/images/cto.JPG" alt="Kushal Dalal" class="w-32 h-32 rounded-full mb-4 object-cover">
                 <div class="ml-4">
                     <h3 class="text-2xl font-semibold mb-2">Developer and CTO</h3>
                     <p class="text-lg font-bold mb-1">Kushal Dalal</p>
