@@ -43,7 +43,6 @@ if ($examId && array_key_exists($examId, $examMapping)) {
         // Extract the exam details
         $examName = $examData['exam_name'] ?? 'Unknown Exam';
         $marks = $examData['total_marks'] ?? 0;
-        $timeLimit = $examData['time_limit'] ?? 0;
         $questions = $examData['questions'] ?? [];
 
         // Check if the exam has already been submitted
@@ -58,22 +57,6 @@ if ($examId && array_key_exists($examId, $examMapping)) {
         // If the status is 'submitted', redirect to the rules page
         if ($submission && $submission['status'] === 'submitted') {
             header("Location: rules.php?exam_id=" . urlencode($examId));
-            exit;
-        }
-
-        // If session time is not set, start the timer
-        if (!isset($_SESSION['start_time'])) {
-            $_SESSION['start_time'] = time();
-            $_SESSION['time_limit'] = $timeLimit * 60; // Convert minutes to seconds
-        }
-
-        // Calculate remaining time
-        $elapsedTime = time() - $_SESSION['start_time'];
-        $remainingTime = $_SESSION['time_limit'] - $elapsedTime;
-        
-        if ($remainingTime <= 0) {
-            // Time's up - end the exam
-            header("Location: submit_exam.php?exam_id=" . urlencode($examId));
             exit;
         }
     } else {
@@ -103,25 +86,7 @@ if ($examId && array_key_exists($examId, $examMapping)) {
     window.onunload=function(){null};
 
     // Initialize variables
-    let remainingTime = <?= $remainingTime ?>;
     let currentQuestionIndex = 0;
-
-    // Start the exam timer
-    function startTimer() {
-        const timerElement = document.getElementById('timer');
-        const timer = setInterval(() => {
-            if (remainingTime <= 0) {
-                clearInterval(timer);
-                alert("Time's up!");
-                document.getElementById('examForm').submit();
-            } else {
-                remainingTime--;
-                let minutes = Math.floor(remainingTime / 60);
-                let seconds = remainingTime % 60;
-                timerElement.textContent = `${minutes}m ${seconds}s`;
-            }
-        }, 1000);
-    }
 
     // Show the selected question and hide others
     function showQuestion(index) {
@@ -150,7 +115,6 @@ if ($examId && array_key_exists($examId, $examMapping)) {
 
     // Initialize the first question and start the timer when the page loads
     window.onload = () => {
-        startTimer();
         showQuestion(0);
     }
 </script>
@@ -162,9 +126,6 @@ if ($examId && array_key_exists($examId, $examMapping)) {
 <div class="max-w-4xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
     <!-- Exam Name -->
     <h2 class="text-3xl font-semibold mb-4 text-gray-800"><?= htmlspecialchars($examName) ?></h2>
-
-    <!-- Timer -->
-    <p id="timer" class="mb-4 text-lg text-red-700"></p>
 
     <!-- Index Section -->
     <div class="mb-6 flex flex-wrap gap-2">

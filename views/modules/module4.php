@@ -1,4 +1,4 @@
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-4 py-8 ">
     <!-- Module 4 Section -->
     <div class="mb-12">
         <h2 class="text-3xl font-bold mb-6 text-gray-800">Module 4</h2>

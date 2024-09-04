@@ -40,25 +40,23 @@ while ($row = $result->fetch_assoc()) {
 
 $stmt->close();
 
-// Fetch card ID for 'Full Access'
-$sql = "SELECT id FROM cards WHERE name = 'Full Access'";
-$stmt = $conn->prepare($sql);
-$stmt->execute();
-$stmt->bind_result($full_access_card_id);
-$stmt->fetch();
-$stmt->close();
+// Fetch card IDs for access
+$cards = ['Full Access', 'Module1'];
+$card_ids = [];
 
-$has_full_access = in_array($full_access_card_id, $access_cards);
+foreach ($cards as $card_name) {
+    $sql = "SELECT id FROM cards WHERE name = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param('s', $card_name);
+    $stmt->execute();
+    $stmt->bind_result($card_id);
+    $stmt->fetch();
+    $card_ids[$card_name] = $card_id;
+    $stmt->close();
+}
 
-// Fetch card ID for 'Module1'
-$sql = "SELECT id FROM cards WHERE name = 'Module1'";
-$stmt = $conn->prepare($sql);
-$stmt->execute();
-$stmt->bind_result($module1_card_id);
-$stmt->fetch();
-$stmt->close();
-
-$has_module1_access = in_array($module1_card_id, $access_cards);
+$has_full_access = in_array($card_ids['Full Access'], $access_cards);
+$has_module1_access = in_array($card_ids['Module1'], $access_cards);
 
 // Redirect if the user does not have access
 if (!$has_module1_access && !$has_full_access) {
@@ -84,13 +82,17 @@ $examId = $_POST['exam_id'] ?? '';
 
 if (array_key_exists($examId, $examMapping)) {
     $jsonFile = $examMapping[$examId];
-    $basePath = __DIR__ . "/"; // Points to the current directory 'exams1'
+    $basePath = __DIR__ . "/"; // Points to the current directory
     $fullPath = $basePath . $jsonFile;
 
     // Load the JSON file
     if (file_exists($fullPath)) {
         $jsonData = file_get_contents($fullPath);
         $examData = json_decode($jsonData, true);
+
+        if ($examData === null) {
+            die('Error decoding JSON file.');
+        }
 
         // Extract the exam details
         $questions = $examData['questions'] ?? [];
@@ -103,7 +105,6 @@ if (array_key_exists($examId, $examMapping)) {
         $correct = 0;
         $incorrect = 0;
         $unattempted = 0;
-        $totalMarks = 20; // Example total marks, adjust as necessary
 
         // Check the user's answers
         foreach ($questions as $index => $question) {
@@ -125,21 +126,18 @@ if (array_key_exists($examId, $examMapping)) {
         $penalty = $incorrect * 0.25;
         $marks = $initialMarks - $penalty;
 
-        // Calculate the time taken
-        $timeTaken = isset($_SESSION['time_limit']) && isset($_SESSION['start_time']) ? $_SESSION['time_limit'] - (time() - $_SESSION['start_time']) : 0;
-
         // Define the status variable
         $status = 'submitted';
 
-        // Prepare the SQL statement with 8 placeholders
-        $stmt = $conn->prepare("INSERT INTO exam_results (exam_id, user_id, marks, status, time_taken, correct, incorrect, unattempted) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+        // Prepare the SQL statement with 7 placeholders
+        $stmt = $conn->prepare("INSERT INTO exam_results (exam_id, user_id, marks, status, correct, incorrect, unattempted) VALUES (?, ?, ?, ?, ?, ?, ?)");
 
         if ($stmt === false) {
             die('Prepare failed: ' . htmlspecialchars($conn->error));
         }
 
         // Bind the parameters to the SQL query
-        $stmt->bind_param("ssissiii", $examId, $_SESSION['user_id'], $marks, $status, $timeTaken, $correct, $incorrect, $unattempted);
+        $stmt->bind_param("ssissii", $examId, $user_id, $marks, $status, $correct, $incorrect, $unattempted);
 
         // Execute the query
         $stmt->execute();

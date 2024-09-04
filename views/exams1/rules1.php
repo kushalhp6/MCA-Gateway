@@ -104,7 +104,6 @@ if (isset($examMapping[$examId])) {
         // Extract the exam details
         $examName = $examData['exam_name'] ?? 'Unknown Exam';
         $marks = $examData['total_marks'] ?? 'Unknown Marks';
-        $time = $examData['time_limit'] ?? 'Unknown Time';
     } else {
         // Handle the error if the file does not exist
         echo "Error: Exam file not found.";
@@ -152,7 +151,6 @@ $isSubmitted = $submission !== false;
 
         <!-- Exam Details -->
         <p class="mb-2 text-lg text-gray-700"><strong>Marks:</strong> <?= htmlspecialchars($marks) ?></p>
-        <p class="mb-4 text-lg text-gray-700"><strong>Time:</strong> <?= htmlspecialchars($time) ?> minutes</p>
 
         <?php if ($isSubmitted && $submission !== null && $submission['status'] === 'submitted'): ?>
             <!-- Already Submitted Message -->
@@ -178,7 +176,7 @@ $isSubmitted = $submission !== false;
                 <ul class="list-disc list-inside text-gray-700">
                     <li>Read each question carefully before answering.</li>
                     <li>There is no negative marking for incorrect answers.</li>
-                    <li>Ensure you complete the exam within the given time limit.</li>
+                    <li>Ensure you complete the exam / no time limit.</li>
                     <li>Do not refresh the page during the exam.</li>
                     <li>Click "Submit" once you have completed all the questions.</li>
                 </ul>
