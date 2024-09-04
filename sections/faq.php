@@ -4,23 +4,27 @@
         <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
             <div class="p-6 border-b border-gray-700">
                 <h3 class="text-xl font-semibold text-indigo-400">What is MCA?</h3>
-                <p class="text-gray-300 mt-2">MCA (Master of Computer Applications) is a postgraduate degree focused on developing software skills and understanding computer applications. It typically spans three years, with emphasis on both theoretical and practical knowledge.</p>
+                <p class="text-gray-300 mt-2">MCA (Master of Computer Applications) is a postgraduate degree focused on developing software skills and understanding computer applications. It typically spans three years, emphasizing both theoretical and practical knowledge in computer science.</p>
             </div>
             <div class="p-6 border-b border-gray-700">
                 <h3 class="text-xl font-semibold text-indigo-400">What is JECA?</h3>
-                <p class="text-gray-300 mt-2">JECA (Joint Entrance for admission in MCA) is an entrance exam conducted in West Bengal for students seeking admission to MCA programs in various colleges in the state. The exam tests students' mathematical and reasoning abilities.</p>
+                <p class="text-gray-300 mt-2">JECA (Joint Entrance for Computer Applications) is an entrance exam conducted in West Bengal for students seeking admission to MCA programs. The exam assesses candidates' knowledge and aptitude in subjects relevant to computer applications and programming.</p>
+            </div>
+            <div class="p-6 border-b border-gray-700">
+                <h3 class="text-xl font-semibold text-indigo-400">What is the exam pattern for JECA?</h3>
+                <p class="text-gray-300 mt-2">JECA is a pen-and-paper-based test with a duration of 2 hours. The exam consists of multiple-choice questions covering topics such as Mathematics, Computer Science, Data Structures, and more. There are two types of questions with different marking schemes: Questions 1-80 have a penalty for incorrect answers, while Questions 81-100 have no negative marking.</p>
             </div>
             <div class="p-6 border-b border-gray-700">
                 <h3 class="text-xl font-semibold text-indigo-400">How can I prepare for JECA?</h3>
-                <p class="text-gray-300 mt-2">Preparation for JECA involves strengthening your mathematical concepts, practicing reasoning problems, and familiarizing yourself with previous years' question papers. MCA Gateway offers module-wise questions and mock tests to aid in your preparation.</p>
+                <p class="text-gray-300 mt-2">To prepare for JECA, focus on understanding the syllabus, practicing with previous years' papers, and taking mock tests. MCA Gateway provides comprehensive resources including module-wise questions, mock tests, and live classes to help you effectively prepare for the exam.</p>
             </div>
             <div class="p-6 border-b border-gray-700">
                 <h3 class="text-xl font-semibold text-indigo-400">What resources does MCA Gateway provide?</h3>
-                <p class="text-gray-300 mt-2">MCA Gateway provides comprehensive study materials, live classes, practice questions, mock tests, and special classes, including Machine Learning modules. All resources are designed to help you excel in MCA entrance exams.</p>
+                <p class="text-gray-300 mt-2">MCA Gateway offers a range of resources including detailed study materials, live classes, practice questions, mock tests, and special modules on topics such as Machine Learning. These resources are designed to support your preparation and improve your performance in the JECA exam.</p>
             </div>
             <div class="p-6">
                 <h3 class="text-xl font-semibold text-indigo-400">How can I access the resources?</h3>
-                <p class="text-gray-300 mt-2">You can access all resources by signing up on MCA Gateway. Once registered, you can log in to your dashboard and explore the materials, join live classes, and practice with the available resources.</p>
+                <p class="text-gray-300 mt-2">To access the resources provided by MCA Gateway, sign up on our platform. After registration, you can log in to your dashboard to explore study materials, join live classes, and make use of practice tests and other resources available to enhance your JECA preparation.</p>
             </div>
         </div>
     </div>

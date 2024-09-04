@@ -16,22 +16,23 @@ include 'partials/navbar.php';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div class="md:pr-8">
                 <h2 class="text-4xl font-bold mb-6">Welcome to MCA Gateway</h2>
-                <p class="text-lg mb-6">MCA Gateway is your ultimate companion for excelling in MCA entrance exams like JECA. We are committed to providing aspiring students with the best resources, guidance, and support to achieve their academic goals.</p>
+                <p class="text-lg mb-6">MCA Gateway is your ultimate companion for excelling in MCA entrance exams like <span class="font-semibold text-xl">JECA</span>. We are committed to providing aspiring students with the best resources, guidance, and support to achieve their academic goals.</p>
                 <a href="/views/signup.php" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition duration-300">Join Us Today</a>
             </div>
-            <div>
-                <img src="your-image-url-here" alt="MCA Gateway" class="rounded-lg shadow-lg">
+            <div class="flex justify-center">
+                <img src="/assets/images/bg5.JPG" alt="MCA Gateway" class="w-96 h-auto rounded-lg shadow-lg"> <!-- Adjusted size -->
             </div>
         </div>
     </div>
 </section>
 
 
+
 <section class="bg-gray-800 text-white py-12">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div>
-                <img src="your-image-url-here" alt="Vision & Mission" class="rounded-lg shadow-lg">
+            <div class="flex justify-center">
+                <img src="/assets/images/bg 4.JPG" alt="Vision & Mission" class="w-96 h-auto rounded-lg shadow-lg">
             </div>
             <div class="md:pl-8">
                 <h3 class="text-3xl font-bold mb-6">Our Vision & Mission</h3>
@@ -51,8 +52,8 @@ include 'partials/navbar.php';
                 <p class="text-lg mb-6">MCA Gateway was founded by a team of passionate educators and former MCA aspirants who recognized the need for a comprehensive and accessible resource hub for students preparing for MCA entrance exams.</p>
                 <p class="text-lg mb-6">Our journey began with a simple idea: to create a platform that would not only provide high-quality study materials but also offer personalized guidance and support to students.</p>
             </div>
-            <div>
-                <img src="your-image-url-here" alt="Our Story" class="rounded-lg shadow-lg">
+            <div class="flex justify-center">
+                <img src="/assets/images/bg6.JPG" alt="Vision & Mission" class="w-96 h-auto rounded-lg shadow-lg">
             </div>
         </div>
     </div>
@@ -68,21 +69,34 @@ include 'partials/navbar.php';
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Founder 1 -->
             <div class="text-center">
-                <img src="founder1-image-url-here" alt="Founder 1" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg">
-                <h4 class="text-xl font-semibold">Founder 1 Name</h4>
-                <p class="text-lg text-gray-400">Role - Background</p>
+                <img src="/assets/images/lead.JPG" alt="Founder 1" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                <h4 class="text-xl font-semibold">Subhabrata Bhattacharjee</h4>
+                <p class="text-lg text-gray-400">Lead Instructor (15 years Exp)</p>
             </div>
+
             <!-- Founder 2 -->
             <div class="text-center">
-                <img src="founder2-image-url-here" alt="Founder 2" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg">
-                <h4 class="text-xl font-semibold">Founder 2 Name</h4>
-                <p class="text-lg text-gray-400">Role - Background</p>
+                <img src="/assets/images/lead2.JPG" alt="Founder 2" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                <h4 class="text-xl font-semibold">Kushal Dalal</h4>
+                <p class="text-lg text-gray-400">Lead Developer</p>
             </div>
             <!-- Founder 3 -->
             <div class="text-center">
-                <img src="founder3-image-url-here" alt="Founder 3" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg">
-                <h4 class="text-xl font-semibold">Founder 3 Name</h4>
-                <p class="text-lg text-gray-400">Role - Background</p>
+                <img src="/assets/images/dev.jpg" alt="Founder 3" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                <h4 class="text-xl font-semibold">Santonu Naskar</h4>
+                <p class="text-lg text-gray-400">Developer</p>
+            </div>
+            <!-- Founder 4 -->
+            <div class="text-center">
+                <img src="/assets/images/ins.jpg" alt="Founder 3" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                <h4 class="text-xl font-semibold">Sudipta Halder</h4>
+                <p class="text-lg text-gray-400">Instructor</p>
+            </div>
+            <!-- Founder 5 -->
+            <div class="text-center">
+                <img src="/assets/images/ins2.jpg" alt="Founder 3" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                <h4 class="text-xl font-semibold">Mainak Mitra</h4>
+                <p class="text-lg text-gray-400">Instructor</p>
             </div>
         </div>
     </div>

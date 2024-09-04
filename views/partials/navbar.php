@@ -32,7 +32,7 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="lg:hidden bg-[#1e1e1e] text-white border-t border-[#333]">
+    <div id="mobile-menu" class="lg:hidden bg-[#1e1e1e] text-white border-t border-[#333] hidden">
         <div class="px-4 py-2">
             <a href="/index.php" class="block py-2 px-4 hover:bg-gray-800 transition-colors duration-300">Home</a>
             <a href="/views/about.php" class="block py-2 px-4 hover:bg-gray-800 transition-colors duration-300">About</a>
@@ -54,7 +54,6 @@
 <script>
     // Toggle mobile menu
     document.getElementById('hamburger-icon').addEventListener('click', function () {
-        const navLinks = document.getElementById('nav-links');
         const mobileMenu = document.getElementById('mobile-menu');
         mobileMenu.classList.toggle('hidden');
     });
