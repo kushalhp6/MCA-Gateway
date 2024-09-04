@@ -98,6 +98,12 @@ include 'partials/navbar.php';
                 <h4 class="text-xl font-semibold">Mainak Mitra</h4>
                 <p class="text-lg text-gray-400">Instructor</p>
             </div>
+            <!-- Founder 6 -->
+            <div class="text-center">
+                <img src="/assets/images/ins3.jpg" alt="Founder 3" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                <h4 class="text-xl font-semibold">Subhankar Bera</h4>
+                <p class="text-lg text-gray-400">Instructor</p>
+            </div>
         </div>
     </div>
 </section>

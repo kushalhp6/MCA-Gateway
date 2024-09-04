@@ -19,6 +19,7 @@
                     <li><a href="/views/login.php" class="hover:text-white transition duration-300">Login</a></li>
                     <li><a href="/views/signup.php" class="hover:text-white transition duration-300">Signup</a></li>
                     <li><a href="/admin/admin.php" class="hover:text-white transition duration-300">Admin</a></li>
+                    <li><a href="https://chat.whatsapp.com/IFQGZ5Zd7j9DdR5sqGuawj" class="hover:text-white transition duration-300">Whatsapp</a></li>
 
                 </ul>
             </div>

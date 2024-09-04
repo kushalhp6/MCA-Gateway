@@ -71,6 +71,17 @@ include 'partials/navbar.php';
                     
                 </div>
             </div>
+            <!-- Card 6 -->
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-start">
+                <img src="/assets/images/ins3.jpg" alt="Member 5" class="w-32 h-32 rounded-full mb-4 object-cover">
+                <div class="ml-4">
+                    <h3 class="text-2xl font-semibold mb-2">Developer</h3>
+                    <p class="text-lg font-bold mb-1">Subhankar Bera</p>
+                    <p class="text-sm text-gray-400 mb-1"> SDE - Wipro </p>
+                    <p class="text-sm mb-2">Phone: <a href="tel:+919073161765" class="text-blue-400 hover:text-blue-300">+91 9073161765</a></p>
+                    
+                </div>
+            </div>
         </div>
     </div>
 </section>

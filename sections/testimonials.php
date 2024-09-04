@@ -1,66 +1,34 @@
 <section class="bg-gray-900 py-12 text-white">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl font-bold mb-8 text-indigo-400">What Our Students Say</h2>
+        <h2 class="text-3xl font-bold mb-8 text-indigo-400">Meet Our Toppers</h2>
         <div class="grid md:grid-cols-3 gap-8">
             <div class="p-6 bg-gray-800 rounded-lg shadow-lg transform transition hover:scale-105 hover:bg-gray-700">
                 <div class="flex items-center mb-4">
-                    <img src="path-to-avatar1.jpg" alt="Student" class="w-12 h-12 rounded-full mr-4">
+                    <img src="/assets/images/arijit.jpg" alt="Arijit Maity" class="w-20 h-20 rounded-full mr-4 object-cover">
                     <div>
-                        <h3 class="text-xl font-semibold text-indigo-300">Ravi Sharma</h3>
-                        <p class="text-sm text-gray-400">MCA Student</p>
+                        <h3 class="text-xl font-semibold text-indigo-300">Arijit Maity</h3>
+                        <p class="text-sm text-gray-400">2022 Rank 1, Jadavpur University</p>
+                        <p class="text-sm text-gray-400">Currently at Texas Instruments</p>
                     </div>
                 </div>
-                <p class="text-gray-300">"MCA Gateway has been a game-changer for me. The study materials and live classes helped me ace the entrance exam. Highly recommended!"</p>
             </div>
             <div class="p-6 bg-gray-800 rounded-lg shadow-lg transform transition hover:scale-105 hover:bg-gray-700">
                 <div class="flex items-center mb-4">
-                    <img src="path-to-avatar2.jpg" alt="Student" class="w-12 h-12 rounded-full mr-4">
+                    <img src="/assets/images/soh.jpg" alt="Sohini Gosh" class="w-20 h-20 rounded-full mr-4 object-cover">
                     <div>
-                        <h3 class="text-xl font-semibold text-indigo-300">Sneha Gupta</h3>
-                        <p class="text-sm text-gray-400">MCA Student</p>
+                        <h3 class="text-xl font-semibold text-indigo-300">Sohini Gosh</h3>
+                        <p class="text-sm text-gray-400">2023 Rank 2, Jadavpur University</p>
                     </div>
                 </div>
-                <p class="text-gray-300">"The module-wise questions and mock tests were exactly what I needed to feel confident and well-prepared for the exams."</p>
             </div>
             <div class="p-6 bg-gray-800 rounded-lg shadow-lg transform transition hover:scale-105 hover:bg-gray-700">
                 <div class="flex items-center mb-4">
-                    <img src="path-to-avatar3.jpg" alt="Student" class="w-12 h-12 rounded-full mr-4">
+                    <img src="/assets/images/rohit.jpg" alt="Rohit Gupta" class="w-20 h-20 rounded-full mr-4 object-cover">
                     <div>
-                        <h3 class="text-xl font-semibold text-indigo-300">Akash Verma</h3>
-                        <p class="text-sm text-gray-400">MCA Student</p>
+                        <h3 class="text-xl font-semibold text-indigo-300">Rohit Gupta</h3>
+                        <p class="text-sm text-gray-400">2024 Rank 1, Jadavpur University</p>
                     </div>
                 </div>
-                <p class="text-gray-300">"The special machine learning classes gave me an edge in my studies. MCA Gateway is the perfect platform for MCA aspirants!"</p>
-            </div>
-            <div class="p-6 bg-gray-800 rounded-lg shadow-lg transform transition hover:scale-105 hover:bg-gray-700">
-                <div class="flex items-center mb-4">
-                    <img src="path-to-avatar4.jpg" alt="Student" class="w-12 h-12 rounded-full mr-4">
-                    <div>
-                        <h3 class="text-xl font-semibold text-indigo-300">Priya Singh</h3>
-                        <p class="text-sm text-gray-400">MCA Student</p>
-                    </div>
-                </div>
-                <p class="text-gray-300">"The syllabus-wise study materials were comprehensive and easy to understand. I am grateful for the guidance I received from MCA Gateway."</p>
-            </div>
-            <div class="p-6 bg-gray-800 rounded-lg shadow-lg transform transition hover:scale-105 hover:bg-gray-700">
-                <div class="flex items-center mb-4">
-                    <img src="path-to-avatar5.jpg" alt="Student" class="w-12 h-12 rounded-full mr-4">
-                    <div>
-                        <h3 class="text-xl font-semibold text-indigo-300">Nitin Rao</h3>
-                        <p class="text-sm text-gray-400">MCA Student</p>
-                    </div>
-                </div>
-                <p class="text-gray-300">"The VS Code theme of the platform made me feel right at home. The interactive platform kept me engaged and motivated."</p>
-            </div>
-            <div class="p-6 bg-gray-800 rounded-lg shadow-lg transform transition hover:scale-105 hover:bg-gray-700">
-                <div class="flex items-center mb-4">
-                    <img src="path-to-avatar6.jpg" alt="Student" class="w-12 h-12 rounded-full mr-4">
-                    <div>
-                        <h3 class="text-xl font-semibold text-indigo-300">Meera Nair</h3>
-                        <p class="text-sm text-gray-400">MCA Student</p>
-                    </div>
-                </div>
-                <p class="text-gray-300">"The class records feature allowed me to revisit lectures at my own pace. MCA Gateway truly understands the needs of students."</p>
             </div>
         </div>
     </div>

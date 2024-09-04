@@ -4,7 +4,7 @@
         <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
             <div class="p-6 border-b border-gray-700">
                 <h3 class="text-xl font-semibold text-indigo-400">What is MCA?</h3>
-                <p class="text-gray-300 mt-2">MCA (Master of Computer Applications) is a postgraduate degree focused on developing software skills and understanding computer applications. It typically spans three years, emphasizing both theoretical and practical knowledge in computer science.</p>
+                <p class="text-gray-300 mt-2">MCA (Master of Computer Applications) is a postgraduate degree focused on developing software skills and understanding computer applications. It typically spans two years, emphasizing both theoretical and practical knowledge in computer science.</p>
             </div>
             <div class="p-6 border-b border-gray-700">
                 <h3 class="text-xl font-semibold text-indigo-400">What is JECA?</h3>
@@ -12,7 +12,7 @@
             </div>
             <div class="p-6 border-b border-gray-700">
                 <h3 class="text-xl font-semibold text-indigo-400">What is the exam pattern for JECA?</h3>
-                <p class="text-gray-300 mt-2">JECA is a pen-and-paper-based test with a duration of 2 hours. The exam consists of multiple-choice questions covering topics such as Mathematics, Computer Science, Data Structures, and more. There are two types of questions with different marking schemes: Questions 1-80 have a penalty for incorrect answers, while Questions 81-100 have no negative marking.</p>
+                <p class="text-gray-300 mt-2">JECA is a pen-and-paper-based test with a duration of 2 hours. The exam consists of multiple-choice questions covering topics from Computer Science, Data Structures, and more. There are two types of questions with different marking schemes: Questions 1-80 have a penalty for incorrect answers, while Questions 81-100 have no negative marking.</p>
             </div>
             <div class="p-6 border-b border-gray-700">
                 <h3 class="text-xl font-semibold text-indigo-400">How can I prepare for JECA?</h3>
