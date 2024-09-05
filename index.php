@@ -4,7 +4,6 @@ session_start(); // Start the session
 // Check if the user is logged in
 $loggedIn = isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true;
 
-include 'views/partials/navbar.php'; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +15,10 @@ include 'views/partials/navbar.php';
 </head>
 <body>
     <!-- hero section -->
-    <?php include './sections/hero.php'; ?>
+    <?php 
+    include 'views/partials/navbar.php'; 
+
+    include './sections/hero.php'; ?>
 
     <!-- 1st call to action -->
     <?php include './sections/cta1.php'; ?>
