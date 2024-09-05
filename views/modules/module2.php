@@ -10,15 +10,15 @@
         <!-- PDF Downloads -->
         <div class="bg-green-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-green-200 transition-all duration-300">
             <span class="font-medium text-lg text-green-800 mb-2">DSA PDF</span>
-            <a href="path_to_cpdf.pdf" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
+            <a href="/assets/pdfs/data structure.pdf" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
         </div>
         <div class="bg-green-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-green-200 transition-all duration-300">
             <span class="font-medium text-lg text-green-800 mb-2">Architecture PDF</span>
-            <a href="path_to_oops.pdf" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
+            <a href="/assets/pdfs/architecture.pdf" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
         </div>
         <div class="bg-green-100 p-4 rounded-lg shadow-md flex flex-col items-center transform hover:scale-105 hover:bg-green-200 transition-all duration-300">
             <span class="font-medium text-lg text-green-800 mb-2">Operating System PDF</span>
-            <a href="path_to_unix.pdf" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
+            <a href="/assets/pdfs/Operating System.pdf" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300">Download</a>
         </div>
     </div>
 
