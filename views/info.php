@@ -1,6 +1,5 @@
 <?php
 session_start(); // Start the session
-include 'partials/navbar.php'; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +10,8 @@ include 'partials/navbar.php';
     <title>Info - MCA Gateway</title>
 </head>
 <body>
+    <?php include 'partials/navbar.php'; 
+?>
 <section class="bg-gray-900 text-white py-12">
     <div class="container mx-auto px-4">
         <div class="text-center mb-8">
