@@ -16,7 +16,7 @@
                 <div class="flex items-center mb-4">
                     <img src="/assets/images/soh.jpg" alt="Sohini Gosh" class="w-20 h-20 rounded-full mr-4 object-cover">
                     <div>
-                        <h3 class="text-xl font-semibold text-indigo-300">Sohini Gosh</h3>
+                        <h3 class="text-xl font-semibold text-indigo-300">Sohini Das</h3>
                         <p class="text-sm text-gray-400">2023 Rank 2, Jadavpur University</p>
                     </div>
                 </div>
