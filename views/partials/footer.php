@@ -1,11 +1,10 @@
-<!-- Footer -->
 <footer class="bg-gray-900 text-gray-400 py-8">
     <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-8">
             <!-- About Section -->
             <div>
                 <h4 class="text-xl font-bold text-white mb-4">MCA Gateway</h4>
-                <p class="text-gray-400">Your gateway to success in MCA entrance exams. Explore our resources and insider tips to excel and secure a top rank.</p>
+                <p>Your gateway to success in MCA entrance exams. Explore our resources and insider tips to excel and secure a top rank.</p>
             </div>
 
             <!-- Quick Links -->
@@ -20,28 +19,45 @@
                     <li><a href="/views/signup.php" class="hover:text-white transition duration-300">Signup</a></li>
                     <li><a href="/admin/admin.php" class="hover:text-white transition duration-300">Admin</a></li>
                     <li><a href="https://chat.whatsapp.com/IFQGZ5Zd7j9DdR5sqGuawj" class="hover:text-white transition duration-300">Whatsapp</a></li>
-
                 </ul>
             </div>
 
+            <!-- Support Links -->
+            <div>
+                <h4 class="text-xl font-bold text-white mb-4">Support</h4>
+                <ul class="space-y-2">
+                    <li><a href="/support/report-bug.php" class="hover:text-white transition duration-300">Report a Bug</a></li>
+                    <li><a href="/support/tech-support.php" class="hover:text-white transition duration-300">Technical Support</a></li>
+                    <li><a href="/support/report-question.php" class="hover:text-white transition duration-300">Report a Question</a></li>
+                </ul>
+            </div>
 
             <!-- Social Media Links -->
-            <div>
-                <h4 class="text-xl font-bold text-white mb-4">Follow Us</h4>
-                <div class="flex space-x-4">
-                    <a href="https://www.facebook.com/profile.php?id=100061904471388" class="text-gray-400 hover:text-white transition duration-300">
-                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.04c-5.52 0-9.96 4.44-9.96 9.96 0 4.418 3.432 8.09 7.9 8.95v-6.33h-2.36v-2.62h2.36v-2.05c0-2.35 1.405-3.64 3.55-3.64 1.02 0 2.1.19 2.1.19v2.32h-1.18c-1.17 0-1.53.725-1.53 1.46v1.78h2.59l-.41 2.62h-2.18v6.33c4.47-.86 7.9-4.532 7.9-8.95 0-5.52-4.44-9.96-9.96-9.96z"/></svg>
-                        
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M19.616 6.163c.013.176.013.353.013.529 0 5.386-4.095 11.595-11.595 11.595-2.309 0-4.455-.674-6.27-1.828.322.037.634.049.961.049 1.922 0 3.692-.656 5.096-1.759-1.8-.036-3.313-1.22-3.834-2.847.254.05.516.075.79.075.377 0 .745-.05 1.091-.143-1.875-.379-3.286-2.034-3.286-4.017v-.049c.554.307 1.192.491 1.872.515-1.109-.74-1.843-2.005-1.843-3.433 0-.759.204-1.473.556-2.087 2.028 2.484 5.054 4.112 8.465 4.285-.068-.304-.102-.622-.102-.951 0-2.29 1.857-4.147 4.147-4.147 1.194 0 2.271.505 3.028 1.314.944-.186 1.83-.531 2.626-1.006-.31.968-.97 1.776-1.83 2.287.841-.1 1.643-.324 2.39-.655-.562.834-1.27 1.566-2.086 2.149z"/></svg>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c-5.444 0-9.837 4.393-9.837 9.837 0 4.349 2.828 8.055 6.78 9.406.497.092.676-.216.676-.481v-1.688c-2.697.586-3.291-1.281-3.291-1.281-.452-1.151-1.104-1.458-1.104-1.458-.903-.617.07-.604.07-.604 1.002.071 1.529 1.032 1.529 1.032.89 1.527 2.336 1.087 2.902.83.092-.645.349-1.088.634-1.339-2.155-.244-4.421-1.077-4.421-4.796 0-1.059.378-1.923 1-2.602-.105-.244-.441-1.227.095-2.557 0 0 .834-.267 2.73 1.017a9.57 9.57 0 0 1 2.487-.334c.845.004 1.698.113 2.487.334 1.896-1.284 2.729-1.017 2.729-1.017.537 1.33.201 2.313.099 2.557.622.679 1 1.542 1 2.602 0 3.73-2.271 4.548-4.433 4.788.36.312.683.926.683 1.865v2.767c0 .267.179.576.683.481 3.952-1.35 6.78-5.057 6.78-9.406 0-5.444-4.393-9.837-9.837-9.837z"/></svg>
-                    </a>
-                </div>
-            </div>
-        </div>
+<div>
+    <h4 class="text-xl font-bold text-white mb-4">Follow Us</h4>
+    <div class="flex space-x-4">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/profile.php?id=100061904471388" class="text-gray-400 hover:text-white transition duration-300">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M12 2.04c-5.52 0-9.96 4.44-9.96 9.96 0 4.418 3.432 8.09 7.9 8.95v-6.33h-2.36v-2.62h2.36v-2.05c0-2.35 1.405-3.64 3.55-3.64 1.02 0 2.1.19 2.1.19v2.32h-1.18c-1.17 0-1.53.725-1.53 1.46v1.78h2.59l-.41 2.62h-2.18v6.33c4.47-.86 7.9-4.532 7.9-8.95 0-5.52-4.44-9.96-9.96-9.96z"/>
+            </svg>
+        </a>
+        <!-- Instagram -->
+<a href="https://www.instagram.com/el_ilimitado/" class="text-gray-400 hover:text-white transition duration-300">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="w-6 h-6 fill-current" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+    </svg>
+</a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/kushal-dalal-b279ba204/" class="text-gray-400 hover:text-white transition duration-300">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.25 20.5h-3v-11h3v11zm-1.5-12.75h-.03c-1 0-1.67-.67-1.67-1.5 0-.86.69-1.5 1.73-1.5s1.67.64 1.7 1.5c0 .83-.67 1.5-1.7 1.5zm12.75 12.75h-3v-5.75c0-1.44-.52-2.43-1.83-2.43-.99 0-1.58.67-1.84 1.32-.09.23-.11.55-.11.87v6h-3v-11h3v1.48c.4-.62 1.12-1.48 2.72-1.48 2 0 3.5 1.3 3.5 4.09v6.91z"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
 
         <!-- Divider -->
         <div class="border-t border-gray-700 mt-8 pt-8">
