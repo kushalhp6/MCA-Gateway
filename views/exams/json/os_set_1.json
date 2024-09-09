@@ -1,0 +1,237 @@
+{
+    "exam_name": "OS Set 1",
+    "total_marks": 23,
+    "time_limit": 23,
+    "questions": [
+      {
+        "question": "In which scheduling algorithm does the process switch from the running state to the ready state?",
+        "options": {
+          "A": "FCFS",
+          "B": "SJF",
+          "C": "Round Robin",
+          "D": "Priority Scheduling"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which of the following is not a state of a process in the process state model?",
+        "options": {
+          "A": "Running",
+          "B": "Ready",
+          "C": "Hold",
+          "D": "Terminated"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which algorithm is used to replace a page when a page fault occurs in virtual memory?",
+        "options": {
+          "A": "FIFO",
+          "B": "LRU (Least Recently Used)",
+          "C": "Optimal Page Replacement",
+          "D": "All"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "Which scheduling algorithm is based on the process with the smallest estimated run-time to execute next?",
+        "options": {
+          "A": "FCFS",
+          "B": "SJF",
+          "C": "Round Robin",
+          "D": "Priority Scheduling"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "The maximum number of processes that can be in the ready state in a system with N CPU cores using Round Robin scheduling is:",
+        "options": {
+          "A": "N",
+          "B": "2N",
+          "C": "N + 1",
+          "D": "Unlimited"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "Which algorithm allows a process to release a resource before it completes execution?",
+        "options": {
+          "A": "Banker's Algorithm",
+          "B": "FIFO (First In, First Out)",
+          "C": "LIFO (Last In, First Out)",
+          "D": "SJF (Shortest Job First)"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Which of the following is used to prevent race conditions in operating systems?",
+        "options": {
+          "A": "Mutex",
+          "B": "Semaphore",
+          "C": "Barrier",
+          "D": "Spinlock"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What does the Banker's algorithm ensure in resource allocation?",
+        "options": {
+          "A": "Deadlock recovery",
+          "B": "Deadlock avoidance",
+          "C": "Mutual exclusion",
+          "D": "Synchronization"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the main purpose of a TLB (Translation Lookaside Buffer) in a computer system?",
+        "options": {
+          "A": "To store pages that have been swapped out to disk",
+          "B": "To cache recently accessed disk blocks",
+          "C": "To cache recently translated virtual-to-physical address mappings",
+          "D": "To manage virtual memory space allocation"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which file system feature is designed to reduce file fragmentation?",
+        "options": {
+          "A": "Block size",
+          "B": "Disk quotas",
+          "C": "Defragmentation",
+          "D": "Journaling"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What is the primary function of a scheduler in an operating system?",
+        "options": {
+          "A": "To allocate resources to processes",
+          "B": "To manage the file system",
+          "C": "To control the execution of processes",
+          "D": "To handle input/output operations"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which technique is used to manage disk space by allocating disk blocks dynamically as files grow?",
+        "options": {
+          "A": "Contiguous allocation",
+          "B": "Linked allocation",
+          "C": "Indexed allocation",
+          "D": "Non-contiguous allocation"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which memory management scheme allows processes to be allocated memory wherever it is available?",
+        "options": {
+          "A": "Paging",
+          "B": "Segmentation",
+          "C": "Virtual memory",
+          "D": "Swapping"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What is the primary goal of demand paging in virtual memory systems?",
+        "options": {
+          "A": "To load all pages into memory before execution",
+          "B": "To ensure every page is loaded into memory at the same time",
+          "C": "To fetch pages into memory only when needed",
+          "D": "To swap out pages from memory preemptively"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which of the following is a characteristic of a monolithic kernel architecture?",
+        "options": {
+          "A": "It is highly modular",
+          "B": "It allows device drivers to be loaded dynamically",
+          "C": "It separates the kernel into multiple layers",
+          "D": "It combines all operating system functionalities into a single kernel space"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "What is the main advantage of a distributed operating system?",
+        "options": {
+          "A": "Improved performance",
+          "B": "Reduced cost",
+          "C": "Increased reliability",
+          "D": "Enhanced security"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which of the following is an advantage of using a microkernel architecture?",
+        "options": {
+          "A": "Higher performance",
+          "B": "Easier implementation of new services",
+          "C": "Lower memory overhead",
+          "D": "Simplified device driver management"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the purpose of the process control block (PCB) in an operating system?",
+        "options": {
+          "A": "To store the contents of the CPU registers for a process",
+          "B": "To manage the allocation of system resources to processes",
+          "C": "To maintain a list of free memory blocks",
+          "D": "To handle input/output requests from processes"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Which of the following scheduling algorithms allows processes to hold onto the CPU until they voluntarily release it?",
+        "options": {
+          "A": "FCFS",
+          "B": "SJF",
+          "C": "Priority Scheduling",
+          "D": "Round Robin"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What is the role of the page table in virtual memory management?",
+        "options": {
+          "A": "To store the contents of all pages in main memory",
+          "B": "To translate virtual addresses to physical addresses",
+          "C": "To manage the allocation of pages to processes",
+          "D": "To handle page faults and swap out pages to disk when needed"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the maximum number of processes that can be in the ready state in a system with 4 CPU cores using Round Robin scheduling with a time quantum of 10 milliseconds?",
+        "options": {
+          "A": "4",
+          "B": "8",
+          "C": "16",
+          "D": "Unlimited"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "If a counting semaphore is initialized to 5 and there are 3 wait operations and 2 signal operations performed on it, what is the resulting value of the semaphore?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "In a preemptive priority scheduling algorithm, if a process with priority 8 arrives in the ready queue while a process with priority 5 is executing, what will happen?",
+        "options": {
+          "A": "The process with priority 8 will wait until the process with priority 5 finishes execution",
+          "B": "The process with priority 5 will be preempted, and the process with priority 8 will start execution",
+          "C": "The process with priority 8 will be added to the end of the ready queue",
+          "D": "The scheduler will switch to a non-preemptive scheduling algorithm"
+        },
+        "correct_answer": "B"
+      }
+    ]
+}

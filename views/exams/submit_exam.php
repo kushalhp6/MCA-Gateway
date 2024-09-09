@@ -14,6 +14,13 @@ $examMapping = [
     'c_set_1' => 'c_set_1.json',
     'oops_set_1' => 'oops_set_1.json',
     'unix_set_1' => 'unix_set_1.json',
+    'dsa_set_1'  => 'dsa_set_1.json',
+    'architecture_set_1' => 'architecture_set_1.json',
+    'os_set_1' => 'os_set_1.json',
+    'network_set_1' => 'network_set_1.json',
+    'dbms_set_1' => 'dbms_set_1.json',
+
+
     // Add more mappings as needed
 ];
 

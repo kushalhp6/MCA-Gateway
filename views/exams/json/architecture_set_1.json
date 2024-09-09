@@ -1,0 +1,207 @@
+{
+    "exam_name": "Architecture Set 1",
+    "total_marks": 20,
+    "time_limit": 30,
+    "questions": [
+        {
+            "question": "What does BIOS stand for?",
+            "options": {
+                "A": "Basic input/output system",
+                "B": "Best input/output system",
+                "C": "Basic input system",
+                "D": "Basic output system"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which interrupt may happen due to power failure?",
+            "options": {
+                "A": "V/O (Voltage/Overload)",
+                "B": "Timer",
+                "C": "Hardware",
+                "D": "Program"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The address of the next instruction to be executed is specified by:",
+            "options": {
+                "A": "MBR (Memory Buffer Register)",
+                "B": "MAR (Memory Address Register)",
+                "C": "PSW (Program Status Word)",
+                "D": "PC (Program Counter)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which component stores the intermediate data and instructions during program execution?",
+            "options": {
+                "A": "ALU (Arithmetic Logic Unit)",
+                "B": "Cache memory",
+                "C": "RAM (Random Access Memory)",
+                "D": "Hard disk"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which architecture allows multiple processors to access the same memory?",
+            "options": {
+                "A": "Von Neumann architecture",
+                "B": "Harvard architecture",
+                "C": "Shared memory architecture",
+                "D": "Pipelined architecture"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of the control unit in a CPU?",
+            "options": {
+                "A": "Perform arithmetic operations",
+                "B": "Manage memory access",
+                "C": "Execute program instructions",
+                "D": "Coordinate and control the overall operation of the CPU"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of memory is non-volatile and retains data even when power is turned off?",
+            "options": {
+                "A": "RAM (Random Access Memory)",
+                "B": "Cache memory",
+                "C": "ROM (Read-Only Memory)",
+                "D": "Virtual memory"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The instruction cycle consists of which two main phases?",
+            "options": {
+                "A": "Fetch and decode",
+                "B": "Execute and write-back",
+                "C": "Input and output",
+                "D": "Load and store"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of an I/O controller?",
+            "options": {
+                "A": "Execute program instructions",
+                "B": "Manage memory access",
+                "C": "Control input and output operations",
+                "D": "Perform arithmetic operations"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which architecture uses separate buses for instructions and data?",
+            "options": {
+                "A": "Von Neumann architecture",
+                "B": "Harvard architecture",
+                "C": "Cache architecture",
+                "D": "RISC architecture"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which component of a CPU performs arithmetic and logic operations?",
+            "options": {
+                "A": "Control unit",
+                "B": "Cache memory",
+                "C": "ALU (Arithmetic Logic Unit)",
+                "D": "RAM (Random Access Memory)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does RAID stand for in terms of storage systems?",
+            "options": {
+                "A": "Redundant Array of Independent Disks",
+                "B": "Rapid Access and In-Depth Data",
+                "C": "Reliable Archive of Integrated Drives",
+                "D": "Randomized Allocation of Input Data"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which pipeline stage retrieves instructions from memory?",
+            "options": {
+                "A": "Fetch",
+                "B": "Decode",
+                "C": "Execute",
+                "D": "Write-back"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of memory is typically the fastest and closest to the CPU?",
+            "options": {
+                "A": "Main memory",
+                "B": "Secondary memory",
+                "C": "Cache memory",
+                "D": "Virtual memory"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a memory address register (MAR)?",
+            "options": {
+                "A": "Store program instructions",
+                "B": "Perform arithmetic operations",
+                "C": "Hold memory addresses of data",
+                "D": "Manage control unit operations"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which architecture focuses on reducing the number of instructions per program?",
+            "options": {
+                "A": "CISC (Complex Instruction Set Computing)",
+                "B": "RISC (Reduced Instruction Set Computing)",
+                "C": "SIMD (Single Instruction, Multiple Data)",
+                "D": "MIMD (Multiple Instruction, Multiple Data)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which part of the CPU is responsible for temporarily storing data that needs to be processed?",
+            "options": {
+                "A": "ALU (Arithmetic Logic Unit)",
+                "B": "Cache memory",
+                "C": "Register file",
+                "D": "Control unit"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of memory is used to store the program and data that the CPU is currently executing?",
+            "options": {
+                "A": "RAM (Random Access Memory)",
+                "B": "Cache memory",
+                "C": "ROM (Read-Only Memory)",
+                "D": "Virtual memory"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of the program counter (PC)?",
+            "options": {
+                "A": "Store program instructions",
+                "B": "Manage memory access",
+                "C": "Execute arithmetic operations",
+                "D": "Keep track of the next instruction to be executed"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which architecture utilizes a single clock to control the execution of instructions?",
+            "options": {
+                "A": "Pipelined architecture",
+                "B": "Superscalar architecture",
+                "C": "Von Neumann architecture",
+                "D": "SISD (Single Instruction, Single Data) architecture"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

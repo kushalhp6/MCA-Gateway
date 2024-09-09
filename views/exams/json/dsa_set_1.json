@@ -1,0 +1,267 @@
+{
+    "exam_name": "DSA Set 1",
+    "total_marks": 29,
+    "time_limit": 30,
+    "questions": [
+        {
+            "question": "Here is an infix expression: 4 + 3*(6*3-12). The maximum number of symbols that will appear on the stack AT ONE TIME during the conversion?",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In stack data structure, which operation is not permitted?",
+            "options": {
+                "A": "Push",
+                "B": "Pop",
+                "C": "Empty Check",
+                "D": "Enqueue"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Example of a non-linear data structure is:",
+            "options": {
+                "A": "Linked-list",
+                "B": "Graph",
+                "C": "Queue",
+                "D": "Stack"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Bubble sort algorithm has a worst-case time complexity of:",
+            "options": {
+                "A": "O(n)",
+                "B": "O(n^2)",
+                "C": "O(n^3)",
+                "D": "O(n)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Insertion sort algorithm has a best-case time complexity of:",
+            "options": {
+                "A": "O(n)",
+                "B": "O(n^2)",
+                "C": "O(n^3)",
+                "D": "O(n)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In general, the index of the first element in an array is:",
+            "options": {
+                "A": "0",
+                "B": "-1",
+                "C": "2",
+                "D": "1"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Elements in an array are accessed:",
+            "options": {
+                "A": "randomly",
+                "B": "sequentially",
+                "C": "exponentially",
+                "D": "logarithmically"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a stack, if a user tries to remove an element from an empty stack it is called:",
+            "options": {
+                "A": "Underflow",
+                "B": "Empty collection",
+                "C": "Overflow",
+                "D": "Garbage Collection"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is not the application of stack?",
+            "options": {
+                "A": "A parentheses balancing program",
+                "B": "Tracking of local variables at run time",
+                "C": "Compiler Syntax Analyzer",
+                "D": "Data Transfer between two asynchronous process"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which data structure is based on the 'Last In, First Out' principle?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Linked List",
+                "D": "Hash Table"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "The maximum number of parentheses on the stack during the analysis of: (()(())(()))?",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4 or more"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The maximum number of parentheses that appear on the stack when analyzing a sequence with 2 left and 3 right parentheses?",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4 or more"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the value of the postfix expression 6 3 2 4 + – *?",
+            "options": {
+                "A": "1",
+                "B": "40",
+                "C": "74",
+                "D": "-18"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The postfix form of the expression (A+ B)*(C*D- E)*F / G is?",
+            "options": {
+                "A": "AB+ CD*E – FG /**",
+                "B": "AB + CD* E – F **G /",
+                "C": "AB + CD* E – *F *G /",
+                "D": "AB + CDE * – * F *G /"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The data structure required to check whether an expression contains a balanced parenthesis is:",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Array",
+                "D": "Tree"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What data structure is used in non-recursive implementations of recursive algorithms?",
+            "options": {
+                "A": "Linked List",
+                "B": "Stack",
+                "C": "Queue",
+                "D": "Tree"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is used to implement a priority queue?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which algorithm is used to search a sorted array by repeatedly dividing the search interval in half?",
+            "options": {
+                "A": "Binary search",
+                "B": "Linear search",
+                "C": "Depth-First Search",
+                "D": "Breadth-First Search"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "The postfix form of A*B+C/D is?",
+            "options": {
+                "A": "*AB/CD+",
+                "B": "AB*CD/+",
+                "C": "A*BC+/D",
+                "D": "ABCD+/*"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is needed to convert infix notation to postfix notation?",
+            "options": {
+                "A": "Branch",
+                "B": "Tree",
+                "C": "Queue",
+                "D": "Stack"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The prefix form of A-B/ (C * D ^ E) is?",
+            "options": {
+                "A": "-/*^ACBDE",
+                "B": "-ABCD*^DE",
+                "C": "-A/B*C^DE",
+                "D": "-A/BC*^DE"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The result of evaluating the postfix expression 5, 4, 6, +, *, 4, 9, 3, /, +, * is?",
+            "options": {
+                "A": "600",
+                "B": "350",
+                "C": "650",
+                "D": "588"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Convert the infix expression (A + B ⋀D)/(E – F)+G to postfix:",
+            "options": {
+                "A": "(A B D ⋀ + E F – / G +)",
+                "B": "(A B D +⋀ E F – / G +)",
+                "C": "(A B D ⋀ + E F/- G +)",
+                "D": "(A B D E F + ⋀ / – G +)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "After performing Push(1), Pop(), Push(2), Push(3), Pop(), Push(4), Pop(), Pop(), Push(5) on a stack of size 5, how many elements are left?",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is not an inherent application of stack?",
+            "options": {
+                "A": "Reversing a string",
+                "B": "Evaluation of postfix expression",
+                "C": "Implementation of recursion",
+                "D": "Job scheduling"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The type of expression in which operator succeeds its operands is:",
+            "options": {
+                "A": "Infix Expression",
+                "B": "Prefix Expression",
+                "C": "Postfix Expression",
+                "D": "Both Prefix and Postfix Expressions"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "Dbms Set 1",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which type of key uniquely identifies each tuple in a relation?",
+            "options": {
+                "A": "Primary key",
+                "B": "Foreign key",
+                "C": "Super key",
+                "D": "Candidate key"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which SQL clause is used to filter the results of a query?",
+            "options": {
+                "A": "SELECT",
+                "B": "FROM",
+                "C": "WHERE",
+                "D": "HAVING"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a relational database, what does the term 'schema' refer to?",
+            "options": {
+                "A": "A database query",
+                "B": "A database table",
+                "C": "The physical storage of data",
+                "D": "The structure and organization of the database"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which normal form deals with partial dependencies on the primary key?",
+            "options": {
+                "A": "1NF",
+                "B": "2NF",
+                "C": "3NF",
+                "D": "BCNF"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which SQL statement is used to insert new data into a database table?",
+            "options": {
+                "A": "UPDATE",
+                "B": "INSERT",
+                "C": "ADD",
+                "D": "CREATE"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which operator is used in relational algebra to combine rows from two tables while removing duplicate rows?",
+            "options": {
+                "A": "UNION",
+                "B": "JOIN",
+                "C": "INTERSECT",
+                "D": "MINUS"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of index reorganizes the index file to improve its structure and performance?",
+            "options": {
+                "A": "Clustered index",
+                "B": "Non-clustered index",
+                "C": "B-tree index",
+                "D": "Bitmap index"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a database transaction, what does the ACID acronym stand for?",
+            "options": {
+                "A": "Atomicity, Consistency, Isolation, Durability",
+                "B": "Accuracy, Consistency, Isolation, Dependency",
+                "C": "Atomicity, Consistency, Integrity, Durability",
+                "D": "Accuracy, Concurrency, Isolation, Dependency"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of join returns all rows from both tables and fills in missing values with NULL if necessary?",
+            "options": {
+                "A": "INNER JOIN",
+                "B": "LEFT JOIN",
+                "C": "RIGHT JOIN",
+                "D": "FULL OUTER JOIN"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which SQL command is used to make permanent changes to the database?",
+            "options": {
+                "A": "COMMIT",
+                "B": "ROLLBACK",
+                "C": "SAVEPOINT",
+                "D": "UPDATE"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which normal form is stricter: 2NF or 3NF?",
+            "options": {
+                "A": "2NF",
+                "B": "3NF",
+                "C": "They are equally strict",
+                "D": "It depends on the context"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which SQL clause is used to sort the result set of a query in ascending or descending order?",
+            "options": {
+                "A": "ORDER BY",
+                "B": "SORT BY",
+                "C": "GROUP BY",
+                "D": "HAVING"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which operator in relational algebra is used to select specific rows from a table?",
+            "options": {
+                "A": "PROJECT",
+                "B": "RENAME",
+                "C": "SELECT",
+                "D": "JOIN"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of constraint ensures that each value in a column is unique?",
+            "options": {
+                "A": "CHECK constraint",
+                "B": "DEFAULT constraint",
+                "C": "UNIQUE constraint",
+                "D": "NOT NULL constraint"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a database, what is a foreign key?",
+            "options": {
+                "A": "A key used for encryption",
+                "B": "A key that uniquely identifies a record",
+                "C": "A key used in the WHERE clause of a query",
+                "D": "A key that establishes a relationship between two tables"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which SQL command is used to remove a table from the database?",
+            "options": {
+                "A": "DELETE TABLE",
+                "B": "DROP TABLE",
+                "C": "REMOVE TABLE",
+                "D": "ERASE TABLE"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which normal form deals with transitive dependencies?",
+            "options": {
+                "A": "1NF",
+                "B": "2NF",
+                "C": "3NF",
+                "D": "BCNF"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of join returns only the rows that have matching values in both tables?",
+            "options": {
+                "A": "INNER JOIN",
+                "B": "LEFT JOIN",
+                "C": "RIGHT JOIN",
+                "D": "FULL OUTER JOIN"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which SQL command is used to modify existing data in a database table?",
+            "options": {
+                "A": "ALTER",
+                "B": "MODIFY",
+                "C": "UPDATE",
+                "D": "CHANGE"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of index uses a bit vector for each unique value to improve query performance?",
+            "options": {
+                "A": "Clustered index",
+                "B": "Non-clustered index",
+                "C": "B-tree index",
+                "D": "Bitmap index"
+            },
+            "correct_answer": "D"
+        }
+    ]
+}
