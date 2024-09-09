@@ -83,15 +83,24 @@ foreach ($card_names as $card_name) {
     <title>Resources - MCA Gateway</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-white">
-    <?php include 'partials/navbar.php'; 
-?>
-<?php include 'modules/module1.php'; 
-include 'modules/module2.php';
-include 'modules/module3.php';
-include 'modules/module4.php';
-include 'modules/mock.php';
-?>
-    
+<body class="bg-gray-900 text-white ">
+<?php include 'partials/navbar.php'; ?>
+
+<!-- Module 1 -->
+<?php include 'modules/module1.php'; ?>
+
+<!-- Module 2 -->
+<?php include 'modules/module2.php'; ?>
+
+<!-- Module 3 -->
+<?php include 'modules/module3.php'; ?>
+
+<!-- Module 4 -->
+<?php include 'modules/module4.php'; ?>
+
+<!-- Mock Section -->
+<?php include 'modules/mock.php'; ?>
+
+<?php include 'partials/footer.php'; ?>
 </body>
 </html>

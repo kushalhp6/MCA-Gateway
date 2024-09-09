@@ -165,9 +165,6 @@ $isSubmitted = $submission !== false;
                 <a href="view_answers1.php?exam_id=<?= urlencode($examId) ?>" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
                     View Answers
                 </a>
-                <a href="leaderboard1.php?exam_id=<?= urlencode($examId) ?>" class="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors">
-                    Leaderboard
-                </a>
             </div>
         <?php else: ?>
             <!-- Instructions -->
