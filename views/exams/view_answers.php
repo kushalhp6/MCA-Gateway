@@ -28,6 +28,8 @@
         'os_set_1' => 'os_set_1.json',
         'network_set_1' => 'network_set_1.json',
         'dbms_set_1' => 'dbms_set_1.json',
+        'se_set_1' => 'se_set_1.json',
+        'ml_set_1' => 'ml_set_1.json',
 
 
         // Add more mappings as needed

@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 1",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In software engineering, what does the acronym 'UML' stand for?",
+            "options": {
+                "A": "Unified Modeling Language",
+                "B": "Uniform Modeling Language",
+                "C": "Universal Modeling Language",
+                "D": "Unique Modeling Language"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which software development methodology emphasizes the importance of delivering working software frequently?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Agile model",
+                "C": "V-Model",
+                "D": "Prototype model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software testing technique focuses on examining the internal logic and structure of a software system?",
+            "options": {
+                "A": "Black-box testing",
+                "B": "White-box testing",
+                "C": "Gray-box testing",
+                "D": "Integration testing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which phase of the software development life cycle involves defining the software requirements in detail?",
+            "options": {
+                "A": "Design",
+                "B": "Implementation",
+                "C": "Testing",
+                "D": "Requirements analysis"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is NOT a software design principle introduced by SOLID?",
+            "options": {
+                "A": "Single Responsibility Principle",
+                "B": "Open-Closed Principle",
+                "C": "Linear Responsibility Principle",
+                "D": "Liskov Substitution Principle"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software development practice involves automatically building, testing, and deploying code changes to production?",
+            "options": {
+                "A": "Continuous Integration",
+                "B": "Waterfall Development",
+                "C": "Prototype Modeling",
+                "D": "Extreme Programming"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which software testing phase focuses on evaluating the entire system's compliance with specified requirements?",
+            "options": {
+                "A": "Unit testing",
+                "B": "Integration testing",
+                "C": "System testing",
+                "D": "Regression testing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a version control system (VCS) in software development?",
+            "options": {
+                "A": "To create user interfaces",
+                "B": "To perform automated testing",
+                "C": "To manage and track changes to source code",
+                "D": "To write documentation"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software development model involves breaking down a project into smaller, manageable iterations?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Spiral model",
+                "C": "Incremental model",
+                "D": "V-Model"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which phase of the software development life cycle involves converting design specifications into source code?",
+            "options": {
+                "A": "Requirements analysis",
+                "B": "Testing",
+                "C": "Implementation",
+                "D": "Maintenance"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software metric measures the number of defects identified in a software system?",
+            "options": {
+                "A": "Cyclomatic complexity",
+                "B": "Defect density",
+                "C": "Code coverage",
+                "D": "Function points"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software development principle emphasizes that software components should have high cohesion and low coupling?",
+            "options": {
+                "A": "KISS principle",
+                "B": "DRY principle",
+                "C": "YAGNI principle",
+                "D": "GRASP principle"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which software testing technique focuses on testing the software's response to unexpected inputs or conditions?",
+            "options": {
+                "A": "Performance testing",
+                "B": "Stress testing",
+                "C": "Security testing",
+                "D": "Fuzz testing"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which phase of the software development life cycle involves fixing defects and making improvements to the software?",
+            "options": {
+                "A": "Requirements analysis",
+                "B": "Implementation",
+                "C": "Maintenance",
+                "D": "Design"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software development approach emphasizes producing a potentially shippable product increment after each iteration?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Scrum",
+                "C": "RAD (Rapid Application Development)",
+                "D": "Big Bang model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of software testing is focused on determining whether the system meets its specified requirements?",
+            "options": {
+                "A": "Functional testing",
+                "B": "Usability testing",
+                "C": "Load testing",
+                "D": "Compatibility testing"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which software development principle suggests that a class should have only one reason to change?",
+            "options": {
+                "A": "Liskov Substitution Principle",
+                "B": "Single Responsibility Principle",
+                "C": "Dependency Inversion Principle",
+                "D": "Open-Closed Principle"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software engineering process model involves iterating through four phases: Planning, Risk Analysis, Engineering, and Evaluation?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Agile model",
+                "C": "Spiral model",
+                "D": "V-Model"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software development technique involves gradually adding details to a project in multiple iterations?",
+            "options": {
+                "A": "Incremental development",
+                "B": "Rapid application development",
+                "C": "Big Bang development",
+                "D": "Waterfall development"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which software testing technique involves testing a system's behavior at or beyond its limits?",
+            "options": {
+                "A": "Equivalence partitioning",
+                "B": "Stress testing",
+                "C": "Alpha testing",
+                "D": "Regression testing"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

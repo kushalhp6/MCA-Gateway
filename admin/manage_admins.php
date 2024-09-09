@@ -20,6 +20,9 @@ $stmt->bind_result($user_email);
 $stmt->fetch();
 $stmt->close();
 
+// Fetch and store your email
+$super_admin_email = 'kdalalhp@gmail.com';
+
 // Check if the user is an admin
 $sql = "SELECT * FROM admin WHERE email = ?";
 $stmt = $conn->prepare($sql);
@@ -52,27 +55,41 @@ if (isset($_POST['search_email'])) {
 
 // Handle create/remove admin action
 if (isset($_POST['action']) && isset($_POST['user_id'])) {
+    $action = $_POST['action'];
     $user_id = $_POST['user_id'];
     
-    if ($_POST['action'] === 'create') {
-        // Add user to admin
-        $sql = "INSERT IGNORE INTO admin (email) SELECT email FROM users WHERE id = ?";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param('i', $user_id);
-        if ($stmt->execute()) {
-            echo "<p class='text-green-500'>Admin created successfully.</p>";
-        } else {
-            echo "<p class='text-red-500'>Error creating admin: " . $stmt->error . "</p>";
-        }
-    } elseif ($_POST['action'] === 'remove') {
-        // Remove user from admin
-        $sql = "DELETE FROM admin WHERE email = (SELECT email FROM users WHERE id = ?)";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param('i', $user_id);
-        if ($stmt->execute()) {
-            echo "<p class='text-red-500'>Admin removed successfully.</p>";
-        } else {
-            echo "<p class='text-red-500'>Error removing admin: " . $stmt->error . "</p>";
+    // Fetch the email of the user to modify
+    $sql = "SELECT email FROM users WHERE id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param('i', $user_id);
+    $stmt->execute();
+    $stmt->bind_result($user_email_to_modify);
+    $stmt->fetch();
+    $stmt->close();
+
+    if ($user_email_to_modify === $super_admin_email) {
+        echo "<p class='text-red-500'>You cannot remove the super admin.</p>";
+    } else {
+        if ($action === 'create') {
+            // Add user to admin
+            $sql = "INSERT IGNORE INTO admin (email) SELECT email FROM users WHERE id = ?";
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param('i', $user_id);
+            if ($stmt->execute()) {
+                echo "<p class='text-green-500'>Admin created successfully.</p>";
+            } else {
+                echo "<p class='text-red-500'>Error creating admin: " . $stmt->error . "</p>";
+            }
+        } elseif ($action === 'remove') {
+            // Remove user from admin
+            $sql = "DELETE FROM admin WHERE email = (SELECT email FROM users WHERE id = ?)";
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param('i', $user_id);
+            if ($stmt->execute()) {
+                echo "<p class='text-red-500'>Admin removed successfully.</p>";
+            } else {
+                echo "<p class='text-red-500'>Error removing admin: " . $stmt->error . "</p>";
+            }
         }
     }
 }

@@ -56,6 +56,7 @@ $stmt->close();
             <a href="manage_cards.php" class="block bg-green-500 text-white text-center py-3 rounded-lg hover:bg-green-600">Manage Cards</a>
             <a href="manage_users.php" class="block bg-yellow-500 text-white text-center py-3 rounded-lg hover:bg-yellow-600">Manage Users</a>
             <a href="manage_admins.php" class="block bg-red-500 text-white text-center py-3 rounded-lg hover:bg-red-600">Manage Admins</a>
+            <a href="manage_exams.php" class="block bg-indigo-500 text-white text-center py-3 rounded-lg hover:bg-red-600">Manage Exams</a>
         </div>
     </div>
 </div>

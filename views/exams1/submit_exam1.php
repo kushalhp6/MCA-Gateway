@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>submitted details</title>
+</head>
+<body>
 <?php
 // Start session and check if user is logged in
 session_start();
@@ -123,8 +132,8 @@ if (array_key_exists($examId, $examMapping)) {
         $initialMarks = ($correct / count($questions)) * $totalMarks;
 
         // Apply penalty for incorrect attempts
-        $penalty = $incorrect * 0.25;
-        $marks = $initialMarks - $penalty;
+        // $penalty = $incorrect * 0.25;
+        $marks = $initialMarks;
 
         // Define the status variable
         $status = 'submitted';
@@ -162,3 +171,5 @@ if (array_key_exists($examId, $examMapping)) {
     echo "Error: Invalid exam ID.";
 }
 ?>
+</body>
+</html>

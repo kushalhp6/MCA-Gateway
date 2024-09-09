@@ -20,6 +20,9 @@ $stmt->bind_result($user_email);
 $stmt->fetch();
 $stmt->close();
 
+// Fetch and store your email
+$super_admin_email = 'kdalalhp@gmail.com';
+
 // Check if the user is an admin
 $sql = "SELECT * FROM admin WHERE email = ?";
 $stmt = $conn->prepare($sql);
@@ -40,11 +43,28 @@ $stmt->close();
 // Handle user deletion
 if (isset($_GET['delete_user_id'])) {
     $delete_user_id = intval($_GET['delete_user_id']);
-    $delete_sql = "DELETE FROM users WHERE id = ?";
-    $stmt = $conn->prepare($delete_sql);
+    
+    // Fetch the email of the user to be deleted
+    $sql = "SELECT email FROM users WHERE id = ?";
+    $stmt = $conn->prepare($sql);
     $stmt->bind_param('i', $delete_user_id);
     $stmt->execute();
+    $stmt->bind_result($delete_user_email);
+    $stmt->fetch();
     $stmt->close();
+    
+    // Check if the user to be deleted is not the super admin
+    if ($delete_user_email !== $super_admin_email) {
+        // Proceed with deletion if not the super admin
+        $delete_sql = "DELETE FROM users WHERE id = ?";
+        $stmt = $conn->prepare($delete_sql);
+        $stmt->bind_param('i', $delete_user_id);
+        $stmt->execute();
+        $stmt->close();
+    } else {
+        // Optionally, you can add a message or log this attempt
+        echo "<p class='text-red-500'>You cannot delete the super admin.</p>";
+    }
 }
 
 // Search functionality

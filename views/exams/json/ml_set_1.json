@@ -1,0 +1,197 @@
+{
+    "exam_name": "Machine Learning Quiz",
+    "total_marks": 19,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the main purpose of regularization in machine learning?",
+            "options": {
+                "A": "To reduce underfitting",
+                "B": "To increase the complexity of the model",
+                "C": "To memorize the training data",
+                "D": "To increase overfitting"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following evaluation metrics is most suitable for imbalanced classification problems?",
+            "options": {
+                "A": "Accuracy",
+                "B": "F1-score",
+                "C": "Mean Absolute Error (MAE)",
+                "D": "R-squared"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary objective of Principal Component Analysis (PCA) in machine learning?",
+            "options": {
+                "A": "Feature extraction",
+                "B": "Model training",
+                "C": "Data augmentation",
+                "D": "Hyperparameter tuning"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which algorithm is commonly used for reinforcement learning and has beaten human champions in various games?",
+            "options": {
+                "A": "Naive Bayes",
+                "B": "K-Means",
+                "C": "Q-learning",
+                "D": "Support Vector Machine (SVM)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of learning is demonstrated by a child learning to differentiate between cats and dogs by being shown various examples of each?",
+            "options": {
+                "A": "Supervised learning",
+                "B": "Unsupervised learning",
+                "C": "Semi-supervised learning",
+                "D": "Reinforcement learning"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the bias-variance trade-off refer to in machine learning?",
+            "options": {
+                "A": "Balancing training time and testing time",
+                "B": "Balancing the model's complexity and its ability to generalize",
+                "C": "Balancing labeled and unlabeled data",
+                "D": "Balancing accuracy and precision"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which technique is used to convert categorical variables into a numerical format that machine learning algorithms can process?",
+            "options": {
+                "A": "Dimensionality reduction",
+                "B": "One-Hot Encoding",
+                "C": "Regularization",
+                "D": "Normalization"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which ensemble method combines the predictions of multiple models using a weighted average approach?",
+            "options": {
+                "A": "Bagging",
+                "B": "Boosting",
+                "C": "Stacking",
+                "D": "Random Forest"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of cross-validation in machine learning?",
+            "options": {
+                "A": "To train the model on all available data",
+                "B": "To test the model on multiple datasets",
+                "C": "To evaluate the model's performance on unseen data",
+                "D": "To speed up the training process"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following algorithms is a decision tree-based ensemble technique?",
+            "options": {
+                "A": "K-Means",
+                "B": "DBSCAN",
+                "C": "AdaBoost",
+                "D": "K-Nearest Neighbors (KNN)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary drawback of using the k-nearest neighbors (KNN) algorithm?",
+            "options": {
+                "A": "It requires a lot of memory",
+                "B": "It is only suitable for binary classification",
+                "C": "It is sensitive to outliers and noise",
+                "D": "It cannot handle missing values"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In machine learning, what does the term 'bias' refer to?",
+            "options": {
+                "A": "The error introduced by the model's inability to capture underlying patterns",
+                "B": "The difference between the predicted and actual values",
+                "C": "The tendency of a model to perform well on the training data but poorly on new data",
+                "D": "The variance in the data distribution"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which algorithm is commonly used for natural language processing tasks such as text generation and language translation?",
+            "options": {
+                "A": "Random Forest",
+                "B": "Convolutional Neural Network (CNN)",
+                "C": "Recurrent Neural Network (RNN)",
+                "D": "Gradient Boosting Machine (GBM)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of the Adam optimization algorithm commonly used in training neural networks?",
+            "options": {
+                "A": "To minimize the number of iterations needed for convergence",
+                "B": "To prevent overfitting",
+                "C": "To handle missing data",
+                "D": "To speed up the training process"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is NOT a dimensionality reduction technique?",
+            "options": {
+                "A": "Principal Component Analysis (PCA)",
+                "B": "t-SNE",
+                "C": "K-Means",
+                "D": "Linear Discriminant Analysis (LDA)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of machine learning algorithm aims to map inputs to outputs based on example input-output pairs?",
+            "options": {
+                "A": "Unsupervised learning",
+                "B": "Supervised learning",
+                "C": "Reinforcement learning",
+                "D": "Semi-supervised learning"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of neural networks, what does 'backpropagation' refer to?",
+            "options": {
+                "A": "The process of training a model using reinforcement learning",
+                "B": "The process of propagating data backward through the network during inference",
+                "C": "The process of updating weights and biases based on prediction errors",
+                "D": "The process of selecting features for model training"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which evaluation metric is appropriate for regression problems and measures the average squared difference between predicted and actual values?",
+            "options": {
+                "A": "Precision",
+                "B": "F1-score",
+                "C": "Mean Absolute Error (MAE)",
+                "D": "Mean Squared Error (MSE)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the term 'overfitting' mean in the context of machine learning?",
+            "options": {
+                "A": "The model's inability to capture underlying patterns in the data",
+                "B": "The model performing well on unseen data",
+                "C": "The model being too simple to capture the data's complexity",
+                "D": "The model performing well on the training data but poorly on new data"
+            },
+            "correct_answer": "D"
+        }
+    ]
+}

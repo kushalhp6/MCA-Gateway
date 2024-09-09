@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>submitted details</title>
+</head>
+<body>
 <?php
 // Start session and check if user is logged in
 session_start();
@@ -19,6 +28,8 @@ $examMapping = [
     'os_set_1' => 'os_set_1.json',
     'network_set_1' => 'network_set_1.json',
     'dbms_set_1' => 'dbms_set_1.json',
+    'se_set_1' => 'se_set_1.json',
+    'ml_set_1' => 'ml_set_1.json',
 
 
     // Add more mappings as needed
@@ -65,8 +76,8 @@ if (file_exists($fullPath)) {
     $initialMarks = ($correct / count($questions)) * $totalMarks;
 
     // Apply penalty for incorrect attempts
-    $penalty = $incorrect * 0.25;
-    $marks = $initialMarks - $penalty;
+    // $penalty = $incorrect * 0.25;
+    $marks = $initialMarks;
 
     // Define the status variable
     $status = 'submitted';
@@ -89,7 +100,7 @@ if (file_exists($fullPath)) {
     // session_unset();
     // session_destroy();
 
-    // Display results
+// Display results
     echo "<div class='max-w-4xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md'>";
     echo "<h2 class='text-3xl font-semibold mb-4 text-gray-800'>Exam Results</h2>";
     echo "<p class='text-lg text-gray-700 mb-2'><strong>Marks:</strong> $marks</p>";
@@ -104,3 +115,6 @@ if (file_exists($fullPath)) {
     echo "Error: Exam file not found.";
 }
 ?>
+</body>
+</html>
+    
