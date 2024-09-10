@@ -1,0 +1,211 @@
+{
+    "exam_name": "C Programming Set 10",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = x++;<br>    printf(\"%d\", x + y);<br>}</pre>",
+            "options": {
+                "A": "9",
+                "B": "11",
+                "C": "10",
+                "D": "6"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the value of x after the following code?<br><br><pre>int x = 5;<br>x += x++ + ++x;</pre>",
+            "options": {
+                "A": "5",
+                "B": "6",
+                "C": "9",
+                "D": "15",
+                "E": "Undefined behavior"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    x = x - (x--);<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "-1"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    char str[] = \"Hello, World!\";<br>    printf(\"%d\", sizeof(str) - 1);<br>}</pre>",
+            "options": {
+                "A": "11",
+                "B": "12",
+                "C": "13",
+                "D": "14"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the value of x after executing the following code?<br><br><pre>int x = 5;<br>x = x - (x++);</pre>",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5",
+                "F": "6",
+                "G": "Undefined behavior"
+            },
+            "correct_answer": "G"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 7;<br>    printf(\"%d\", x >> 1);<br>}</pre>",
+            "options": {
+                "A": "7",
+                "B": "3",
+                "C": "1",
+                "D": "0"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 7;<br>    printf(\"%d\", (x & y) << 2);<br>}</pre>",
+            "options": {
+                "A": "4",
+                "B": "5",
+                "C": "0",
+                "D": "28"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 3;<br>    int y = 5;<br>    printf(\"%d\", x ^ y);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "2",
+                "C": "3",
+                "D": "5"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 10;<br>    int y = 20;<br>    int *p = &x;<br>    x = *p + y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "10",
+                "B": "20",
+                "C": "30",
+                "D": "40"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 10;<br>    int y = 20;<br>    int *p = &y;<br>    *p = x + y;<br>    printf(\"%d\", y);<br>}</pre>",
+            "options": {
+                "A": "10",
+                "B": "20",
+                "C": "30",
+                "D": "40"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 10;<br>    int y = 5;<br>    x /= y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "5",
+                "D": "10"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 10;<br>    int y = 20;<br>    int z = x > y ? x : y;<br>    printf(\"%d\", z);<br>}</pre>",
+            "options": {
+                "A": "10",
+                "B": "20",
+                "C": "0",
+                "D": "Compiler Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 0;<br>    while (x++ < 5) {<br>        printf(\"%d \", x);<br>    }<br>}</pre>",
+            "options": {
+                "A": "0 1 2 3 4 5",
+                "B": "1 2 3 4 5",
+                "C": "0 1 2 3 4",
+                "D": "1 2 3 4"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x *= (y + 2);<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "21",
+                "B": "15",
+                "C": "10",
+                "D": "35"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 10;<br>    int y = 5;<br>    x = x++ - --y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "6",
+                "B": "7",
+                "C": "10",
+                "D": "5"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x += (y--) + (++y);<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "10",
+                "B": "11",
+                "C": "8",
+                "D": "7"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    int z = x > y ? x++ : y++;<br>    printf(\"%d, %d, %d\", x, y, z);<br>}</pre>",
+            "options": {
+                "A": "6, 3, 5",
+                "B": "6, 4, 5",
+                "C": "5, 4, 5",
+                "D": "5, 3, 5"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x = x > y ? x++ : y++;<br>    printf(\"%d, %d\", x, y);<br>}</pre>",
+            "options": {
+                "A": "5, 3",
+                "B": "6, 3",
+                "C": "5, 4",
+                "D": "6, 4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 10;<br>    int y = 5;<br>    x = x * y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "15",
+                "B": "10",
+                "C": "50",
+                "D": "100"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 3;<br>    int y = 7;<br>    x &= y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "3",
+                "C": "7",
+                "D": "10"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

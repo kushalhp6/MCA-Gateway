@@ -1,218 +1,207 @@
 {
-    "exam_name": "C Programming Set 5",
-    "total_marks": 21,
-    "time_limit": 21,
-    "questions": [
+  "exam_name": "C Programming Set 5",
+  "total_marks": 20,
+  "time_limit": 20,
+  "questions": [
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int i, j;<br> int arr[5][5];<br><br> for (i = 0; i < 5; i++) {<br> for (j = 0; j < 5; j++) {<br> arr[i][j] = i * j;<br> }<br> }<br><br> printf(\"%d\", arr[3][2]);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "2",
-          "B": "6",
-          "C": "9",
-          "D": "12"
-        },
-        "correct_answer": "B"
+          "question": "What is the output of the following code snippet?<br><br><pre>int main() {<br> int i, j;<br> int arr[5][5];<br><br> for (i = 0; i < 5; i++) {<br> for (j = 0; j < 5; j++) {<br> arr[i][j] = i * j;<br> }<br> }<br><br> printf(\"%d\", arr[3][2]);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "2",
+              "B": "6",
+              "C": "9",
+              "D": "12"
+          },
+          "correct_answer": "B"
       },
       {
-        "question": "What will be the value of x after executing the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 10;<br> int *ptr = &x;<br><br> *ptr = *ptr + 5;<br><br> printf(\"%d\", x);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "10",
-          "B": "15",
-          "C": "5",
-          "D": "Compiler error"
-        },
-        "correct_answer": "B"
+          "question": "What will be the value of x after executing the following code snippet?<br><br><pre>int main() {<br> int x = 10;<br> int *ptr = &x;<br><br> *ptr = *ptr + 5;<br><br> printf(\"%d\", x);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "10",
+              "B": "15",
+              "C": "5",
+              "D": "Compiler error"
+          },
+          "correct_answer": "B"
       },
       {
-        "question": "Consider the following code snippet:<br><br><code>#include <stdio.h><br> int main() {<br> char *str = \"Hello, World!\";<br> char ch = str[7];<br><br> printf(\"%c\", ch);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "W",
-          "B": "l",
-          "C": ",",
-          "D": "o"
-        },
-        "correct_answer": "A"
+          "question": "Consider the following code snippet:<br><br><pre>int main() {<br> char *str = \"Hello, World!\";<br> char ch = str[7];<br><br> printf(\"%c\", ch);<br><br> return 0;<br>}</pre> <br> What will be the output of this program?",
+          "options": {
+              "A": "W",
+              "B": "l",
+              "C": ",",
+              "D": "o"
+          },
+          "correct_answer": "A"
       },
       {
-        "question": "What will be the output of this program?",
-        "options": {
-          "A": "W",
-          "B": "l",
-          "C": ",",
-          "D": "o"
-        },
-        "correct_answer": "A"
+          "question": "What is the output of the following code snippet?<br><br><pre>int main() {<br> int a = 10, b = 5;<br> int *p = &a, *q = &b;<br><br> *p = *p + *q;<br> *q = *p - *q;<br><br> printf(\"%d, %d\", a, b);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "5, 10",
+              "B": "10, 5",
+              "C": "15, 5",
+              "D": "10, 15"
+          },
+          "correct_answer": "C"
       },
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int a = 10, b = 5;<br> int *p = &a, *q = &b;<br><br> *p = *p + *q;<br> *q = *p - *q;<br><br> printf(\"%d, %d\", a, b);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "5, 10",
-          "B": "10, 5",
-          "C": "15, 5",
-          "D": "10, 15"
-        },
-        "correct_answer": "C"
+          "question": "What is the output of the following code snippet?<br><br><pre>int main() {<br> int x = 10;<br> int *ptr1 = &x;<br> int *ptr2 = ptr1;<br><br> (*ptr1)++;<br><br> printf(\"%d\", *ptr2);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "10",
+              "B": "11",
+              "C": "Compiler error",
+              "D": "Undefined behavior"
+          },
+          "correct_answer": "B"
       },
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 10;<br> int *ptr1 = &x;<br> int *ptr2 = ptr1;<br><br> (*ptr1)++;<br><br> printf(\"%d\", *ptr2);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "10",
-          "B": "11",
-          "C": "Compiler error",
-          "D": "Undefined behavior"
-        },
-        "correct_answer": "B"
+          "question": "What does the following code snippet do?<br><br><pre>int main() {<br> int x = 5;<br> int *p = &x;<br><br> printf(\"%p\", (void*)p);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "Prints the address of x in hexadecimal format",
+              "B": "Prints the value of x",
+              "C": "Prints the size of the pointer",
+              "D": "Results in a compilation error"
+          },
+          "correct_answer": "A"
       },
       {
-        "question": "What does the following code snippet do?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 5;<br> int *p = &x;<br><br> printf(\"%p\", (void*)p);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "Prints the address of x in hexadecimal format",
-          "B": "Prints the value of x",
-          "C": "Prints the size of the pointer",
-          "D": "Results in a compilation error"
-        },
-        "correct_answer": "A"
+          "question": "What will be the value of result after executing the following code snippet?<br><br><pre>int main() {<br> int x = 10, y = 5;<br> int *px = &x, *py = &y;<br> int result = (*px)++ + (*py)++;<br><br> printf(\"%d\", result);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "15",
+              "B": "16",
+              "C": "14",
+              "D": "10"
+          },
+          "correct_answer": "C"
       },
       {
-        "question": "What will be the value of result after executing the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 10, y = 5;<br> int *px = &x, *py = &y;<br> int result = (*px)++ + (*py)++;<br><br> printf(\"%d\", result);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "15",
-          "B": "16",
-          "C": "14",
-          "D": "10"
-        },
-        "correct_answer": "C"
+          "question": "What is the output of the following code snippet?<br><br><pre>int main() {<br> int a = 10, b = 15;<br> int *ptr = &a;<br><br> (*ptr)++;<br><br> ptr = &b;<br> (*ptr)--;<br><br> printf(\"%d, %d\", a, b);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "10, 14",
+              "B": "11, 14",
+              "C": "11, 15",
+              "D": "10, 15"
+          },
+          "correct_answer": "B"
       },
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int a = 10, b = 15;<br> int *ptr = &a;<br><br> (*ptr)++;<br><br> ptr = &b;<br> (*ptr)--;<br><br> printf(\"%d, %d\", a, b);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "10, 14",
-          "B": "11, 14",
-          "C": "11, 15",
-          "D": "10, 15"
-        },
-        "correct_answer": "B"
+          "question": "What is the output of the following code snippet?<br><br><pre>int main() {<br> char str[] = \"C Programming\";<br> int len = sizeof(str) / sizeof(str[0]);<br><br> printf(\"%d\", len);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "13",
+              "B": "14",
+              "C": "12",
+              "D": "Compiler error"
+          },
+          "correct_answer": "B"
       },
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> char str[] = \"C Programming\";<br> int len = sizeof(str) / sizeof(str[0]);<br><br> printf(\"%d\", len);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "13",
-          "B": "14",
-          "C": "12",
-          "D": "Compiler error"
-        },
-        "correct_answer": "B"
+          "question": "Consider the following code snippet:<br><br><pre>int main() {<br> int x = 5;<br> int *p = &x;<br><br> printf(\"%p\", p + 1);<br><br> return 0;<br>}</pre><br>What will be printed when the above program is executed?",
+          "options": {
+              "A": "The address of `x` incremented by 1",
+              "B": "The value of `x`",
+              "C": "A memory error",
+              "D": "A random memory address"
+          },
+          "correct_answer": "B"
       },
       {
-        "question": "Consider the following code snippet:<br><br><code>#include <stdio.h><br> int main() {<br> int x = 5;<br> int *p = &x;<br><br> printf(\"%p\", p + 1);<br><br> return 0;<br>}</code><br>What will be printed when the above program is executed?",
-        "options": {
-          "A": "The address of `x` incremented by 1",
-          "B": "The value of `x`",
-          "C": "A memory error",
-          "D": "A random memory address"
-        },
-        "correct_answer": "B"
+          "question": "What is the output of the following code snippet?<br><br><pre>#define SQUARE(x) (x * x)<br><br>int main() {<br> int result = SQUARE(3 + 2);<br><br> printf(\"%d\", result);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "25",
+              "B": "13",
+              "C": "6",
+              "D": "Compiler error"
+          },
+          "correct_answer": "A"
       },
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> #define SQUARE(x) (x * x)<br><br> int main() {<br> int result = SQUARE(3 + 2);<br><br> printf(\"%d\", result);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "25",
-          "B": "13",
-          "C": "6",
-          "D": "Compiler error"
-        },
-        "correct_answer": "A"
+          "question": "What will be the value of x after executing the following code snippet?<br><br><pre>int main() {<br> int x = 10;<br> int *ptr = &x;<br><br> (*ptr)++;<br> (*ptr)--;<br><br> printf(\"%d\", x);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "10",
+              "B": "11",
+              "C": "9",
+              "D": "Compiler error"
+          },
+          "correct_answer": "A"
       },
       {
-        "question": "What will be the value of x after executing the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> int x = 10;<br> int *ptr = &x;<br><br> (*ptr)++;<br> (*ptr)--;<br><br> printf(\"%d\", x);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "10",
-          "B": "11",
-          "C": "9",
-          "D": "Compiler error"
-        },
-        "correct_answer": "A"
+          "question": "What is the purpose of the const keyword in C?",
+          "options": {
+              "A": "To declare a constant variable",
+              "B": "To declare a variable as global",
+              "C": "To include a header file",
+              "D": "To define a macro"
+          },
+          "correct_answer": "D"
       },
       {
-        "question": "What is the purpose of the const keyword in C?",
-        "options": {
-          "A": "To declare a constant variable",
-          "B": "To declare a variable as global",
-          "C": "To include a header file",
-          "D": "To define a macro"
-        },
-        "correct_answer": "D"
+          "question": "In C, which library function is used to write a string to a file?",
+          "options": {
+              "A": "fputc()",
+              "B": "putc()",
+              "C": "fwrite()",
+              "D": "fprintf()"
+          },
+          "correct_answer": "A"
       },
       {
-        "question": "In C, which library function is used to write a string to a file?",
-        "options": {
-          "A": "fputc()",
-          "B": "putc()",
-          "C": "fwrite()",
-          "D": "fprintf()"
-        },
-        "correct_answer": "A"
+          "question": "What is the output of the following code snippet?<br><br><pre>int main() {<br> char str1[] = \"Hello\";<br> char str2[] = \"World\";<br><br> strcat(str1, str2);<br><br> printf(\"%s\", str1);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "HelloWorld",
+              "B": "Hello World",
+              "C": "WorldHello",
+              "D": "Compiler error"
+          },
+          "correct_answer": "B"
       },
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> char str1[] = \"Hello\";<br> char str2[] = \"World\";<br><br> strcat(str1, str2);<br><br> printf(\"%s\", str1);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "HelloWorld",
-          "B": "Hello World",
-          "C": "WorldHello",
-          "D": "Compiler error"
-        },
-        "correct_answer": "B"
+          "question": "What is the purpose of the #ifdef preprocessor directive in C?",
+          "options": {
+              "A": "To define a constant",
+              "B": "To check if a macro is defined",
+              "C": "To include a header file",
+              "D": "To define a function"
+          },
+          "correct_answer": "A"
       },
       {
-        "question": "What is the purpose of the #ifdef preprocessor directive in C?",
-        "options": {
-          "A": "To define a constant",
-          "B": "To check if a macro is defined",
-          "C": "To include a header file",
-          "D": "To define a function"
-        },
-        "correct_answer": "A"
+          "question": "What is the output of the following code snippet?<br><br><pre>int main(int argc, char *argv[]) {<br> printf(\"%s\", argv[0]);<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "The program name",
+              "B": "The number of command-line arguments",
+              "C": "The first command-line argument",
+              "D": "A segmentation fault"
+          },
+          "correct_answer": "B"
       },
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main(int argc, char *argv[]) {<br> printf(\"%s\", argv[0]);<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "The program name",
-          "B": "The number of command-line arguments",
-          "C": "The first command-line argument",
-          "D": "A segmentation fault"
-        },
-        "correct_answer": "B"
+          "question": "Consider the following code snippet:<br><br><pre>struct Point {<br> int x;<br> int y;<br> };<br><br> int main() {<br> struct Point p1 = {2, 3};<br> struct Point p2 = {4, 5};<br><br> p1 = p2;<br><br> printf(\"%d, %d\", p1.x, p1.y);<br><br> return 0;<br>}</pre><br>What is the output of this program?",
+          "options": {
+              "A": "2, 3",
+              "B": "4, 5",
+              "C": "5, 4",
+              "D": "Compiler error"
+          },
+          "correct_answer": "A"
       },
       {
-        "question": "Consider the following code snippet:<br><br><code>#include <stdio.h><br> struct Point {<br> int x;<br> int y;<br> };<br><br> int main() {<br> struct Point p1 = {2, 3};<br> struct Point p2 = {4, 5};<br><br> p1 = p2;<br><br> printf(\"%d, %d\", p1.x, p1.y);<br><br> return 0;<br>}</code><br>What is the output of this program?",
-        "options": {
-          "A": "2, 3",
-          "B": "4, 5",
-          "C": "5, 4",
-          "D": "Compiler error"
-        },
-        "correct_answer": "A"
+          "question": "What is the output of the following code snippet?<br><br><pre>int main() {<br> FILE *fp = fopen(\"sample.txt\", \"r\");<br> if (fp != NULL) {<br> int ch;<br> while ((ch = fgetc(fp)) != EOF) {<br> putchar(ch);<br> }<br> fclose(fp);<br> }<br><br> return 0;<br>}</pre>",
+          "options": {
+              "A": "Prints the contents of \"sample.txt\"",
+              "B": "Compiler error",
+              "C": "Runtime error",
+              "D": "Creates a new file named \"sample.txt\""
+          },
+          "correct_answer": "A"
       },
       {
-        "question": "What is the output of the following code snippet?<br><br><code>#include <stdio.h><br> int main() {<br> FILE *fp = fopen(\"sample.txt\", \"r\");<br> if (fp != NULL) {<br> int ch;<br> while ((ch = fgetc(fp)) != EOF) {<br> putchar(ch);<br> }<br> fclose(fp);<br> }<br><br> return 0;<br>}</code>",
-        "options": {
-          "A": "Prints the contents of \"sample.txt\"",
-          "B": "Compiler error",
-          "C": "Runtime error",
-          "D": "Creates a new file named \"sample.txt\""
-        },
-        "correct_answer": "A"
-      },
-      {
-        "question": "In C, which preprocessor directive is used to define a macro?",
-        "options": {
-          "A": "#define",
-          "B": "#include",
-          "C": "#ifdef",
-          "D": "#pragma"
-        },
-        "correct_answer": "A"
+          "question": "In C, which preprocessor directive is used to define a macro?",
+          "options": {
+              "A": "#define",
+              "B": "#include",
+              "C": "#ifdef",
+              "D": "#pragma"
+          },
+          "correct_answer": "A"
       }
-    ]
-  }
-  
+  ]
+}

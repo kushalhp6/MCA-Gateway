@@ -1,0 +1,208 @@
+{
+    "exam_name": "C Programming Set 8",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    printf(\"%d\", x++ - x);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "1",
+                "C": "-1",
+                "D": "2"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the value of x after the following code?<br><br><pre>int x = 5;<br>x = x + (x--);</pre>",
+            "options": {
+                "A": "9",
+                "B": "10",
+                "C": "6",
+                "D": "5",
+                "E": "Undefined behavior"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 7;<br>    printf(\"%d\", x & (x - 1));<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "1",
+                "C": "6",
+                "D": "7"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 10;<br>    int y = 5;<br>    x = x & y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "5",
+                "C": "10",
+                "D": "15"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x += (y++) + (++x);<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "9",
+                "B": "11",
+                "C": "8",
+                "D": "10"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 2;<br>    int y = 3;<br>    x = (x + 1) * (y--);<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "5",
+                "B": "6",
+                "C": "9",
+                "D": "10"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 7;<br>    int y = 2;<br>    int z = x && y;<br>    printf(\"%d\", z);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "7"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 10;<br>    int y = 5;<br>    x = x / y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "5",
+                "D": "10"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    int z = x >> y;<br>    printf(\"%d\", z);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "5"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x = x << y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "8",
+                "B": "12",
+                "C": "15",
+                "D": "40"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x ^= x & y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "2",
+                "C": "3",
+                "D": "5"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 3;<br>    int y = 7;<br>    x = x | y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "3",
+                "B": "7",
+                "C": "10",
+                "D": "4"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x = x - y * x;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "15",
+                "B": "10",
+                "C": "0",
+                "D": "5"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 7;<br>    int y = 2;<br>    x |= y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "7",
+                "B": "2",
+                "C": "0",
+                "D": "9"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x ^= x | y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "2",
+                "C": "3",
+                "D": "5"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 7;<br>    int y = 2;<br>    x &= y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "2",
+                "C": "7",
+                "D": "10"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x = x | (x & y);<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "3",
+                "B": "5",
+                "C": "7",
+                "D": "8"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 3;<br>    int y = 7;<br>    x &= y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "3",
+                "C": "7",
+                "D": "10"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 5;<br>    int y = 3;<br>    x = x << (y - 1);<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "8",
+                "B": "10",
+                "C": "12",
+                "D": "16"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><br><pre>void main() {<br>    int x = 7;<br>    int y = 2;<br>    x = (x | y) << 1;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "2",
+                "C": "3",
+                "D": "6"
+            },
+            "correct_answer": "D"
+        }
+    ]
+}

@@ -30,6 +30,11 @@
                     <li><a href="/support/tech-support.php" class="hover:text-white transition duration-300">Technical Support</a></li>
                     <li><a href="/support/report-question.php" class="hover:text-white transition duration-300">Report a Question</a></li>
                 </ul>
+                <h4 class="text-xl font-bold text-white mt-4 mb-4">Legal</h4>
+                <ul class="space-y-2">
+                <li><a href="/views/privacy_policy.php" class="hover:text-white transition duration-300">Privacy Policy</a></li>
+                <li><a href="/views/tandc.php" class="hover:text-white transition duration-300">T&C</a></li>
+                </ul>
             </div>
 
             <!-- Social Media Links -->

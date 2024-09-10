@@ -4,7 +4,7 @@
     "time_limit": 20,
     "questions": [
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\nint x = 5;\nx = x++ + ++x;\nprintf(\"%d\", x);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br>int x = 5;<br>x = x++ + ++x;<br>printf(\"%d\", x);<br>}</pre>",
             "options": {
                 "A": "5",
                 "B": "10",
@@ -14,7 +14,7 @@
             "correct_answer": "D"
         },
         {
-            "question": "What will be the output of the following C code?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\nprintf(\"Hello World! %d \\n\", x);\nreturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will be the output of the following C code?<br><br><pre>int main()<br>{<br>printf(\"Hello World! %d \\n\", x);<br>return 0;<br>}</pre>",
             "options": {
                 "a": "Hello World! x;",
                 "b": "Hello World! followed by a junk value",
@@ -24,7 +24,7 @@
             "correct_answer": "c"
         },
         {
-            "question": "What will be the output of the following C code?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\nint y = 10000;\nint y = 34;\nprintf(\"Hello World! %d\\n\", y);\nreturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will be the output of the following C code?<br><br><pre>int main()<br>{<br>int y = 10000;<br>int y = 34;<br>printf(\"Hello World! %d\\n\", y);<br>return 0;<br>}</pre>",
             "options": {
                 "a": "Compile time error",
                 "b": "Hello World! 34",
@@ -34,7 +34,7 @@
             "correct_answer": "a"
         },
         {
-            "question": "What will happen if the following C code is executed?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\nint main = 3;\nprintf(\"%d\", main);\nreturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will happen if the following C code is executed?<br><br><pre>int main()<br>{<br>int main = 3;<br>printf(\"%d\", main);<br>return 0;<br>}</pre>",
             "options": {
                 "a": "It will cause a compile-time error",
                 "b": "It will cause a run-time error",
@@ -44,7 +44,7 @@
             "correct_answer": "c"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n int i = 5;\nprintf(\"%d\", i++ + i-- - ++i);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> int i = 5;<br>printf(\"%d\", i++ + i-- - ++i);<br>}</pre>",
             "options": {
                 "A": "5",
                 "B": "6",
@@ -54,7 +54,7 @@
             "correct_answer": "C"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n int x = 4, y = 2;\nx &lt;&lt;= y;\nprintf(\"%d\", x);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> int x = 4, y = 2;<br>x <<= y;<br>printf(\"%d\", x);<br>}</pre>",
             "options": {
                 "A": "2",
                 "B": "4",
@@ -64,7 +64,7 @@
             "correct_answer": "D"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n int x = 5, y = 3;\nprintf(\"%d\", x & y);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> int x = 5, y = 3;<br>printf(\"%d\", x & y);<br>}</pre>",
             "options": {
                 "A": "0",
                 "B": "1",
@@ -74,7 +74,7 @@
             "correct_answer": "B"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n int x = 5, y = 3;\nprintf(\"%d\", x | y);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> int x = 5, y = 3;<br>printf(\"%d\", x | y);<br>}</pre>",
             "options": {
                 "A": "0",
                 "B": "1",
@@ -84,7 +84,7 @@
             "correct_answer": "D"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n int x = 5, y = 3;\nprintf(\"%d\", x ^ y);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> int x = 5, y = 3;<br>printf(\"%d\", x ^ y);<br>}</pre>",
             "options": {
                 "A": "0",
                 "B": "1",
@@ -94,7 +94,7 @@
             "correct_answer": "D"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n int x = 5;\nprintf(\"%d\", ~x);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> int x = 5;<br>printf(\"%d\", ~x);<br>}</pre>",
             "options": {
                 "A": "-5",
                 "B": "-6",
@@ -104,7 +104,7 @@
             "correct_answer": "B"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n int arr[] = {1, 2, 3};\nprintf(\"%d\", arr[5]);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> int arr[] = {1, 2, 3};<br>printf(\"%d\", arr[5]);<br>}</pre>",
             "options": {
                 "A": "1",
                 "B": "2",
@@ -114,7 +114,7 @@
             "correct_answer": "D"
         },
         {
-            "question": "What will be the output of the following C code?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\nint a[5] = {1, 2, 3, 4, 5};\nint i;\nfor (i = 0; i &lt; 5; i++)\n  if ((char)a[i] == '5')\n    printf(\"%d\\n\", a[i]);\n  else\n    printf(\"FAIL\\n\");\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will be the output of the following C code?<br><br><pre>int main()<br>{<br>int a[5] = {1, 2, 3, 4, 5};<br>int i;<br>for (i = 0; i < 5; i++)<br>  if ((char)a[i] == '5')<br>    printf(\"%d\\n\", a[i]);<br>  else<br>    printf(\"FAIL\\n\");<br>}</pre>",
             "options": {
                 "a": "The compiler will flag an error",
                 "b": "The program will compile and print the output 5",
@@ -124,7 +124,7 @@
             "correct_answer": "d"
         },
         {
-            "question": "What will be the output of the following C code?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\nsigned char chr;\nchr = 128;\nprintf(\"%d\\n\", chr);\nreturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will be the output of the following C code?<br><br><pre>int main()<br>{<br>signed char chr;<br>chr = 128;<br>printf(\"%d\\n\", chr);<br>return 0;<br>}</pre>",
             "options": {
                 "a": "128",
                 "b": "-128",
@@ -134,7 +134,7 @@
             "correct_answer": "b"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n char str[] = \"Hello\";\nprintf(\"%c\", str[5]);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> char str[] = \"Hello\";<br>printf(\"%c\", str[5]);<br>}</pre>",
             "options": {
                 "A": "H",
                 "B": "e",
@@ -144,7 +144,7 @@
             "correct_answer": "D"
         },
         {
-            "question": "What will be the output of the following C code?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\nchar c;\nint i = 0;\nFILE *file;\nfile = fopen(\"test.txt\", \"w+\");\nfprintf(file, \"%c\", 'a');\nfprintf(file, \"%c\", -1);\nfprintf(file, \"%c\", 'b');\nfclose(file);\nfile = fopen(\"test.txt\", \"r\");\nwhile ((c = fgetc(file)) != -1)\nprintf(\"%c\", c);\nreturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will be the output of the following C code?<br><br><pre>int main()<br>{<br>char c;<br>int i = 0;<br>FILE *file;<br>file = fopen(\"test.txt\", \"w+\");<br>fprintf(file, \"%c\", 'a');<br>fprintf(file, \"%c\", -1);<br>fprintf(file, \"%c\", 'b');<br>fclose(file);<br>file = fopen(\"test.txt\", \"r\");<br>while ((c = fgetc(file)) != -1)<br>\tprintf(\"%c\", c);<br>return 0;<br>}</pre>",
             "options": {
                 "a": "a",
                 "b": "Infinite loop",
@@ -154,7 +154,7 @@
             "correct_answer": "b"
         },
         {
-            "question": "What will be the output of the following C code?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\nfloat f1 = 0.1;\nif (f1 == 0.1)\nprintf(\"equal\\n\");\nelse\nprintf(\"not equal\\n\");\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will be the output of the following C code?<br><br><pre>int main()<br>{<br>float f1 = 0.1;<br>if (f1 == 0.1)<br>\tprintf(\"equal\\n\");<br>else<br>\tprintf(\"not equal\\n\");<br>}</pre>",
             "options": {
                 "a": "equal",
                 "b": "not equal",
@@ -164,7 +164,7 @@
             "correct_answer": "b"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n char str[] = \"Hello\";\nprintf(\"%s\", str + 2);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> char str[] = \"Hello\";<br>printf(\"%s\", str + 2);<br>}</pre>",
             "options": {
                 "A": "Hello",
                 "B": "llo",
@@ -174,7 +174,7 @@
             "correct_answer": "C"
         },
         {
-            "question": "What will be the output of the following C code on a 32-bit machine?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nint main()\n{\nint x = 10000;\ndouble y = 56;\nint *p = &x;\ndouble *q = &y;\nprintf(\"p and q are %d and %d\", sizeof(p), sizeof(q));\nreturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will be the output of the following C code on a 32-bit machine?<br><br><pre>int main()<br>{<br>int x = 10000;<br>double y = 56;<br>int *p = &x;<br>double *q = &y;<br>printf(\"p and q are %d and %d\", sizeof(p), sizeof(q));<br>return 0;<br>}</pre>",
             "options": {
                 "a": "p and q are 4 and 4",
                 "b": "p and q are 4 and 8",
@@ -184,7 +184,7 @@
             "correct_answer": "b"
         },
         {
-            "question": "What is the output of the following program?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nvoid main() {\n char *ptr = \"Hello\";\nprintf(\"%s\", ptr++);\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What is the output of the following program?<br><br><pre>void main() {<br> char *ptr = \"Hello\";<br>printf(\"%s\", ptr++);<br>}</pre>",
             "options": {
                 "A": "Hello",
                 "B": "ello",
@@ -194,7 +194,7 @@
             "correct_answer": "B"
         },
         {
-            "question": "What will be the output of the following C code on a 64-bit machine?<br><br><code>&lt;pre&gt;&lt;code&gt;\n#include &lt;stdio.h&gt;\nunion Sti\n{\nint nu;\nchar m;\n};\nint main()\n{\nunion Sti s;\nprintf(\"%d\", sizeof(s));\nreturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;</code>",
+            "question": "What will be the output of the following C code on a 64-bit machine?<br><br><pre>union Sti<br>{<br>int nu;<br>char m;<br>};<br>int main()<br>{<br>union Sti s;<br>printf(\"%d\", sizeof(s));<br>return 0;<br>}</pre>",
             "options": {
                 "a": "8",
                 "b": "5",
