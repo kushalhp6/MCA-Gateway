@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 10",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which command is used to display the current working directory in Unix?",
+            "options": {
+                "A": "ls",
+                "B": "pwd",
+                "C": "cd",
+                "D": "dir"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To find files in Unix based on their permissions, which command should you use?",
+            "options": {
+                "A": "find",
+                "B": "locate",
+                "C": "search",
+                "D": "list"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the 'mv' command do in Unix?",
+            "options": {
+                "A": "Move files and directories",
+                "B": "Make a new directory",
+                "C": "Copy files",
+                "D": "Display the contents of a file"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to copy files or directories in Unix?",
+            "options": {
+                "A": "cp",
+                "B": "mv",
+                "C": "rm",
+                "D": "cat"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the 'touch' command do in Unix?",
+            "options": {
+                "A": "Display the current time",
+                "B": "Create a new file",
+                "C": "Remove a file",
+                "D": "Move a file"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to view the contents of a text file in Unix?",
+            "options": {
+                "A": "read",
+                "B": "open",
+                "C": "cat",
+                "D": "view"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to check the system time in Unix?",
+            "options": {
+                "A": "clock",
+                "B": "date",
+                "C": "time",
+                "D": "checktime"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the 'cal' command display in Unix?",
+            "options": {
+                "A": "Calculator",
+                "B": "Calendar",
+                "C": "Clock",
+                "D": "Calculator and Calendar"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To perform arbitrary precision arithmetic in Unix, which command can be used?",
+            "options": {
+                "A": "calc",
+                "B": "add",
+                "C": "bc",
+                "D": "math"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to sort the lines of a text file in Unix?",
+            "options": {
+                "A": "order",
+                "B": "sort",
+                "C": "arrange",
+                "D": "organize"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To find the differences between two text files in Unix, which command is used?",
+            "options": {
+                "A": "compare",
+                "B": "diff",
+                "C": "match",
+                "D": "sync"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the 'wc' command do in Unix?",
+            "options": {
+                "A": "Word count",
+                "B": "Write to a file",
+                "C": "Calculate",
+                "D": "Wait for completion"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to display the differences between two text files in a side-by-side format in Unix?",
+            "options": {
+                "A": "diff",
+                "B": "sdiff",
+                "C": "cmp",
+                "D": "merge"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the 'du' command in Unix stand for?",
+            "options": {
+                "A": "Disk Usage",
+                "B": "Display Utilities",
+                "C": "Directory Update",
+                "D": "Disk Unavailable"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to terminate a process in Unix?",
+            "options": {
+                "A": "quit",
+                "B": "end",
+                "C": "kill",
+                "D": "stop"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "To add a specified amount of time delay in Unix, which command can be used?",
+            "options": {
+                "A": "delay",
+                "B": "stop",
+                "C": "sleep",
+                "D": "halt"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the 'chmod' command in Unix do?",
+            "options": {
+                "A": "Change the file's content",
+                "B": "Change file ownership",
+                "C": "Change file permissions",
+                "D": "Change file location"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "To change the owner of a file in Unix, which command is used?",
+            "options": {
+                "A": "own",
+                "B": "chuser",
+                "C": "chown",
+                "D": "changeowner"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to change the group ownership of a file in Unix?",
+            "options": {
+                "A": "chgrp",
+                "B": "changegroup",
+                "C": "setgrp",
+                "D": "changeown"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What command is used to view the list of currently running processes in Unix?",
+            "options": {
+                "A": "status",
+                "B": "tasks",
+                "C": "ps",
+                "D": "runnings"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

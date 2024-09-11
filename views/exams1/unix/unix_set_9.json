@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 9",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which Unix command is used to change the current working directory to the home directory of the logged-in user?",
+            "options": {
+                "A": "cd ~",
+                "B": "cd /",
+                "C": "cd ..",
+                "D": "cd -"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the 'find' command do in Unix?",
+            "options": {
+                "A": "Find text in files",
+                "B": "Search for files and directories",
+                "C": "Find and display file contents",
+                "D": "Find system information"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which option with the 'ls' command is used to list files in a long format, including detailed information about each file and directory?",
+            "options": {
+                "A": "-l",
+                "B": "-d",
+                "C": "-a",
+                "D": "-r"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the 'tar' command in Unix stand for?",
+            "options": {
+                "A": "Text Archive",
+                "B": "Tape Archive",
+                "C": "Temporary Archive",
+                "D": "Terminal Archive"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To display the first 10 lines of a text file in Unix, which command is used?",
+            "options": {
+                "A": "cut",
+                "B": "head",
+                "C": "tail",
+                "D": "first"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to change the group associated with a file or directory in Unix?",
+            "options": {
+                "A": "chgrp",
+                "B": "chgroup",
+                "C": "setgroup",
+                "D": "changeown"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Unix, which command is used to find files by their modification time?",
+            "options": {
+                "A": "find -mtime",
+                "B": "locate",
+                "C": "grep",
+                "D": "list"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to list all environment variables in Unix?",
+            "options": {
+                "A": "env",
+                "B": "showenv",
+                "C": "displayenv",
+                "D": "listenv"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the 'PATH' environment variable in Unix specify?",
+            "options": {
+                "A": "The current working directory",
+                "B": "The user's home directory",
+                "C": "The search path for executable files",
+                "D": "The location of system files"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What command is used to display the manual page for a specific Unix command?",
+            "options": {
+                "A": "help",
+                "B": "man",
+                "C": "info",
+                "D": "guide"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to change the permission of a file in symbolic mode in Unix?",
+            "options": {
+                "A": "chmode",
+                "B": "chmod",
+                "C": "permmode",
+                "D": "modperm"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix, which command is used to display the current date and time in a specific format?",
+            "options": {
+                "A": "date",
+                "B": "time",
+                "C": "clock",
+                "D": "datetime"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "To display the last 10 lines of a text file in Unix, which command is used?",
+            "options": {
+                "A": "cut",
+                "B": "head",
+                "C": "tail",
+                "D": "last"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the 'grep' command do in Unix?",
+            "options": {
+                "A": "Display file contents",
+                "B": "Search for text patterns in files",
+                "C": "Remove files",
+                "D": "List directory contents"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix, which command is used to compress and decompress files using various algorithms?",
+            "options": {
+                "A": "zip",
+                "B": "tar",
+                "C": "gzip",
+                "D": "compress"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to search for text patterns in a file in Unix, with options for case-insensitive searches and line numbers?",
+            "options": {
+                "A": "search",
+                "B": "findtext",
+                "C": "grep",
+                "D": "textsearch"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the 'who' command in Unix display?",
+            "options": {
+                "A": "User information",
+                "B": "File ownership",
+                "C": "Currently logged-in users",
+                "D": "System processes"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to change the owner and group of a file or directory in Unix?",
+            "options": {
+                "A": "chuser",
+                "B": "chown",
+                "C": "changeowner",
+                "D": "setowner"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix, which command is used to view and control running processes, including system information and resource usage?",
+            "options": {
+                "A": "top",
+                "B": "ps",
+                "C": "process",
+                "D": "taskmgr"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to calculate arithmetic expressions and display the result in Unix?",
+            "options": {
+                "A": "calc",
+                "B": "bc",
+                "C": "math",
+                "D": "calculate"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

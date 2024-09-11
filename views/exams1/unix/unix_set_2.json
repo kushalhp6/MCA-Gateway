@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 2",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following is not a feature of UNIX?",
+            "options": {
+                "A": "multitasking",
+                "B": "multiuser",
+                "C": "portability",
+                "D": "easy to use"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following system call is used for creating a new process?",
+            "options": {
+                "A": "read",
+                "B": "fork",
+                "C": "wait",
+                "D": "new"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the command 'ls -l' do?",
+            "options": {
+                "A": "List all files in the current directory",
+                "B": "List files with detailed information",
+                "C": "List all files in long format",
+                "D": "List files recursively"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to navigate to the home directory?",
+            "options": {
+                "A": "cd /",
+                "B": "cd ~",
+                "C": "cd ..",
+                "D": "home"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To remove a directory in Unix/Linux, which command is used?",
+            "options": {
+                "A": "rmdir",
+                "B": "removedir",
+                "C": "rm -d",
+                "D": "rm -dir"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the command 'cp file1 file2' do?",
+            "options": {
+                "A": "Copies file1 to file2",
+                "B": "Renames file1 to file2",
+                "C": "Copies file2 to file1",
+                "D": "Moves file1 to file2"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to create a new empty file?",
+            "options": {
+                "A": "create",
+                "B": "touch",
+                "C": "newfile",
+                "D": "mkfile"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the command 'mv file1 /newdir/' do?",
+            "options": {
+                "A": "Moves file1 to /newdir/",
+                "B": "Copies file1 to /newdir/",
+                "C": "Renames file1 to /newdir/",
+                "D": "Moves /newdir/ to file1"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the -S option do in the ls command?",
+            "options": {
+                "A": "sorts according to modification time",
+                "B": "sorts according to last access time",
+                "C": "sorts according to file size",
+                "D": "sorts according to inode number"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the command 'man ls' do?",
+            "options": {
+                "A": "Lists all files in the directory",
+                "B": "Creates a new directory named 'ls'",
+                "C": "Opens the manual page for the 'ls' command",
+                "D": "Lists all commands available in the system"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "To list hidden files in a directory, which command is used?",
+            "options": {
+                "A": "ls -a",
+                "B": "ls -h",
+                "C": "ls -hidden",
+                "D": "ls -l"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the command 'mkdir newdir' do?",
+            "options": {
+                "A": "Creates a new directory named 'newdir'",
+                "B": "Moves to the 'newdir' directory",
+                "C": "Deletes the 'newdir' directory",
+                "D": "Renames the current directory to 'newdir'"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following attributes is not shown by ps command?",
+            "options": {
+                "A": "PID",
+                "B": "PPID",
+                "C": "tty",
+                "D": "size"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the command 'echo \"Hello, World!\"' do?",
+            "options": {
+                "A": "Prints \"Hello, World!\" to the screen",
+                "B": "Creates a new file named \"Hello, World!\"",
+                "C": "Searches for \"Hello, World!\" in files",
+                "D": "Copies \"Hello, World!\" to another location"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "The output of ls dir* is ___",
+            "options": {
+                "A": "all files in the current directory",
+                "B": "all files in the directory having a filename starting with dir",
+                "C": "no filename is displayed",
+                "D": "erroneous"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which part of the UNIX operating system interacts with the hardware?",
+            "options": {
+                "A": "Kernel",
+                "B": "Shell",
+                "C": "vi editor",
+                "D": "application program"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the command 'chmod +x script.sh' do?",
+            "options": {
+                "A": "Adds execute permission to 'script.sh'",
+                "B": "Removes execute permission from 'script.sh'",
+                "C": "Changes the ownership of 'script.sh'",
+                "D": "Renames 'script.sh' to '+x'"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to find files and directories based on their names?",
+            "options": {
+                "A": "locate",
+                "B": "search",
+                "C": "find",
+                "D": "grep"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the command 'pwd' stand for?",
+            "options": {
+                "A": "Print Working Directory",
+                "B": "Present Working Directory",
+                "C": "Print Working Data",
+                "D": "Present Working Data"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used for changing the current directory?",
+            "options": {
+                "A": "cd",
+                "B": "cp",
+                "C": "pwd",
+                "D": "rm"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

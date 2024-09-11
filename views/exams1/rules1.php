@@ -92,6 +92,15 @@ $examMapping = [
     'oops_set_8' => 'oops/oops_set_8.json',
     'oops_set_9' => 'oops/oops_set_9.json',
     'oops_set_10' => 'oops/oops_set_10.json',
+    'unix_set_2' => 'unix/unix_set_2.json',
+    'unix_set_3' => 'unix/unix_set_3.json',
+    'unix_set_4' => 'unix/unix_set_4.json',
+    'unix_set_5' => 'unix/unix_set_5.json',
+    'unix_set_6' => 'unix/unix_set_6.json',
+    'unix_set_7' => 'unix/unix_set_7.json',
+    'unix_set_8' => 'unix/unix_set_8.json',
+    'unix_set_9' => 'unix/unix_set_9.json',
+    'unix_set_10' => 'unix/unix_set_10.json',
 
 
     // Add more mappings as needed

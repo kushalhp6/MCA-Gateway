@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 8",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What does the 'strace' command in Unix do?",
+            "options": {
+                "A": "Display system time",
+                "B": "Trace system calls made by a process",
+                "C": "Display stack traces of running processes",
+                "D": "Monitor system performance"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To display the lines of a text file in reverse order in Unix, which command is used?",
+            "options": {
+                "A": "reverse",
+                "B": "tail -r",
+                "C": "tac",
+                "D": "rev"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Unix, what is the purpose of the 'quota' command?",
+            "options": {
+                "A": "Set file quotas for users",
+                "B": "Display disk usage for users",
+                "C": "Manage system resources",
+                "D": "List file attributes"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to display the contents of a binary file in hexadecimal format in Unix?",
+            "options": {
+                "A": "hexview",
+                "B": "xxd",
+                "C": "hexdump",
+                "D": "binview"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the 'renice' command in Unix do?",
+            "options": {
+                "A": "Rename a file",
+                "B": "Change the priority of a running process",
+                "C": "List the running processes",
+                "D": "Reorder file content"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To count the number of words in a text file in Unix, which command is used?",
+            "options": {
+                "A": "words",
+                "B": "wc -w",
+                "C": "count",
+                "D": "wordcount"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix, what does the 'watch' command do?",
+            "options": {
+                "A": "Record system logs",
+                "B": "Display real-time updates of a command's output",
+                "C": "Set a system timer",
+                "D": "Monitor system performance"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to display detailed information about the CPU, memory, and other system resources in Unix?",
+            "options": {
+                "A": "systeminfo",
+                "B": "top",
+                "C": "sysinfo",
+                "D": "resources"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix, which command is used to create a compressed archive with gzip format?",
+            "options": {
+                "A": "zip",
+                "B": "tar",
+                "C": "gzip",
+                "D": "compress"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the 'str' command in Unix stand for?",
+            "options": {
+                "A": "System Resources",
+                "B": "Search and Replace",
+                "C": "String Translate",
+                "D": "System Trace"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "To extract files from a tar archive in Unix, which command is used?",
+            "options": {
+                "A": "untar",
+                "B": "xtar",
+                "C": "unzip",
+                "D": "tar -x"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In Unix, what is the purpose of the 'df' command?",
+            "options": {
+                "A": "Display directory files",
+                "B": "Check disk fragmentation",
+                "C": "List all directory contents",
+                "D": "Show disk space usage"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which command is used to display the ASCII values of characters in a text file in Unix?",
+            "options": {
+                "A": "ascii",
+                "B": "charmap",
+                "C": "od",
+                "D": "hexchar"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the 'lsof' command do in Unix?",
+            "options": {
+                "A": "List open files and processes",
+                "B": "Show file locations",
+                "C": "List only directories",
+                "D": "List only hidden files"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Unix, which command is used to print the last few lines of a text file?",
+            "options": {
+                "A": "tail",
+                "B": "lastlines",
+                "C": "printtail",
+                "D": "endfile"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "To execute a command as another user in Unix, which command is used?",
+            "options": {
+                "A": "executeas",
+                "B": "sudo",
+                "C": "runas",
+                "D": "execute"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix, what is the purpose of the 'ulimit' command?",
+            "options": {
+                "A": "Display user limits",
+                "B": "Set resource limits for a shell session",
+                "C": "List system limits",
+                "D": "Remove user limits"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to create and extract archives in the .zip format in Unix?",
+            "options": {
+                "A": "zip",
+                "B": "tar",
+                "C": "unzip",
+                "D": "zcat"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the 'nm' command in Unix stand for?",
+            "options": {
+                "A": "Network Manager",
+                "B": "Name Mangler",
+                "C": "Numerical Monitor",
+                "D": "Name List"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In Unix, which command is used to search for files and directories by name and display their paths?",
+            "options": {
+                "A": "search",
+                "B": "find",
+                "C": "list",
+                "D": "locate"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

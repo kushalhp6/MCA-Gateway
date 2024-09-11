@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 5",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In Unix, which command is used to list the contents of a directory?",
+            "options": {
+                "A": "dir",
+                "B": "ls",
+                "C": "list",
+                "D": "cd"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What command is used to display the current date and time in Unix?",
+            "options": {
+                "A": "date",
+                "B": "time",
+                "C": "clock",
+                "D": "now"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Unix, which command is used to copy files and directories?",
+            "options": {
+                "A": "copy",
+                "B": "cpy",
+                "C": "mv",
+                "D": "cp"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What Unix command is used to create an empty file?",
+            "options": {
+                "A": "create",
+                "B": "make",
+                "C": "touch",
+                "D": "new"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which Unix command is used to display the contents of a text file?",
+            "options": {
+                "A": "cat",
+                "B": "cp",
+                "C": "mv",
+                "D": "touch"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Unix, what command is used to measure the time it takes to execute a command or script?",
+            "options": {
+                "A": "stopwatch",
+                "B": "timer",
+                "C": "time",
+                "D": "watch"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What command is used to display a calendar in Unix?",
+            "options": {
+                "A": "calendar",
+                "B": "date",
+                "C": "cal",
+                "D": "time"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Unix, which command is used for basic calculator operations?",
+            "options": {
+                "A": "calc",
+                "B": "math",
+                "C": "bc",
+                "D": "add"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which Unix command is used to sort lines of text files?",
+            "options": {
+                "A": "order",
+                "B": "sort",
+                "C": "arrange",
+                "D": "organize"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix, which command is used to find the differences between two files?",
+            "options": {
+                "A": "diff",
+                "B": "cmp",
+                "C": "compare",
+                "D": "diffcheck"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What Unix command is used to count the number of lines, words, and characters in a file?",
+            "options": {
+                "A": "count",
+                "B": "check",
+                "C": "wc",
+                "D": "tally"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Unix, which command is used to compare two sorted files line by line?",
+            "options": {
+                "A": "compare",
+                "B": "cmp",
+                "C": "comm",
+                "D": "diff"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which Unix command is used to display the inode information of files and directories?",
+            "options": {
+                "A": "id",
+                "B": "info",
+                "C": "inode",
+                "D": "in"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What command is used to display disk usage statistics for files and directories in Unix?",
+            "options": {
+                "A": "ds",
+                "B": "disk",
+                "C": "df",
+                "D": "du"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In Unix, which command is used to terminate a running process?",
+            "options": {
+                "A": "stop",
+                "B": "halt",
+                "C": "kill",
+                "D": "end"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which Unix command is used to pause the execution of a script or command for a specified amount of time?",
+            "options": {
+                "A": "sleep",
+                "B": "pause",
+                "C": "wait",
+                "D": "delay"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Unix, which command is used to change the permissions of a file or directory?",
+            "options": {
+                "A": "chperm",
+                "B": "change",
+                "C": "chmod",
+                "D": "perm"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What command is used to change the owner of a file or directory in Unix?",
+            "options": {
+                "A": "chown",
+                "B": "own",
+                "C": "changeowner",
+                "D": "owner"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which Unix command is used to change the group ownership of a file or directory?",
+            "options": {
+                "A": "grpown",
+                "B": "changegrp",
+                "C": "chgrp",
+                "D": "owngrp"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In shell scripting, what is the purpose of a wildcard character '*'?",
+            "options": {
+                "A": "It represents the current working directory",
+                "B": "It matches any single character",
+                "C": "It matches zero or more characters in a filename",
+                "D": "It represents a space character"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

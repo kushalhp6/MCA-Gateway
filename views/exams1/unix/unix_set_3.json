@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 3",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What does the command 'ls -R' do?",
+            "options": {
+                "A": "Lists files in reverse order",
+                "B": "Lists files recursively",
+                "C": "Lists files with detailed information",
+                "D": "Lists files in random order"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to display the environment variables in Unix/Linux?",
+            "options": {
+                "A": "showenv",
+                "B": "envvars",
+                "C": "env",
+                "D": "printenv"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "To append the output of a command to a file while creating the file if it doesn't exist, which symbol is used?",
+            "options": {
+                "A": "<<",
+                "B": ">>",
+                "C": ">",
+                "D": ">+"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the command 'which ls' do?",
+            "options": {
+                "A": "Lists all files named 'ls'",
+                "B": "Displays the location of the 'ls' command",
+                "C": "Searches for 'ls' in files",
+                "D": "Lists all available commands"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to create a compressed archive with gzip compression?",
+            "options": {
+                "A": "zip",
+                "B": "tar",
+                "C": "gz",
+                "D": "gzip"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the command 'df -h' display?",
+            "options": {
+                "A": "Disk formatting information",
+                "B": "Detailed file information",
+                "C": "Disk space usage in human-readable format",
+                "D": "Directory hierarchy"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to change the ownership of a file or directory?",
+            "options": {
+                "A": "chown",
+                "B": "own",
+                "C": "changeowner",
+                "D": "ownchange"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "To run a command in the background and detach it from the terminal, which symbol is used?",
+            "options": {
+                "A": "%",
+                "B": "&",
+                "C": "*",
+                "D": "$"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the command 'ps aux' display?",
+            "options": {
+                "A": "All running processes with full details",
+                "B": "All running processes for the current user",
+                "C": "A summary of available resources",
+                "D": "A list of user accounts"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to find files based on various file attributes?",
+            "options": {
+                "A": "search",
+                "B": "locate",
+                "C": "find",
+                "D": "query"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the command 'umask' in Unix/Linux determine?",
+            "options": {
+                "A": "User mask for the system",
+                "B": "Default permissions for newly created files",
+                "C": "User management settings",
+                "D": "System-wide mask for system calls"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To display the first few lines of a text file, which command is used?",
+            "options": {
+                "A": "head",
+                "B": "first",
+                "C": "begin",
+                "D": "top"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the command 'crontab -l' do?",
+            "options": {
+                "A": "Lists available cron jobs",
+                "B": "Creates a new cron job",
+                "C": "Removes a cron job",
+                "D": "Lists scheduled tasks for the current user"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which command is used to create a compressed archive with tar and bzip2 compression?",
+            "options": {
+                "A": "bz",
+                "B": "tbz",
+                "C": "tarbz",
+                "D": "tar -j"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the command 'wc -w file.txt' display?",
+            "options": {
+                "A": "Number of lines in file.txt",
+                "B": "Number of words in file.txt",
+                "C": "Number of characters in file.txt",
+                "D": "Number of whitespace-separated strings in file.txt"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "To sort the lines of a text file in reverse order, which command is used?",
+            "options": {
+                "A": "sort -r",
+                "B": "sort -reverse",
+                "C": "sort -desc",
+                "D": "sort -back"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to create an archive containing multiple files and directories?",
+            "options": {
+                "A": "compress",
+                "B": "zip",
+                "C": "pack",
+                "D": "tar"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the command 'cut -d: -f2 file.txt' do?",
+            "options": {
+                "A": "Cuts the second field of each line in file.txt",
+                "B": "Cuts lines containing the second field in file.txt",
+                "C": "Cuts the delimiter ':' from each line in file.txt",
+                "D": "Cuts the first field of each line in file.txt"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "To change the priority of a running process in Unix/Linux, which command is used?",
+            "options": {
+                "A": "nice",
+                "B": "priority",
+                "C": "renice",
+                "D": "adjust"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the command 'echo $SHELL' display?",
+            "options": {
+                "A": "The version of the shell being used",
+                "B": "The path to the shell executable",
+                "C": "The available shell options",
+                "D": "The type of shell being used"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 6",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In Unix, which command is used to create a hard link to a file?",
+            "options": {
+                "A": "ln",
+                "B": "link",
+                "C": "hardlink",
+                "D": "hlink"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What Unix command is used to display the top processes consuming system resources?",
+            "options": {
+                "A": "stats",
+                "B": "top",
+                "C": "ps",
+                "D": "info"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix, which command is used to set a process's scheduling priority?",
+            "options": {
+                "A": "setprio",
+                "B": "prioset",
+                "C": "nice",
+                "D": "prio"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What command is used to change the scheduling priority of a running process in Unix?",
+            "options": {
+                "A": "alterprio",
+                "B": "changeprio",
+                "C": "renice",
+                "D": "adjustprio"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Unix, what command is used to extract specific columns from a text file?",
+            "options": {
+                "A": "cut",
+                "B": "extract",
+                "C": "filter",
+                "D": "slice"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which Unix command is used to merge lines from multiple files?",
+            "options": {
+                "A": "join",
+                "B": "merge",
+                "C": "concat",
+                "D": "combine"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Unix, which command is used to search for patterns within files?",
+            "options": {
+                "A": "locate",
+                "B": "search",
+                "C": "find",
+                "D": "grep"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What command is used to determine the file type in Unix?",
+            "options": {
+                "A": "identify",
+                "B": "filetype",
+                "C": "file",
+                "D": "type"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Unix, which command is used to display the full path to an executable file?",
+            "options": {
+                "A": "where",
+                "B": "pathfind",
+                "C": "which",
+                "D": "locate"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which Unix command is used to print environment variables?",
+            "options": {
+                "A": "vars",
+                "B": "showenv",
+                "C": "printenv",
+                "D": "envprint"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Unix, what command is used to change the shell environment variables?",
+            "options": {
+                "A": "setenv",
+                "B": "envset",
+                "C": "export",
+                "D": "changeenv"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What command is used to add directories to the search path in Unix?",
+            "options": {
+                "A": "addpath",
+                "B": "appendpath",
+                "C": "pathadd",
+                "D": "exportpath"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In Unix, which command is used to find files based on various criteria such as name and type?",
+            "options": {
+                "A": "locate",
+                "B": "which",
+                "C": "whereis",
+                "D": "find"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which Unix command is used to edit text files in a command-line interface?",
+            "options": {
+                "A": "edit",
+                "B": "vi",
+                "C": "nano",
+                "D": "editfile"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In shell scripting, what is the purpose of a wildcard character '*'?",
+            "options": {
+                "A": "It represents the current working directory.",
+                "B": "It matches any single character.",
+                "C": "It matches zero or more characters in a filename.",
+                "D": "It represents a space character."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Unix shell scripting, what is the default location for user-defined shell scripts?",
+            "options": {
+                "A": "/usr/bin",
+                "B": "/bin",
+                "C": "/usr/local/bin",
+                "D": "/home/user/bin"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which Unix command is used to execute a shell script?",
+            "options": {
+                "A": "script",
+                "B": "run",
+                "C": "execute",
+                "D": "source"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In Unix shell scripting, which command is used to prompt the user for input?",
+            "options": {
+                "A": "input",
+                "B": "getinput",
+                "C": "read",
+                "D": "ask"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What command is used to create a symbolic link in Unix, and what is the syntax?",
+            "options": {
+                "A": "symlink [source] [destination]",
+                "B": "ln -s [source] [destination]",
+                "C": "create-link [source] [destination]",
+                "D": "mklink -s [source] [destination]"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Unix shell scripting, which command is used to display the contents of a variable?",
+            "options": {
+                "A": "display",
+                "B": "show",
+                "C": "echo",
+                "D": "printvar"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

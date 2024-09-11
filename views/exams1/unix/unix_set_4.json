@@ -1,0 +1,207 @@
+{
+    "exam_name": "Unix Set 4",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which command is used to search for a string in all files under a directory, including subdirectories?",
+            "options": {
+                "A": "grep -R",
+                "B": "search -all",
+                "C": "find -s",
+                "D": "locate -r"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the command 'du -sh *' display?",
+            "options": {
+                "A": "Detailed usage statistics of all files",
+                "B": "Disk usage of hidden files",
+                "C": "Size of each file and directory in human-readable format",
+                "D": "Disk usage summary of all files and directories"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to display a sorted list of unique words in a text file?",
+            "options": {
+                "A": "sort -unique",
+                "B": "uniq -sort",
+                "C": "unique -sort",
+                "D": "sort | uniq"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the command 'ssh-keygen' do?",
+            "options": {
+                "A": "Generates a new SSH key pair",
+                "B": "Configures the SSH client",
+                "C": "Lists existing SSH keys",
+                "D": "Modifies the SSH server settings"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to display the inode numbers of all files in a directory?",
+            "options": {
+                "A": "ls -i",
+                "B": "inode -all",
+                "C": "find -inodes",
+                "D": "inodeinfo -ls"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the command 'awk' primarily do in Unix/Linux?",
+            "options": {
+                "A": "Search for patterns in files",
+                "B": "Display the content of a file",
+                "C": "Manipulate and analyze text data",
+                "D": "List files in a directory"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which command is used to create a hard link to a file?",
+            "options": {
+                "A": "link -h",
+                "B": "hlink",
+                "C": "ln -h",
+                "D": "ln"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the command 'tar -cvzf archive.tar.gz files/' do?",
+            "options": {
+                "A": "Creates a compressed archive of the 'files/' directory",
+                "B": "Creates a compressed archive named 'archive.tar.gz'",
+                "C": "Verbose listing of files in the 'files/' directory",
+                "D": "Extracts files from 'archive.tar.gz'"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to send a signal to a running process in Unix/Linux?",
+            "options": {
+                "A": "signal",
+                "B": "psignal",
+                "C": "kill",
+                "D": "sig"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the command 'sed' stand for?",
+            "options": {
+                "A": "Stream Editor",
+                "B": "String Editor",
+                "C": "System Editor",
+                "D": "Script Editor"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which command is used to display the shared libraries required by an executable or library file?",
+            "options": {
+                "A": "shared",
+                "B": "ldd",
+                "C": "ld",
+                "D": "libs"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the command 'file file.txt' do?",
+            "options": {
+                "A": "Displays the content of file.txt",
+                "B": "Checks the integrity of file.txt",
+                "C": "Lists all files with the name file.txt",
+                "D": "Determines the type of file.txt"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "To change the priority of a process with a negative nice value, which command is used?",
+            "options": {
+                "A": "priority",
+                "B": "renice",
+                "C": "nice",
+                "D": "niced"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to set an environment variable for a specific command only?",
+            "options": {
+                "A": "export",
+                "B": "envset",
+                "C": "setenv",
+                "D": "runenv"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the command 'chsh' allow you to do?",
+            "options": {
+                "A": "Change the shell of a user",
+                "B": "Change the hostname",
+                "C": "Change the system timezone",
+                "D": "Change system settings"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "To extract the contents of a tarball, which command is used?",
+            "options": {
+                "A": "tar -x",
+                "B": "tar -e",
+                "C": "tar -u",
+                "D": "tar -xf"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which command is used to view the active network connections on a Unix/Linux system?",
+            "options": {
+                "A": "connections",
+                "B": "netstat",
+                "C": "ifconfig",
+                "D": "network"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the command 'find /dir -name \".txt\"' do?",
+            "options": {
+                "A": "Searches for all text files in the system",
+                "B": "Searches for files named \".txt\" in the /dir directory",
+                "C": "Lists all files in the /dir directory",
+                "D": "Searches for text files in the /dir directory"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which command is used to check disk I/O performance in Unix/Linux?",
+            "options": {
+                "A": "iostats",
+                "B": "diskperf",
+                "C": "iotop",
+                "D": "iostat"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the command 'chmod 755 file.sh' do?",
+            "options": {
+                "A": "Adds read and execute permissions to file.sh for the owner",
+                "B": "Adds read and write permissions to file.sh for everyone",
+                "C": "Sets full permissions for all users on file.sh",
+                "D": "Removes all permissions from file.sh"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}
