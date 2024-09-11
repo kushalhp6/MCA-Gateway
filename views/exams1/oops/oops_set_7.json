@@ -1,0 +1,207 @@
+{
+    "exam_name": "OOPs Set 7",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the output of the following program?<br><br><pre>int add(int a, int b) {<br>    return a + b;<br>}<br><br>double add(double a, double b) {<br>    return a + b;<br>}<br><br>int main() {<br>    cout << add(5, 3) << \";\";<br>    cout << add(4.2, 2.7);<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "8;6.9",
+                "B": "Compile Error",
+                "C": "8;7.3",
+                "D": "5;7.3"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What will be the output of the following code?<br><br><pre>int x = 0;<br>while (x < 5) {<br>    cout << x << \" \";<br>    x++;<br>}<br>cout << x;<br>return 0;</pre>",
+            "options": {
+                "A": "0 1 2 3 4 5",
+                "B": "0 1 2 3 4",
+                "C": "1 2 3 4 5",
+                "D": "0 1 2 3 4 6"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Given the following code, what will be the value of \"result\"?<br><br><pre>int a = 5, b = 3;<br>int result = a % b;</pre>",
+            "options": {
+                "A": "2",
+                "B": "1",
+                "C": "0",
+                "D": "15"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a class template in C++?<br><br><pre>(A) To define an instance of a class.<br>(B) To create objects of a class.<br>(C) To create a blueprint for multiple classes.<br>(D) To create a generic class that works with different data types.</pre>",
+            "options": {
+                "A": "To define an instance of a class.",
+                "B": "To create objects of a class.",
+                "C": "To create a blueprint for multiple classes.",
+                "D": "To create a generic class that works with different data types."
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>void printValues(int x, int y) {<br>    cout << \"int: \" << x << \", \" << y << endl;<br>}<br><br>void printValues(double a, double b) {<br>    cout << \"double: \" << a << \", \" << b << endl;<br>}<br><br>int main() {<br>    printValues(5, 3.5);<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "int: 5, 3.5",
+                "B": "double: 5, 3.5",
+                "C": "Compile Error",
+                "D": "double: 5, 3"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int x = 10;<br>int main() {<br>    int x = 20;<br>    {<br>        int x = 30;<br>        cout << x << \" \";<br>    }<br>    cout << x;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "10 10",
+                "B": "10 20",
+                "C": "20 30",
+                "D": "30 10"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the correct way to declare a class template in C++?<br><br><pre>(A) template <class T> class MyClass { ... }<br>(B) class MyClass<T> { ... }<br>(C) class <T> MyClass { ... }<br>(D) template <T> class MyClass { ... }</pre>",
+            "options": {
+                "A": "template <class T> class MyClass { ... }",
+                "B": "class MyClass<T> { ... }",
+                "C": "class <T> MyClass { ... }",
+                "D": "template <T> class MyClass { ... }"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the following code snippet do?<br><br><pre>struct Point {<br>    int x;<br>    int y;<br>}<br><br>Point p1 = {3, 4};<br>Point p2 = p1;</pre>",
+            "options": {
+                "A": "It defines a class called Point.",
+                "B": "It creates two Point objects and initializes them.",
+                "C": "It calculates the distance between two points.",
+                "D": "It swaps the values of p1 and p2."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class MyClass {<br>public:<br>    MyClass() {<br>        cout << \"Constructor \";<br>    }<br><br>    ~MyClass() {<br>        cout << \"Destructor \";<br>    }<br>}<br><br>int main() {<br>    MyClass obj;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "Constructor Destructor",
+                "B": "Destructor Constructor",
+                "C": "Constructor",
+                "D": "Destructor"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following program?<br><br><pre>int num = 10;<br>do {<br>    cout << num << \" \";<br>} while (num-- > 0);</pre>",
+            "options": {
+                "A": "10 9 8 7 6 5 4 3 2 1",
+                "B": "9 8 7 6 5 4 3 2 1 0",
+                "C": "10 9 8 7 6 5 4 3 2 1 0",
+                "D": "0 1 2 3 4 5 6 7 8 9 10"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a constructor in C++?<br><br><pre>(A) To destroy objects.<br>(B) To allocate memory.<br>(C) To initialize objects.<br>(D) To define member functions.</pre>",
+            "options": {
+                "A": "To destroy objects.",
+                "B": "To allocate memory.",
+                "C": "To initialize objects.",
+                "D": "To define member functions."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Given the following code, what is the value of \"x\" after the loop?<br><br><pre>int x = 0;<br>while (x < 5) {<br>    x++;<br>}</pre>",
+            "options": {
+                "A": "0",
+                "B": "5",
+                "C": "4",
+                "D": "6"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following program?<br><br><pre>template <typename T><br>T max(T a, T b) {<br>    return a > b ? a : b;<br>}<br><br>int main() {<br>    int result = max(3, 7);<br>    cout << result;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "3",
+                "B": "7",
+                "C": "3 7",
+                "D": "7 3"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int num = 5;<br>while (num > 0) {<br>    cout << num-- << \" \";<br>}</pre>",
+            "options": {
+                "A": "1 2 3 4 5",
+                "B": "5 4 3 2 1",
+                "C": "5 4 3 2",
+                "D": "1 2 3 4"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following program?<br><br><pre>int x = 10;<br>do {<br>    cout << x;<br>} while (x--);</pre>",
+            "options": {
+                "A": "10",
+                "B": "109876543210",
+                "C": "10987654321",
+                "D": "012345678910"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of the destructor in C++?<br><br><pre>(A) To create objects.<br>(B) To initialize objects.<br>(C) To perform cleanup or resource deallocation.<br>(D) To access member functions.</pre>",
+            "options": {
+                "A": "To create objects.",
+                "B": "To initialize objects.",
+                "C": "To perform cleanup or resource deallocation.",
+                "D": "To access member functions."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Given the following code, what is the value of \"y\" after the loop?<br><br><pre>int y = 5;<br>do {<br>    y--;<br>} while (y > 0);</pre>",
+            "options": {
+                "A": "0",
+                "B": "5",
+                "C": "1",
+                "D": "-1"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class MyClass {<br>public:<br>    MyClass() {<br>        cout << \"A\";<br>    }<br>}<br><br>int main() {<br>    MyClass obj[3];<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "AA",
+                "C": "AAA",
+                "D": "No output"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following program?<br><br><pre>int x = 0;<br>do {<br>    cout << x;<br>} while (++x < 5);</pre>",
+            "options": {
+                "A": "01234",
+                "B": "54321",
+                "C": "0123",
+                "D": "1234"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int num = 3;<br>do {<br>    cout << num * 2 << \" \";<br>} while (num-- > 0);</pre>",
+            "options": {
+                "A": "6 4 2",
+                "B": "6 4",
+                "C": "3 2 1",
+                "D": "3 6 2"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

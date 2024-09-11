@@ -1,0 +1,207 @@
+{
+    "exam_name": "OOPs Set 4",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following is the output of the following code?<br><br><pre>class Base {<br>public:<br>    virtual void print() {<br>        cout << \"Base \";<br>    }<br>};<br><br>class Derived : public Base {<br>public:<br>    void print() override {<br>        cout << \"Derived \";<br>    }<br>};<br><br>int main() {<br>    Base* ptr = new Derived;<br>    ptr->print();<br>    delete ptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "Base Derived",
+                "B": "Derived Base",
+                "C": "Base",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What will be the output of the following code?<br><br><pre>int main() {<br>    int x = 5;<br>    int& ref = x;<br>    int* ptr = &ref;<br>    cout << *ptr;<br>    x = 10;<br>    cout << *ptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "510",
+                "B": "55",
+                "C": "1010",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class Base {<br>public:<br>    Base() {<br>        cout << \"Base \";<br>    }<br>};<br><br>class Derived : public Base {<br>public:<br>    Derived() {<br>        cout << \"Derived \";<br>    }<br>};<br><br>int main() {<br>    Derived d;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "Base",
+                "B": "Derived",
+                "C": "Base Derived",
+                "D": "Compile Error"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int main() {<br>    int arr[] = {1, 2, 3, 4, 5};<br>    int* ptr = arr;<br>    ptr += 2;<br>    cout << *ptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>void modify(int& x) {<br>    x = 10;<br>}<br><br>int main() {<br>    int y = 5;<br>    modify(y);<br>    cout << y;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "5",
+                "B": "10",
+                "C": "15",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void func() {<br>        cout << \"A \";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    void func() override {<br>        cout << \"B \";<br>    }<br>};<br><br>int main() {<br>    A a;<br>    B b;<br>    A* ptr = &b;<br>    ptr->func();<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>template <typename T><br>class MyClass {<br>public:<br>    T value;<br>    MyClass(T val) : value(val) {}<br>    void print() {<br>        cout << value << \" \";<br>    }<br>};<br><br>int main() {<br>    MyClass<int> obj1(5);<br>    MyClass<double> obj2(3.14);<br>    obj1.print();<br>    obj2.print();<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "5 3.14",
+                "B": "5.0 3.14",
+                "C": "5 3",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class Base {<br>public:<br>    virtual void print() {<br>        cout << \"Base \";<br>    }<br>};<br><br>class Derived : public Base {<br>public:<br>    void print() override {<br>        cout << \"Derived \";<br>    }<br>};<br><br>int main() {<br>    Base obj = Derived();<br>    obj.print();<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "Base",
+                "B": "Derived",
+                "C": "Base Derived",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    A() {<br>        cout << \"A \";<br>    }<br>};<br><br>class B {<br>public:<br>    B() {<br>        cout << \"B \";<br>    }<br>};<br><br>class C : public A, public B {<br>public:<br>    C() {<br>        cout << \"C \";<br>    }<br>};<br><br>int main() {<br>    C c;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A B C",
+                "B": "C B A",
+                "C": "B A C",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void func() {<br>        cout << \"A \";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    void func() override {<br>        cout << \"B \";<br>    }<br>};<br><br>int main() {<br>    A* ptr = new B;<br>    B* bptr = dynamic_cast<B*>(ptr);<br>    if (bptr) {<br>        bptr->func();<br>    }<br>    delete ptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int main() {<br>    int* ptr = new int(5);<br>    cout << *ptr;<br>    delete ptr;<br>    cout << *ptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "5",
+                "B": "Garbage Value",
+                "C": "Runtime Error",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class Base {<br>public:<br>    virtual void print() {<br>        cout << \"Base \";<br>    }<br>};<br><br>class Derived : public Base {<br>public:<br>    void print() override {<br>        cout << \"Derived \";<br>    }<br>};<br><br>int main() {<br>    Base* arr[2];<br>    arr[0] = new Base;<br>    arr[1] = new Derived;<br>    for (int i = 0; i < 2; ++i) {<br>        arr[i]->print();<br>    }<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "Base Derived",
+                "B": "Derived Base",
+                "C": "Base Base",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    A() {<br>        cout << \"A \";<br>    }<br>    A(int x) {<br>        cout << \"A\" << x << \" \";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    B() {<br>        cout << \"B \";<br>    }<br>    B(int y) {<br>        cout << \"B\" << y << \" \";<br>    }<br>};<br><br>int main() {<br>    B obj(5);<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A B5",
+                "B": "AB5",
+                "C": "B A5",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int main() {<br>    int x = 5;<br>    int* ptr1 = &x;<br>    int** ptr2 = &ptr1;<br>    cout << **ptr2;<br>    x = 10;<br>    cout << **ptr2;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "510",
+                "B": "55",
+                "C": "1010",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void func() {<br>        cout << \"A \";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    void func() override {<br>        cout << \"B \";<br>    }<br>};<br><br>int main() {<br>    B b;<br>    A& ref = b;<br>    ref.func();<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    A() {<br>        cout << \"A \";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    B() {<br>        cout << \"B \";<br>    }<br>};<br><br>int main() {<br>    B* bptr = new B[2];<br>    delete[] bptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A B A B",
+                "B": "B A B A",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class Base {<br>public:<br>    Base() {<br>        cout << \"Base \";<br>    }<br>};<br><br>class Derived : public Base {<br>public:<br>    Derived() {<br>        cout << \"Derived \";<br>    }<br>};<br><br>int main() {<br>    Base* ptr = new Derived;<br>    delete ptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "Base Derived",
+                "B": "Derived Base",
+                "C": "Base",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int main() {<br>    int arr[5] = {1, 2, 3, 4, 5};<br>    int* ptr1 = arr;<br>    int* ptr2 = &arr[2];<br>    cout << ptr2 - ptr1;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void print() {<br>        cout << \"A \";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    void print() override {<br>        cout << \"B \";<br>    }<br>};<br><br>int main() {<br>    A* arr[2];<br>    arr[0] = new A;<br>    arr[1] = new B;<br>    for (int i = 0; i < 2; ++i) {<br>        arr[i]->print();<br>    }<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A B",
+                "B": "B A",
+                "C": "A A",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void func() {<br>        cout << \"A \";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    void func() override {<br>        cout << \"B \";<br>    }<br>};<br><br>int main() {<br>    B b;<br>    A* aptr = &b;<br>    B* bptr = dynamic_cast<B*>(aptr);<br>    if (bptr) {<br>        bptr->func();<br>    }<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

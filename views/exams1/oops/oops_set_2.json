@@ -1,0 +1,207 @@
+{
+    "exam_name": "OOPs Set 2",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What will be the output of the following code (all header files and required things are included)?<br><br><pre>class A {<br>    int marks;<br>    protected : A(int x) {<br>        marks=x;<br>    }<br>    public : A() {<br>        marks=100;<br>    }<br>}<br>class B {<br>    A a;<br>    A b=100;<br>};<br>main() {<br>    A a, b=100;<br>    B c;<br>}</pre>",
+            "options": {
+                "A": "Program runs fine",
+                "B": "Program gives runtime error",
+                "C": "Program gives compile time error",
+                "D": "Program gives logical error"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which among the following is true for the given code below?<br><br><pre>class A {<br>    protected:<br>        int marks;<br>    public:<br>        A() {<br>            marks = 100;<br>        }<br>        void disp() {<br>            cout << \"marks=\" << marks;<br>        }<br>};<br>class B : protected A {<br>};<br>int main() {<br>    B b;<br>    b.disp();<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "Object b can’t access disp() function",
+                "B": "Object b can access disp() function inside its body",
+                "C": "Object b can’t access members of class A",
+                "D": "Program runs fine"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What will be the output of the program given below?<br><br><pre>class A {<br>    public:<br>        A(int a = 0) {<br>            cout << \"new A\";<br>        }<br>};<br>int main() {<br>    A a;<br>    A b;<br>    A c;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "new A new A new A",
+                "B": "newAnewAnewA",
+                "C": "new Anew Anew A",
+                "D": "new A new Anew A"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which among the following have least security according to the access permissions allowed?",
+            "options": {
+                "A": "Private",
+                "B": "Default",
+                "C": "Protected",
+                "D": "Public"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "If the members have to be accessed from anywhere in the program and other packages also, which access specifier should be used?",
+            "options": {
+                "A": "Public",
+                "B": "Private",
+                "C": "Protected",
+                "D": "Default"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int n=10; // global<br>class A {<br>    private : int n;<br>    public : int m;<br>    A() {<br>        n=100; m=50;<br>    }<br>    void disp() {<br>        cout<<\"n\"<<m<<n;<br>    }<br>};</pre>",
+            "options": {
+                "A": "1050100",
+                "B": "1005010",
+                "C": "n5010",
+                "D": "n50100"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The static member functions can only use ________",
+            "options": {
+                "A": "Static data members",
+                "B": "Private data members",
+                "C": "Protected data members",
+                "D": "Constant data members"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data members can be inherited but are private to a class?",
+            "options": {
+                "A": "Private",
+                "B": "Protected",
+                "C": "Protected and Static",
+                "D": "Privately inherited"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "How can a static member function be called in the main function?",
+            "options": {
+                "A": "Using dot operator",
+                "B": "Using arrow operator",
+                "C": "Using dot or arrow operator",
+                "D": "Using dot, arrow or using scope resolution operator with class name"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What are inline member functions?",
+            "options": {
+                "A": "Member functions which can be called without object",
+                "B": "Member functions whose definition is expanded in place of its call",
+                "C": "Member functions whose definition is faster than simple function",
+                "D": "Member function which is defined in single line"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What happens if non-static members are used in static member function?",
+            "options": {
+                "A": "Compile time error",
+                "B": "Runtime error",
+                "C": "Executes fine",
+                "D": "Executes if that member function is not used"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which among the following best describes abstract classes?",
+            "options": {
+                "A": "If a class has more than one virtual function, it’s abstract class",
+                "B": "If a class have only one pure virtual function, it’s abstract class",
+                "C": "If a class has at least one pure virtual function, it’s abstract class",
+                "D": "If a class has all the pure virtual functions only, then it’s abstract class"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "A template class can have _____________",
+            "options": {
+                "A": "More than one generic data type",
+                "B": "Only one generic data type",
+                "C": "At most two data types",
+                "D": "Only generic type of integers and not characters"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which among the following is the proper syntax for the template class?",
+            "options": {
+                "A": "template <typename T1, typename T2>;",
+                "B": "Template <typename T1, typename T2>;",
+                "C": "template <typename T> T named(T x, T y){ }",
+                "D": "Template <typename T1, typename T2> T1 named(T1 x, T2 y){ }"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Can default arguments be used with the template class?",
+            "options": {
+                "A": "Yes, in some special cases",
+                "B": "Yes, always",
+                "C": "No, it must satisfy some specific conditions first",
+                "D": "No, it can’t be done"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the syntax to use explicit class specialization?",
+            "options": {
+                "A": "template <int> class myClass<>{ }",
+                "B": "template <int> class myClass<int>{ }",
+                "C": "template <> class myClass<>{ }",
+                "D": "template <> class myClass<int>{ }"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which is the most significant feature that arises by using template classes?",
+            "options": {
+                "A": "Code readability",
+                "B": "Ease in coding",
+                "C": "Code reusability",
+                "D": "Modularity in code"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The _____________ class is a specialization of a more general template class.",
+            "options": {
+                "A": "String",
+                "B": "Integer",
+                "C": "Digit",
+                "D": "Math"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "How is function overloading different from template class?",
+            "options": {
+                "A": "Overloading is multiple function doing same operation, Template is multiple function doing different operations",
+                "B": "Overloading is single function doing different operations, Template is multiple function doing different operations",
+                "C": "Overloading is multiple function doing similar operation, Template is multiple function doing identical operations",
+                "D": "Overloading is multiple function doing same operation, Template is same function doing different operations"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>template <typename T><br>void test(const T& x) {<br>    static int count = 0;<br>    cout << \"x = \" << x << \" count = \" << count << endl;<br>    ++count;<br>}<br>int main() {<br>    test<int>(2);<br>    test<int>(2);<br>    test<double>(2.2);<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "x = 2 count = 0<br>x = 2.2 count = 0<br>x = 2.2 count = 0",
+                "B": "x = 2 count = 0<br>x = 2 count = 0<br>x = 2.2 count = 0",
+                "C": "x = 2 count = 0<br>x = 2 count = 1<br>x = 2.2 count = 0",
+                "D": "x = 2 count = 0<br>x = 2 count = 1<br>x = 2.2 count = 2"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

@@ -83,6 +83,15 @@ $examMapping = [
     'c_set_8' => 'c/c_set_8.json',
     'c_set_9' => 'c/c_set_9.json',
     'c_set_10' => 'c/c_set_10.json',
+    'oops_set_2' => 'oops/oops_set_2.json',
+    'oops_set_3' => 'oops/oops_set_3.json',
+    'oops_set_4' => 'oops/oops_set_4.json',
+    'oops_set_5' => 'oops/oops_set_5.json',
+    'oops_set_6' => 'oops/oops_set_6.json',
+    'oops_set_7' => 'oops/oops_set_7.json',
+    'oops_set_8' => 'oops/oops_set_8.json',
+    'oops_set_9' => 'oops/oops_set_9.json',
+    'oops_set_10' => 'oops/oops_set_10.json',
     // Add more mappings as needed
 ];
 

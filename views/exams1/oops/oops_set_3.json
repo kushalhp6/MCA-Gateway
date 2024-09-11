@@ -1,0 +1,207 @@
+{
+    "exam_name": "OOPs Set 3",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which among the following is correct for the following code?<br><br><pre>class A<br>{<br> public : class B<br> {<br> public : B(int i): data(i)<br> {<br> }<br> int data;<br> }<br>};<br>class C: public A<br>{<br> class D:public A::B{ };<br>};</pre>",
+            "options": {
+                "a": "Multi-level inheritance is used, with nested classes",
+                "b": "Multiple inheritance is used, with nested classes",
+                "c": "Single level inheritance is used, with enclosing classes",
+                "d": "Single level inheritance is used, with both enclosing and nested classes"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "Does following code show multiple inheritance?<br><br><pre>class A<br>{<br>int a;<br>};<br>class B<br>{<br>int b;<br>};<br>class C:public A, public B<br>{<br>int c;<br>};<br>class D:public C<br>{<br>int d;<br>};</pre>",
+            "options": {
+                "a": "Yes, class C and class D",
+                "b": "Yes, All together it’s multilevel",
+                "c": "No, 4 classes are used",
+                "d": "No, multiple inheritance is used with class A, B and C"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question": "Multiple inheritance is ____________________",
+            "options": {
+                "a": "When a class is derived from another class",
+                "b": "When a class is derived from two or more classes",
+                "c": "When a class is derived from other two derived classes",
+                "d": "When a class is derived from exactly one class"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int main() {<br>    int a = 5;<br>    int b = 10;<br>    int* ptr = &a;<br>    *ptr = b;<br>    cout << a;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "5",
+                "B": "10",
+                "C": "15",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "How to overcome diamond problem?",
+            "options": {
+                "a": "Using alias name",
+                "b": "Using separate derived class",
+                "c": "Using virtual keyword with same name function",
+                "d": "Can’t be done"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class Shape {<br>public:<br>    virtual void draw() {<br>        cout << \"Drawing Shape\" << endl;<br>    }<br>};<br>class Circle : public Shape {<br>public:<br>    void draw() override {<br>        cout << \"Drawing Circle\" << endl;<br>    }<br>};<br>int main() {<br>    Shape* shapePtr = new Circle;<br>    shapePtr->draw();<br>    delete shapePtr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "Drawing Shape",
+                "B": "Drawing Circle",
+                "C": "Drawing Shape Drawing Circle",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>int main() {<br>    int arr[3] = {10, 20, 30};<br>    int* ptr = arr;<br>    cout << *ptr << \" \";<br>    ptr++;<br>    cout << *ptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "10 20",
+                "B": "20 10",
+                "C": "10 10",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void display() {<br>        cout << \"A \";<br>    }<br>};<br>class B : public A {<br>public:<br>    void display() override {<br>        cout << \"B \";<br>    }<br>};<br>int main() {<br>    A* ptr = new B;<br>    ptr->display();<br>    delete ptr;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "If all the members of all the base classes are private then _____________",
+            "options": {
+                "a": "There won’t be any use of multiple inheritance",
+                "b": "It will make those members public",
+                "c": "Derived class can still access them in multiple inheritance",
+                "d": "Compile time error"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void show() {<br>        cout << \"A \";<br>    }<br>};<br>class B : public A {<br>public:<br>    void show() override {<br>        cout << \"B \";<br>    }<br>};<br>int main() {<br>    B obj;<br>    A& ref = obj;<br>    ref.show();<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Is it compulsory to have constructor for all the classes involved in multiple inheritance?",
+            "options": {
+                "a": "Yes, always",
+                "b": "Yes, only if no abstract class is involved",
+                "c": "No, only classes being used should have a constructor",
+                "d": "No, they must not contain constructors"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "question": "Which members can’t be accessed in derived class in multiple inheritance?",
+            "options": {
+                "a": "Private members of base",
+                "b": "Public members of base",
+                "c": "Protected members of base",
+                "d": "All the members of base"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "Base class _______________",
+            "options": {
+                "a": "Can be made abstract",
+                "b": "Can’t be made abstract",
+                "c": "Must be abstract",
+                "d": "If made abstract, compile time error"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    A() {<br>        cout << \"A \";<br>    }<br>};<br>class B : public A {<br>public:<br>    B() {<br>        cout << \"B \";<br>    }<br>};<br>int main() {<br>    B obj;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    A() {<br>        cout << \"A \";<br>    }<br>};<br>class B : public A {<br>public:<br>    B() {<br>        cout << \"B \";<br>    }<br>};<br>class C : public B {<br>public:<br>    C() {<br>        cout << \"C \";<br>    }<br>};<br>int main() {<br>    C obj;<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "C",
+                "D": "A B C"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    A() {<br>        cout << \"A \";<br>    }<br>};<br>class B : public A {<br>public:<br>    B() {<br>        cout << \"B \";<br>    }<br>};<br>int main() {<br>    A* arr[2];<br>    arr[0] = new A;<br>    arr[1] = new B;<br>    for (int i = 0; i < 2; ++i) {<br>        arr[i]->print();<br>    }<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A A",
+                "B": "B B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void display() {<br>        cout << \"A \";<br>    }<br>};<br>class B : public A {<br>public:<br>    void display() override {<br>        cout << \"B \";<br>    }<br>};<br>int main() {<br>    A obj;<br>    obj.display();<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the output of the following code?<br><br><pre>class A {<br>public:<br>    virtual void func() {<br>        cout << \"A \";<br>    }<br>};<br>class B : public A {<br>public:<br>    void func() override {<br>        cout << \"B \";<br>    }<br>};<br>int main() {<br>    B b;<br>    A* aptr = &b;<br>    aptr->func();<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "A B",
+                "D": "Compile Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which class uses hierarchical inheritance in following code?<br><br><pre>class A<br>{<br>int a;<br>};<br>class B:class A<br>{<br>int b;<br>};<br>class C:class A,class B<br>{<br>int c;<br>};<br>class D:class A<br>{<br>int d;<br>};</pre>",
+            "options": {
+                "a": "Class A, B, C",
+                "b": "Class B, C, D",
+                "c": "Class A, C, D",
+                "d": "Class D, A, B"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question": "Which among the following is correct for the following code?<br><br><pre>abstract class A<br>{<br>public Int a;<br>public void disp();<br>};<br>class B:public A<br>{<br>public: void dis()<br> {<br>court&lt;&lt;a;<br>}<br>};<br>class C:private A<br>{<br>public void incr()<br> {<br>a++;<br>}<br>}<br>void main()<br>{<br>B b.disp();<br>}</pre>",
+            "options": {
+                "a": "Compile time error",
+                "b": "Runtime error",
+                "c": "Program runs and o/p is 0",
+                "d": "Program runs and o/p is garbage value"
+            },
+            "correct_answer": "a"
+        }
+    ]
+}
