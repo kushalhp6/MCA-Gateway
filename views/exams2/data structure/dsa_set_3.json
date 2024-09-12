@@ -1,0 +1,257 @@
+{
+    "exam_name": "DSA Set 3",
+    "total_marks": 25,
+    "time_limit": 25,
+    "questions": [
+        {
+            "question": "Which data structure allows for constant-time insertion and deletion at both ends?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Deque",
+                "D": "Linked List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is?",
+            "options": {
+                "a": "log 2 n",
+                "b": "n⁄2",
+                "c": "log 2 n – 1",
+                "d": "n"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question": "Which data structure allows for efficient retrieval of the maximum or minimum element?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Priority Queue",
+                "D": "Linked List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "A B-tree is used primarily for:",
+            "options": {
+                "A": "Storing elements in a sorted order",
+                "B": "Storing elements in a hash table",
+                "C": "Implementing a stack",
+                "D": "Representing a graph"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which traversal of a binary search tree visits the nodes in ascending order?",
+            "options": {
+                "A": "Preorder",
+                "B": "Inorder",
+                "C": "Postorder",
+                "D": "Level-order"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure supports efficient search, insert, and delete operations and maintains elements in sorted order?",
+            "options": {
+                "A": "Hash Table",
+                "B": "Binary Search Tree",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a disadvantage to the usage of array?",
+            "options": {
+                "a": "Fixed size",
+                "b": "There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size",
+                "c": "Insertion based on position",
+                "d": "Accessing elements at specified positions"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question": "Which data structure is suitable for implementing an undo-redo functionality in a text editor?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Heap"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which sorting algorithm works by repeatedly partitioning the array into smaller subarrays?",
+            "options": {
+                "A": "Bubble Sort",
+                "B": "Merge Sort",
+                "C": "Quick Sort",
+                "D": "Selection Sort"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a binary heap, the smallest (or largest) element is found at the:",
+            "options": {
+                "A": "Root",
+                "B": "Left child of the root",
+                "C": "Right child of the root",
+                "D": "Leaf nodes"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the time complexity of inserting at the end in dynamic arrays?",
+            "options": {
+                "a": "O(1)",
+                "b": "O(n)",
+                "c": "O(logn)",
+                "d": "Either O(1) or O(n)"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question": "What is the time complexity to count the number of elements in the linked list?",
+            "options": {
+                "a": "O(1)",
+                "b": "O(n)",
+                "c": "O(logn)",
+                "d": "O(n2)"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Which sorting algorithm works by repeatedly selecting the maximum element from the unsorted part of the array and putting it in the sorted part?",
+            "options": {
+                "A": "Insertion Sort",
+                "B": "Quick Sort",
+                "C": "Bubble Sort",
+                "D": "Selection Sort"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which data structure uses a technique called 'hashing with chaining' to handle collisions?",
+            "options": {
+                "A": "Hash Table",
+                "B": "Binary Search Tree",
+                "C": "Linked List",
+                "D": "Queue"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which traversal of a binary tree visits the nodes in a level-by-level order?",
+            "options": {
+                "A": "Preorder",
+                "B": "Inorder",
+                "C": "Postorder",
+                "D": "Level-order"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A graph with no cycles is called a:",
+            "options": {
+                "A": "Tree",
+                "B": "Heap",
+                "C": "Queue",
+                "D": "Stack"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure is commonly used to implement a LIFO behavior for function calls and recursion?",
+            "options": {
+                "A": "Queue",
+                "B": "Linked List",
+                "C": "Stack",
+                "D": "Hash Table"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which data structure allows you to add elements to both ends and efficiently perform insertion and deletion operations in the middle?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Deque",
+                "D": "Linked List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the space complexity for deleting a linked list?",
+            "options": {
+                "a": "O(1)",
+                "b": "O(n)",
+                "c": "Either O(1) or O(n)",
+                "d": "O(logn)"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Which data structure represents a hierarchical structure with a single root and a directed path from each internal node to its children?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Tree",
+                "D": "Heap"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Evaluate the postfix expression 2 3 + 4 * using stacks.",
+            "options": {
+                "A": "9",
+                "B": "20",
+                "C": "14",
+                "D": "24"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the worst-case time complexity of inserting an element into a sorted array?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(n²)",
+                "D": "O(1)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which sorting algorithm is most efficient for an already sorted array?",
+            "options": {
+                "A": "Bubble Sort",
+                "B": "Insertion Sort",
+                "C": "Selection Sort",
+                "D": "Merge Sort"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the prefix form of the expression (A + B) * (C - D)?",
+            "options": {
+                "A": "* + A B - C D",
+                "B": "+ * A B - C D",
+                "C": "* - A B + C D",
+                "D": "+ * C D A B"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the worst-case time complexity of deleting a node from a doubly linked list?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

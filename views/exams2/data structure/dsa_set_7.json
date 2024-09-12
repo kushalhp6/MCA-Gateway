@@ -1,0 +1,257 @@
+{
+    "exam_name": "DSA Set 7",
+    "total_marks": 25,
+    "time_limit": 25,
+    "questions": [
+        {
+            "question": "Which data structure is used for efficiently implementing a priority queue in terms of both insertion and removal of elements?",
+            "options": {
+                "A": "Heap",
+                "B": "Linked List",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a binary search tree (BST), what is the time complexity for finding the kth smallest element?",
+            "options": {
+                "A": "O(k)",
+                "B": "O(log k)",
+                "C": "O(n)",
+                "D": "O(log n)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which sorting algorithm is known for its adaptability, meaning it performs well on partially sorted lists?",
+            "options": {
+                "A": "Quick Sort",
+                "B": "Merge Sort",
+                "C": "Bubble Sort",
+                "D": "Insertion Sort"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is a self-balancing binary search tree (BST) that guarantees O(log n) height?",
+            "options": {
+                "A": "AVL Tree",
+                "B": "Binary Heap",
+                "C": "Red-Black Tree",
+                "D": "B-Tree"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a stack implemented using two queues, what is the time complexity of the pop operation?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is used for finding the connected components in an undirected graph efficiently?",
+            "options": {
+                "A": "Depth-First Search",
+                "B": "Breadth-First Search",
+                "C": "Union-Find (Disjoint Set)",
+                "D": "Dijkstra's Algorithm"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the time complexity of a linear search in an unsorted array with 'n' elements?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a doubly-ended queue (deque), which operation is not typically supported in constant time?",
+            "options": {
+                "A": "Enqueue at the front",
+                "B": "Enqueue at the rear",
+                "C": "Dequeue from the front",
+                "D": "Dequeue from the rear"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which algorithm is used to find the minimum spanning tree of a weighted, connected graph?",
+            "options": {
+                "A": "Dijkstra's Algorithm",
+                "B": "Bellman-Ford Algorithm",
+                "C": "Prim's Algorithm",
+                "D": "Kruskal's Algorithm"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In a linked list, what is the time complexity for finding the middle element in a single pass?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which data structure is used to implement undo functionality in text editors or software applications?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Linked List",
+                "D": "Binary Tree"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the maximum number of edges in a directed graph with 'n' vertices?",
+            "options": {
+                "A": "n",
+                "B": "n(n-1)/2",
+                "C": "n(n+1)/2",
+                "D": "n(n-1)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is not a valid operation in a priority queue?",
+            "options": {
+                "A": "Insertion",
+                "B": "Deletion of the highest priority element",
+                "C": "Update of an element's value",
+                "D": "Random access to elements"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In an AVL tree, what is the maximum height difference (balance factor) allowed between the left and right subtrees of any node?",
+            "options": {
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "3"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which algorithm is used for finding the longest common subsequence (LCS) between two sequences?",
+            "options": {
+                "A": "Breadth-First Search",
+                "B": "Dijkstra's Algorithm",
+                "C": "Floyd-Warshall Algorithm",
+                "D": "Dynamic Programming"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the time complexity of a binary search in a sorted array with 'n' elements?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is used for implementing a hash table collision resolution strategy?",
+            "options": {
+                "A": "Linked List",
+                "B": "Stack",
+                "C": "Queue",
+                "D": "Tree"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a binary heap, what is the time complexity for deleting the maximum element?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which tree traversal technique is used for finding the lowest common ancestor (LCA) of two nodes in a binary tree?",
+            "options": {
+                "A": "Inorder Traversal",
+                "B": "Preorder Traversal",
+                "C": "Postorder Traversal",
+                "D": "Depth-First Search"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which algorithm is used to find the shortest path between all pairs of nodes in a weighted graph?",
+            "options": {
+                "A": "Floyd-Warshall Algorithm",
+                "B": "Dijkstra's Algorithm",
+                "C": "Kruskal's Algorithm",
+                "D": "Prim's Algorithm"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the worst-case time complexity for searching an element in a Binary Search Tree?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(n log n)",
+                "D": "O(1)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure is used to convert an infix expression to a postfix expression?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Binary Search Tree",
+                "D": "Linked List"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the postfix form of the expression (A + B) * (C - D)?",
+            "options": {
+                "A": "AB + CD - *",
+                "B": "A + B * C - D",
+                "C": "+AB * -CD",
+                "D": "ABCD * + -"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Evaluate the postfix expression 5 3 * 2 +.",
+            "options": {
+                "A": "21",
+                "B": "17",
+                "C": "20",
+                "D": "15"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the prefix form of the expression (A + B) / (C - D)?",
+            "options": {
+                "A": "+ A B / C D",
+                "B": "/ + A B - C D",
+                "C": "/ A + B - C D",
+                "D": "A B C D / + -"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "Architecture Set 10",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "For a system with 32 segments, each segment being 8K bytes, how many bits are needed for the logical address?",
+            "options": {
+                "A": "16 bits",
+                "B": "18 bits",
+                "C": "20 bits",
+                "D": "22 bits"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The circuit type used for building ROM is:",
+            "options": {
+                "A": "Combinational Circuit",
+                "B": "Static Circuit",
+                "C": "Sequential Circuit",
+                "D": "Dynamic Circuit"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A computer with a 64-bit wide data bus and 1K x 32 static RAM chips will have a minimum memory of:",
+            "options": {
+                "A": "32 KB",
+                "B": "64 KB",
+                "C": "128 KB",
+                "D": "256 KB"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In pipelining, the ideal completion cycle for each stage is:",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "High-speed memory used to reduce access times for frequently used data is termed as:",
+            "options": {
+                "A": "Cache",
+                "B": "Buffer",
+                "C": "Heap",
+                "D": "Stack"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does DMA stand for in computer terminology?",
+            "options": {
+                "A": "Direct Memory Access",
+                "B": "Dynamic Memory Allocation",
+                "C": "Data Management Algorithm",
+                "D": "Device Management Application"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of memory is used for permanent data storage that cannot be altered or overwritten?",
+            "options": {
+                "A": "RAM",
+                "B": "ROM",
+                "C": "Cache",
+                "D": "Virtual Memory"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a computer's bus architecture, which bus carries data between the CPU and memory or peripheral devices?",
+            "options": {
+                "A": "Data bus",
+                "B": "Control bus",
+                "C": "Address bus",
+                "D": "Expansion bus"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of subroutines in programming?",
+            "options": {
+                "A": "To divide a program into smaller, reusable parts",
+                "B": "To manage peripheral devices",
+                "C": "To control the CPU clock speed",
+                "D": "To handle keyboard input"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "An interrupt that may be triggered by a power failure is called:",
+            "options": {
+                "A": "Voltage/Overload (V/O)",
+                "B": "Timer interrupt",
+                "C": "Hardware interrupt",
+                "D": "Software interrupt"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a computer's CPU, which component holds the address of the next instruction to be executed?",
+            "options": {
+                "A": "MBR (Memory Buffer Register)",
+                "B": "MAR (Memory Address Register)",
+                "C": "PSW (Program Status Word)",
+                "D": "PC (Program Counter)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the term 'fork()' represent in the context of computer systems?",
+            "options": {
+                "A": "A condition where multiple processes compete for resources",
+                "B": "Creating a new process or task",
+                "C": "A technique for managing cache memory",
+                "D": "A hardware component for managing memory addresses"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is a common use case for semaphores in computer programming?",
+            "options": {
+                "A": "Dividing a program into reusable parts",
+                "B": "Managing hardware resources",
+                "C": "Implementing mutual exclusion in multithreading",
+                "D": "Handling keyboard input"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary function of the Northbridge component in a computer's chipset architecture?",
+            "options": {
+                "A": "Managing CPU and memory operations",
+                "B": "Controlling peripheral devices",
+                "C": "Running the BIOS",
+                "D": "Managing I/O operations"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which memory component is often used to store firmware and system software in a computer?",
+            "options": {
+                "A": "RAM",
+                "B": "Cache",
+                "C": "EEPROM",
+                "D": "ROM"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The term 'pipeline' in computer architecture refers to:",
+            "options": {
+                "A": "A type of bus structure",
+                "B": "A sequence of instructions being processed concurrently",
+                "C": "A component of the operating system",
+                "D": "A peripheral device"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which system call is used to allocate memory dynamically in many programming languages?",
+            "options": {
+                "A": "malloc()",
+                "B": "free()",
+                "C": "open()",
+                "D": "close()"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the role of the Memory Management Unit (MMU) in a computer system?",
+            "options": {
+                "A": "To manage RAM operations",
+                "B": "To translate virtual addresses to physical addresses",
+                "C": "To execute user applications",
+                "D": "To control I/O devices"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of a multi-core CPU, what does 'cache coherence' refer to?",
+            "options": {
+                "A": "Keeping the CPU clock synchronized",
+                "B": "Ensuring that data in shared caches is consistent among cores",
+                "C": "Managing memory addresses",
+                "D": "Optimizing program execution"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT typically considered a part of a computer's I/O subsystem?",
+            "options": {
+                "A": "Monitor",
+                "B": "Keyboard",
+                "C": "RAM",
+                "D": "Hard Disk"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

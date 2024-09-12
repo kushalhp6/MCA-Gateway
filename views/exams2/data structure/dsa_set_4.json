@@ -1,0 +1,267 @@
+{
+    "exam_name": "DSA Set 4",
+    "total_marks": 26,
+    "time_limit": 26,
+    "questions": [
+        {
+            "question": "Which data structure is suitable for efficiently finding the closest lower value to a given key in a sorted collection?",
+            "options": {
+                "A": "Binary Search Tree",
+                "B": "Heap",
+                "C": "Hash Table",
+                "D": "Linked List"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which sorting algorithm works by distributing the elements into buckets and then sorting each bucket individually?",
+            "options": {
+                "A": "Radix Sort",
+                "B": "Quick Sort",
+                "C": "Bubble Sort",
+                "D": "Merge Sort"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A self-balancing binary search tree that maintains the balance using rotations is known as:",
+            "options": {
+                "A": "AVL Tree",
+                "B": "Red-Black Tree",
+                "C": "B-Tree",
+                "D": "Heap"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure supports efficient insertion, deletion, and search operations, while maintaining elements in a sorted order?",
+            "options": {
+                "A": "Hash Table",
+                "B": "Binary Heap",
+                "C": "AVL Tree",
+                "D": "Trie"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which data structure is used to find the connected components in an undirected graph?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Disjoint-Set Union (DSU)",
+                "D": "Depth-First Search (DFS)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a trie data structure, each node represents:",
+            "options": {
+                "A": "A character",
+                "B": "A complete word",
+                "C": "A sequence of characters",
+                "D": "An integer value"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which sorting algorithm is used for external sorting, where the data doesn't fit entirely in memory?",
+            "options": {
+                "A": "Bubble Sort",
+                "B": "Insertion Sort",
+                "C": "Quick Sort",
+                "D": "External Merge Sort"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which data structure is used to find the shortest path between all pairs of nodes in a weighted graph?",
+            "options": {
+                "A": "Dijkstra's Algorithm",
+                "B": "Breadth-First Search (BFS)",
+                "C": "Bellman-Ford Algorithm",
+                "D": "Floyd-Warshall Algorithm"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A segment tree is a data structure commonly used for efficient range queries and updates on:",
+            "options": {
+                "A": "Arrays",
+                "B": "Linked Lists",
+                "C": "Hash Tables",
+                "D": "Graphs"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure represents a collection of elements in a way that allows for insertion, deletion, and search operations in logarithmic time?",
+            "options": {
+                "A": "Trie",
+                "B": "Hash Table",
+                "C": "Splay Tree",
+                "D": "AVL Tree"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which data structure represents a collection of elements with distinct keys and provides constant-time access to both the minimum and maximum elements?",
+            "options": {
+                "A": "Binary Search Tree",
+                "B": "Heap",
+                "C": "Hash Table",
+                "D": "Linked List"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which sorting algorithm is often used as a subroutine for more advanced sorting algorithms due to its low overhead?",
+            "options": {
+                "A": "Merge Sort",
+                "B": "Insertion Sort",
+                "C": "Quick Sort",
+                "D": "Bubble Sort"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A splay tree is a self-adjusting binary search tree that optimizes for frequently accessed nodes by:",
+            "options": {
+                "A": "Rotating nodes",
+                "B": "Rebalancing the tree",
+                "C": "Moving nodes to the root",
+                "D": "Merging subtrees"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which data structure efficiently supports dynamic set operations like insertion, deletion, and searching for elements in a set?",
+            "options": {
+                "A": "Hash Table",
+                "B": "Red-Black Tree",
+                "C": "AVL Tree",
+                "D": "Skip List"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A suffix array is a data structure commonly used for efficiently solving problems related to:",
+            "options": {
+                "A": "Graphs",
+                "B": "Sorting",
+                "C": "Dynamic Programming",
+                "D": "String Processing"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In a B-tree of order m, each internal node can have at most:",
+            "options": {
+                "A": "m - 1 keys",
+                "B": "m keys",
+                "C": "2m - 1 keys",
+                "D": "2m keys"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A self-balancing binary search tree that maintains balance using rotations and color properties is known as:",
+            "options": {
+                "A": "AVL Tree",
+                "B": "Red-Black Tree",
+                "C": "B-Tree",
+                "D": "Splay Tree"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "The B*-tree is an enhancement of the B-tree that optimizes for:",
+            "options": {
+                "A": "Insertions",
+                "B": "Deletions",
+                "C": "Search operations",
+                "D": "Range queries"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure is used to represent the disjoint sets and efficiently answer queries related to connected components in a graph?",
+            "options": {
+                "A": "Union-Find (Disjoint Set) Data Structure",
+                "B": "Hash Table",
+                "C": "Heap",
+                "D": "Balanced Binary Search Tree"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure is commonly used to implement a cache that evicts the least recently used items when it reaches its capacity?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Least Recently Used (LRU) Cache",
+                "D": "Priority Queue"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following are non-linear data structures?",
+            "options": {
+                "A": "Array",
+                "B": "Stack",
+                "C": "Graph",
+                "D": "Queue"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "You are given an array where each element is at most k positions away from its sorted position. Which sorting algorithm provides the best time complexity in this case?",
+            "options": {
+                "A": "Quick Sort",
+                "B": "Bubble Sort",
+                "C": "Heap Sort",
+                "D": "Merge Sort"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the worst-case time complexity of Insertion Sort?",
+            "options": {
+                "A": "O(n log n)",
+                "B": "O(n²)",
+                "C": "O(n)",
+                "D": "O(1)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In which scenario is Bubble Sort most efficient?",
+            "options": {
+                "A": "When the array is sorted in descending order",
+                "B": "When the array is sorted in ascending order",
+                "C": "When the array contains repeated elements",
+                "D": "When the array is randomly ordered"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which sorting algorithm has the best time complexity for an almost sorted array?",
+            "options": {
+                "A": "Merge Sort",
+                "B": "Selection Sort",
+                "C": "Quick Sort",
+                "D": "Insertion Sort"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The time complexity of Merge Sort is:",
+            "options": {
+                "A": "O(n²)",
+                "B": "O(n log n)",
+                "C": "O(log n)",
+                "D": "O(n)"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

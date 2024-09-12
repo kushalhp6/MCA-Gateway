@@ -1,0 +1,257 @@
+{
+    "exam_name": "DSA Set 5",
+    "total_marks": 25,
+    "time_limit": 25,
+    "questions": [
+        {
+            "question": "Which data structure supports efficient dynamic operations on a set of keys, including split and merge operations, while maintaining logarithmic height?",
+            "options": {
+                "A": "B-Tree",
+                "B": "Splay Tree",
+                "C": "Treap",
+                "D": "Red-Black Tree"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A Fenwick Tree (Binary Indexed Tree) is most commonly used to efficiently compute:",
+            "options": {
+                "A": "Maximum element in a range",
+                "B": "Sum of elements in a range",
+                "C": "Longest common subsequence",
+                "D": "Shortest path in a graph"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a van Emde Boas tree, the time complexity for basic operations like insert, delete, search is:",
+            "options": {
+                "A": "O(log n)",
+                "B": "O(log log n)",
+                "C": "O(sqrt(log n))",
+                "D": "O(sqrt(n))"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A Cartesian Tree is a data structure used to efficiently perform range queries on a sequence of elements in:",
+            "options": {
+                "A": "O(n)",
+                "B": "O(n log n)",
+                "C": "O(log n)",
+                "D": "O(1)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which data structure combines the features of a heap and a binary search tree to support efficient range queries and updates?",
+            "options": {
+                "A": "AVL Tree",
+                "B": "Red-Black Tree",
+                "C": "Segment Tree",
+                "D": "Skip List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The van Emde Boas tree is designed to handle keys in the range of 0 to 2^k - 1. What is the space complexity of this data structure?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(2^k)",
+                "C": "O(2^k log k)",
+                "D": "O(k)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A quadtree is a tree data structure used to partition a two-dimensional space into a hierarchical structure of:",
+            "options": {
+                "A": "Points",
+                "B": "Line segments",
+                "C": "Rectangles",
+                "D": "Circles"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "A wavelet tree is a data structure used to efficiently perform range queries on a sequence of elements using the concepts of:",
+            "options": {
+                "A": "Binary search and hash tables",
+                "B": "Bit manipulation and rank/select operations",
+                "C": "Dynamic programming and memoization",
+                "D": "Graph traversal and shortest paths"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is used to maintain a collection of disjoint sets and perform union and find operations with near-constant time complexity?",
+            "options": {
+                "A": "AVL Tree",
+                "B": "Splay Tree",
+                "C": "Disjoint-Set Union (DSU)",
+                "D": "Fenwick Tree"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "A suffix tree is a specialized data structure used to efficiently solve problems related to:",
+            "options": {
+                "A": "Graph traversal",
+                "B": "Binary search",
+                "C": "String matching",
+                "D": "Tree traversal"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a two-three tree, each internal node can have:",
+            "options": {
+                "A": "One key and two children",
+                "B": "Two keys and three children",
+                "C": "Three keys and four children",
+                "D": "Four keys and five children"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A link-cut tree is a dynamic tree data structure that supports efficient operations for:",
+            "options": {
+                "A": "Priority queue operations",
+                "B": "Graph traversal",
+                "C": "Dynamic connectivity and path queries",
+                "D": "Hashing and collisions"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The Burrows-Wheeler Transform (BWT) is a reversible transformation often used in:",
+            "options": {
+                "A": "Data compression",
+                "B": "Image processing",
+                "C": "Graph algorithms",
+                "D": "Audio processing"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A Rope data structure is designed to efficiently perform string manipulation operations such as concatenation and substring extraction in:",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(log^2 n)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The Fibonacci Heap is a type of priority queue that guarantees the amortized time complexity of which operation to be O(1)?",
+            "options": {
+                "A": "Insert",
+                "B": "Delete-min",
+                "C": "Decrease-key",
+                "D": "Merge"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "The Hashed Array Tree (HAT) is a data structure designed to combine the benefits of hash tables and trees for efficient:",
+            "options": {
+                "A": "Sorting",
+                "B": "Graph traversal",
+                "C": "Dynamic connectivity",
+                "D": "Range queries"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A persistent data structure is one that maintains previous versions of itself efficiently after undergoing updates. Which data structure is not persistent?",
+            "options": {
+                "A": "Splay Tree",
+                "B": "AVL Tree",
+                "C": "Treap",
+                "D": "Skip List"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A B+ tree is a variation of the B-tree commonly used for indexing in databases. What distinguishes a B+ tree from a B-tree?",
+            "options": {
+                "A": "B+ trees have a higher branching factor.",
+                "B": "B+ trees have fewer keys per node.",
+                "C": "B+ trees store data only at leaf nodes.",
+                "D": "B+ trees are not balanced."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The Hopcroft-Karp algorithm is used to find the maximum cardinality matching in a bipartite graph. What is the time complexity of this algorithm?",
+            "options": {
+                "A": "O(V)",
+                "B": "O(E)",
+                "C": "O(V^2)",
+                "D": "O(V^2 * E)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A y-fast trie is a data structure used for dictionary operations (insert, delete, search) with near-logarithmic time complexity. What is the main idea behind the y-fast trie?",
+            "options": {
+                "A": "Combining hashing and sorting",
+                "B": "Combining binary search and tries",
+                "C": "Combining graph traversal and dynamic programming",
+                "D": "Combining bit manipulation and bitwise operations"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following algorithms has the worst-case time complexity of O(n²)?",
+            "options": {
+                "A": "Merge Sort",
+                "B": "Heap Sort",
+                "C": "Quick Sort",
+                "D": "Bubble Sort"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the best-case time complexity of Quick Sort?",
+            "options": {
+                "A": "O(n log n)",
+                "B": "O(n²)",
+                "C": "O(n)",
+                "D": "O(log n)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "The recurrence relation for Merge Sort is:",
+            "options": {
+                "A": "T(n) = 2T(n/2) + O(n)",
+                "B": "T(n) = T(n-1) + O(n)",
+                "C": "T(n) = T(n/2) + O(1)",
+                "D": "T(n) = 2T(n/2) + O(1)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following recurrence relations represents the time complexity of Binary Search?",
+            "options": {
+                "A": "T(n) = T(n - 1) + O(1)",
+                "B": "T(n) = T(n/2) + O(1)",
+                "C": "T(n) = 2T(n/2) + O(n)",
+                "D": "T(n) = 2T(n/2) + O(1)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the recurrence relation for the best-case time complexity of Quick Sort?",
+            "options": {
+                "A": "T(n) = T(n - 1) + O(1)",
+                "B": "T(n) = 2T(n/2) + O(n)",
+                "C": "T(n) = T(n/2) + O(n)",
+                "D": "T(n) = T(n/2) + O(1)"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

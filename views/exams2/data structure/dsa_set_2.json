@@ -1,0 +1,263 @@
+{
+    "exam_name": "DSA Set 2",
+    "total_marks": 25,
+    "time_limit": 25,
+    "questions": [
+        {
+            "question": "Which data structure follows the Last-In-First-Out (LIFO) principle?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Linked List",
+                "D": "Tree"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure allows elements to be accessed by their index?",
+            "options": {
+                "A": "Hash Table",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Queue"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which data structure is used to implement a symbol table in programming languages?",
+            "options": {
+                "A": "Stack",
+                "B": "Linked List",
+                "C": "Queue",
+                "D": "Hash Table"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Circular Queue is also known as ________",
+            "options": {
+                "a": "Ring Buffer",
+                "b": "Square Buffer",
+                "c": "Rectangle Buffer",
+                "d": "Curve Buffer"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "Which data structure represents a collection of elements, each with a unique key?",
+            "options": {
+                "A": "Stack",
+                "B": "Linked List",
+                "C": "Queue",
+                "D": "Hash Table"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A linear collection of data elements where the linear node is given by means of pointer is called?",
+            "options": {
+                "a": "Linked list",
+                "b": "Node list",
+                "c": "Primitive list",
+                "d": "Unordered list"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "Consider an implementation of unsorted singly linked list. Suppose it has its representation with a head pointer only. Given the representation, which of the following operations can be implemented in O(1) time?",
+            "options": {
+                "i": "Insertion at the front of the linked list",
+                "ii": "Insertion at the end of the linked list",
+                "iii": "Deletion of the front node of the linked list",
+                "iv": "Deletion of the last node of the linked list"
+            },
+            "options_list": [
+                "a) I and II",
+                "b) I and III",
+                "c) I, II and III",
+                "d) I, II and IV"
+            ],
+            "correct_answer": "b"
+        },
+        {
+            "question": "Which data structure is based on the principle of First-In-First-Out (FIFO)?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Hash Table"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is a collection of nodes where each node has a value and a reference to the next node?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Tree"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In linked list each node contains a minimum of two fields. One field is data field to store the data second field is?",
+            "options": {
+                "a": "Pointer to character",
+                "b": "Pointer to integer",
+                "c": "Pointer to node",
+                "d": "Node"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "question": "Which data structure stores elements in a way that the most recently added element is the first to be removed?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Hash Table",
+                "D": "Linked List"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What would be the asymptotic time complexity to add a node at the end of singly linked list, if the pointer is initially pointing to the head of the list?",
+            "options": {
+                "a": "O(1)",
+                "b": "O(n)",
+                "c": "θ(n)",
+                "d": "θ(1)"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Which data structure is used to implement a priority queue?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What would be the asymptotic time complexity to insert an element at the front of the linked list (head is known)?",
+            "options": {
+                "a": "O(1)",
+                "b": "O(n)",
+                "c": "O(n2)",
+                "d": "O(n3)"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "What would be the asymptotic time complexity to find an element in the linked list?",
+            "options": {
+                "a": "O(1)",
+                "b": "O(n)",
+                "c": "O(n2)",
+                "d": "O(n4)"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Which data structure allows elements to be removed from both ends?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Deque",
+                "D": "Linked List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What would be the asymptotic time complexity to insert an element at the second position in the linked list?",
+            "options": {
+                "a": "O(1)",
+                "b": "O(n)",
+                "c": "O(n2)",
+                "d": "O(n3)"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Which data structure represents a collection of elements with no specific order or arrangement?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Set"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Linked list is considered as an example of ___________ type of memory allocation.",
+            "options": {
+                "a": "Dynamic",
+                "b": "Static",
+                "c": "Compile time",
+                "d": "Heap"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "Linked list data structure offers considerable saving in _____________",
+            "options": {
+                "a": "Computational Time",
+                "b": "Space Utilization",
+                "c": "Space Utilization and Computational Time",
+                "d": "Speed Utilization"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Given an array where each element is at most k positions away from its sorted position, which sorting algorithm is most efficient?",
+            "options": {
+                "A": "Insertion Sort with time complexity O(k*n)",
+                "B": "Merge Sort with time complexity O(n log n)",
+                "C": "Heap Sort with time complexity O(n log k)",
+                "D": "Quick Sort with time complexity O(n²)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is the correct recurrence relation for the best-case time complexity of Merge Sort?",
+            "options": {
+                "A": "T(n) = 2T(n/2) + O(n) & T(1) = O(1)",
+                "B": "T(n) = T(n - 1) + O(n) & T(1) = O(1)",
+                "C": "T(n) = T(n/2) + O(1) & T(1) = O(1)",
+                "D": "T(n) = T(n - 2) + O(1) & T(1) = O(1)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "To convert a postfix expression to infix, which data structure should be used?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Binary Search Tree",
+                "D": "Linked List"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Insert the elements 10, 15, 5, 20, 7 into an empty binary search tree. What is the in-order traversal of the tree?",
+            "options": {
+                "A": "5, 7, 10, 15, 20",
+                "B": "10, 5, 7, 15, 20",
+                "C": "15, 10, 5, 7, 20",
+                "D": "20, 15, 10, 7, 5"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which traversal method of a Binary Search Tree gives the nodes in sorted order?",
+            "options": {
+                "A": "Pre-order",
+                "B": "In-order",
+                "C": "Post-order",
+                "D": "Level-order"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

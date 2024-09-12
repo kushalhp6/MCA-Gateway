@@ -1,0 +1,207 @@
+{
+    "exam_name": "Architecture Set 4",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "A computer with a 16-bit data bus and 2K x 16 static RAM memory chips will have a minimum memory of:",
+            "options": {
+                "A": "8 KB",
+                "B": "16 KB",
+                "C": "32 KB",
+                "D": "64 KB"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The number of cycles each stage in a pipeline should be completed ideally is:",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "High-speed RAM that is used for reducing the time taken for data retrieval is called:",
+            "options": {
+                "A": "Buffer",
+                "B": "Heap",
+                "C": "Cache",
+                "D": "Stack"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Direct Memory Access (DMA) transfers, the address and control signals are usually provided by the:",
+            "options": {
+                "A": "DMA controller",
+                "B": "CPU",
+                "C": "Memory",
+                "D": "I/O device"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A CPU generates 24-bit virtual addresses. If the page size is 1 KB and the TLB can hold 64 entries, which is 2-way set associative, what is the size of the TLB tag?",
+            "options": {
+                "A": "8 bits",
+                "B": "10 bits",
+                "C": "12 bits",
+                "D": "14 bits"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary purpose of pipelining in computer architecture?",
+            "options": {
+                "A": "To reduce the number of instructions executed per clock cycle",
+                "B": "To increase the clock frequency of the CPU",
+                "C": "To improve the efficiency of instruction execution by overlapping stages",
+                "D": "To minimize the occurrence of branch instructions"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the function of a Translation Lookaside Buffer (TLB) in virtual memory systems?",
+            "options": {
+                "A": "To store page table entries for each memory page",
+                "B": "To store the current instruction being executed",
+                "C": "To hold data temporarily during arithmetic calculations",
+                "D": "To hold recently translated virtual-to-physical address mappings"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is speculative execution in computer processors?",
+            "options": {
+                "A": "A technique to execute only the first instruction in a pipeline",
+                "B": "Executing instructions ahead of time, even before it's confirmed they will be needed",
+                "C": "Running multiple threads simultaneously in a single processor core",
+                "D": "A type of interrupt handling mechanism"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which term refers to a situation where an instruction depends on the result of a previous instruction and cannot be executed concurrently?",
+            "options": {
+                "A": "Pipeline bubble",
+                "B": "Data hazard",
+                "C": "Structural hazard",
+                "D": "Control hazard"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In cache memory design, what is the term for the strategy of replacing the least recently used data when space is needed for new data?",
+            "options": {
+                "A": "Least Recently Used (LRU)",
+                "B": "First In, First Out (FIFO)",
+                "C": "Most Recently Used (MRU)",
+                "D": "Round Robin"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of interrupt cannot be ignored or masked and usually indicates critical system failures?",
+            "options": {
+                "A": "Non-maskable interrupt",
+                "B": "Maskable interrupt",
+                "C": "Hardware interrupt",
+                "D": "Software interrupt"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a Memory Buffer Register (MBR) in a computer's architecture?",
+            "options": {
+                "A": "To hold the address of the next instruction to be executed",
+                "B": "To temporarily store data being transferred between the CPU and memory",
+                "C": "To manage interrupt handling",
+                "D": "To store data that is actively used by the CPU"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which technique is used to predict the outcome of a branch instruction and speculatively execute instructions based on that prediction?",
+            "options": {
+                "A": "Caching",
+                "B": "Superscalar processing",
+                "C": "Pipelining",
+                "D": "Branch prediction"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary purpose of a memory hierarchy in a computer system?",
+            "options": {
+                "A": "To provide redundancy for data storage",
+                "B": "To ensure reliable power supply to memory modules",
+                "C": "To optimize memory access speed and cost",
+                "D": "To manage inter-process communication"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of memory access pattern involves accessing data in a pattern that doesn't follow a specific order, often seen in database systems?",
+            "options": {
+                "A": "Random access",
+                "B": "Direct access",
+                "C": "Sequential access",
+                "D": "Skewed access"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary role of the control unit in a computer's architecture?",
+            "options": {
+                "A": "To manage data storage in memory",
+                "B": "To execute arithmetic and logic operations",
+                "C": "To manage instruction fetching and execution",
+                "D": "To optimize I/O operations"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a virtual memory system, what does the term 'thrashing' refer to?",
+            "options": {
+                "A": "A cache memory eviction strategy",
+                "B": "Frequent swapping of pages between main memory and disk, leading to poor performance",
+                "C": "A type of control hazard",
+                "D": "Excessive branching in a program"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main function of the Memory Management Unit (MMU) in a computer system?",
+            "options": {
+                "A": "To manage the allocation of cache memory",
+                "B": "To handle interrupt requests",
+                "C": "To perform complex mathematical calculations",
+                "D": "To translate virtual addresses to physical addresses in memory"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which mechanism is used to manage the order of memory access operations to prevent data hazards in pipelined processors?",
+            "options": {
+                "A": "Out-of-order execution",
+                "B": "Superscalar processing",
+                "C": "Branch prediction",
+                "D": "In-order execution"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the role of the Instruction Pointer (IP) in a computer's architecture?",
+            "options": {
+                "A": "To hold the address of the next instruction to be executed",
+                "B": "To manage interrupt requests",
+                "C": "To control data access in cache memory",
+                "D": "To manage memory allocation"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

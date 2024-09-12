@@ -1,0 +1,207 @@
+{
+    "exam_name": "Architecture Set 6",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "If there are 64 segments, each of size 2K bytes, how many bits should the logical address have?",
+            "options": {
+                "A": "14 bits",
+                "B": "16 bits",
+                "C": "18 bits",
+                "D": "20 bits"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of circuit is used to build ROM?",
+            "options": {
+                "A": "Combinational Circuit",
+                "B": "Static Circuit",
+                "C": "Sequential Circuit",
+                "D": "Magnetic Circuit"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A computer with a 16-bit data bus and 4K x 16 static RAM chips will have a minimum memory of:",
+            "options": {
+                "A": "16 KB",
+                "B": "32 KB",
+                "C": "64 KB",
+                "D": "128 KB"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In a pipelined architecture, each stage should ideally be completed in:",
+            "options": {
+                "A": "1 cycle",
+                "B": "2 cycles",
+                "C": "3 cycles",
+                "D": "4 cycles"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "High-speed memory used to speed up access to frequently used data is called:",
+            "options": {
+                "A": "Cache",
+                "B": "Heap",
+                "C": "Stack",
+                "D": "Buffer"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of system calls, what is a 'trap' or 'software interrupt'?",
+            "options": {
+                "A": "A hardware fault",
+                "B": "A privileged instruction",
+                "C": "A mechanism for switching between user and kernel mode",
+                "D": "A type of cache memory"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a system call in an operating system?",
+            "options": {
+                "A": "To provide low-level hardware access",
+                "B": "To terminate the current process",
+                "C": "To request a service from the operating system kernel",
+                "D": "To allocate memory dynamically"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is responsible for managing the allocation and deallocation of memory in a computer system?",
+            "options": {
+                "A": "CPU scheduler",
+                "B": "Memory management unit (MMU)",
+                "C": "System call handler",
+                "D": "Allocator"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary role of an interrupt vector in interrupt handling?",
+            "options": {
+                "A": "To store the interrupt handler routine's address",
+                "B": "To manage CPU cache",
+                "C": "To prioritize interrupts",
+                "D": "To store user-level data"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a multiprocessing system, what is a contention-free interrupt handling mechanism?",
+            "options": {
+                "A": "Round-robin scheduling",
+                "B": "Priority-based interrupt handling",
+                "C": "Maskable interrupts",
+                "D": "Non-maskable interrupts"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of a pipeline stall in a CPU's instruction pipeline?",
+            "options": {
+                "A": "To improve instruction throughput",
+                "B": "To synchronize multiple CPUs",
+                "C": "To handle data hazards",
+                "D": "To accelerate memory access"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is an example of a non-maskable interrupt (NMI)?",
+            "options": {
+                "A": "Timer interrupt",
+                "B": "Divide by zero exception",
+                "C": "Keyboard input",
+                "D": "Disk I/O request"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a von Neumann architecture, what is the key characteristic that distinguishes program memory from data memory?",
+            "options": {
+                "A": "Program memory is read-only, while data memory is read-write.",
+                "B": "Program memory is volatile, while data memory is non-volatile.",
+                "C": "Program memory is external, while data memory is internal.",
+                "D": "Program memory is slower than data memory."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a cache coherence protocol in a multiprocessor system?",
+            "options": {
+                "A": "To manage virtual memory",
+                "B": "To synchronize access to shared cache memory",
+                "C": "To handle system interrupts",
+                "D": "To control the CPU clock speed"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a computer's memory hierarchy, what is the purpose of the secondary storage device, such as a hard drive or SSD?",
+            "options": {
+                "A": "To store frequently accessed data",
+                "B": "To provide temporary storage for active processes",
+                "C": "To serve as a backup for RAM",
+                "D": "To provide long-term storage for data and programs"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following best describes a race condition in computer programming?",
+            "options": {
+                "A": "A condition where multiple processes access shared resources in an unpredictable manner",
+                "B": "A condition where a program's execution is too slow",
+                "C": "A condition where the CPU is stalled",
+                "D": "A condition where memory allocation fails"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a hardware interrupt controller in a computer system?",
+            "options": {
+                "A": "To manage software interrupts",
+                "B": "To control CPU cache",
+                "C": "To prioritize and route hardware interrupts to the CPU",
+                "D": "To handle system calls"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is responsible for managing the translation of virtual addresses to physical addresses in a computer's memory management unit (MMU)?",
+            "options": {
+                "A": "Page table",
+                "B": "TLB (Translation Lookaside Buffer)",
+                "C": "DMA controller",
+                "D": "CPU cache"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of the CPU's pipeline in modern processor architectures?",
+            "options": {
+                "A": "To execute multiple instructions simultaneously",
+                "B": "To store frequently accessed data",
+                "C": "To accelerate memory access",
+                "D": "To manage interrupts"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a superscalar processor, what feature allows it to execute multiple instructions in parallel?",
+            "options": {
+                "A": "Instruction cache",
+                "B": "Out-of-order execution",
+                "C": "Interrupt handling unit",
+                "D": "System call interface"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

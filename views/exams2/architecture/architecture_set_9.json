@@ -1,0 +1,207 @@
+{
+    "exam_name": "Architecture Set 9",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "If the cache access time is 8 ns, memory access time is 70 ns, and the overall memory access time is 30 ns, what is the hit ratio?",
+            "options": {
+                "A": "50%",
+                "B": "55%",
+                "C": "60%",
+                "D": "65%"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A system with 128 segments, each of size 8K bytes, requires how many bits for the logical address?",
+            "options": {
+                "A": "18 bits",
+                "B": "20 bits",
+                "C": "22 bits",
+                "D": "24 bits"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "The role of ROM in computer systems is to:",
+            "options": {
+                "A": "Provide fast storage for frequently accessed data",
+                "B": "Store the operating system and firmware",
+                "C": "Perform dynamic calculations",
+                "D": "Act as a temporary data store"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A system with a 16-bit data bus and 4K x 8 static RAM chips will have a minimum memory of:",
+            "options": {
+                "A": "16 KB",
+                "B": "32 KB",
+                "C": "64 KB",
+                "D": "128 KB"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a pipelined system, each stage ideally completes in:",
+            "options": {
+                "A": "1 cycle",
+                "B": "2 cycles",
+                "C": "3 cycles",
+                "D": "4 cycles"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a CPU, what is the purpose of a pipeline register?",
+            "options": {
+                "A": "To hold intermediate data between pipeline stages",
+                "B": "To store the CPU's microcode",
+                "C": "To buffer data before writing it to RAM",
+                "D": "To control the clock signal"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following system calls is used to create a new thread within a process in a multi-threaded program?",
+            "options": {
+                "A": "fork()",
+                "B": "exec()",
+                "C": "pthread_create()",
+                "D": "clone()"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "When a program exceeds the available physical memory and uses a portion of the hard drive as an extension of RAM, this is known as:",
+            "options": {
+                "A": "Swapping",
+                "B": "Paging",
+                "C": "Fragmentation",
+                "D": "Thrashing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is a TLB (Translation Lookaside Buffer) in the context of memory management?",
+            "options": {
+                "A": "A hardware cache used to store virtual-to-physical address mappings",
+                "B": "A system call for memory allocation",
+                "C": "A type of memory module",
+                "D": "A CPU register for storing program counters"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "The process of executing instructions out of order to maximize CPU utilization and performance is known as:",
+            "options": {
+                "A": "Pipelining",
+                "B": "Out-of-order execution",
+                "C": "Superscalar processing",
+                "D": "Parallel computing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a complex instruction set computer (CISC) architecture, instructions are typically:",
+            "options": {
+                "A": "Simple and few in number",
+                "B": "Highly specialized and numerous",
+                "C": "Executed in parallel by multiple cores",
+                "D": "Optimized for vector processing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary role of a hard disk controller in a computer system?",
+            "options": {
+                "A": "Managing RAM operations",
+                "B": "Transferring data between RAM and the CPU",
+                "C": "Controlling I/O operations for the hard disk",
+                "D": "Handling CPU instructions"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the term for the phenomenon where a program's performance decreases as it is divided into multiple threads or processes due to excessive overhead?",
+            "options": {
+                "A": "Scalability",
+                "B": "Bottleneck",
+                "C": "Amdahl's Law",
+                "D": "Speedup"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a computer system, what is the role of the Northbridge component in the chipset architecture?",
+            "options": {
+                "A": "Managing I/O operations",
+                "B": "Controlling RAM and high-speed interfaces",
+                "C": "Running the BIOS",
+                "D": "Managing peripheral devices"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which cache architecture allows data to be loaded into the cache without invalidating the current cache contents, improving cache utilization?",
+            "options": {
+                "A": "Write-Back",
+                "B": "Write-Through",
+                "C": "Direct-Mapped",
+                "D": "Set-Associative"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a computer system, what is a race condition, and why is it problematic in multi-threaded programming?",
+            "options": {
+                "A": "A situation where threads compete for resources, potentially causing unexpected results",
+                "B": "A synchronization mechanism for thread communication",
+                "C": "A type of deadlock that halts program execution",
+                "D": "A condition where threads always execute in a predictable order"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of interrupt is typically associated with hardware errors, such as memory parity errors or hardware malfunctions?",
+            "options": {
+                "A": "Non-maskable interrupt (NMI)",
+                "B": "Maskable interrupt",
+                "C": "Software interrupt",
+                "D": "External interrupt"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is a 'reorder buffer' in the context of out-of-order execution in modern processors?",
+            "options": {
+                "A": "A buffer used to store instructions before they are executed",
+                "B": "A mechanism to ensure that instructions are executed in order",
+                "C": "A component for tracking the results of executed instructions and their original order",
+                "D": "A specialized cache for data reordering"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which memory management technique is used to break up physical memory into fixed-sized blocks that can be allocated to processes, helping to reduce memory fragmentation?",
+            "options": {
+                "A": "Paging",
+                "B": "Segmentation",
+                "C": "Swapping",
+                "D": "Virtual memory"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is a side-channel attack in computer security?",
+            "options": {
+                "A": "An attack that targets the physical components of a computer",
+                "B": "An attack that exploits weaknesses in encryption algorithms",
+                "C": "An attack that gathers information from observable system behaviors, such as power consumption or timing",
+                "D": "An attack that targets social engineering vulnerabilities"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

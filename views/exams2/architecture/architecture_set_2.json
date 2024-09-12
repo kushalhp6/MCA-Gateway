@@ -1,0 +1,207 @@
+{
+    "exam_name": "Architecture Set 2",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "If a computer system has 16 segments, each of size 2K bytes, how many bits should the logical address have?",
+            "options": {
+                "A": "12 bits",
+                "B": "13 bits",
+                "C": "14 bits",
+                "D": "15 bits"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The type of circuit used for ROM is:",
+            "options": {
+                "A": "Combinational Circuit",
+                "B": "Static Circuit",
+                "C": "Sequential Circuit",
+                "D": "Magnetic Circuit"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A computer with a 64-bit wide data bus uses 8K x 8 static RAM memory chips. What is the smallest memory this computer can have?",
+            "options": {
+                "A": "32 KB",
+                "B": "64 KB",
+                "C": "128 KB",
+                "D": "256 KB"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In pipelining, each stage should ideally be completed within how many cycles?",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Small, extremely fast RAMs used for cache are called:",
+            "options": {
+                "A": "Heaps",
+                "B": "Buffers",
+                "C": "Stacks",
+                "D": "Cache"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does DMA stand for in computer architecture?",
+            "options": {
+                "A": "Direct Memory Access",
+                "B": "Data Manipulation Algorithm",
+                "C": "Dynamic Memory Allocation",
+                "D": "Dual Mode Architecture"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which component handles input and output operations between the CPU and external devices?",
+            "options": {
+                "A": "Interrupt",
+                "B": "Subroutines",
+                "C": "Cache Memory",
+                "D": "Bus"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of an interrupt in computer systems?",
+            "options": {
+                "A": "To facilitate communication between processes",
+                "B": "To perform complex calculations",
+                "C": "To handle errors in the CPU",
+                "D": "To temporarily pause the CPU and handle external events"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of memory is used to store permanent data that is not changed during normal operation?",
+            "options": {
+                "A": "RAM",
+                "B": "Cache Memory",
+                "C": "ROM",
+                "D": "Pipeline"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What term refers to a sequence of instructions that can be called multiple times from different parts of a program?",
+            "options": {
+                "A": "DMA",
+                "B": "Interrupt",
+                "C": "Subroutines",
+                "D": "Pipeline"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which component of a computer's architecture manages the flow of data between the CPU and memory?",
+            "options": {
+                "A": "DMA",
+                "B": "Bus",
+                "C": "Cache Memory",
+                "D": "Pipeline"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of a pipeline in computer systems?",
+            "options": {
+                "A": "To handle memory access",
+                "B": "To execute multiple instructions simultaneously",
+                "C": "To manage system calls",
+                "D": "To control input/output operations"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of memory is faster but smaller in size, used to store frequently accessed data for quicker retrieval?",
+            "options": {
+                "A": "RAM",
+                "B": "Cache Memory",
+                "C": "ROM",
+                "D": "Pipeline"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which part of a computer's architecture is responsible for managing the transfer of data between external devices and memory without involving the CPU?",
+            "options": {
+                "A": "DMA",
+                "B": "Interrupt",
+                "C": "Subroutines",
+                "D": "Cache Memory"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of memory is volatile and loses its data when the power is turned off?",
+            "options": {
+                "A": "RAM",
+                "B": "Cache Memory",
+                "C": "ROM",
+                "D": "Pipeline"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a system call in an operating system?",
+            "options": {
+                "A": "To manage memory allocation",
+                "B": "To execute complex calculations",
+                "C": "To perform direct memory access",
+                "D": "To request services from the operating system"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does ROM stand for?",
+            "options": {
+                "A": "Read-Only Memory",
+                "B": "Random Operating Memory",
+                "C": "Read-Access Memory",
+                "D": "Remote Output Memory"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which part of a computer's architecture is responsible for handling asynchronous events that require immediate attention?",
+            "options": {
+                "A": "DMA",
+                "B": "Subroutines",
+                "C": "Interrupt",
+                "D": "Cache Memory"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which term refers to the mechanism that allows peripherals to communicate with the CPU by sending signals when they are ready for data transfer?",
+            "options": {
+                "A": "Cache Memory",
+                "B": "Interrupt",
+                "C": "Pipeline",
+                "D": "Bus"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of a pipeline in computer systems?",
+            "options": {
+                "A": "To manage memory access",
+                "B": "To execute multiple instructions in order",
+                "C": "To facilitate communication with external devices",
+                "D": "To handle system calls"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

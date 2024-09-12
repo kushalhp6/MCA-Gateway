@@ -1,0 +1,207 @@
+{
+    "exam_name": "Architecture Set 8",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "A computer with a 32-bit data bus and 2K x 32 static RAM memory chips will have a minimum memory of:",
+            "options": {
+                "A": "16 KB",
+                "B": "32 KB",
+                "C": "64 KB",
+                "D": "128 KB"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In pipelining, ideally, each stage should complete in:",
+            "options": {
+                "A": "1 cycle",
+                "B": "2 cycles",
+                "C": "3 cycles",
+                "D": "4 cycles"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "The term used for small, very fast RAMs that reduce data access time is:",
+            "options": {
+                "A": "Cache",
+                "B": "Buffer",
+                "C": "Heap",
+                "D": "Stack"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "DMA operations are controlled by:",
+            "options": {
+                "A": "DMA controller",
+                "B": "CPU",
+                "C": "Memory",
+                "D": "I/O device"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A CPU generates 28-bit virtual addresses. If the page size is 8 KB and the TLB can hold 128 entries, which is 4-way set associative, what is the size of the TLB tag?",
+            "options": {
+                "A": "16 bits",
+                "B": "18 bits",
+                "C": "20 bits",
+                "D": "22 bits"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a multiprocessing system, what is the term for a scenario where multiple processors attempt to access and modify a shared resource simultaneously, leading to unexpected results?",
+            "options": {
+                "A": "Deadlock",
+                "B": "Race condition",
+                "C": "Semaphore",
+                "D": "Thrashing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which component of a CPU is responsible for decoding instructions and executing arithmetic and logical operations?",
+            "options": {
+                "A": "ALU (Arithmetic Logic Unit)",
+                "B": "Control Unit",
+                "C": "Cache Memory",
+                "D": "Register File"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of the Memory Address Register (MAR) in a computer system?",
+            "options": {
+                "A": "To hold the data being operated on",
+                "B": "To store the address of the next instruction",
+                "C": "To hold the currently executing instruction",
+                "D": "To store the address of a memory location to read or write"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "When a program is divided into small, independently executing tasks that can run in parallel, it is an example of:",
+            "options": {
+                "A": "Multi-threading",
+                "B": "Multi-processing",
+                "C": "Time-sharing",
+                "D": "Batch processing"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is NOT typically considered a part of a computer's I/O subsystem?",
+            "options": {
+                "A": "Monitor",
+                "B": "Keyboard",
+                "C": "RAM",
+                "D": "Hard Disk"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "A computer's main memory is often categorized as either volatile or non-volatile. Which type is RAM?",
+            "options": {
+                "A": "Volatile",
+                "B": "Non-volatile",
+                "C": "Both volatile and non-volatile",
+                "D": "Neither volatile nor non-volatile"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which system call is used in UNIX-like operating systems to create a new process and replace the current process with a new one?",
+            "options": {
+                "A": "fork()",
+                "B": "exec()",
+                "C": "wait()",
+                "D": "getpid()"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of computer buses, what is the primary function of the address bus?",
+            "options": {
+                "A": "Carries data between CPU and memory",
+                "B": "Carries memory addresses",
+                "C": "Carries control signals",
+                "D": "Carries data between peripheral devices"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following statements about interrupt latency is correct?",
+            "options": {
+                "A": "Interrupt latency is the time taken by the CPU to acknowledge an interrupt.",
+                "B": "Interrupt latency is the time taken by the CPU to complete an instruction.",
+                "C": "Interrupt latency is the time taken by a device to send an interrupt request.",
+                "D": "Interrupt latency is the time taken to install a new interrupt handler."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of computer architecture, what is a cache hit?",
+            "options": {
+                "A": "When the cache is empty and needs to be filled",
+                "B": "When a requested item is found in the cache",
+                "C": "When the cache is full and items need to be evicted",
+                "D": "When a CPU instruction is executed successfully"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of system call is used to release resources or memory allocated by a process in an operating system?",
+            "options": {
+                "A": "malloc()",
+                "B": "free()",
+                "C": "open()",
+                "D": "close()"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a computer's memory hierarchy, what is typically the smallest and fastest type of storage?",
+            "options": {
+                "A": "RAM",
+                "B": "Cache",
+                "C": "ROM",
+                "D": "Hard Disk"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is a 'trap' in computer science?",
+            "options": {
+                "A": "An error message",
+                "B": "A type of virus",
+                "C": "A software interrupt",
+                "D": "A form of encryption"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a pipeline processor, the time it takes to complete a single instruction is determined by:",
+            "options": {
+                "A": "The throughput of the pipeline",
+                "B": "The number of pipeline stages",
+                "C": "The clock speed of the CPU",
+                "D": "The amount of cache memory"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT a common role of an operating system?",
+            "options": {
+                "A": "Managing hardware resources",
+                "B": "Providing a user interface",
+                "C": "Executing application programs",
+                "D": "Allocating and deallocating memory"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

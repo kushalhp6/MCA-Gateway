@@ -1,0 +1,257 @@
+{
+    "exam_name": "DSA Set 9",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In a hash table, which type of collision resolution strategy aims to keep a linked list of collided elements in each bucket?",
+            "options": {
+                "A": "Linear Probing",
+                "B": "Quadratic Probing",
+                "C": "Separate Chaining",
+                "D": "Double Hashing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which sorting algorithm exhibits the same average and worst-case time complexity?",
+            "options": {
+                "A": "Merge Sort",
+                "B": "Quick Sort",
+                "C": "Bubble Sort",
+                "D": "Radix Sort"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a circular doubly linked list, what is the time complexity for inserting a node after a given node?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure is most suitable for implementing an undo-redo functionality with efficient memory usage?",
+            "options": {
+                "A": "Stack",
+                "B": "Linked List",
+                "C": "Queue",
+                "D": "Tree"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the time complexity of finding the shortest path in a weighted, directed graph using the Floyd-Warshall algorithm with 'V' vertices?",
+            "options": {
+                "A": "O(V)",
+                "B": "O(V^2)",
+                "C": "O(V^3)",
+                "D": "O(VE)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a trie (prefix tree), what is the primary advantage over other data structures for storing strings?",
+            "options": {
+                "A": "Constant time insertion and deletion",
+                "B": "Efficient memory usage",
+                "C": "Rapid searching for prefixes",
+                "D": "It is self-balancing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which algorithm is used for finding the minimum spanning tree in a weighted, connected graph?",
+            "options": {
+                "A": "Dijkstra's Algorithm",
+                "B": "Bellman-Ford Algorithm",
+                "C": "Prim's Algorithm",
+                "D": "Kruskal's Algorithm"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In a binary search tree, what is the time complexity for deleting a node with two children?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a circular queue, what is the condition for an empty queue and a full queue?",
+            "options": {
+                "A": "Empty: front == rear; Full: front == (rear + 1) % n",
+                "B": "Empty: rear == front; Full: rear == (front + 1) % n",
+                "C": "Empty: rear == front; Full: rear == front",
+                "D": "Empty: front == rear; Full: front == rear"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the maximum number of edges in an undirected graph with 'n' nodes that does not contain a cycle?",
+            "options": {
+                "A": "n",
+                "B": "n - 1",
+                "C": "n(n - 1)/2",
+                "D": "n(n - 1)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which sorting algorithm can be made stable with a small modification, but typically isn't stable in its basic form?",
+            "options": {
+                "A": "Quick Sort",
+                "B": "Merge Sort",
+                "C": "Selection Sort",
+                "D": "Heap Sort"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a red-black tree, which color is used to represent a node with a higher priority?",
+            "options": {
+                "A": "Red",
+                "B": "Black",
+                "C": "Blue",
+                "D": "Green"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the time complexity of searching in a B-tree of order 'd' with 'n' elements?",
+            "options": {
+                "A": "O(log_d(n))",
+                "B": "O(log_n(d))",
+                "C": "O(n)",
+                "D": "O(d)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure is used for implementing an open-addressing scheme in hash tables for collision resolution?",
+            "options": {
+                "A": "Stack",
+                "B": "Linked List",
+                "C": "Queue",
+                "D": "Array"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In a trie (prefix tree), what is the space complexity for storing 'n' unique strings with a total of 'm' characters?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(m)",
+                "C": "O(n + m)",
+                "D": "O(nm)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a Fibonacci heap, what is the time complexity for extracting the minimum element while performing a decrease-key operation?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is typically used for efficiently checking for the existence of a specific key in a dictionary?",
+            "options": {
+                "A": "Linked List",
+                "B": "Stack",
+                "C": "Queue",
+                "D": "Hash Table"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the maximum number of leaf nodes in a binary tree with 'n' nodes?",
+            "options": {
+                "A": "n",
+                "B": "n/2",
+                "C": "n-1",
+                "D": "n+1"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In an AVL tree, what is the maximum number of rotations required to maintain balance after inserting a node?",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which graph traversal algorithm is used to find the topological ordering of nodes in a directed acyclic graph?",
+            "options": {
+                "A": "Depth-First Search",
+                "B": "Breadth-First Search",
+                "C": "Dijkstra's Algorithm",
+                "D": "Topological Sort"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the time complexity of finding the middle element in a singly linked list?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is used for the evaluation of postfix expressions?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Graph"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a stack, what is the time complexity of a push operation?",
+            "options": {
+                "A": "O(log n)",
+                "B": "O(n)",
+                "C": "O(1)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which data structure is used to implement recursion?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Binary Search Tree"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the time complexity of enqueuing an element in a queue implemented using a linked list?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

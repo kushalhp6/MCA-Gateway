@@ -1,0 +1,257 @@
+{
+    "exam_name": "DSA Set 10",
+    "total_marks": 25,
+    "time_limit": 25,
+    "questions": [
+        {
+            "question": "Which data structure is used to implement a priority queue efficiently?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the time complexity of finding the kth smallest element in an unsorted array using the quickselect algorithm?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(n log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In an undirected graph, what is the maximum number of edges that can exist with 'n' nodes to make it a connected graph?",
+            "options": {
+                "A": "n",
+                "B": "n - 1",
+                "C": "n(n - 1)/2",
+                "D": "n(n - 1)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which sorting algorithm is not suitable for sorting large datasets due to its quadratic time complexity?",
+            "options": {
+                "A": "Quick Sort",
+                "B": "Merge Sort",
+                "C": "Selection Sort",
+                "D": "Insertion Sort"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In a circular queue of size 'n,' what is the maximum number of elements that can be stored in it without causing an overflow?",
+            "options": {
+                "A": "n",
+                "B": "n - 1",
+                "C": "n + 1",
+                "D": "2n"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the minimum number of nodes required to create a binary search tree with a height of 3?",
+            "options": {
+                "A": "3",
+                "B": "7",
+                "C": "8",
+                "D": "15"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following data structures is best suited for implementing a LRU (Least Recently Used) cache?",
+            "options": {
+                "A": "Linked List",
+                "B": "Stack",
+                "C": "Queue",
+                "D": "Hash Table"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In a red-black tree, what is the maximum height allowed for a node to be considered balanced?",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the maximum number of children a node can have in an n-ary tree?",
+            "options": {
+                "A": "1",
+                "B": "n",
+                "C": "n - 1",
+                "D": "It depends on the specific implementation."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which algorithm is used to find the strongly connected components in a directed graph?",
+            "options": {
+                "A": "Breadth-First Search",
+                "B": "Dijkstra's Algorithm",
+                "C": "Tarjan's Algorithm",
+                "D": "Kruskal's Algorithm"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a radix sort, what is the time complexity when sorting 'n' integers each with 'k' digits?",
+            "options": {
+                "A": "O(n log n)",
+                "B": "O(kn)",
+                "C": "O(nk)",
+                "D": "O(k log n)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which data structure is used to ensure constant time complexity for searching, insertion, and deletion of elements?",
+            "options": {
+                "A": "Heap",
+                "B": "AVL Tree",
+                "C": "Trie",
+                "D": "B-tree"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a Fibonacci heap, what is the amortized time complexity of extracting the minimum element?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which data structure is commonly used for implementing undo functionality in text editors?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Heap"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the time complexity of finding the shortest path in a weighted, directed graph using the Bellman-Ford algorithm with 'V' vertices and 'E' edges?",
+            "options": {
+                "A": "O(V)",
+                "B": "O(E)",
+                "C": "O(VE)",
+                "D": "O(V^2)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In an AVL tree, what is the minimum height possible for a tree with 'n' nodes?",
+            "options": {
+                "A": "log2(n)",
+                "B": "log2(n + 1)",
+                "C": "n - 1",
+                "D": "n"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is used to implement an adjacency list for representing a graph efficiently?",
+            "options": {
+                "A": "Queue",
+                "B": "Linked List",
+                "C": "Stack",
+                "D": "Array"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a B-tree of order 'd,' what is the minimum number of keys a non-root node can have?",
+            "options": {
+                "A": "d - 1",
+                "B": "2d - 1",
+                "C": "d",
+                "D": "2d"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which sorting algorithm is known for its adaptability, especially when dealing with nearly sorted data?",
+            "options": {
+                "A": "Quick Sort",
+                "B": "Bubble Sort",
+                "C": "Merge Sort",
+                "D": "Shell Sort"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which algorithm is used for finding the maximum flow in a flow network with capacities on its edges?",
+            "options": {
+                "A": "Kruskal's Algorithm",
+                "B": "Dijkstra's Algorithm",
+                "C": "Ford-Fulkerson Algorithm",
+                "D": "Prim's Algorithm"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The time complexity of dequeuing an element from a queue implemented using an array is:",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is a non-linear data structure?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Graph",
+                "D": "Array"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the time complexity of depth-first search (DFS) in a graph with n nodes and m edges?",
+            "options": {
+                "A": "O(n²)",
+                "B": "O(n + m)",
+                "C": "O(n log n)",
+                "D": "O(n log m)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is commonly used for Breadth-First Search (BFS) in a graph?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Priority Queue",
+                "D": "Linked List"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a hash table, what is the average time complexity for search, insert, and delete operations?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(1)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

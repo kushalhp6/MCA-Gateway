@@ -1,0 +1,257 @@
+{
+    "exam_name": "DSA Set 8",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which search algorithm is most suitable for searching an element in a sorted array?",
+            "options": {
+                "A": "Linear Search",
+                "B": "Binary Search",
+                "C": "Depth-First Search",
+                "D": "Breadth-First Search"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the worst-case time complexity of the binary search algorithm?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which sorting algorithm is known for its stability?",
+            "options": {
+                "A": "Quick Sort",
+                "B": "Merge Sort",
+                "C": "Bubble Sort",
+                "D": "Selection Sort"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a stack data structure, which operation is used to remove an element from the top?",
+            "options": {
+                "A": "Push",
+                "B": "Pop",
+                "C": "Peek",
+                "D": "Enqueue"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure follows the 'First In, First Out' (FIFO) principle?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Tree"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the time complexity of enqueue and dequeue operations in a queue implemented using an array?",
+            "options": {
+                "A": "O(1) for both enqueue and dequeue",
+                "B": "O(1) for enqueue, O(n) for dequeue",
+                "C": "O(n) for enqueue, O(1) for dequeue",
+                "D": "O(n) for both enqueue and dequeue"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a singly linked list, how can you efficiently delete a node if you have a pointer to that node?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is not a type of tree traversal?",
+            "options": {
+                "A": "Preorder",
+                "B": "Postorder",
+                "C": "Inorder",
+                "D": "Depth-First"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the maximum number of children a node can have in a binary tree?",
+            "options": {
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "3"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a non-linear data structure that can represent hierarchical relationships?",
+            "options": {
+                "A": "Linked List",
+                "B": "Graph",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which algorithm is used to find the shortest path in a weighted, directed graph with negative edge weights?",
+            "options": {
+                "A": "Dijkstra's Algorithm",
+                "B": "Bellman-Ford Algorithm",
+                "C": "Prim's Algorithm",
+                "D": "Depth-First Search"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a breadth-first search (BFS) traversal of a graph, which data structure is typically used to store the vertices to be explored next?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Binary Search Tree"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the time complexity of the quick sort algorithm in the worst case?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which data structure is used for implementing LRU (Least Recently Used) cache replacement policy?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Hash Table"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a doubly linked list, how many pointers does each node have?",
+            "options": {
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "3"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is not a valid property of a binary search tree (BST)?",
+            "options": {
+                "A": "Left child is smaller than the parent.",
+                "B": "Right child is greater than the parent.",
+                "C": "All nodes have the same value.",
+                "D": "In-order traversal produces a sorted sequence."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which algorithm is used for topological sorting in a directed acyclic graph (DAG)?",
+            "options": {
+                "A": "Depth-First Search",
+                "B": "Breadth-First Search",
+                "C": "Dijkstra's Algorithm",
+                "D": "Kahn's Algorithm"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the maximum number of edges in a complete graph with 'n' vertices?",
+            "options": {
+                "A": "n",
+                "B": "n(n-1)/2",
+                "C": "n(n+1)/2",
+                "D": "2n"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is used for implementing a priority queue?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a linked list, what is the time complexity for deleting a node when you have a pointer to the node and the previous node?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Convert the infix expression A * (B + C) to its postfix form.",
+            "options": {
+                "A": "ABC + *",
+                "B": "A * B + C",
+                "C": "AB * C +",
+                "D": "A + BC *"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the worst-case time complexity for inserting an element into a sorted singly linked list?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(n log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a doubly linked list, the worst-case time complexity for inserting an element at the head is:",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the time complexity of searching for an element in a doubly linked list with n elements?",
+            "options": {
+                "A": "O(log n)",
+                "B": "O(n)",
+                "C": "O(n log n)",
+                "D": "O(1)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the time complexity of deleting the tail node in a singly linked list?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

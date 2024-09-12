@@ -1,0 +1,207 @@
+{
+    "exam_name": "Architecture Set 5",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "If the cache access time is 10 ns, the memory access time is 60 ns, and the overall memory access time is 25 ns, what is the hit ratio?",
+            "options": {
+                "A": "50%",
+                "B": "60%",
+                "C": "65%",
+                "D": "70%"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A system with 32 segments, each of size 2K bytes, requires how many bits for the logical address?",
+            "options": {
+                "A": "14 bits",
+                "B": "16 bits",
+                "C": "18 bits",
+                "D": "20 bits"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "ROM is typically used for:",
+            "options": {
+                "A": "High-speed arithmetic calculations",
+                "B": "Temporary data storage",
+                "C": "Permanent storage of firmware and system software",
+                "D": "Dynamic data manipulation"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "A system with a 32-bit wide data bus and 4K x 8 static RAM chips will have a minimum memory of:",
+            "options": {
+                "A": "16 KB",
+                "B": "32 KB",
+                "C": "64 KB",
+                "D": "128 KB"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a pipeline, the minimum number of cycles required for each stage to complete is:",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is responsible for storing the firmware of a computer's motherboard and cannot be easily modified or rewritten?",
+            "options": {
+                "A": "RAM (Random Access Memory)",
+                "B": "ROM (Read-Only Memory)",
+                "C": "Cache memory",
+                "D": "Hard drive"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of memory is non-volatile and retains its data even when the power is turned off?",
+            "options": {
+                "A": "RAM (Random Access Memory)",
+                "B": "ROM (Read-Only Memory)",
+                "C": "Cache memory",
+                "D": "Virtual memory"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which part of a computer is responsible for handling input and output operations with peripherals such as keyboards and monitors?",
+            "options": {
+                "A": "CPU (Central Processing Unit)",
+                "B": "GPU (Graphics Processing Unit)",
+                "C": "I/O controller",
+                "D": "Memory controller"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a subroutine in computer programming?",
+            "options": {
+                "A": "To perform complex mathematical calculations",
+                "B": "To handle input/output operations",
+                "C": "To reuse a set of instructions in multiple places in a program",
+                "D": "To manage interrupts"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is responsible for managing the flow of data between the CPU and peripheral devices, bypassing the CPU when needed?",
+            "options": {
+                "A": "DMA (Direct Memory Access)",
+                "B": "ALU (Arithmetic Logic Unit)",
+                "C": "CPU cache",
+                "D": "GPU (Graphics Processing Unit)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In computer architecture, what term is used to describe the sequence of tasks or instructions that are executed one after the other?",
+            "options": {
+                "A": "Pipeline",
+                "B": "Interrupt",
+                "C": "DMA (Direct Memory Access)",
+                "D": "Subroutine"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which component of a computer is responsible for managing system resources, such as memory allocation and process scheduling?",
+            "options": {
+                "A": "CPU (Central Processing Unit)",
+                "B": "Operating System",
+                "C": "I/O controller",
+                "D": "BIOS (Basic Input/Output System)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of an interrupt in computer systems?",
+            "options": {
+                "A": "To execute a specific subroutine",
+                "B": "To execute an I/O operation",
+                "C": "To temporarily pause the current program and handle an event",
+                "D": "To perform mathematical calculations"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a type of system call that allows a program to request a service from the operating system?",
+            "options": {
+                "A": "BIOS call",
+                "B": "DMA call",
+                "C": "Interrupt call",
+                "D": "API call"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary function of the memory address register (MAR) in a computer?",
+            "options": {
+                "A": "To store the current program counter value",
+                "B": "To store the data being processed by the CPU",
+                "C": "To hold the address of the next instruction to be fetched from memory",
+                "D": "To manage input/output operations"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of memory is typically used for long-term storage of system software and firmware?",
+            "options": {
+                "A": "RAM (Random Access Memory)",
+                "B": "ROM (Read-Only Memory)",
+                "C": "Cache memory",
+                "D": "Hard drive"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a computer's pipeline architecture, what is the purpose of the instruction fetch stage?",
+            "options": {
+                "A": "To execute the instruction",
+                "B": "To decode the instruction",
+                "C": "To fetch the next instruction from memory",
+                "D": "To write the result back to memory"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is responsible for managing input and output operations between a computer and its peripherals?",
+            "options": {
+                "A": "ALU (Arithmetic Logic Unit)",
+                "B": "I/O controller",
+                "C": "CPU cache",
+                "D": "RAM (Random Access Memory)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What term is used to describe a hardware or software mechanism that allows multiple processes or threads to access shared resources in a coordinated manner?",
+            "options": {
+                "A": "Interrupt",
+                "B": "Semaphore",
+                "C": "Pipeline",
+                "D": "Cache"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the role of the program counter (PC) in a computer's CPU?",
+            "options": {
+                "A": "To store the current program's instructions",
+                "B": "To manage input/output operations",
+                "C": "To keep track of the next instruction to be executed",
+                "D": "To perform arithmetic calculations"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}
