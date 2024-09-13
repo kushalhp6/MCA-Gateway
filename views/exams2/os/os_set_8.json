@@ -1,0 +1,207 @@
+{
+    "exam_name": "OS Set 8",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In a system with a 16 KB page size and a 24-bit virtual address space, how many pages can the system support?",
+            "options": {
+                "A": "512",
+                "B": "1024",
+                "C": "2048",
+                "D": "4096"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "If the access time with cache is 25 ns and without cache is 125 ns, and the cache access time is 20 ns, what is the cache hit ratio?",
+            "options": {
+                "A": "75%",
+                "B": "80%",
+                "C": "85%",
+                "D": "90%"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A process references the pages in the order: 'A, B, C, D, E, F, G, H'. With 3 frames and using the LRU page replacement algorithm, how many page faults occur?",
+            "options": {
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a valid state for a process in a typical process state model?",
+            "options": {
+                "A": "Suspended",
+                "B": "Terminated",
+                "C": "Waiting",
+                "D": "Sleeping"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the main purpose of a Translation Lookaside Buffer (TLB) in a memory management unit?",
+            "options": {
+                "A": "To speed up the translation of virtual addresses to physical addresses",
+                "B": "To increase the size of physical memory",
+                "C": "To manage page faults",
+                "D": "To maintain a list of free memory blocks"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the main objective of the Two-Phase Locking (2PL) protocol in synchronization?",
+            "options": {
+                "A": "Ensure mutual exclusion",
+                "B": "Prevent deadlocks",
+                "C": "Optimize disk I/O",
+                "D": "Manage CPU scheduling"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In process management, what is the main purpose of a barrier?",
+            "options": {
+                "A": "To protect critical sections",
+                "B": "To synchronize processes",
+                "C": "To allocate memory blocks",
+                "D": "To manage disk access"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of memory protection in memory management?",
+            "options": {
+                "A": "To improve disk I/O",
+                "B": "To prevent unauthorized access to memory",
+                "C": "To allocate memory blocks efficiently",
+                "D": "To manage disk fragmentation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In CPU scheduling, what is the primary goal of the Lottery Scheduling algorithm?",
+            "options": {
+                "A": "Maximize throughput",
+                "B": "Ensure fairness",
+                "C": "Prioritize short processes",
+                "D": "Minimize context switches"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary function of a direct block in file management?",
+            "options": {
+                "A": "To store file data",
+                "B": "To represent file metadata",
+                "C": "To track file location on disk",
+                "D": "To manage file access permissions"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of deadlock detection, what is the primary purpose of the Wait-Die and Wound-Wait protocols?",
+            "options": {
+                "A": "Optimize CPU scheduling",
+                "B": "Prevent deadlocks",
+                "C": "Manage file access permissions",
+                "D": "Prioritize I/O operations"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary objective of the Disk Striping with Parity (RAID 5) technique in disk management?",
+            "options": {
+                "A": "Optimize seek time",
+                "B": "Improve CPU utilization",
+                "C": "Provide fault tolerance",
+                "D": "Reduce fragmentation"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In process synchronization, what is the main goal of a reader-writer lock?",
+            "options": {
+                "A": "Protect critical sections",
+                "B": "Allow multiple readers to access data simultaneously",
+                "C": "Ensure exclusive access to resources",
+                "D": "Control process priorities"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main purpose of the Index Node (i-node) in file management?",
+            "options": {
+                "A": "To manage file permissions",
+                "B": "To store file data",
+                "C": "To represent file metadata",
+                "D": "To allocate disk space"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In memory management, what is the primary role of the Memory Protection Unit (MPU)?",
+            "options": {
+                "A": "To store page tables",
+                "B": "To allocate memory blocks",
+                "C": "To translate virtual addresses to physical addresses",
+                "D": "To protect memory regions"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary function of the Wait-Die protocol in deadlock management?",
+            "options": {
+                "A": "Allow younger processes to request resources",
+                "B": "Allow older processes to request resources",
+                "C": "Prioritize I/O operations",
+                "D": "Prevent deadlocks"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In CPU scheduling, what is the main goal of the Weighted Fair Queuing (WFQ) algorithm?",
+            "options": {
+                "A": "Ensure fairness among processes",
+                "B": "Maximize CPU utilization",
+                "C": "Optimize disk I/O",
+                "D": "Prioritize short processes"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of a shared memory segment in inter-process communication?",
+            "options": {
+                "A": "To manage file access permissions",
+                "B": "To store file data",
+                "C": "To represent file metadata",
+                "D": "To allow processes to share data"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In memory management, what is the main goal of address translation using a segment table?",
+            "options": {
+                "A": "To manage disk storage",
+                "B": "To optimize CPU scheduling",
+                "C": "To translate virtual addresses to physical addresses",
+                "D": "To prevent memory leaks"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary function of a distributed file system in file management?",
+            "options": {
+                "A": "To store file data",
+                "B": "To represent file metadata",
+                "C": "To allocate disk space",
+                "D": "To provide access to remote files"
+            },
+            "correct_answer": "D"
+        }
+    ]
+}

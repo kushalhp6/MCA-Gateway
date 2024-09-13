@@ -1,0 +1,207 @@
+{
+    "exam_name": "OS Set 3",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "For processes with burst times of 5, 15, and 25 units, and arrival times of 1, 4, and 8 respectively, how many context switches occur if the system uses a Round-Robin scheduling algorithm with a time quantum of 10 units? (Do not count the context switches at time zero and at the end.)",
+            "options": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "To prevent a deadlock, a system must ensure that resources are allocated in such a way that:",
+            "options": {
+                "A": "No resource is held by any process while waiting for another resource.",
+                "B": "Each process holds at least one resource while requesting additional resources.",
+                "C": "All resources are allocated to a single process at a time.",
+                "D": "A circular wait condition cannot occur."
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which method is commonly used to implement virtual memory by swapping pages in and out of physical memory?",
+            "options": {
+                "A": "Demand Paging",
+                "B": "File System",
+                "C": "Segmentation",
+                "D": "Caching"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A system has a 64-bit virtual address space with a page size of 8 KB. If the TLB is 8-way set associative and holds 256 entries, what is the minimum size of the TLB tag in bits?",
+            "options": {
+                "A": "16 bits",
+                "B": "18 bits",
+                "C": "20 bits",
+                "D": "22 bits"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which page replacement algorithm is considered optimal because it replaces the page that will not be used for the longest period of time?",
+            "options": {
+                "A": "FIFO",
+                "B": "LRU",
+                "C": "Optimal",
+                "D": "Clock"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the main advantage of using demand paging over pure paging in virtual memory management?",
+            "options": {
+                "A": "Reduced page faults",
+                "B": "Simpler implementation",
+                "C": "Better utilization of memory",
+                "D": "Faster disk I/O"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which disk scheduling algorithm provides a balance between fairness and minimizing seek time?",
+            "options": {
+                "A": "FCFS (First-Come, First-Served)",
+                "B": "SCAN",
+                "C": "C-LOOK",
+                "D": "SSTF (Shortest Seek Time First)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of process communication, which IPC (Inter-Process Communication) mechanism involves a sender and receiver using a common mailbox?",
+            "options": {
+                "A": "Pipes",
+                "B": "Message Queues",
+                "C": "Shared Memory",
+                "D": "Semaphores"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which file allocation method involves dividing a disk into several sections, with each section containing files of similar types?",
+            "options": {
+                "A": "Contiguous Allocation",
+                "B": "Linked Allocation",
+                "C": "Indexed Allocation",
+                "D": "Multi-Level Index Allocation"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What term describes the situation when a page is removed from memory and later brought back in, but some changes have not been written back to the disk?",
+            "options": {
+                "A": "Page Replacement",
+                "B": "Page Fault",
+                "C": "Dirty Page",
+                "D": "Page Hit"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which technique aims to combine the best features of both user-level threads and kernel-level threads?",
+            "options": {
+                "A": "Thread pooling",
+                "B": "Thread migration",
+                "C": "Hybrid threading",
+                "D": "Priority scheduling"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary goal of disk defragmentation?",
+            "options": {
+                "A": "Reducing disk fragmentation",
+                "B": "Increasing disk capacity",
+                "C": "Enhancing file security",
+                "D": "Improving CPU scheduling"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which synchronization problem involves a group of philosophers sitting around a table, where each philosopher needs two forks to eat?",
+            "options": {
+                "A": "Readers-Writers Problem",
+                "B": "Dining Philosophers Problem",
+                "C": "Producer-Consumer Problem",
+                "D": "Barrier Synchronization Problem"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the term for a data structure that represents the relationships among processes, showing which resources each process is holding and requesting?",
+            "options": {
+                "A": "Process Table",
+                "B": "Resource Allocation Table",
+                "C": "Deadlock Detection Table",
+                "D": "Resource Allocation Graph"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which scheduling algorithm selects the process with the smallest estimated total run time to execute next?",
+            "options": {
+                "A": "FCFS (First-Come, First-Served)",
+                "B": "SJF (Shortest Job First)",
+                "C": "Round Robin (RR)",
+                "D": "Priority Scheduling"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What term describes the ability of an operating system to execute multiple processes or threads concurrently?",
+            "options": {
+                "A": "Concurrency",
+                "B": "Multiprocessing",
+                "C": "Parallelism",
+                "D": "Synchronization"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a paged memory management system, what is the size of the unit that is transferred between main memory and disk?",
+            "options": {
+                "A": "Page",
+                "B": "Block",
+                "C": "Segment",
+                "D": "Sector"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What type of semaphore allows multiple processes to access a resource simultaneously, up to a maximum limit?",
+            "options": {
+                "A": "Binary Semaphore",
+                "B": "Counting Semaphore",
+                "C": "Mutex Semaphore",
+                "D": "Barrier Semaphore"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of memory management technique uses a fixed-size partition for each process, allowing multiple processes to be in memory simultaneously?",
+            "options": {
+                "A": "Paging",
+                "B": "Segmentation",
+                "C": "Contiguous Allocation",
+                "D": "Demand Paging"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which synchronization problem involves one or more producers adding items to a shared buffer and one or more consumers removing items from the buffer?",
+            "options": {
+                "A": "Readers-Writers Problem",
+                "B": "Dining Philosophers Problem",
+                "C": "Producer-Consumer Problem",
+                "D": "Barrier Synchronization Problem"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

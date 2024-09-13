@@ -1,0 +1,207 @@
+{
+    "exam_name": "OS Set 7",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which synchronization primitive allows only one thread to access a critical section at a time?",
+            "options": {
+                "A": "Semaphore",
+                "B": "Mutex",
+                "C": "Condition Variable",
+                "D": "Monitor"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "When a process is waiting for an I/O operation to complete, it is in the:",
+            "options": {
+                "A": "Ready state",
+                "B": "Running state",
+                "C": "Blocked state",
+                "D": "Suspended state"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following conditions is required for a system to be in a deadlock state?",
+            "options": {
+                "A": "Mutual Exclusion",
+                "B": "No Preemption",
+                "C": "Hold and Wait",
+                "D": "All of the above"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which algorithm helps to avoid deadlock by requiring processes to request all required resources at once?",
+            "options": {
+                "A": "Banker's algorithm",
+                "B": "FIFO algorithm",
+                "C": "LRU algorithm",
+                "D": "Shortest Job First (SJF) algorithm"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the main advantage of using a multilevel queue scheduling algorithm?",
+            "options": {
+                "A": "It simplifies process management",
+                "B": "It provides fairness among processes",
+                "C": "It can separate processes based on their priority and behavior",
+                "D": "It minimizes context switching"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a mechanism for achieving process synchronization in operating systems?",
+            "options": {
+                "A": "Segmentation",
+                "B": "Paging",
+                "C": "Mutex",
+                "D": "Fragmentation"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Virtual memory is a technique used in memory management to:",
+            "options": {
+                "A": "Increase the size of RAM",
+                "B": "Increase disk space",
+                "C": "Simulate a larger main memory",
+                "D": "Defragment the hard drive"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In disk management, what is the purpose of a file allocation table (FAT)?",
+            "options": {
+                "A": "Manage CPU scheduling",
+                "B": "Map file names to file locations on disk",
+                "C": "Manage memory allocation",
+                "D": "Monitor network traffic"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which file system structure is most commonly used in Windows operating systems?",
+            "options": {
+                "A": "NTFS",
+                "B": "FAT32",
+                "C": "Ext4",
+                "D": "HFS+"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the role of an interrupt handler in an operating system?",
+            "options": {
+                "A": "Manage threads",
+                "B": "Handle hardware interrupts",
+                "C": "Monitor disk space",
+                "D": "Execute user programs"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a benefit of using threads in a multi-threaded process?",
+            "options": {
+                "A": "Improved responsiveness",
+                "B": "Reduced memory overhead",
+                "C": "Simplified program structure",
+                "D": "Increased isolation between tasks"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A semaphore is typically used for:",
+            "options": {
+                "A": "CPU scheduling",
+                "B": "Inter-process communication",
+                "C": "Disk management",
+                "D": "Memory allocation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of a page table in virtual memory management?",
+            "options": {
+                "A": "To map physical addresses to virtual addresses",
+                "B": "To store user passwords",
+                "C": "To manage CPU cache",
+                "D": "To track file locations on disk"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is not a scheduling algorithm used in CPU scheduling?",
+            "options": {
+                "A": "LRU (Least Recently Used)",
+                "B": "FIFO (First-In-First-Out)",
+                "C": "RR (Round Robin)",
+                "D": "DNS (Domain Name System)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In file management, what is a directory?",
+            "options": {
+                "A": "A file that contains program instructions",
+                "B": "A table of file allocations",
+                "C": "A special file that lists other files and directories",
+                "D": "A log file for system events"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is not a method of preventing deadlock in operating systems?",
+            "options": {
+                "A": "Resource allocation graphs",
+                "B": "Banker's algorithm",
+                "C": "Priority scheduling",
+                "D": "Timeouts and retries"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a system call in an operating system?",
+            "options": {
+                "A": "To format the hard drive",
+                "B": "To interact with hardware devices",
+                "C": "To compile source code",
+                "D": "To create a new process"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of memory management, what is fragmentation?",
+            "options": {
+                "A": "The process of creating virtual memory",
+                "B": "The organization of files on disk",
+                "C": "The splitting of memory into small, non-contiguous blocks",
+                "D": "The synchronization of processes"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a buffer cache in disk management?",
+            "options": {
+                "A": "To store copies of frequently accessed disk blocks in memory",
+                "B": "To manage CPU scheduling",
+                "C": "To allocate memory to processes",
+                "D": "To track file permissions"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is a common algorithm used for page replacement in virtual memory management?",
+            "options": {
+                "A": "FCFS (First-Come, First-Served)",
+                "B": "GPS (Global Positioning System)",
+                "C": "LRU (Least Recently Used)",
+                "D": "SMTP (Simple Mail Transfer Protocol)"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "OS Set 5",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which term describes a situation where two or more processes are waiting indefinitely for resources held by each other?",
+            "options": {
+                "A": "Deadlock",
+                "B": "Livelock",
+                "C": "Starvation",
+                "D": "Race condition"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which algorithm is used to ensure that no process is blocked indefinitely by cyclic resource dependencies?",
+            "options": {
+                "A": "Banker's algorithm",
+                "B": "FIFO algorithm",
+                "C": "LRU algorithm",
+                "D": "SCAN algorithm"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Consider four processes with burst times of 8, 12, 5, and 7 units and arrival times of 0, 2, 4, and 6 respectively. How many context switches occur under a Preemptive Priority Scheduling algorithm if each process has a unique priority and arrives in the given order?",
+            "options": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In deadlock avoidance, what resource allocation strategy ensures that a process cannot hold resources while waiting for additional ones?",
+            "options": {
+                "A": "Resource Allocation Graph",
+                "B": "Banker's algorithm",
+                "C": "Wait-Die scheme",
+                "D": "Wait-for Graph"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following techniques is typically used to extend physical memory by using disk storage?",
+            "options": {
+                "A": "Demand Paging",
+                "B": "Swapping",
+                "C": "Segmentation",
+                "D": "Paging"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a function of the memory manager in an operating system?",
+            "options": {
+                "A": "Allocating and deallocating memory",
+                "B": "Managing virtual memory",
+                "C": "Scheduling processes",
+                "D": "Handling page faults"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a file descriptor in file management?",
+            "options": {
+                "A": "To store file data",
+                "B": "To map file names to disk locations",
+                "C": "To represent an open file in a process",
+                "D": "To track file access times"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which scheduling algorithm selects the process with the highest priority for execution?",
+            "options": {
+                "A": "Round Robin (RR)",
+                "B": "Shortest Job First (SJF)",
+                "C": "Priority Scheduling",
+                "D": "First-Come, First-Served (FCFS)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of a semaphore in process synchronization?",
+            "options": {
+                "A": "To manage disk space",
+                "B": "To protect critical sections of code",
+                "C": "To allocate memory to processes",
+                "D": "To synchronize processes"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the term for a situation where a process is waiting for a resource indefinitely and cannot proceed?",
+            "options": {
+                "A": "Page fault",
+                "B": "Deadlock",
+                "C": "Context switch",
+                "D": "Starvation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which memory management technique swaps out entire processes from main memory to disk?",
+            "options": {
+                "A": "Paging",
+                "B": "Segmentation",
+                "C": "Thrashing",
+                "D": "Swapping"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In file management, what is the purpose of a directory entry?",
+            "options": {
+                "A": "To store the file's data",
+                "B": "To map file names to disk locations",
+                "C": "To store file attributes and metadata",
+                "D": "To manage disk partitions"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a page table entry in virtual memory systems?",
+            "options": {
+                "A": "To map virtual addresses to physical addresses",
+                "B": "To store program instructions",
+                "C": "To manage CPU cache",
+                "D": "To schedule processes"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which disk scheduling algorithm moves the disk arm towards the end of the disk while servicing requests?",
+            "options": {
+                "A": "SCAN",
+                "B": "C-LOOK",
+                "C": "FIFO",
+                "D": "LRU"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is a common technique used to prevent disk fragmentation in file management?",
+            "options": {
+                "A": "Defragmentation",
+                "B": "Compression",
+                "C": "Encryption",
+                "D": "Synchronization"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is a primary advantage of using threads in a multi-threaded process?",
+            "options": {
+                "A": "Reduced memory overhead compared to separate processes",
+                "B": "Increased isolation between tasks",
+                "C": "Simplified program structure",
+                "D": "Improved security"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In memory management, what is the term for a piece of a process that can be individually loaded into memory?",
+            "options": {
+                "A": "Page",
+                "B": "Segment",
+                "C": "Block",
+                "D": "Frame"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the role of an I/O buffer in input/output operations?",
+            "options": {
+                "A": "To allocate memory to processes",
+                "B": "To store data temporarily during I/O operations",
+                "C": "To manage disk space",
+                "D": "To protect against malware"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is a common method of implementing file locking for synchronization in file management?",
+            "options": {
+                "A": "Semaphore",
+                "B": "Mutex",
+                "C": "Page replacement",
+                "D": "Directory entry"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary role of the command interpreter (shell) in an operating system?",
+            "options": {
+                "A": "To manage hardware resources",
+                "B": "To translate virtual addresses to physical addresses",
+                "C": "To provide a user interface for executing commands",
+                "D": "To allocate memory to processes"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

@@ -1,0 +1,219 @@
+{
+    "exam_name": "OS Set 2",
+    "total_marks": 21,
+    "time_limit": 21,
+    "questions": [
+        {
+            "question": "Which of the following is used to control access to shared resources in concurrent programming?",
+            "options": {
+                "A": "Mutex",
+                "B": "Cache",
+                "C": "Semaphore",
+                "D": "Bus"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "When a process is in a 'Ready' state and is selected by the scheduler for execution, it transitions to the:",
+            "options": {
+                "A": "Running state",
+                "B": "Blocked state",
+                "C": "Suspended state",
+                "D": "Terminated state"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What condition indicates that a system is experiencing thrashing?",
+            "options": {
+                "A": "High CPU utilization and low paging rate",
+                "B": "High paging rate and low CPU utilization",
+                "C": "Low memory usage and high CPU utilization",
+                "D": "Low paging rate and high CPU utilization"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which term describes a situation where multiple processes attempt to access shared data and the final outcome depends on the timing of their execution?",
+            "options": {
+                "A": "Race condition",
+                "B": "Deadlock",
+                "C": "Starvation",
+                "D": "Livelock"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following algorithms is used for deadlock avoidance by ensuring that a system never enters an unsafe state?",
+            "options": {
+                "A": "Round-Robin algorithm",
+                "B": "Banker's algorithm",
+                "C": "First-Come, First-Served (FCFS) algorithm",
+                "D": "Shortest Job First (SJF) algorithm"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the term used for the strategy of moving pages of memory between main memory and disk to free up space?",
+            "options": {
+                "A": "Paging",
+                "B": "Swapping",
+                "C": "Segmentation",
+                "D": "Thrashing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which data structure is used by the operating system to keep track of files on a disk?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "File Allocation Table (FAT)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the term for a small, fixed-size block of data stored on a disk?",
+            "options": {
+                "A": "File",
+                "B": "Folder",
+                "C": "Page",
+                "D": "Sector"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What type of thread provides a way for a process to divide itself into two or more independently running tasks?",
+            "options": {
+                "A": "Kernel thread",
+                "B": "User thread",
+                "C": "Parent thread",
+                "D": "Child thread"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which CPU scheduling algorithm gives each process an equal amount of time?",
+            "options": {
+                "A": "FCFS (First-Come, First-Served)",
+                "B": "SJF (Shortest Job First)",
+                "C": "RR (Round Robin)",
+                "D": "Priority Scheduling"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In demand paging, when is a page loaded into main memory?",
+            "options": {
+                "A": "Before it is needed",
+                "B": "Only when it is needed",
+                "C": "After the process completes",
+                "D": "When the process starts"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of a semaphore in synchronization?",
+            "options": {
+                "A": "To manage CPU scheduling",
+                "B": "To prevent deadlock",
+                "C": "To control access to resources",
+                "D": "To manage disk scheduling"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the role of a file system in an operating system?",
+            "options": {
+                "A": "Managing CPU operations",
+                "B": "Allocating memory to processes",
+                "C": "Providing a way to organize and store data on disk",
+                "D": "Preventing thread contention"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which memory management technique involves dividing physical memory into fixed-sized blocks?",
+            "options": {
+                "A": "Swapping",
+                "B": "Paging",
+                "C": "Segmentation",
+                "D": "Fragmentation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which one of the following errors will be handled by the operating system?",
+            "options": {
+                "A": "Power failure",
+                "B": "Lack of paper in printer",
+                "C": "Connection failure in the network",
+                "D": "All of the mentioned"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which component of an operating system manages the communication between hardware devices and software?",
+            "options": {
+                "A": "Memory Manager",
+                "B": "File System",
+                "C": "Device Driver",
+                "D": "Disk Scheduler"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a mutex in synchronization?",
+            "options": {
+                "A": "To ensure fair CPU scheduling",
+                "B": "To prevent priority inversion",
+                "C": "To provide interprocess communication",
+                "D": "To achieve mutual exclusion"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the main goal of disk scheduling algorithms in an operating system?",
+            "options": {
+                "A": "To maximize CPU utilization",
+                "B": "To minimize memory usage",
+                "C": "To minimize disk fragmentation",
+                "D": "To prioritize user processes over system processes"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which term describes the phenomenon when a process spends more time paging data in and out of memory than executing?",
+            "options": {
+                "A": "Deadlock",
+                "B": "Thrashing",
+                "C": "Fragmentation",
+                "D": "Segmentation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of memory is directly accessible by the CPU and is used for temporary storage of data during program execution?",
+            "options": {
+                "A": "Virtual memory",
+                "B": "Secondary memory",
+                "C": "Primary memory",
+                "D": "Cache memory"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Consider the following set of processes, the length of the CPU burst time given in milliseconds:<br><br><table><tr><th>Process</th><th>Burst time</th></tr><tr><td>P1</td><td>6</td></tr><tr><td>P2</td><td>8</td></tr><tr><td>P3</td><td>7</td></tr><tr><td>P4</td><td>3</td></tr></table><br>Assuming the above processes are being scheduled with the SJF scheduling algorithm, what is the waiting time for process P1?",
+            "options": {
+                "A": "3ms",
+                "B": "0ms",
+                "C": "16ms",
+                "D": "9ms"
+            },
+            "correct_answer": "D"
+        }
+        
+        
+    ]
+}

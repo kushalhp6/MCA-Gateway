@@ -1,0 +1,207 @@
+{
+    "exam_name": "OS Set 6",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Given a 16-bit virtual address space and a page size of 2 KB, how many bits are required for the page number in the virtual address?",
+            "options": {
+                "A": "8 bits",
+                "B": "10 bits",
+                "C": "12 bits",
+                "D": "14 bits"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "For a system with a 64-entry TLB and a page size of 4 KB, what is the size of the TLB tag if the system uses a 32-bit virtual address space?",
+            "options": {
+                "A": "14 bits",
+                "B": "16 bits",
+                "C": "18 bits",
+                "D": "20 bits"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which page replacement algorithm replaces the page that has not been used for the longest time?",
+            "options": {
+                "A": "FIFO",
+                "B": "LRU",
+                "C": "Optimal",
+                "D": "Clock"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "If memory access time with a cache hit is 15 ns, and with a cache miss is 100 ns, what is the hit ratio if the average memory access time is 25 ns?",
+            "options": {
+                "A": "60%",
+                "B": "65%",
+                "C": "70%",
+                "D": "75%"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A process accesses the pages in the order: 'P, Q, R, P, S, T, P, Q, R, S'. If the page replacement algorithm is FIFO and there are 4 frames, how many page faults occur?",
+            "options": {
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which memory allocation algorithm aims to minimize memory waste by allocating the smallest available block that fits a request?",
+            "options": {
+                "A": "Best Fit",
+                "B": "Worst Fit",
+                "C": "First Fit",
+                "D": "Buddy System"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a TLB (Translation Lookaside Buffer) in virtual memory systems?",
+            "options": {
+                "A": "To store page tables",
+                "B": "To cache frequently used pages",
+                "C": "To manage disk space",
+                "D": "To handle interrupts"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of file management, what is the purpose of an inode?",
+            "options": {
+                "A": "To store the file's data",
+                "B": "To store the file's name and attributes",
+                "C": "To manage disk partitions",
+                "D": "To track file access times"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following techniques is used for reducing disk arm movement and optimizing disk scheduling?",
+            "options": {
+                "A": "SCAN",
+                "B": "C-LOOK",
+                "C": "FIFO",
+                "D": "SJF"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of demand paging in virtual memory systems?",
+            "options": {
+                "A": "To minimize CPU usage",
+                "B": "To maximize memory usage",
+                "C": "To minimize page faults",
+                "D": "To minimize process switching"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following deadlock prevention strategies allocates resources only if the resulting state is safe?",
+            "options": {
+                "A": "Banker's Algorithm",
+                "B": "Wait-Die Scheme",
+                "C": "Wound-Wait Scheme",
+                "D": "Resource Allocation Graph"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of thread synchronization, what is a condition variable used for?",
+            "options": {
+                "A": "Coordinating access to shared resources",
+                "B": "Locking critical sections",
+                "C": "Terminating threads",
+                "D": "Allocating memory"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which disk scheduling algorithm gives the shortest access time for a request by selecting the request closest to the current position of the disk arm?",
+            "options": {
+                "A": "LOOK",
+                "B": "C-SCAN",
+                "C": "Shortest Seek Time First (SSTF)",
+                "D": "FIFO"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of a journaling file system like ext3 or ext4?",
+            "options": {
+                "A": "To compress files for storage",
+                "B": "To provide encryption for file data",
+                "C": "To recover quickly after system crashes",
+                "D": "To manage user permissions"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following techniques is used to implement inter-process communication (IPC)?",
+            "options": {
+                "A": "Message passing",
+                "B": "File locking",
+                "C": "Page replacement",
+                "D": "Disk defragmentation"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In memory management, what is a TLB miss?",
+            "options": {
+                "A": "A page fault",
+                "B": "A cache miss in the main memory",
+                "C": "An error in the TLB hardware",
+                "D": "A cache miss in the CPU cache"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary role of the I/O scheduler in an operating system?",
+            "options": {
+                "A": "To manage CPU scheduling",
+                "B": "To allocate memory to processes",
+                "C": "To optimize I/O device access",
+                "D": "To handle network communication"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In file management, what is the purpose of access control lists (ACLs)?",
+            "options": {
+                "A": "To store file data",
+                "B": "To map file names to disk locations",
+                "C": "To manage user permissions on files and directories",
+                "D": "To track file access times"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a technique used to reduce the overhead of context switching in thread management?",
+            "options": {
+                "A": "Time-sharing",
+                "B": "Spinlock",
+                "C": "Thread pooling",
+                "D": "Cooperative multitasking"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of a cache in a computer system?",
+            "options": {
+                "A": "To store frequently accessed data for faster retrieval",
+                "B": "To allocate memory for processes",
+                "C": "To manage disk space",
+                "D": "To control user access to files"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

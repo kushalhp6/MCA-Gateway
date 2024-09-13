@@ -1,0 +1,207 @@
+{
+    "exam_name": "OS Set 9",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which page replacement algorithm is based on the concept of replacing the page with the least number of future references?",
+            "options": {
+                "A": "Optimal",
+                "B": "LRU",
+                "C": "FIFO",
+                "D": "Clock"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "If a system uses a 32-bit virtual address space and a page size of 8 KB, what is the number of bits used for the page offset?",
+            "options": {
+                "A": "8 bits",
+                "B": "12 bits",
+                "C": "14 bits",
+                "D": "16 bits"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the effect of increasing the size of the TLB?",
+            "options": {
+                "A": "Decreases the number of page faults",
+                "B": "Increases the time to access memory",
+                "C": "Decreases the cache hit ratio",
+                "D": "Increases the size of physical memory"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the Round-Robin scheduling algorithm, what happens if the time quantum is set too high?",
+            "options": {
+                "A": "It causes excessive context switching",
+                "B": "It leads to reduced CPU utilization",
+                "C": "It may cause starvation of some processes",
+                "D": "It simplifies process scheduling"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is a technique used to handle page faults by swapping pages between disk and memory?",
+            "options": {
+                "A": "Demand Paging",
+                "B": "Paging",
+                "C": "Segmentation",
+                "D": "Swapping"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In file management, what is the purpose of the Master File Table (MFT) in NTFS file systems?",
+            "options": {
+                "A": "To store file data",
+                "B": "To represent file metadata",
+                "C": "To track file access permissions",
+                "D": "To manage file clusters"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which process synchronization primitive allows a process to enter a critical section without blocking if it's available, or it blocks if it's not available?",
+            "options": {
+                "A": "Mutex",
+                "B": "Barrier",
+                "C": "Semaphore",
+                "D": "Monitor"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of memory segmentation in memory management?",
+            "options": {
+                "A": "To manage I/O operations",
+                "B": "To allocate memory blocks efficiently",
+                "C": "To divide memory into logical address spaces",
+                "D": "To optimize CPU scheduling"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In CPU scheduling, what is the main goal of the Earliest Deadline First (EDF) algorithm in real-time systems?",
+            "options": {
+                "A": "To maximize CPU utilization",
+                "B": "To minimize response time",
+                "C": "To meet deadlines for time-critical tasks",
+                "D": "To minimize the number of context switches"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary function of an indirect block in file management with respect to file data storage?",
+            "options": {
+                "A": "To store file data",
+                "B": "To represent file metadata",
+                "C": "To address additional data blocks",
+                "D": "To track file location on disk"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In deadlock detection, what is the purpose of a resource allocation graph?",
+            "options": {
+                "A": "To allocate resources efficiently",
+                "B": "To detect resource shortages",
+                "C": "To visualize the execution order of processes",
+                "D": "To identify deadlock conditions"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary function of the Buddy System in memory allocation?",
+            "options": {
+                "A": "To allocate memory blocks of various sizes",
+                "B": "To manage disk storage",
+                "C": "To optimize disk I/O",
+                "D": "To prevent memory leaks"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of process management, what is the main purpose of a spinlock?",
+            "options": {
+                "A": "To protect critical sections",
+                "B": "To allow processes to spin in a loop",
+                "C": "To control process priorities",
+                "D": "To enforce mutual exclusion"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the main goal of the B-tree file system in disk management?",
+            "options": {
+                "A": "To optimize seek time",
+                "B": "To improve CPU utilization",
+                "C": "To manage file permissions",
+                "D": "To allocate memory efficiently"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In memory management, what is the primary function of the TLB (Translation Lookaside Buffer)?",
+            "options": {
+                "A": "To store page tables",
+                "B": "To cache recently used pages",
+                "C": "To track memory allocation",
+                "D": "To manage disk I/O"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of the inode in UNIX file systems?",
+            "options": {
+                "A": "To manage file access permissions",
+                "B": "To store file data",
+                "C": "To represent file metadata",
+                "D": "To allocate disk space"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of file management, what is the main function of the open file table?",
+            "options": {
+                "A": "To store file data",
+                "B": "To manage file access permissions",
+                "C": "To represent file metadata",
+                "D": "To track file location on disk"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary objective of a message-passing communication mechanism in synchronization?",
+            "options": {
+                "A": "To improve CPU utilization",
+                "B": "To simplify synchronization",
+                "C": "To facilitate inter-process communication",
+                "D": "To manage memory allocation"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In memory management, what is the role of a TLB miss handler?",
+            "options": {
+                "A": "To improve TLB performance",
+                "B": "To fetch a page from disk",
+                "C": "To manage file access permissions",
+                "D": "To synchronize multiple processors"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main goal of the Scanline Polygon Fill Algorithm in graphics processing?",
+            "options": {
+                "A": "To allocate memory efficiently",
+                "B": "To minimize CPU utilization",
+                "C": "To fill in the interior of polygons",
+                "D": "To manage disk I/O"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

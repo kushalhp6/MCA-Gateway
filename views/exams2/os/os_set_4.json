@@ -1,0 +1,247 @@
+{
+    "exam_name": "OS Set 4",
+    "total_marks": 24,
+    "time_limit": 24,
+    "questions": [
+        {
+            "question": "If accessing memory takes 30 ns with cache and 150 ns without cache, and the cache access time is 15 ns, what is the cache hit ratio?",
+            "options": {
+                "A": "80%",
+                "B": "85%",
+                "C": "90%",
+                "D": "93%"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A process has 4 pages and references them in the order: \"X, Y, Z, X, Y, W, Z, X, W, Y\". If the FIFO page replacement algorithm is used with 3 frames, how many page faults occur?",
+            "options": {
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following synchronization primitives is used to protect critical sections in concurrent programming?",
+            "options": {
+                "A": "Mutex",
+                "B": "Semaphore",
+                "C": "Barrier",
+                "D": "Monitor"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "When a process is in a \"Suspended\" state, it:",
+            "options": {
+                "A": "Is waiting for some event to occur",
+                "B": "Is temporarily removed from main memory",
+                "C": "Is executing instructions",
+                "D": "Is waiting for I/O operations to complete"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A process is considered to be in a state of thrashing if:",
+            "options": {
+                "A": "It frequently performs I/O operations",
+                "B": "It frequently swaps pages in and out of memory",
+                "C": "It has high CPU utilization",
+                "D": "It has a large number of open file descriptors"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of the \"swap space\" in virtual memory management?",
+            "options": {
+                "A": "To hold the operating system's kernel",
+                "B": "To store user-level threads",
+                "C": "To hold the program's code section",
+                "D": "To temporarily store portions of a process's memory"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In disk scheduling, which algorithm selects the request that is closest to the current position of the disk arm?",
+            "options": {
+                "A": "FCFS (First-Come, First-Served)",
+                "B": "SSTF (Shortest Seek Time First)",
+                "C": "SCAN",
+                "D": "C-LOOK"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of process synchronization problem involves multiple threads trying to read and write data to a shared resource?",
+            "options": {
+                "A": "Readers-Writers Problem",
+                "B": "Dining Philosophers Problem",
+                "C": "Producer-Consumer Problem",
+                "D": "Barrier Synchronization Problem"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary goal of deadlock prevention techniques in operating systems?",
+            "options": {
+                "A": "Eliminating the need for CPU scheduling",
+                "B": "Ensuring that processes do not compete for resources",
+                "C": "Detecting and resolving deadlocks",
+                "D": "Structuring resource allocation to avoid deadlock conditions"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In virtual memory management, what is the purpose of the TLB (Translation Lookaside Buffer)?",
+            "options": {
+                "A": "To store the operating system's kernel",
+                "B": "To hold the page table",
+                "C": "To cache recently accessed pages",
+                "D": "To manage disk I/O"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which disk scheduling algorithm moves the disk arm towards the end of the disk, servicing requests along the way, and then reverses direction?",
+            "options": {
+                "A": "FCFS (First-Come, First-Served)",
+                "B": "SCAN",
+                "C": "C-LOOK",
+                "D": "SSTF (Shortest Seek Time First)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In file management, what is the purpose of a directory entry?",
+            "options": {
+                "A": "To hold the contents of a file",
+                "B": "To provide access to hardware devices",
+                "C": "To point to the location of a file's data blocks",
+                "D": "To manage disk scheduling"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What synchronization primitive can be used to ensure that a certain number of threads are all ready to proceed before any of them can proceed?",
+            "options": {
+                "A": "Barrier",
+                "B": "Semaphore",
+                "C": "Mutex",
+                "D": "Condition Variable"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of allocation keeps a list of available resources and allocates them on a first-come, first-served basis?",
+            "options": {
+                "A": "Contiguous Allocation",
+                "B": "Linked Allocation",
+                "C": "Indexed Allocation",
+                "D": "Pool Allocation"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What term describes the technique of storing a partially finished process in memory and swapping it out when another process needs to run?",
+            "options": {
+                "A": "Swapping",
+                "B": "Paging",
+                "C": "Multitasking",
+                "D": "Demand Paging"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which component of an operating system is responsible for translating high-level commands into low-level disk operations?",
+            "options": {
+                "A": "Device Driver",
+                "B": "Kernel",
+                "C": "Shell",
+                "D": "File System"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What type of memory management scheme divides memory into variable-sized blocks based on program requirements?",
+            "options": {
+                "A": "Paging",
+                "B": "Segmentation",
+                "C": "Contiguous Allocation",
+                "D": "Demand Paging"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In CPU scheduling, which algorithm assigns the next CPU burst to the process with the shortest predicted burst time?",
+            "options": {
+                "A": "FCFS (First-Come, First-Served)",
+                "B": "SJF (Shortest Job First)",
+                "C": "Priority Scheduling",
+                "D": "Round Robin (RR)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What term describes the act of a process voluntarily releasing the CPU, allowing other processes to execute?",
+            "options": {
+                "A": "Yielding",
+                "B": "Preemption",
+                "C": "Context Switching",
+                "D": "Spooling"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of thread is managed by the operating system kernel and is considered to be more efficient but less flexible?",
+            "options": {
+                "A": "User-Level Thread",
+                "B": "Kernel-Level Thread",
+                "C": "Daemon Thread",
+                "D": "Synchronized Thread"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Consider three processes with the following burst times: P1 = 24 ms, P2 = 3 ms, P3 = 3 ms. If they are scheduled in FCFS order, what is the average turnaround time?",
+            "options": {
+                "A": "13 ms",
+                "B": "15 ms",
+                "C": "17 ms",
+                "D": "20 ms"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A disk has 200 tracks, numbered from 0 to 199. If the disk head is currently at track 50 and the queue of track requests is as follows: 55, 58, 39, 18, 90, 160, what is the total head movement (in tracks) using the SSTF (Shortest Seek Time First) scheduling algorithm?",
+            "options": {
+                "A": "118",
+                "B": "122",
+                "C": "124",
+                "D": "136"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a round-robin scheduling algorithm, if the time quantum is set to 10 ms, and there are five processes each requiring 25 ms of CPU time, what is the total time taken to complete all processes?",
+            "options": {
+                "A": "50 ms",
+                "B": "100 ms",
+                "C": "150 ms",
+                "D": "200 ms"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Using the FIFO (First-In-First-Out) page replacement algorithm, if a reference string is 7, 0, 1, 2, 0, 3, 0, 4, and the number of frames is 3, how many page faults occur?",
+            "options": {
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

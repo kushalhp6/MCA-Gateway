@@ -1,0 +1,207 @@
+{
+    "exam_name": "OS Set 10",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which term describes a situation where a process is indefinitely waiting to acquire resources that are held by other processes?",
+            "options": {
+                "A": "Starvation",
+                "B": "Deadlock",
+                "C": "Livelock",
+                "D": "Race condition"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "If a process requires 15 KB of memory and the system has a page size of 4 KB, how many pages does the process need?",
+            "options": {
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "7"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "A system has 16 pages and each page is 8 KB in size. If the page table has 256 entries, what is the size of the page table?",
+            "options": {
+                "A": "2 KB",
+                "B": "4 KB",
+                "C": "8 KB",
+                "D": "16 KB"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What happens in a system when a process cannot get enough CPU time due to other processes with higher priority?",
+            "options": {
+                "A": "The process experiences starvation",
+                "B": "The process enters a deadlock state",
+                "C": "The process is suspended",
+                "D": "The process is terminated"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which scheduling algorithm is designed to minimize the average time a process waits before it starts execution?",
+            "options": {
+                "A": "First-Come, First-Served (FCFS)",
+                "B": "Shortest Job First (SJF)",
+                "C": "Round-Robin (RR)",
+                "D": "Priority Scheduling"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary objective of the Banker's algorithm in deadlock avoidance?",
+            "options": {
+                "A": "Deadlock detection",
+                "B": "Resource allocation",
+                "C": "Priority inversion",
+                "D": "Page replacement"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of process management, what is a race condition?",
+            "options": {
+                "A": "A condition where multiple processes access shared resources without synchronization",
+                "B": "A condition where processes compete for CPU time",
+                "C": "A condition where processes are scheduled in a round-robin manner",
+                "D": "A condition where processes are waiting for I/O operations to complete"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which scheduling algorithm is designed to give equal CPU time to all processes in a multi-user system?",
+            "options": {
+                "A": "Round Robin (RR)",
+                "B": "Shortest Job First (SJF)",
+                "C": "Priority Scheduling",
+                "D": "Completely Fair Scheduler (CFS)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In virtual memory systems, what is the primary purpose of the page table entry (PTE)?",
+            "options": {
+                "A": "To store the page number",
+                "B": "To indicate page protection",
+                "C": "To link to the next page table",
+                "D": "To store the frame number"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the main purpose of the File Allocation Table (FAT) in file management?",
+            "options": {
+                "A": "To manage file access permissions",
+                "B": "To store file data",
+                "C": "To map virtual memory pages",
+                "D": "To keep track of file cluster allocations"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which process synchronization primitive allows multiple processes to enter a critical section at once but limits the number that can enter?",
+            "options": {
+                "A": "Mutex",
+                "B": "Semaphore",
+                "C": "Barrier",
+                "D": "Monitor"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of memory management, what is the 'thrashing' phenomenon?",
+            "options": {
+                "A": "A condition of high disk I/O activity",
+                "B": "A condition of excessive paging",
+                "C": "A condition of optimal page replacement",
+                "D": "A condition of low CPU utilization"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of the Directory Entry Block (DEB) in file management?",
+            "options": {
+                "A": "To manage file permissions",
+                "B": "To store file data",
+                "C": "To represent file metadata",
+                "D": "To track file location on disk"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which algorithm is used to replace a page in the page table when there is a page fault and selects the victim page based on its past usage history?",
+            "options": {
+                "A": "Least Recently Used (LRU)",
+                "B": "First-In, First-Out (FIFO)",
+                "C": "Optimal Page Replacement",
+                "D": "Clock Page Replacement"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of a wait-for graph in deadlock detection?",
+            "options": {
+                "A": "To represent the execution order of processes",
+                "B": "To track process priorities",
+                "C": "To detect circular wait conditions",
+                "D": "To optimize CPU scheduling"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In CPU scheduling, which algorithm aims to execute the process with the highest priority first?",
+            "options": {
+                "A": "Round Robin (RR)",
+                "B": "Shortest Job First (SJF)",
+                "C": "Priority Scheduling",
+                "D": "Completely Fair Scheduler (CFS)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the main goal of file system journaling in disk management?",
+            "options": {
+                "A": "To allocate disk space efficiently",
+                "B": "To provide file access permissions",
+                "C": "To prevent data loss due to crashes",
+                "D": "To optimize seek time"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In memory management, what is the role of the Memory Management Unit (MMU)?",
+            "options": {
+                "A": "To manage file access permissions",
+                "B": "To handle disk I/O operations",
+                "C": "To translate virtual addresses to physical addresses",
+                "D": "To allocate memory blocks"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of file management, what is the purpose of a file descriptor?",
+            "options": {
+                "A": "To manage file permissions",
+                "B": "To store file data",
+                "C": "To represent file metadata",
+                "D": "To track file location on disk"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary function of a condition variable in synchronization?",
+            "options": {
+                "A": "To protect critical sections",
+                "B": "To implement mutual exclusion",
+                "C": "To allow threads to wait for a specific condition to be met",
+                "D": "To manage process priorities"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}
