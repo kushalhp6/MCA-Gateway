@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 3",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "The process of converting a private IP address to a public IP address is known as:",
+            "options": {
+                "A": "NAT (Network Address Translation)",
+                "B": "DHCP (Dynamic Host Configuration Protocol)",
+                "C": "DNS (Domain Name System)",
+                "D": "ARP (Address Resolution Protocol)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which protocol is used to resolve IP addresses to MAC addresses?",
+            "options": {
+                "A": "DHCP",
+                "B": "DNS",
+                "C": "ARP",
+                "D": "ICMP"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is an example of a connection-oriented protocol?",
+            "options": {
+                "A": "UDP",
+                "B": "IP",
+                "C": "TCP",
+                "D": "ICMP"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The purpose of the 'TTL' field in an IP packet is to:",
+            "options": {
+                "A": "Indicate the maximum transmission speed",
+                "B": "Specify the packet’s destination address",
+                "C": "Prevent packets from circulating indefinitely",
+                "D": "Encrypt the data contained in the packet"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which layer of the OSI model provides error detection and correction for data frames?",
+            "options": {
+                "A": "Physical Layer (Layer 1)",
+                "B": "Data Link Layer (Layer 2)",
+                "C": "Network Layer (Layer 3)",
+                "D": "Transport Layer (Layer 4)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of firewall operates at the application layer of the OSI model and can inspect data packets up to the application layer?",
+            "options": {
+                "A": "Packet-filtering firewall",
+                "B": "Stateful firewall",
+                "C": "Proxy firewall",
+                "D": "NAT firewall"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of the TTL (Time-to-Live) field in an IP packet header?",
+            "options": {
+                "A": "To specify the maximum data payload size.",
+                "B": "To indicate the source of the packet.",
+                "C": "To define the network route for the packet.",
+                "D": "To limit the lifetime of the packet in the network."
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary advantage of IPv6 over IPv4?",
+            "options": {
+                "A": "Larger address space",
+                "B": "Faster data transmission",
+                "C": "Better error correction",
+                "D": "Wider device compatibility"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which network device operates at Layer 2 of the OSI model and forwards data based on MAC addresses?",
+            "options": {
+                "A": "Router",
+                "B": "Hub",
+                "C": "Switch",
+                "D": "Gateway"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the term 'subnetting' refer to in IP networking?",
+            "options": {
+                "A": "Dividing a network into smaller segments for improved performance.",
+                "B": "Establishing a direct link between two remote networks.",
+                "C": "Combining multiple networks to increase bandwidth.",
+                "D": "Assigning IP addresses to devices in a network."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which protocol is responsible for detecting and preventing loops in Ethernet networks?",
+            "options": {
+                "A": "ARP",
+                "B": "RIP",
+                "C": "STP",
+                "D": "DHCP"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which protocol is used for securely logging into a remote server over a network connection?",
+            "options": {
+                "A": "FTP",
+                "B": "SNMP",
+                "C": "SSH",
+                "D": "DNS"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of the subnet mask '255.255.255.0' in IPv4 networking?",
+            "options": {
+                "A": "It defines a Class B network.",
+                "B": "It is a default gateway.",
+                "C": "It allows 254 hosts on the same subnet.",
+                "D": "It restricts communication between subnets."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which network topology provides redundancy and fault tolerance by connecting each device to multiple other devices?",
+            "options": {
+                "A": "Bus",
+                "B": "Star",
+                "C": "Ring",
+                "D": "Mesh"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary purpose of the Dynamic Host Configuration Protocol (DHCP)?",
+            "options": {
+                "A": "To translate domain names into IP addresses.",
+                "B": "To assign static IP addresses to devices.",
+                "C": "To manage routing tables in a network.",
+                "D": "To dynamically assign IP addresses to devices."
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which protocol is responsible for transferring files from a local machine to a remote server?",
+            "options": {
+                "A": "FTP",
+                "B": "HTTP",
+                "C": "SMTP",
+                "D": "POP3"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which network addressing scheme is used in IPv6 to represent a range of consecutive IP addresses?",
+            "options": {
+                "A": "CIDR",
+                "B": "ARP",
+                "C": "DHCP",
+                "D": "Subnetting"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a DMZ (Demilitarized Zone) in network security architecture?",
+            "options": {
+                "A": "To isolate internal network resources from external threats.",
+                "B": "To provide high-speed internet access to users.",
+                "C": "To enhance network performance for critical applications.",
+                "D": "To route data between subnets."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which protocol is responsible for translating human-readable domain names into IP addresses?",
+            "options": {
+                "A": "DNS",
+                "B": "DHCP",
+                "C": "SNMP",
+                "D": "FTP"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which routing algorithm takes into account the current network traffic load and selects the least congested path?",
+            "options": {
+                "A": "Static routing",
+                "B": "RIP",
+                "C": "OSPF",
+                "D": "Load-balancing routing"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

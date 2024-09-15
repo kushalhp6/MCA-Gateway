@@ -1,0 +1,207 @@
+{
+    "exam_name": "DBMS Set 3",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following is a feature of relational algebra?",
+            "options": {
+                "A": "It is a non-procedural language.",
+                "B": "It is used for querying data.",
+                "C": "It supports object-oriented queries.",
+                "D": "It defines data schema."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In which normal form should there be no partial dependency?",
+            "options": {
+                "A": "First normal form",
+                "B": "Second normal form",
+                "C": "Third normal form",
+                "D": "Boyce-Codd normal form"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Given the functional dependencies: X = {A → B, B → C, C → D}, which attribute is a candidate key?",
+            "options": {
+                "A": "A",
+                "B": "B",
+                "C": "C",
+                "D": "D"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a relational database, which term refers to a unique identifier for a record in a table?",
+            "options": {
+                "A": "Foreign Key",
+                "B": "Candidate Key",
+                "C": "Composite Key",
+                "D": "Primary Key"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is used to optimize query performance by creating a sorted data structure?",
+            "options": {
+                "A": "Clustered Index",
+                "B": "Non-clustered Index",
+                "C": "Hash Index",
+                "D": "Bitmap Index"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a deadlock in a database management system?",
+            "options": {
+                "A": "To improve query performance",
+                "B": "To ensure isolation of transactions",
+                "C": "To optimize query execution",
+                "D": "To avoid resource conflicts"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is an example of a non-relational database model?",
+            "options": {
+                "A": "MySQL",
+                "B": "SQLite",
+                "C": "MongoDB",
+                "D": "PostgreSQL"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a valid SQL command for altering a table's structure by adding a new column?",
+            "options": {
+                "A": "ALTER TABLE ADD COLUMN",
+                "B": "ALTER COLUMN ADD",
+                "C": "ADD COLUMN TO TABLE",
+                "D": "MODIFY COLUMN ADD"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In relational algebra, which operator is used to combine the results of two or more SELECT queries?",
+            "options": {
+                "A": "PROJECT",
+                "B": "UNION",
+                "C": "JOIN",
+                "D": "INTERSECT"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of a transaction in a database?",
+            "options": {
+                "A": "To retrieve data from the database",
+                "B": "To modify data in the database",
+                "C": "To optimize query performance",
+                "D": "To establish database connections"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of join returns only the matched rows from both tables?",
+            "options": {
+                "A": "INNER JOIN",
+                "B": "LEFT JOIN",
+                "C": "RIGHT JOIN",
+                "D": "FULL OUTER JOIN"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which SQL command is used to permanently remove a table from a database?",
+            "options": {
+                "A": "DROP TABLE",
+                "B": "DELETE TABLE",
+                "C": "REMOVE TABLE",
+                "D": "ERASE TABLE"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is a benefit of using an index in a database?",
+            "options": {
+                "A": "Increases storage space",
+                "B": "Decreases data retrieval speed",
+                "C": "Slows down query execution",
+                "D": "Improves query performance"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is a composite key in a database?",
+            "options": {
+                "A": "A key formed by concatenating two strings",
+                "B": "A key made up of multiple attributes",
+                "C": "A key generated using encryption algorithms",
+                "D": "A key created by combining numbers and letters"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of normalization, what does the process of 'denormalization' involve?",
+            "options": {
+                "A": "Reducing redundancy in the data",
+                "B": "Increasing data integrity",
+                "C": "Combining multiple tables into one",
+                "D": "Introducing redundancy for performance gains"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of the WHERE clause in an SQL query?",
+            "options": {
+                "A": "To specify which tables to join",
+                "B": "To group data based on a column",
+                "C": "To filter rows based on a condition",
+                "D": "To order the results of the query"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is an example of a data manipulation command in SQL?",
+            "options": {
+                "A": "CREATE TABLE",
+                "B": "ALTER TABLE",
+                "C": "DROP TABLE",
+                "D": "UPDATE TABLE"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which transaction isolation level ensures that a transaction's changes are not visible to other transactions until it's committed?",
+            "options": {
+                "A": "READ UNCOMMITTED",
+                "B": "READ COMMITTED",
+                "C": "REPEATABLE READ",
+                "D": "SERIALIZABLE"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which normal form allows only full functional dependency on the primary key?",
+            "options": {
+                "A": "2NF",
+                "B": "3NF",
+                "C": "BCNF",
+                "D": "4NF"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary goal of query optimization in a database system?",
+            "options": {
+                "A": "To generate SQL queries automatically",
+                "B": "To eliminate the need for indexes",
+                "C": "To minimize data storage requirements",
+                "D": "To improve query execution performance"
+            },
+            "correct_answer": "D"
+        }
+    ]
+}

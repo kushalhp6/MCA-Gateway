@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 6",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which protocol is used for secure communication over the internet, using encryption?",
+            "options": {
+                "A": "HTTP",
+                "B": "HTTPS",
+                "C": "FTP",
+                "D": "Telnet"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of the DHCP protocol?",
+            "options": {
+                "A": "To assign IP addresses dynamically to devices on a network",
+                "B": "To resolve domain names to IP addresses",
+                "C": "To establish secure connections between servers",
+                "D": "To monitor network traffic"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which layer of the OSI model is responsible for end-to-end communication and flow control?",
+            "options": {
+                "A": "Network Layer (Layer 3)",
+                "B": "Transport Layer (Layer 4)",
+                "C": "Session Layer (Layer 5)",
+                "D": "Application Layer (Layer 7)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is a feature of a switch compared to a hub?",
+            "options": {
+                "A": "Broadcasts data to all connected devices",
+                "B": "Forwards data only to the specific device it is intended for",
+                "C": "Operates at the Physical Layer",
+                "D": "Provides a single collision domain"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a typical home network, which device connects your local network to the Internet?",
+            "options": {
+                "A": "Switch",
+                "B": "Router",
+                "C": "Hub",
+                "D": "Bridge"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of network attack involves flooding a network with an excessive amount of traffic to overwhelm its resources and cause a denial of service?",
+            "options": {
+                "A": "DDoS (Distributed Denial of Service)",
+                "B": "SQL Injection",
+                "C": "Phishing",
+                "D": "Spoofing"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of Quality of Service (QoS), what is the purpose of the Differentiated Services Code Point (DSCP) field in IP headers?",
+            "options": {
+                "A": "It specifies the source IP address.",
+                "B": "It indicates the packet's priority and treatment.",
+                "C": "It encrypts the packet's payload.",
+                "D": "It defines the Time-to-Live (TTL) value."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which cryptographic protocol is commonly used to secure email communications, providing encryption and authentication for email messages?",
+            "options": {
+                "A": "TLS (Transport Layer Security)",
+                "B": "SSH (Secure Shell)",
+                "C": "IPsec (Internet Protocol Security)",
+                "D": "PGP (Pretty Good Privacy)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary purpose of the BGP (Border Gateway Protocol) in the context of the global Internet?",
+            "options": {
+                "A": "It ensures end-to-end encryption of data.",
+                "B": "It controls the routing of data between autonomous systems (ASes).",
+                "C": "It assigns IP addresses to network devices.",
+                "D": "It filters malicious traffic at the network edge."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which network addressing technique allows multiple devices to share a single public IP address, typically used in home networks?",
+            "options": {
+                "A": "NAT (Network Address Translation)",
+                "B": "CIDR (Classless Inter-Domain Routing)",
+                "C": "DHCP (Dynamic Host Configuration Protocol)",
+                "D": "ARP (Address Resolution Protocol)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of network security, what is 'zero-day vulnerability'?",
+            "options": {
+                "A": "A vulnerability that has existed for zero days",
+                "B": "A vulnerability that has been patched for zero days",
+                "C": "A vulnerability that is unknown to the software vendor",
+                "D": "A vulnerability that affects zero devices"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of a DNSSEC (Domain Name System Security Extensions) implementation?",
+            "options": {
+                "A": "To encrypt DNS traffic",
+                "B": "To prevent DNS spoofing and cache poisoning attacks",
+                "C": "To allocate IP addresses to domain names",
+                "D": "To increase the speed of DNS resolution"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which network monitoring tool or protocol allows administrators to capture and analyze network traffic for troubleshooting and security analysis?",
+            "options": {
+                "A": "SNMP (Simple Network Management Protocol)",
+                "B": "Wireshark",
+                "C": "NetFlow",
+                "D": "Telnet"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the key benefit of using a Virtual LAN (VLAN) in a network?",
+            "options": {
+                "A": "It increases network speed.",
+                "B": "It isolates broadcast domains and enhances network security.",
+                "C": "It provides end-to-end encryption for data transmission.",
+                "D": "It simplifies network management."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What protocol is commonly used for secure remote file transfer over a network, encrypting both commands and data?",
+            "options": {
+                "A": "FTP (File Transfer Protocol)",
+                "B": "SFTP (SSH File Transfer Protocol)",
+                "C": "SCP (Secure Copy Protocol)",
+                "D": "TFTP (Trivial File Transfer Protocol)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a multicast communication model, which address type is used to identify a group of receivers?",
+            "options": {
+                "A": "Unicast",
+                "B": "Broadcast",
+                "C": "Anycast",
+                "D": "Multicast"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of a Honeypot in network security?",
+            "options": {
+                "A": "To detect and prevent network intrusions",
+                "B": "To collect information about attackers and their methods",
+                "C": "To encrypt sensitive network traffic",
+                "D": "To filter spam emails"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of network performance optimization, what does 'QAM' stand for?",
+            "options": {
+                "A": "Quality Assessment Measure",
+                "B": "Quadrature Amplitude Modulation",
+                "C": "Quick Access Method",
+                "D": "Quantum Acceleration Mode"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a commonly used wireless security protocol for securing Wi-Fi networks?",
+            "options": {
+                "A": "WEP (Wired Equivalent Privacy)",
+                "B": "WPA (Wi-Fi Protected Access)",
+                "C": "WPA2 (Wi-Fi Protected Access II)",
+                "D": "SSL (Secure Sockets Layer)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of the Diffie-Hellman key exchange in cryptography and secure communication?",
+            "options": {
+                "A": "To encrypt data at rest",
+                "B": "To establish a shared secret key between two parties",
+                "C": "To authenticate users in a network",
+                "D": "To verify the integrity of digital signatures"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "DBMS Set 2",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In an ER diagram, a relationship set is typically represented by a:",
+            "options": {
+                "A": "Rectangle",
+                "B": "Diamond",
+                "C": "Circle",
+                "D": "Ellipse"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a relational database, which property ensures that all data remains accurate and consistent during a transaction?",
+            "options": {
+                "A": "Atomicity",
+                "B": "Consistency",
+                "C": "Isolation",
+                "D": "Durability"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which statement about foreign keys is true?",
+            "options": {
+                "A": "Foreign keys can have duplicate values.",
+                "B": "Foreign keys must be unique.",
+                "C": "Foreign keys can contain NULL values.",
+                "D": "Foreign keys are used to uniquely identify each record in a table."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "A non-clustering index is defined on fields which are:",
+            "options": {
+                "A": "Key and non-ordering",
+                "B": "Non-key and ordering",
+                "C": "Key and ordering",
+                "D": "Non-key and non-ordering"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which RAID level provides redundancy by mirroring data across multiple disks?",
+            "options": {
+                "A": "RAID level 0",
+                "B": "RAID level 1",
+                "C": "RAID level 5",
+                "D": "RAID level 6"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which SQL keyword is used to retrieve data from a database?",
+            "options": {
+                "A": "PULL",
+                "B": "SELECT",
+                "C": "GET",
+                "D": "QUERY"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "The process of organizing data to minimize redundancy is known as:",
+            "options": {
+                "A": "Normalization",
+                "B": "Indexing",
+                "C": "Query Optimization",
+                "D": "Denormalization"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which normal form focuses on eliminating partial dependencies?",
+            "options": {
+                "A": "1NF",
+                "B": "2NF",
+                "C": "3NF",
+                "D": "BCNF"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of transactions, what does ACID stand for?",
+            "options": {
+                "A": "Atomicity, Consistency, Isolation, Durability",
+                "B": "All, Complete, Integrated, Durable",
+                "C": "Association, Computation, Isolation, Data",
+                "D": "Atomicity, Consistency, Inheritance, Division"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is used to speed up data retrieval operations in a database?",
+            "options": {
+                "A": "Normalization",
+                "B": "Indexing",
+                "C": "Denormalization",
+                "D": "Query Optimization"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which language is used for expressing complex queries and optimizations in DBMS?",
+            "options": {
+                "A": "SQL",
+                "B": "Java",
+                "C": "C++",
+                "D": "Query Language"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does an ER diagram represent?",
+            "options": {
+                "A": "Efficient Reporting",
+                "B": "Entity-Relationship",
+                "C": "Essential Relations",
+                "D": "Exceptional Requirements"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of key uniquely identifies each record in a table?",
+            "options": {
+                "A": "Primary key",
+                "B": "Foreign key",
+                "C": "Candidate key",
+                "D": "Super key"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the first step in query processing?",
+            "options": {
+                "A": "Parsing",
+                "B": "Scanning",
+                "C": "Semantic Analysis",
+                "D": "Query Optimization"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which normal form deals with transitive dependencies?",
+            "options": {
+                "A": "1NF",
+                "B": "2NF",
+                "C": "3NF",
+                "D": "BCNF"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which SQL command is used to add new columns to an existing table?",
+            "options": {
+                "A": "ALTER",
+                "B": "MODIFY",
+                "C": "UPDATE",
+                "D": "INSERT"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is a procedural query language?",
+            "options": {
+                "A": "SQL",
+                "B": "Relational Algebra",
+                "C": "Relational Calculus",
+                "D": "NoSQL"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of query optimization in a DBMS?",
+            "options": {
+                "A": "To write queries efficiently",
+                "B": "To eliminate data redundancy",
+                "C": "To secure the database",
+                "D": "To improve query performance"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following statements is true about a foreign key?",
+            "options": {
+                "A": "It uniquely identifies a record in a table.",
+                "B": "It is used for indexing purposes.",
+                "C": "It establishes a link between two tables.",
+                "D": "It is always a primary key in another table."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the final stage of a transaction's life cycle?",
+            "options": {
+                "A": "Active",
+                "B": "Committed",
+                "C": "Partially Committed",
+                "D": "Aborted"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 10",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following IP addresses is a valid address in a Class C network?",
+            "options": {
+                "A": "192.168.1.300",
+                "B": "192.168.1.255",
+                "C": "192.168.0.0",
+                "D": "192.168.1.1"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What type of network topology provides redundancy by connecting each device to multiple other devices?",
+            "options": {
+                "A": "Star Topology",
+                "B": "Mesh Topology",
+                "C": "Bus Topology",
+                "D": "Ring Topology"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of network segmentation?",
+            "options": {
+                "A": "To increase the network's overall bandwidth",
+                "B": "To improve network security and manage traffic more effectively",
+                "C": "To reduce the number of IP addresses needed",
+                "D": "To eliminate network congestion completely"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'NAT' stand for in networking?",
+            "options": {
+                "A": "Network Address Translation",
+                "B": "Network Access Technology",
+                "C": "Network Automated Testing",
+                "D": "Network Application Transport"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which protocol is used for secure remote login and command execution?",
+            "options": {
+                "A": "Telnet",
+                "B": "SSH",
+                "C": "FTP",
+                "D": "HTTP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of a firewall in a network security context?",
+            "options": {
+                "A": "To amplify network signals",
+                "B": "To filter and control network traffic",
+                "C": "To improve network performance",
+                "D": "To provide redundancy in the network"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'MPLS' stand for in the context of networking?",
+            "options": {
+                "A": "Multiprotocol Label Switching",
+                "B": "Maximum Packet Loss Service",
+                "C": "Managed Private LAN Service",
+                "D": "Multi-Protocol Link Security"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which OSI layer is responsible for segmenting and reassembling data for transmission?",
+            "options": {
+                "A": "Transport",
+                "B": "Network",
+                "C": "Data Link",
+                "D": "Presentation"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary function of the DNS (Domain Name System)?",
+            "options": {
+                "A": "To manage network security",
+                "B": "To translate human-readable domain names into IP addresses",
+                "C": "To route data packets across the internet",
+                "D": "To establish encrypted connections"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of cable is commonly used for Gigabit Ethernet connections and has four twisted pairs of copper wires?",
+            "options": {
+                "A": "Coaxial cable",
+                "B": "Fiber optic cable",
+                "C": "Cat 5e cable",
+                "D": "HDMI cable"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In networking, what is the purpose of the 'traceroute' command?",
+            "options": {
+                "A": "To measure network latency",
+                "B": "To find the shortest path between two hosts",
+                "C": "To map the network topology along the path to a destination",
+                "D": "To encrypt network traffic"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a legitimate IPv4 private IP address range for use within a local network?",
+            "options": {
+                "A": "10.0.0.0 to 10.255.255.255",
+                "B": "172.16.0.0 to 172.31.255.255",
+                "C": "192.168.0.0 to 192.168.255.255",
+                "D": "All of the above"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In the context of network security, what does the term 'IDS' stand for?",
+            "options": {
+                "A": "Internet Data Server",
+                "B": "Intrusion Detection System",
+                "C": "Integrated Directory Service",
+                "D": "Internet Denial of Service"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is a stateless address autoconfiguration protocol used in IPv6?",
+            "options": {
+                "A": "ARP (Address Resolution Protocol)",
+                "B": "DHCP (Dynamic Host Configuration Protocol)",
+                "C": "SLAAC (Stateless Address Autoconfiguration)",
+                "D": "NTP (Network Time Protocol)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a MAC address in a network?",
+            "options": {
+                "A": "To uniquely identify a device on the internet",
+                "B": "To identify a device on a local network",
+                "C": "To specify the IP address of a device",
+                "D": "To encrypt network traffic"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not an example of an application layer protocol?",
+            "options": {
+                "A": "HTTP",
+                "B": "SSH",
+                "C": "DNS",
+                "D": "ICMP"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary difference between TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)?",
+            "options": {
+                "A": "TCP is connectionless, while UDP is connection-oriented.",
+                "B": "TCP provides reliable data transfer with error checking, while UDP does not.",
+                "C": "UDP is used for web browsing, while TCP is used for video streaming.",
+                "D": "TCP operates at the transport layer, while UDP operates at the network layer."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which network topology is the most fault-tolerant and provides the highest level of redundancy?",
+            "options": {
+                "A": "Star",
+                "B": "Bus",
+                "C": "Ring",
+                "D": "Mesh"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of a proxy server in a network?",
+            "options": {
+                "A": "To manage IP address allocation",
+                "B": "To improve network performance",
+                "C": "To act as an intermediary between clients and servers",
+                "D": "To encrypt network traffic"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the OSI model, which layer is responsible for logical addressing and routing?",
+            "options": {
+                "A": "Physical",
+                "B": "Data Link",
+                "C": "Network",
+                "D": "Transport"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "DBMS Set 10",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In which normal form should there be no partial dependency on any candidate key?",
+            "options": {
+                "A": "First normal form",
+                "B": "Second normal form",
+                "C": "Third normal form",
+                "D": "Fourth normal form"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which SQL keyword is used to retrieve data from a database?",
+            "options": {
+                "A": "SELECT",
+                "B": "GET",
+                "C": "FETCH",
+                "D": "RETRIEVE"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In which RAID level is data distributed across multiple disks with parity information for redundancy?",
+            "options": {
+                "A": "RAID level 0",
+                "B": "RAID level 1",
+                "C": "RAID level 5",
+                "D": "RAID level 6"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following statements about database normalization is correct?",
+            "options": {
+                "A": "Normalization eliminates all redundancy.",
+                "B": "Normalization increases data redundancy.",
+                "C": "Normalization ensures data is stored in its raw form.",
+                "D": "Normalization organizes data to reduce redundancy and improve integrity."
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is true about a data warehouse?",
+            "options": {
+                "A": "It is designed for online transaction processing (OLTP).",
+                "B": "It is optimized for query and analysis rather than transaction processing.",
+                "C": "It stores only real-time operational data.",
+                "D": "It does not support large-scale data retrieval operations."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which normal form deals with the issue of transitive dependencies in a relation?",
+            "options": {
+                "A": "1NF",
+                "B": "2NF",
+                "C": "3NF",
+                "D": "4NF"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In SQL, which type of join returns all rows from both tables with NULL values in the columns where there is no match?",
+            "options": {
+                "A": "INNER JOIN",
+                "B": "LEFT JOIN",
+                "C": "RIGHT JOIN",
+                "D": "FULL OUTER JOIN"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of an ERD's cardinality constraints?",
+            "options": {
+                "A": "To define the attributes of entities",
+                "B": "To specify the relationship between entities",
+                "C": "To enforce data integrity",
+                "D": "To determine the primary key"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which SQL statement is used to retrieve data from one or more tables based on a specified condition?",
+            "options": {
+                "A": "INSERT",
+                "B": "SELECT",
+                "C": "UPDATE",
+                "D": "DELETE"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In relational algebra, what operation is used to combine two relations based on a common attribute to form a new relation?",
+            "options": {
+                "A": "PROJECT",
+                "B": "INTERSECT",
+                "C": "JOIN",
+                "D": "UNION"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which SQL clause is used to sort the result set of a query in ascending or descending order?",
+            "options": {
+                "A": "GROUP BY",
+                "B": "HAVING",
+                "C": "WHERE",
+                "D": "ORDER BY"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In the context of normalization, what does it mean for a relation to be in Boyce-Codd Normal Form (BCNF)?",
+            "options": {
+                "A": "It has no partial or transitive dependencies.",
+                "B": "It has a unique primary key.",
+                "C": "It is fully normalized.",
+                "D": "It has no repeating groups."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of a DDL (Data Definition Language) statement in SQL?",
+            "options": {
+                "A": "SELECT",
+                "B": "UPDATE",
+                "C": "INSERT",
+                "D": "CREATE"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary role of the primary key in a relational database?",
+            "options": {
+                "A": "It ensures that each row has a unique identifier.",
+                "B": "It establishes relationships between tables.",
+                "C": "It enforces data integrity constraints.",
+                "D": "It facilitates efficient indexing."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following SQL commands is used to remove a table from the database schema?",
+            "options": {
+                "A": "DROP TABLE",
+                "B": "DELETE TABLE",
+                "C": "REMOVE TABLE",
+                "D": "ERASE TABLE"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In relational calculus, which quantifier is used to express 'for all'?",
+            "options": {
+                "A": "EXISTS",
+                "B": "THERE EXISTS",
+                "C": "FOR ALL",
+                "D": "EVERY"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of a SQL subquery?",
+            "options": {
+                "A": "To perform aggregate calculations",
+                "B": "To update multiple records at once",
+                "C": "To retrieve data from multiple tables",
+                "D": "To retrieve data for use in another query"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of join operation returns only the rows that have matching values in both tables being joined?",
+            "options": {
+                "A": "INNER JOIN",
+                "B": "LEFT JOIN",
+                "C": "RIGHT JOIN",
+                "D": "FULL OUTER JOIN"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which SQL statement is used to modify data in an existing table?",
+            "options": {
+                "A": "ALTER TABLE",
+                "B": "INSERT INTO",
+                "C": "UPDATE",
+                "D": "DELETE FROM"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of query optimization, what does the term 'predicate pushdown' refer to?",
+            "options": {
+                "A": "Moving aggregate functions to the SELECT clause",
+                "B": "Applying filter conditions early in query processing",
+                "C": "Rewriting queries for better performance",
+                "D": "Partitioning data for parallel processing"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

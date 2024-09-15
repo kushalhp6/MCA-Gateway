@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 5",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which protocol is commonly used for email retrieval?",
+            "options": {
+                "A": "SMTP",
+                "B": "POP3",
+                "C": "FTP",
+                "D": "Telnet"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'bandwidth' refer to in networking?",
+            "options": {
+                "A": "The amount of data transmitted per second",
+                "B": "The size of the network’s IP address pool",
+                "C": "The range of frequencies used by a network",
+                "D": "The maximum number of devices on a network"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of address is used to uniquely identify a device on a network?",
+            "options": {
+                "A": "MAC Address",
+                "B": "IP Address",
+                "C": "Subnet Mask",
+                "D": "Gateway Address"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which network topology uses a central node to which all other nodes are connected?",
+            "options": {
+                "A": "Bus Topology",
+                "B": "Ring Topology",
+                "C": "Star Topology",
+                "D": "Mesh Topology"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "The function of a router is to:",
+            "options": {
+                "A": "Filter network traffic based on MAC addresses",
+                "B": "Route packets between different networks",
+                "C": "Amplify network signals",
+                "D": "Encrypt and decrypt network data"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the default port number for HTTP (Hypertext Transfer Protocol)?",
+            "options": {
+                "A": "21",
+                "B": "53",
+                "C": "80",
+                "D": "443"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which IP address class is typically used for multicast addressing?",
+            "options": {
+                "A": "Class A",
+                "B": "Class B",
+                "C": "Class C",
+                "D": "Class D"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which transport layer protocol provides connection-oriented, reliable data transmission?",
+            "options": {
+                "A": "UDP (User Datagram Protocol)",
+                "B": "TCP (Transmission Control Protocol)",
+                "C": "ICMP (Internet Control Message Protocol)",
+                "D": "SMTP (Simple Mail Transfer Protocol)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does NAT (Network Address Translation) do for a home network with multiple devices?",
+            "options": {
+                "A": "It assigns a unique public IP address to each device.",
+                "B": "It allows all devices to share a single public IP address.",
+                "C": "It encrypts all network traffic.",
+                "D": "It filters out spam emails."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which protocol is commonly used for remotely accessing and managing network devices such as routers and switches?",
+            "options": {
+                "A": "HTTP",
+                "B": "Telnet",
+                "C": "FTP",
+                "D": "DNS"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of a firewall in network security?",
+            "options": {
+                "A": "To provide physical security for network cables",
+                "B": "To prevent unauthorized access and protect against network threats",
+                "C": "To increase network speed",
+                "D": "To allocate IP addresses to devices"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which protocol is used to resolve domain names (e.g., www.example.com) to IP addresses?",
+            "options": {
+                "A": "DHCP (Dynamic Host Configuration Protocol)",
+                "B": "DNS (Domain Name System)",
+                "C": "SNMP (Simple Network Management Protocol)",
+                "D": "ARP (Address Resolution Protocol)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of network management, what does 'SNMP' stand for?",
+            "options": {
+                "A": "Simple Network Management Protocol",
+                "B": "Secure Network Monitoring and Protection",
+                "C": "System Network Management Protocol",
+                "D": "Standard Network Message Protocol"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of the 'ping' command?",
+            "options": {
+                "A": "To send emails",
+                "B": "To test network connectivity and measure round-trip time",
+                "C": "To browse websites",
+                "D": "To transfer files between devices"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which protocol is commonly used for sending and receiving email messages?",
+            "options": {
+                "A": "FTP",
+                "B": "POP3 (Post Office Protocol version 3)",
+                "C": "HTTP",
+                "D": "SSH"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of a Virtual Private Network (VPN)?",
+            "options": {
+                "A": "To enhance physical network security",
+                "B": "To connect to the internet",
+                "C": "To provide secure communication over public networks",
+                "D": "To allocate IP addresses to devices"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of network management, what is the purpose of a 'traceroute' command?",
+            "options": {
+                "A": "To locate lost devices on the network",
+                "B": "To measure the network bandwidth",
+                "C": "To identify the physical location of network cables",
+                "D": "To trace the route of packets through the network"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of cable is used for long-distance, high-speed data transmission and is immune to electromagnetic interference?",
+            "options": {
+                "A": "Coaxial cable",
+                "B": "Twisted pair cable",
+                "C": "Optical fiber cable",
+                "D": "Ethernet cable"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does 'LAN' stand for in the context of networking?",
+            "options": {
+                "A": "Local Area Network",
+                "B": "Large Area Network",
+                "C": "Link Access Node",
+                "D": "Layered Area Network"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of a private IP address range commonly used within local networks?",
+            "options": {
+                "A": "10.0.0.0 to 10.255.255.255",
+                "B": "172.16.0.0 to 172.31.255.255",
+                "C": "192.168.0.0 to 192.168.255.255",
+                "D": "255.255.255.0 to 255.255.255.255"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

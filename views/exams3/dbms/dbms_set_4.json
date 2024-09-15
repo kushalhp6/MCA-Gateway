@@ -1,0 +1,207 @@
+{
+    "exam_name": "DBMS Set 4",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which RAID level uses striping without redundancy?",
+            "options": {
+                "A": "RAID level 0",
+                "B": "RAID level 1",
+                "C": "RAID level 5",
+                "D": "RAID level 10"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Relational databases typically use which type of language to define and manipulate data?",
+            "options": {
+                "A": "Procedural Language",
+                "B": "Non-Procedural Language",
+                "C": "Query Language",
+                "D": "Machine Language"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which normal form eliminates transitive dependency?",
+            "options": {
+                "A": "First normal form",
+                "B": "Second normal form",
+                "C": "Third normal form",
+                "D": "Fourth normal form"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "If a relation R(A, B, C) has the functional dependency A → B and B → C, what can be inferred about A?",
+            "options": {
+                "A": "A is not a candidate key.",
+                "B": "A is a candidate key.",
+                "C": "A is a foreign key.",
+                "D": "A is not a key attribute."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following RAID levels provides both redundancy and improved performance through striping?",
+            "options": {
+                "A": "RAID level 0",
+                "B": "RAID level 1",
+                "C": "RAID level 5",
+                "D": "RAID level 10"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In relational algebra, what does the JOIN operation combine?",
+            "options": {
+                "A": "Rows with matching values in specified columns",
+                "B": "Rows with differing data types",
+                "C": "Rows with NULL values",
+                "D": "Rows from different tables"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does a 'dirty read' refer to in the context of transaction isolation levels?",
+            "options": {
+                "A": "Reading uncommitted changes from another transaction",
+                "B": "Reading committed changes from another transaction",
+                "C": "Reading changes only after they are committed",
+                "D": "Reading changes from a terminated transaction"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which SQL clause is used to specify conditions that must be met for the rows to be retrieved?",
+            "options": {
+                "A": "HAVING",
+                "B": "GROUP BY",
+                "C": "WHERE",
+                "D": "ORDER BY"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In relational calculus, which type of calculus expresses a query using quantifiers like EXISTS and FOR ALL?",
+            "options": {
+                "A": "Domain Calculus",
+                "B": "Tuple Calculus",
+                "C": "Quantifier Calculus",
+                "D": "Predicate Calculus"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of the COMMIT statement in a transaction?",
+            "options": {
+                "A": "To save the changes made by the transaction",
+                "B": "To cancel the changes made by the transaction",
+                "C": "To release the locks held by the transaction",
+                "D": "To mark the transaction as incomplete"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of a multi-valued attribute?",
+            "options": {
+                "A": "Age",
+                "B": "Name",
+                "C": "Phone number",
+                "D": "Qualifications"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of the ROLLBACK statement in a transaction?",
+            "options": {
+                "A": "To save the changes made by the transaction",
+                "B": "To cancel the changes made by the transaction",
+                "C": "To release the locks held by the transaction",
+                "D": "To mark the transaction as incomplete"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In relational algebra, which operator returns all rows from one table that do not have matching rows in another table?",
+            "options": {
+                "A": "UNION",
+                "B": "INTERSECT",
+                "C": "DIFFERENCE",
+                "D": "OUTER JOIN"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is a 'materialized view' in a database system?",
+            "options": {
+                "A": "A view created for materializing indexes",
+                "B": "A table that stores views",
+                "C": "A precomputed and stored query result",
+                "D": "A table with primary and foreign keys"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of indexing, which type of index uses a separate data structure to hold the indexed values and their corresponding row pointers?",
+            "options": {
+                "A": "Clustered index",
+                "B": "Non-clustered index",
+                "C": "B-tree index",
+                "D": "Bitmap index"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of the NATURAL JOIN operation in relational algebra?",
+            "options": {
+                "A": "To join tables based on the ORDER BY clause",
+                "B": "To join tables based on common column names",
+                "C": "To join tables using a specified condition",
+                "D": "To join tables based on primary and foreign keys"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which transaction isolation level provides the highest level of isolation but can also lead to performance issues due to lock contention?",
+            "options": {
+                "A": "READ UNCOMMITTED",
+                "B": "READ COMMITTED",
+                "C": "REPEATABLE READ",
+                "D": "SERIALIZABLE"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of the SQL DELETE statement?",
+            "options": {
+                "A": "To remove a table from the database",
+                "B": "To remove specific columns from a table",
+                "C": "To remove specific rows from a table",
+                "D": "To remove indexes from a table"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In SQL, which aggregate function returns the total number of rows in a result set?",
+            "options": {
+                "A": "COUNT",
+                "B": "SUM",
+                "C": "AVG",
+                "D": "MAX"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of the WHERE CURRENT OF clause in SQL?",
+            "options": {
+                "A": "To filter rows based on a condition",
+                "B": "To specify the position in a cursor's result set",
+                "C": "To order the results of the query",
+                "D": "To group data based on a column"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 7",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the main function of the ICMP protocol?",
+            "options": {
+                "A": "To manage and establish connections between devices",
+                "B": "To provide error reporting and diagnostic functions",
+                "C": "To handle encryption and decryption of data",
+                "D": "To assign IP addresses dynamically"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which IP address range is reserved for private networks in Class B?",
+            "options": {
+                "A": "10.0.0.0 to 10.255.255.255",
+                "B": "172.16.0.0 to 172.31.255.255",
+                "C": "192.168.0.0 to 192.168.255.255",
+                "D": "127.0.0.0 to 127.255.255.255"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following protocols uses port 80 by default?",
+            "options": {
+                "A": "FTP",
+                "B": "HTTP",
+                "C": "SMTP",
+                "D": "SNMP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of a VPN?",
+            "options": {
+                "A": "To provide a high-speed connection",
+                "B": "To create a secure tunnel over a public network",
+                "C": "To increase network bandwidth",
+                "D": "To manage network traffic"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which network device is used to connect multiple network segments and filter traffic based on IP addresses?",
+            "options": {
+                "A": "Switch",
+                "B": "Router",
+                "C": "Hub",
+                "D": "Repeater"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which routing algorithm determines the shortest path to a destination based on hop count?",
+            "options": {
+                "A": "Dijkstra's algorithm",
+                "B": "Bellman-Ford algorithm",
+                "C": "RIP (Routing Information Protocol)",
+                "D": "OSPF (Open Shortest Path First)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "IPv4 addresses are composed of how many bits?",
+            "options": {
+                "A": "16 bits",
+                "B": "32 bits",
+                "C": "64 bits",
+                "D": "128 bits"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What protocol is responsible for error-checking and reliable data delivery in TCP/IP?",
+            "options": {
+                "A": "HTTP",
+                "B": "UDP",
+                "C": "FTP",
+                "D": "TCP"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is not a valid IPv6 address format?",
+            "options": {
+                "A": "2001:0db8:85a3:0000:0000:8a2e:0370:7334",
+                "B": "FE80::1",
+                "C": "192.168.1.1",
+                "D": "::1"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of a checksum in network data packets?",
+            "options": {
+                "A": "Data encryption",
+                "B": "Error detection",
+                "C": "Compression",
+                "D": "Routing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which application protocol is commonly used for sending and receiving emails?",
+            "options": {
+                "A": "FTP",
+                "B": "SMTP",
+                "C": "HTTP",
+                "D": "ICMP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What network security method involves hiding internal network addresses behind a single public IP address?",
+            "options": {
+                "A": "Firewall",
+                "B": "NAT (Network Address Translation)",
+                "C": "VPN (Virtual Private Network)",
+                "D": "DMZ (Demilitarized Zone)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What network management system allows administrators to monitor and control network devices remotely?",
+            "options": {
+                "A": "SNMP (Simple Network Management Protocol)",
+                "B": "SMTP (Simple Mail Transfer Protocol)",
+                "C": "HTTP (Hypertext Transfer Protocol)",
+                "D": "DNS (Domain Name System)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of communication networks, what does 'bandwidth' refer to?",
+            "options": {
+                "A": "The physical width of a network cable",
+                "B": "The maximum data rate of a communication channel",
+                "C": "The distance between network nodes",
+                "D": "The number of devices on a network"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which layer of the OSI model is responsible for data segmentation and reassembly?",
+            "options": {
+                "A": "Physical",
+                "B": "Data Link",
+                "C": "Transport",
+                "D": "Presentation"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What type of attack involves an attacker capturing and altering network traffic between two parties without their knowledge?",
+            "options": {
+                "A": "Denial of Service (DoS)",
+                "B": "Phishing",
+                "C": "Man-in-the-Middle (MitM)",
+                "D": "SQL Injection"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which protocol is commonly used for secure remote shell access to network devices?",
+            "options": {
+                "A": "FTP",
+                "B": "SSH",
+                "C": "Telnet",
+                "D": "SMTP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a star topology network, if the central hub or switch fails, what happens to the rest of the network?",
+            "options": {
+                "A": "The network continues to function normally.",
+                "B": "The entire network becomes inoperable.",
+                "C": "Only the devices directly connected to the hub or switch are affected.",
+                "D": "The network's performance degrades but remains operational."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which network management task involves ensuring that data packets are delivered in the correct order?",
+            "options": {
+                "A": "Fault Management",
+                "B": "Configuration Management",
+                "C": "Performance Management",
+                "D": "Security Management"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary advantage of using IPv6 over IPv4?",
+            "options": {
+                "A": "Larger address space",
+                "B": "Faster data transfer",
+                "C": "Simpler addressing format",
+                "D": "Stronger security features"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

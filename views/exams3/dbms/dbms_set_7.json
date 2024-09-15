@@ -1,0 +1,207 @@
+{
+    "exam_name": "DBMS Set 7",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following is a property of a clustered index?",
+            "options": {
+                "A": "It does not change the physical order of the rows.",
+                "B": "It organizes data based on the order of the index key.",
+                "C": "It can have duplicate values.",
+                "D": "It is always created on the primary key."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which normalization form ensures that every non-prime attribute is fully functionally dependent on every key?",
+            "options": {
+                "A": "First normal form",
+                "B": "Second normal form",
+                "C": "Third normal form",
+                "D": "Fourth normal form"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a relational database, what does the acronym SQL stand for?",
+            "options": {
+                "A": "Structured Query Language",
+                "B": "Standard Query Language",
+                "C": "Sequential Query Language",
+                "D": "Systematic Query Language"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is not a type of database relationship?",
+            "options": {
+                "A": "One-to-One",
+                "B": "One-to-Many",
+                "C": "Many-to-Many",
+                "D": "Many-to-Few"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following statements is true about indexes in databases?",
+            "options": {
+                "A": "Indexes always improve the performance of all queries.",
+                "B": "Indexes consume additional disk space and memory.",
+                "C": "Indexes are automatically created for all columns.",
+                "D": "Indexes are only used for sorting data."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of the Two-Phase Commit (2PC) protocol in database transactions?",
+            "options": {
+                "A": "To ensure atomicity",
+                "B": "To improve query performance",
+                "C": "To prevent data duplication",
+                "D": "To provide concurrency control"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of index stores the actual data rows in the index structure?",
+            "options": {
+                "A": "B-tree index",
+                "B": "Bitmap index",
+                "C": "Clustered index",
+                "D": "Non-clustered index"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is a correlated subquery in SQL?",
+            "options": {
+                "A": "A subquery that references an outer query",
+                "B": "A subquery that uses a correlated JOIN clause",
+                "C": "A subquery that contains aggregate functions",
+                "D": "A subquery that returns multiple columns"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which SQL statement is used to define a view?",
+            "options": {
+                "A": "CREATE TABLE",
+                "B": "CREATE INDEX",
+                "C": "CREATE VIEW",
+                "D": "CREATE TRIGGER"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In database terminology, what is the purpose of a 'trigger'?",
+            "options": {
+                "A": "To perform an action automatically when a specified event occurs",
+                "B": "To enforce referential integrity constraints",
+                "C": "To optimize query performance",
+                "D": "To create virtual tables"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the acronym ACID stand for in the context of database transactions?",
+            "options": {
+                "A": "Atomicity, Consistency, Isolation, Durability",
+                "B": "Aggregate, Concurrency, Integrity, Durability",
+                "C": "Association, Control, Indexing, Data",
+                "D": "Authorization, Constraints, Integrity, Design"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of index is often used for speeding up equality and range queries?",
+            "options": {
+                "A": "B-tree index",
+                "B": "Hash index",
+                "C": "Bitmap index",
+                "D": "Clustered index"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of the EXCEPT operator in SQL?",
+            "options": {
+                "A": "To perform a cross join",
+                "B": "To combine the results of two queries, excluding matching rows",
+                "C": "To calculate the average value of a column",
+                "D": "To count the number of rows in a table"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In SQL, what is the purpose of the 'UNION' operator?",
+            "options": {
+                "A": "To perform a set intersection operation",
+                "B": "To concatenate the results of two or more SELECT statements",
+                "C": "To join two tables based on a common column",
+                "D": "To filter rows based on a condition"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is a candidate key in the context of database design?",
+            "options": {
+                "A": "A key that is a foreign key in another table",
+                "B": "A key that uniquely identifies a record within a table",
+                "C": "A key that is derived from a primary key",
+                "D": "A key that consists of composite attributes"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT a property of a well-designed database schema?",
+            "options": {
+                "A": "Data redundancy",
+                "B": "Data integrity",
+                "C": "Data security",
+                "D": "Data consistency"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is a Cartesian product in the context of relational databases?",
+            "options": {
+                "A": "A type of join operation",
+                "B": "A type of indexing",
+                "C": "A type of data encryption",
+                "D": "A type of data compression"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of an execution plan in the context of query optimization?",
+            "options": {
+                "A": "To store database schema information",
+                "B": "To schedule database maintenance tasks",
+                "C": "To outline the steps and operations for executing a query efficiently",
+                "D": "To generate random data for testing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a NoSQL database model that uses key-value pairs for data storage?",
+            "options": {
+                "A": "Document-oriented",
+                "B": "Column-family",
+                "C": "Graph",
+                "D": "Object-oriented"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is a foreign key constraint in a relational database?",
+            "options": {
+                "A": "A constraint that enforces uniqueness in a column",
+                "B": "A constraint that ensures referential integrity between tables",
+                "C": "A constraint that defines the primary key of a table",
+                "D": "A constraint that limits the number of rows in a table"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

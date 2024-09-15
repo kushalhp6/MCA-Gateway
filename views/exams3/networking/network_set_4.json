@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 4",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the primary function of the ARP protocol?",
+            "options": {
+                "A": "Resolving domain names to IP addresses",
+                "B": "Resolving IP addresses to MAC addresses",
+                "C": "Assigning IP addresses to hosts",
+                "D": "Checking the connectivity between devices"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a TCP connection, the three-way handshake process involves:",
+            "options": {
+                "A": "SYN, ACK, FIN",
+                "B": "SYN, SYN-ACK, ACK",
+                "C": "ACK, FIN, RST",
+                "D": "FIN, SYN, RST"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of switch is used to connect devices within the same local area network (LAN)?",
+            "options": {
+                "A": "Hub",
+                "B": "Router",
+                "C": "Bridge",
+                "D": "Network Switch"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following protocols is used to securely transfer files over a network?",
+            "options": {
+                "A": "FTP",
+                "B": "HTTP",
+                "C": "SFTP",
+                "D": "SMTP"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the function of the 'Subnet Mask' in an IP network?",
+            "options": {
+                "A": "To identify the default gateway",
+                "B": "To define the range of valid IP addresses",
+                "C": "To differentiate between the network and host portions of an IP address",
+                "D": "To assign dynamic IP addresses"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which protocol is responsible for managing and monitoring network devices and their performance?",
+            "options": {
+                "A": "SMTP",
+                "B": "SNMP",
+                "C": "POP3",
+                "D": "IMAP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary role of a content delivery network (CDN) in network infrastructure?",
+            "options": {
+                "A": "To provide secure remote access to internal resources.",
+                "B": "To manage domain name registrations.",
+                "C": "To optimize the delivery of web content to end-users.",
+                "D": "To ensure encryption of data packets in transit."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which routing protocol is typically used within an Autonomous System (AS) to determine optimal routes between routers?",
+            "options": {
+                "A": "OSPF",
+                "B": "BGP",
+                "C": "RIP",
+                "D": "EIGRP"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the main purpose of a Network Intrusion Detection System (NIDS)?",
+            "options": {
+                "A": "To block malicious IP addresses from accessing the network.",
+                "B": "To encrypt data packets between network devices.",
+                "C": "To detect and alert on suspicious network activities.",
+                "D": "To automatically update firewall rules."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which protocol is responsible for routing email messages to their destinations across different mail servers?",
+            "options": {
+                "A": "SMTP",
+                "B": "IMAP",
+                "C": "POP3",
+                "D": "DNS"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a VLAN (Virtual Local Area Network) in networking?",
+            "options": {
+                "A": "To segment a physical network into multiple logical networks.",
+                "B": "To provide a dedicated connection between two remote sites.",
+                "C": "To prevent unauthorized access to the network.",
+                "D": "To balance network traffic between multiple gateways."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of Quality of Service (QoS), what does 'bandwidth throttling' refer to?",
+            "options": {
+                "A": "Increasing the available network bandwidth to certain devices.",
+                "B": "Dynamically adjusting the maximum transmission rate for specific traffic.",
+                "C": "Redirecting network traffic to more efficient routes.",
+                "D": "Disabling certain network services to prioritize others."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary role of a Network Address Translation (NAT) firewall?",
+            "options": {
+                "A": "To filter incoming and outgoing traffic based on IP addresses.",
+                "B": "To prevent data collisions in the network.",
+                "C": "To translate private IP addresses to public IP addresses.",
+                "D": "To route data packets between different subnets."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the term 'congestion control' refer to in networking?",
+            "options": {
+                "A": "Ensuring that network devices are not physically damaged during heavy traffic.",
+                "B": "Balancing traffic loads across multiple network segments.",
+                "C": "Preventing unauthorized devices from accessing the network.",
+                "D": "Managing and preventing network congestion by controlling data flow."
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of the Diffie-Hellman key exchange in network security?",
+            "options": {
+                "A": "To encrypt data packets during transmission.",
+                "B": "To establish a secure connection between devices.",
+                "C": "To detect and prevent unauthorized access.",
+                "D": "To manage IP address assignments dynamically."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which protocol is used to synchronize the clocks of devices in a network to a common time reference?",
+            "options": {
+                "A": "NTP",
+                "B": "DNS",
+                "C": "DHCP",
+                "D": "SNMP"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary function of a router in a network infrastructure?",
+            "options": {
+                "A": "To forward data packets between devices within the same subnet.",
+                "B": "To connect multiple networks and route data between them.",
+                "C": "To manage IP address assignments for devices.",
+                "D": "To filter incoming and outgoing data packets based on application."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which protocol is used to securely transfer files between a local and remote server using encryption?",
+            "options": {
+                "A": "FTP",
+                "B": "SFTP",
+                "C": "TFTP",
+                "D": "FTPS"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of a VPN tunnel in network security?",
+            "options": {
+                "A": "To encrypt data sent over an unsecured network.",
+                "B": "To provide high-speed internet access to users.",
+                "C": "To filter incoming and outgoing data packets.",
+                "D": "To monitor network traffic for suspicious activities."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which protocol is used for dynamic IP address assignment to devices in a local network?",
+            "options": {
+                "A": "DNS",
+                "B": "DHCP",
+                "C": "ARP",
+                "D": "ICMP"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

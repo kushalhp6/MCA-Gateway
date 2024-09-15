@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 8",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following describes a broadcast domain?",
+            "options": {
+                "A": "A network segment where devices receive broadcast packets",
+                "B": "A segment where data packets are encrypted",
+                "C": "A part of the network where routing occurs",
+                "D": "A network where devices are isolated"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which protocol is used for sending email from a client to a server?",
+            "options": {
+                "A": "IMAP",
+                "B": "SMTP",
+                "C": "POP3",
+                "D": "FTP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of address is used by the Ethernet protocol?",
+            "options": {
+                "A": "IP Address",
+                "B": "MAC Address",
+                "C": "Subnet Address",
+                "D": "Gateway Address"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is an example of a Layer 3 protocol in the OSI model?",
+            "options": {
+                "A": "Ethernet",
+                "B": "IP",
+                "C": "TCP",
+                "D": "ARP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In which layer of the OSI model does packet switching occur?",
+            "options": {
+                "A": "Physical Layer",
+                "B": "Data Link Layer",
+                "C": "Network Layer",
+                "D": "Transport Layer"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the term 'QoS' (Quality of Service) refer to in networking?",
+            "options": {
+                "A": "The speed of data transmission",
+                "B": "The reliability of network connections",
+                "C": "The ability to prioritize and manage network traffic",
+                "D": "The physical size of network equipment"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of the 'ping' command in networking?",
+            "options": {
+                "A": "To measure network latency and packet loss",
+                "B": "To send large files across the internet",
+                "C": "To discover network devices on the same subnet",
+                "D": "To trace the route of data packets through the network"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the OSI model, which layer is responsible for error detection and correction?",
+            "options": {
+                "A": "Physical",
+                "B": "Data Link",
+                "C": "Transport",
+                "D": "Network"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary role of a 'packet sniffer' in network security?",
+            "options": {
+                "A": "To capture and analyze network traffic for security monitoring",
+                "B": "To block unauthorized access to a network",
+                "C": "To identify and correct errors in data transmission",
+                "D": "To secure DNS records"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is not a commonly used wireless encryption protocol for Wi-Fi networks?",
+            "options": {
+                "A": "WEP (Wired Equivalent Privacy)",
+                "B": "WPA (Wi-Fi Protected Access)",
+                "C": "SSL (Secure Sockets Layer)",
+                "D": "WPA3 (Wi-Fi Protected Access 3)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In networking, what is the primary function of a 'DHCP relay agent'?",
+            "options": {
+                "A": "To assign IP addresses dynamically",
+                "B": "To route network traffic between subnets",
+                "C": "To encrypt data between devices",
+                "D": "To map domain names to IP addresses"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'DNSSEC' stand for in network security?",
+            "options": {
+                "A": "Domain Name System Security Extensions",
+                "B": "Dynamic Network Service Security",
+                "C": "Data Network Security and Encryption",
+                "D": "Distributed Network Service Configuration"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of network management, what is the primary role of an 'SNMP trap'?",
+            "options": {
+                "A": "To request information from network devices",
+                "B": "To monitor network traffic",
+                "C": "To send asynchronous notifications about network events",
+                "D": "To authenticate users on a network"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of 'VRRP' (Virtual Router Redundancy Protocol) in networking?",
+            "options": {
+                "A": "Load balancing",
+                "B": "Redundancy and high availability of routers",
+                "C": "Network address translation",
+                "D": "Packet filtering"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a commonly used network cable type for Ethernet connections?",
+            "options": {
+                "A": "Cat 5e",
+                "B": "Coaxial cable",
+                "C": "Fiber optic cable",
+                "D": "HDMI cable"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In computer networking, what is the primary function of a 'switch'?",
+            "options": {
+                "A": "To connect different types of networks together",
+                "B": "To forward data packets between devices within a local network",
+                "C": "To route data between multiple autonomous systems",
+                "D": "To assign IP addresses to devices"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary function of the 'trunk' port on a network switch?",
+            "options": {
+                "A": "To connect to end-user devices",
+                "B": "To provide power over Ethernet (PoE)",
+                "C": "To carry traffic for multiple VLANs",
+                "D": "To aggregate network traffic from various sources"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following protocols is used for remotely managing network devices, such as routers and switches?",
+            "options": {
+                "A": "BGP (Border Gateway Protocol)",
+                "B": "RADIUS (Remote Authentication Dial-In User Service)",
+                "C": "Telnet",
+                "D": "SNMP (Simple Network Management Protocol)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In the OSI model, which layer is responsible for defining the rules for data transfer and flow control?",
+            "options": {
+                "A": "Network",
+                "B": "Transport",
+                "C": "Data Link",
+                "D": "Session"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'EAP' stand for in the context of network security and authentication?",
+            "options": {
+                "A": "Extensible Authentication Protocol",
+                "B": "Encrypted Access Protocol",
+                "C": "Enterprise Authorization Process",
+                "D": "Encryption and Authentication Protocol"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

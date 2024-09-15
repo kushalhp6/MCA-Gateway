@@ -1,0 +1,207 @@
+{
+    "exam_name": "DBMS Set 5",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In a relational database, which of the following operations is not part of relational algebra?",
+            "options": {
+                "A": "Projection",
+                "B": "Selection",
+                "C": "Join",
+                "D": "Aggregation"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "A database that allows both reading and writing operations simultaneously by multiple users is known as a:",
+            "options": {
+                "A": "Single-user database",
+                "B": "Multi-user database",
+                "C": "Static database",
+                "D": "Temporary database"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following normal forms ensures that all attributes are functionally dependent on the primary key?",
+            "options": {
+                "A": "First normal form",
+                "B": "Second normal form",
+                "C": "Third normal form",
+                "D": "Fourth normal form"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In relational databases, what is used to enforce the integrity of data relationships?",
+            "options": {
+                "A": "Foreign Key Constraints",
+                "B": "Indexes",
+                "C": "Views",
+                "D": "Triggers"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which indexing method is typically used for large data sets where the data is sorted and stored sequentially?",
+            "options": {
+                "A": "B-Tree Index",
+                "B": "Hash Index",
+                "C": "Bitmap Index",
+                "D": "R-Tree Index"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does 'predicate pushdown' refer to in the context of query optimization?",
+            "options": {
+                "A": "Pushing filters as close to the data source as possible",
+                "B": "Pushing filters to the application layer",
+                "C": "Pushing queries to remote servers",
+                "D": "Pushing aggregates to the SELECT clause"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of a self-join in SQL?",
+            "options": {
+                "A": "INNER JOIN",
+                "B": "LEFT JOIN",
+                "C": "RIGHT JOIN",
+                "D": "CROSS JOIN"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of the SQL MERGE statement?",
+            "options": {
+                "A": "To insert new rows into a table",
+                "B": "To update existing rows in a table",
+                "C": "To delete rows from a table",
+                "D": "To create a new table based on existing data"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In relational calculus, which type of calculus expresses a query using tuples to find the desired results?",
+            "options": {
+                "A": "Tuple Calculus",
+                "B": "Predicate Calculus",
+                "C": "Domain Calculus",
+                "D": "Quantifier Calculus"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the difference between a primary key and a unique key in a relational database?",
+            "options": {
+                "A": "A primary key cannot have NULL values, while a unique key can.",
+                "B": "A primary key enforces referential integrity, while a unique key does not.",
+                "C": "A primary key is automatically indexed, while a unique key is not.",
+                "D": "A primary key can be composed of multiple columns, while a unique key cannot."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of the SQL UNION operator?",
+            "options": {
+                "A": "Combining rows from two or more result sets without duplicates",
+                "B": "Combining rows from two or more result sets with duplicates",
+                "C": "Combining columns from two or more tables without duplicates",
+                "D": "Combining columns from two or more tables with duplicates"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of transactions, what is a 'phantom read'?",
+            "options": {
+                "A": "Reading uncommitted changes from another transaction",
+                "B": "Reading committed changes from another transaction",
+                "C": "Reading changes only after they are committed",
+                "D": "Reading a range of values that is being concurrently modified by other transactions"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of the SQL WINDOW functions?",
+            "options": {
+                "A": "To modify the structure of a table",
+                "B": "To group rows based on a condition",
+                "C": "To perform aggregate calculations on a range of rows",
+                "D": "To drop columns from a table"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a type of join that returns all rows from both tables, combining matching rows and displaying NULL for non-matching rows?",
+            "options": {
+                "A": "INNER JOIN",
+                "B": "LEFT JOIN",
+                "C": "RIGHT JOIN",
+                "D": "FULL OUTER JOIN"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the purpose of the SQL CHECK constraint?",
+            "options": {
+                "A": "To ensure referential integrity between tables",
+                "B": "To limit the number of rows returned by a query",
+                "C": "To ensure that data in a column meets a specified condition",
+                "D": "To create a relationship between primary and foreign keys"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of database transactions, what does the term 'isolation' refer to?",
+            "options": {
+                "A": "The separation of transactions from each other",
+                "B": "The ability to roll back a transaction",
+                "C": "The execution of transactions in parallel",
+                "D": "The persistence of data changes after a transaction is committed"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of the SQL HAVING clause?",
+            "options": {
+                "A": "To filter rows based on a condition",
+                "B": "To order the results of the query",
+                "C": "To group data based on a column",
+                "D": "To filter groups based on aggregate values"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In database management systems, what is a 'view'?",
+            "options": {
+                "A": "A virtual machine that stores data",
+                "B": "A physical storage structure for data",
+                "C": "A predefined query stored as an object",
+                "D": "A programming construct for creating database schemas"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of the SQL INSERT INTO statement?",
+            "options": {
+                "A": "To add new columns to a table",
+                "B": "To update existing rows in a table",
+                "C": "To delete rows from a table",
+                "D": "To add new rows to a table"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the term 'two-phase commit' refer to in the context of transactions?",
+            "options": {
+                "A": "A transaction with two steps: write and read",
+                "B": "A transaction with two actions: commit and rollback",
+                "C": "A protocol for coordinating distributed transactions",
+                "D": "A type of transaction isolation level"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

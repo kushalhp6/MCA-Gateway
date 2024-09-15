@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 2",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What does the term 'throughput' refer to in networking?",
+            "options": {
+                "A": "The amount of data processed in a given time period",
+                "B": "The number of errors encountered in data transmission",
+                "C": "The total capacity of the network",
+                "D": "The delay experienced during data transmission"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which IP address class is used for multicast communication?",
+            "options": {
+                "A": "Class A",
+                "B": "Class B",
+                "C": "Class C",
+                "D": "Class D"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which layer of the OSI model is responsible for establishing, managing, and terminating connections?",
+            "options": {
+                "A": "Network Layer (Layer 3)",
+                "B": "Transport Layer (Layer 4)",
+                "C": "Session Layer (Layer 5)",
+                "D": "Presentation Layer (Layer 6)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In TCP/IP, the maximum size of a TCP segment is determined by the:",
+            "options": {
+                "A": "IP header length",
+                "B": "Maximum Transmission Unit (MTU)",
+                "C": "Transport layer protocol",
+                "D": "Application layer protocol"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In IPv6, how many bits are used for the address?",
+            "options": {
+                "A": "32 bits",
+                "B": "64 bits",
+                "C": "128 bits",
+                "D": "256 bits"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which protocol is responsible for translating domain names (URLs) into IP addresses?",
+            "options": {
+                "A": "DNS",
+                "B": "DHCP",
+                "C": "FTP",
+                "D": "HTTP"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of Network Address Translation (NAT)?",
+            "options": {
+                "A": "To secure network communication from eavesdroppers.",
+                "B": "To assign IP addresses dynamically to devices.",
+                "C": "To translate private IP addresses to public IP addresses.",
+                "D": "To manage routing tables within a network."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a transport layer protocol that does not provide reliability or error recovery?",
+            "options": {
+                "A": "UDP",
+                "B": "TCP",
+                "C": "ICMP",
+                "D": "SMTP"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which encryption protocol ensures secure communication over a network, commonly used for secure websites (https)?",
+            "options": {
+                "A": "SSL",
+                "B": "SSH",
+                "C": "SMTP",
+                "D": "SNMP"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which protocol is used for sending and receiving email messages?",
+            "options": {
+                "A": "HTTP",
+                "B": "FTP",
+                "C": "SMTP",
+                "D": "POP3"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of a firewall in network security?",
+            "options": {
+                "A": "To prevent unauthorized access to a network.",
+                "B": "To improve network performance.",
+                "C": "To amplify network signals.",
+                "D": "To manage network IP addresses."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a subnet mask in IP networking?",
+            "options": {
+                "A": "It encrypts data transmitted over the network.",
+                "B": "It defines the network's physical layout.",
+                "C": "It helps determine the network and host portions of an IP address.",
+                "D": "It manages IP address assignment."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which network topology connects all devices in a linear sequence?",
+            "options": {
+                "A": "Bus",
+                "B": "Star",
+                "C": "Ring",
+                "D": "Mesh"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which layer of the OSI model is responsible for error detection and correction?",
+            "options": {
+                "A": "Physical Layer",
+                "B": "Data Link Layer",
+                "C": "Network Layer",
+                "D": "Transport Layer"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which protocol is used to assign IP addresses automatically to devices in a network?",
+            "options": {
+                "A": "DNS",
+                "B": "DHCP",
+                "C": "FTP",
+                "D": "HTTP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which protocol is used to transfer files over the internet?",
+            "options": {
+                "A": "HTTP",
+                "B": "FTP",
+                "C": "SMTP",
+                "D": "SNMP"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of routing algorithm makes decisions based on the current state of the network and adapts to changes in real-time?",
+            "options": {
+                "A": "Static routing",
+                "B": "Dynamic routing",
+                "C": "Shortest path routing",
+                "D": "RIP routing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does ICMP stand for in networking?",
+            "options": {
+                "A": "Internet Control Message Protocol",
+                "B": "Internet Connection Management Protocol",
+                "C": "Integrated Communication Mapping Protocol",
+                "D": "Internal Connection Management Protocol"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of Quality of Service (QoS) in networking?",
+            "options": {
+                "A": "To ensure data confidentiality.",
+                "B": "To prioritize certain types of network traffic.",
+                "C": "To prevent unauthorized access to the network.",
+                "D": "To translate domain names into IP addresses."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of a switch in a local area network (LAN)?",
+            "options": {
+                "A": "To connect multiple LANs together.",
+                "B": "To translate between different network protocols.",
+                "C": "To manage IP address assignments.",
+                "D": "To forward data between devices within the same LAN."
+            },
+            "correct_answer": "D"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "Networking Set 9",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the function of the DNS protocol?",
+            "options": {
+                "A": "To resolve domain names to IP addresses",
+                "B": "To assign IP addresses dynamically",
+                "C": "To handle error correction in data transmission",
+                "D": "To encrypt and decrypt network data"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which term refers to the technology used to segment a network into multiple VLANs?",
+            "options": {
+                "A": "Network Bridging",
+                "B": "Network Address Translation (NAT)",
+                "C": "Virtual LAN (VLAN)",
+                "D": "Subnetting"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which protocol is used to automatically assign IP addresses to devices on a network?",
+            "options": {
+                "A": "DHCP",
+                "B": "DNS",
+                "C": "ICMP",
+                "D": "FTP"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a network, what does 'QoS' stand for?",
+            "options": {
+                "A": "Quality of Service",
+                "B": "Quantity of Service",
+                "C": "Quick Operating System",
+                "D": "Queue of Servers"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does a firewall do in a network?",
+            "options": {
+                "A": "Encrypts data packets",
+                "B": "Filters and controls incoming and outgoing network traffic",
+                "C": "Provides wireless connectivity",
+                "D": "Manages IP address assignments"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following wireless network security protocols is considered the most secure?",
+            "options": {
+                "A": "WEP (Wired Equivalent Privacy)",
+                "B": "WPA (Wi-Fi Protected Access)",
+                "C": "WPA2 (Wi-Fi Protected Access II)",
+                "D": "No encryption"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary role of a DNS (Domain Name System) server?",
+            "options": {
+                "A": "To route network traffic",
+                "B": "To provide security services",
+                "C": "To map domain names to IP addresses",
+                "D": "To manage user authentication"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In computer networking, what does the term 'DoS' stand for?",
+            "options": {
+                "A": "Denial of Service",
+                "B": "Data over Signal",
+                "C": "Direct Object Serialization",
+                "D": "Dynamic Operating System"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following protocols is used for securely transferring files over a network?",
+            "options": {
+                "A": "SMTP (Simple Mail Transfer Protocol)",
+                "B": "FTP (File Transfer Protocol)",
+                "C": "HTTP (Hypertext Transfer Protocol)",
+                "D": "SNMP (Simple Network Management Protocol)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary role of a load balancer in a network architecture?",
+            "options": {
+                "A": "To secure network traffic",
+                "B": "To distribute network traffic across multiple servers",
+                "C": "To translate between different network protocols",
+                "D": "To assign IP addresses dynamically"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In a network, what does the term 'MTTR' stand for?",
+            "options": {
+                "A": "Maximum Transmission Time Requirement",
+                "B": "Mean Time To Respond",
+                "C": "Minimum Transport Time Reduction",
+                "D": "Mean Time To Repair"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary function of a firewall in a network security context?",
+            "options": {
+                "A": "To amplify network signals",
+                "B": "To filter and control network traffic",
+                "C": "To improve network performance",
+                "D": "To provide redundancy in the network"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a commonly used wireless networking standard?",
+            "options": {
+                "A": "802.11ac",
+                "B": "3G",
+                "C": "Bluetooth",
+                "D": "4G LTE"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of a proxy server in a network?",
+            "options": {
+                "A": "To manage IP address allocation",
+                "B": "To improve network performance",
+                "C": "To act as an intermediary between clients and servers",
+                "D": "To encrypt network traffic"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the OSI model, which layer is responsible for translating between different data formats and character sets?",
+            "options": {
+                "A": "Data Link",
+                "B": "Presentation",
+                "C": "Transport",
+                "D": "Application"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'MPLS' stand for in the context of networking?",
+            "options": {
+                "A": "Multiprotocol Label Switching",
+                "B": "Maximum Packet Loss Service",
+                "C": "Managed Private LAN Service",
+                "D": "Multi-Protocol Link Security"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a network, what is the purpose of the 'traceroute' command?",
+            "options": {
+                "A": "To measure network latency",
+                "B": "To find the shortest path between two hosts",
+                "C": "To map the network topology along the path to a destination",
+                "D": "To encrypt network traffic"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which network topology is the most fault-tolerant and provides the highest level of redundancy?",
+            "options": {
+                "A": "Star",
+                "B": "Bus",
+                "C": "Ring",
+                "D": "Mesh"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary purpose of the BGP (Border Gateway Protocol) in the context of the internet?",
+            "options": {
+                "A": "To route data within a local network",
+                "B": "To manage DNS records",
+                "C": "To exchange routing information between autonomous systems",
+                "D": "To secure web traffic"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the OSI model, which layer is responsible for logical addressing and routing?",
+            "options": {
+                "A": "Physical",
+                "B": "Data Link",
+                "C": "Network",
+                "D": "Transport"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

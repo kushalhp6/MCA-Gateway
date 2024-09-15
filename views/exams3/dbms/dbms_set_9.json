@@ -1,0 +1,207 @@
+{
+    "exam_name": "DBMS Set 9",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In which normal form are all attributes functionally dependent on the key, the whole key, and nothing but the key?",
+            "options": {
+                "A": "First normal form",
+                "B": "Second normal form",
+                "C": "Third normal form",
+                "D": "Boyce-Codd normal form"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'referential integrity' ensure in a relational database?",
+            "options": {
+                "A": "Data accuracy",
+                "B": "Data consistency between related tables",
+                "C": "Data encryption",
+                "D": "Data indexing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which SQL clause is used to combine rows from two or more tables based on a related column?",
+            "options": {
+                "A": "JOIN",
+                "B": "UNION",
+                "C": "INTERSECT",
+                "D": "EXCEPT"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What type of relationship is described when each record in Table A can have only one matching record in Table B, and vice versa?",
+            "options": {
+                "A": "One-to-One",
+                "B": "One-to-Many",
+                "C": "Many-to-Many",
+                "D": "Many-to-One"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is true about a database schema?",
+            "options": {
+                "A": "It describes the data structure and relationships in a database.",
+                "B": "It stores the actual data in a database.",
+                "C": "It defines the SQL commands used to manipulate data.",
+                "D": "It refers to the physical storage of data."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is a valid transaction isolation level in SQL?",
+            "options": {
+                "A": "LOCKED",
+                "B": "SERIALIZABLE",
+                "C": "PARALLEL",
+                "D": "BATCHED"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does an index in a database improve primarily?",
+            "options": {
+                "A": "Data integrity",
+                "B": "Query performance",
+                "C": "Data security",
+                "D": "Data consistency"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In relational calculus, what is the role of the domain variable?",
+            "options": {
+                "A": "Define tables",
+                "B": "Define attributes",
+                "C": "Represent a specific value",
+                "D": "Specify conditions"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which normal form deals with the issue of partial functional dependencies?",
+            "options": {
+                "A": "1NF",
+                "B": "2NF",
+                "C": "3NF",
+                "D": "BCNF"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In SQL, what does the 'UNION' operator do when used to combine the results of two SELECT statements?",
+            "options": {
+                "A": "Returns all distinct rows from both SELECT statements",
+                "B": "Returns only the rows that are common to both SELECT statements",
+                "C": "Returns all rows from the first SELECT statement",
+                "D": "Returns all rows from the second SELECT statement"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which SQL statement is used to change the structure of an existing table, such as adding, modifying, or deleting columns?",
+            "options": {
+                "A": "ALTER TABLE",
+                "B": "MODIFY TABLE",
+                "C": "UPDATE TABLE",
+                "D": "CHANGE TABLE"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In relational algebra, what does the 'CARTESIAN PRODUCT' operation produce?",
+            "options": {
+                "A": "The result of a natural join operation",
+                "B": "The result of a cross product operation",
+                "C": "The result of a set difference operation",
+                "D": "The result of a set union operation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a step in query processing?",
+            "options": {
+                "A": "Scanning, parsing, and semantic analysis",
+                "B": "Query optimization",
+                "C": "Query code generation",
+                "D": "Data backup"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In SQL, what is a 'subquery'?",
+            "options": {
+                "A": "A query that retrieves data from a single table",
+                "B": "A query that retrieves data from multiple tables",
+                "C": "A query that retrieves data for use in another query",
+                "D": "A query that creates a new table"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of a 'foreign key' in a relational database?",
+            "options": {
+                "A": "It enforces a unique constraint on a column",
+                "B": "It provides an alternate key for a table",
+                "C": "It ensures data consistency across tables",
+                "D": "It establishes relationships between tables"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In relational databases, what is the primary goal of 'ACID' properties in transactions?",
+            "options": {
+                "A": "Ensuring data integrity and consistency",
+                "B": "Enhancing data storage efficiency",
+                "C": "Reducing data redundancy",
+                "D": "Improving data retrieval speed"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary goal of the 'query optimizer' in a database management system?",
+            "options": {
+                "A": "Ensuring data security",
+                "B": "Selecting the most efficient query execution plan",
+                "C": "Optimizing data storage",
+                "D": "Enforcing data integrity constraints"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In SQL, what is the purpose of the 'ORDER BY' clause in a query?",
+            "options": {
+                "A": "Filtering rows based on a condition",
+                "B": "Grouping rows based on common attributes",
+                "C": "Sorting the result set",
+                "D": "Combining multiple tables"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of normalization, which normal form eliminates transitive dependencies?",
+            "options": {
+                "A": "1NF",
+                "B": "2NF",
+                "C": "3NF",
+                "D": "4NF"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of a 'composite key' in a relational database table?",
+            "options": {
+                "A": "Ensuring data consistency",
+                "B": "Enforcing data integrity constraints",
+                "C": "Optimizing data retrieval speed",
+                "D": "Providing a unique identifier for each row"
+            },
+            "correct_answer": "D"
+        }
+    ]
+}
