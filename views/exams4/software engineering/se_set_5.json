@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 5",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the main goal of software configuration management?",
+            "options": {
+                "A": "Tracking changes in code",
+                "B": "Improving system performance",
+                "C": "Managing project deadlines",
+                "D": "Defining software requirements"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is a formal method for verifying that the system's design meets the requirements?",
+            "options": {
+                "A": "Code review",
+                "B": "Requirements review",
+                "C": "Walkthrough",
+                "D": "Design inspection"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the full form of CMMI in software engineering?",
+            "options": {
+                "A": "Capability Model for Maturity Integration",
+                "B": "Continuous Model for Maturity Integration",
+                "C": "Capability Maturity Model Integration",
+                "D": "Continuous Maturity Model Integration"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following represents a functional requirement?",
+            "options": {
+                "A": "The system shall respond to user input within 2 seconds",
+                "B": "The system shall be maintainable",
+                "C": "The system shall be scalable",
+                "D": "The system shall be user-friendly"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the role of a software test plan?",
+            "options": {
+                "A": "To outline the software architecture",
+                "B": "To provide test cases and expected outcomes",
+                "C": "To manage development tasks",
+                "D": "To describe the requirements of the system"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of software development, what does 'UAT' stand for?",
+            "options": {
+                "A": "User Acceptance Testing",
+                "B": "Uniform Agile Testing",
+                "C": "Unified Architecture Testing",
+                "D": "Unit and Acceptance Testing"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of software testing focuses on finding defects by exploring the software's functionality without predefined test cases?",
+            "options": {
+                "A": "Black-box testing",
+                "B": "White-box testing",
+                "C": "Exploratory testing",
+                "D": "Unit testing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary goal of risk management in software engineering?",
+            "options": {
+                "A": "To eliminate all project risks",
+                "B": "To identify and mitigate potential issues",
+                "C": "To increase project complexity",
+                "D": "To reduce development costs"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which metric measures the average time between two consecutive failures in a software system?",
+            "options": {
+                "A": "Mean Time to Failure (MTTF)",
+                "B": "Mean Time Between Failures (MTBF)",
+                "C": "Mean Time to Repair (MTTR)",
+                "D": "Defect Density"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software development, what is the primary purpose of a use case diagram?",
+            "options": {
+                "A": "To document code details",
+                "B": "To define system requirements",
+                "C": "To visualize user interactions with the system",
+                "D": "To illustrate the system's architecture"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the main purpose of a version control system (VCS) in software development?",
+            "options": {
+                "A": "To manage changes to source code and documents",
+                "B": "To write code automatically",
+                "C": "To design user interfaces",
+                "D": "To perform system testing"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of software design principles, what does 'DRY' stand for?",
+            "options": {
+                "A": "Don't Repeat Yourself",
+                "B": "Design, Review, Yield",
+                "C": "Detailed Requirements Yield",
+                "D": "Document, Reflect, Yield"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which phase of software development involves translating system requirements into a detailed design?",
+            "options": {
+                "A": "Testing phase",
+                "B": "Design phase",
+                "C": "Requirements phase",
+                "D": "Implementation phase"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary objective of the Capability Maturity Model Integration (CMMI)?",
+            "options": {
+                "A": "Identifying software vulnerabilities",
+                "B": "Assessing project risks",
+                "C": "Improving and measuring the maturity of an organization's processes",
+                "D": "Defining software requirements"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software testing level focuses on validating whether the individual components/modules of the software function correctly?",
+            "options": {
+                "A": "Unit testing",
+                "B": "Integration testing",
+                "C": "System testing",
+                "D": "Acceptance testing"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does 'ROI' stand for in the context of software development?",
+            "options": {
+                "A": "Return on Investment",
+                "B": "Requirements for Optimal Integration",
+                "C": "Release of Incremental Objectives",
+                "D": "Resource Optimization Index"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which document typically outlines the roles and responsibilities of project team members in software development?",
+            "options": {
+                "A": "Use case diagram",
+                "B": "Gantt chart",
+                "C": "Software requirements specification",
+                "D": "Roles and responsibilities matrix"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In the context of software development, what is a 'user story'?",
+            "options": {
+                "A": "A detailed technical specification",
+                "B": "A narrative description of a software feature from the user's perspective",
+                "C": "A formal project schedule",
+                "D": "A specific type of test case"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of a software configuration management (SCM) system?",
+            "options": {
+                "A": "To store customer requirements",
+                "B": "To manage and control changes to software artifacts",
+                "C": "To generate code automatically",
+                "D": "To conduct load testing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software development approach aims to deliver a complete, fully-tested product at the end of the project?",
+            "options": {
+                "A": "Incremental development",
+                "B": "Agile development",
+                "C": "Waterfall development",
+                "D": "Rapid Application Development (RAD)"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

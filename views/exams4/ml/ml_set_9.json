@@ -1,0 +1,207 @@
+{
+    "exam_name": "Machine Learning Set 9",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the purpose of the 'learning rate' in gradient descent algorithms?",
+            "options": {
+                "A": "To determine the number of iterations",
+                "B": "To control the step size in updating model weights",
+                "C": "To adjust the model complexity",
+                "D": "To normalize the data"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following methods is used to evaluate the performance of a clustering algorithm?",
+            "options": {
+                "A": "Mean Absolute Error",
+                "B": "Silhouette Score",
+                "C": "ROC Curve",
+                "D": "F1 Score"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is 'feature engineering' in machine learning?",
+            "options": {
+                "A": "Training a model on new data",
+                "B": "Designing and creating new features from existing data",
+                "C": "Reducing the number of features",
+                "D": "Evaluating the performance of the model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following techniques is used to handle imbalanced datasets?",
+            "options": {
+                "A": "Principal Component Analysis (PCA)",
+                "B": "SMOTE (Synthetic Minority Over-sampling Technique)",
+                "C": "K-means Clustering",
+                "D": "Linear Discriminant Analysis (LDA)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following algorithms is best suited for multi-class classification problems?",
+            "options": {
+                "A": "Linear Regression",
+                "B": "Support Vector Machines (SVM)",
+                "C": "Naive Bayes",
+                "D": "Decision Trees"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the 'kernel trick' used for in the context of Support Vector Machines?",
+            "options": {
+                "A": "Increasing the number of support vectors",
+                "B": "Mapping data into a higher-dimensional space",
+                "C": "Speeding up the training process",
+                "D": "Reducing overfitting"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of 'word sense disambiguation' in natural language processing?",
+            "options": {
+                "A": "Identifying the most frequent words in a document",
+                "B": "Determining the meaning of a word based on its context",
+                "C": "Parsing a sentence into its grammatical components",
+                "D": "Estimating the word frequency distribution"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which technique is commonly used for feature extraction and dimensionality reduction in image data?",
+            "options": {
+                "A": "Principal Component Analysis (PCA)",
+                "B": "Latent Dirichlet Allocation (LDA)",
+                "C": "Recursive Neural Networks (RNNs)",
+                "D": "Decision Trees"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In deep reinforcement learning, what does the term 'exploration' refer to?",
+            "options": {
+                "A": "Choosing actions that maximize the immediate reward",
+                "B": "Randomly selecting actions to discover the environment",
+                "C": "Minimizing the exploration-exploitation trade-off",
+                "D": "Balancing the policy gradient"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of clustering, what is the 'silhouette score' used for?",
+            "options": {
+                "A": "Evaluating the quality of a clustering solution",
+                "B": "Measuring the correlation between features",
+                "C": "Calculating the entropy of clusters",
+                "D": "Determining the optimal number of clusters"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of the Expectation-Maximization (EM) algorithm in Gaussian Mixture Models (GMM)?",
+            "options": {
+                "A": "Maximizing the likelihood of the observed data",
+                "B": "Estimating the initial centroids of clusters",
+                "C": "Reducing the number of components in the mixture",
+                "D": "Clustering the data into a hierarchical structure"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which technique is commonly used for sequence-to-sequence tasks, such as machine translation?",
+            "options": {
+                "A": "Recurrent Neural Networks (RNNs)",
+                "B": "Convolutional Neural Networks (CNNs)",
+                "C": "Autoencoders",
+                "D": "Markov Chain Models"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of natural language processing, what is 'coreference resolution' used for?",
+            "options": {
+                "A": "Identifying relationships between entities",
+                "B": "Tokenizing text documents",
+                "C": "Lemmatizing words",
+                "D": "Analyzing sentence structure"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary challenge of 'adversarial machine learning'?",
+            "options": {
+                "A": "Training models with limited computational resources",
+                "B": "Protecting machine learning models from adversarial attacks",
+                "C": "Balancing the exploration-exploitation trade-off",
+                "D": "Adapting models to changing environments"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'curriculum learning' refer to in machine learning?",
+            "options": {
+                "A": "The process of designing a machine learning curriculum",
+                "B": "A learning strategy that gradually increases task difficulty",
+                "C": "A method for cross-validation",
+                "D": "A technique for reducing data dimensionality"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In reinforcement learning, what is the 'temporal credit assignment problem'?",
+            "options": {
+                "A": "Assigning credit to actions based on their long-term effects",
+                "B": "Assigning credit to the agent's memory",
+                "C": "Evaluating the convergence of the value function",
+                "D": "Handling the uncertainty in transition probabilities"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary objective of 'few-shot learning' in machine learning?",
+            "options": {
+                "A": "Training models with limited computational resources",
+                "B": "Achieving high accuracy with a small amount of labeled data",
+                "C": "Improving model interpretability",
+                "D": "Optimizing the learning rate"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of generative adversarial networks (GANs), what is the role of the 'generator' network?",
+            "options": {
+                "A": "Generating realistic data samples",
+                "B": "Discriminating between real and fake data",
+                "C": "Encoding data into latent representations",
+                "D": "Adversarial training"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which machine learning technique is commonly used for anomaly detection in time-series data?",
+            "options": {
+                "A": "Convolutional Neural Networks (CNNs)",
+                "B": "Hidden Markov Models (HMMs)",
+                "C": "Reinforcement Learning",
+                "D": "Principal Component Analysis (PCA)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of 'transfer entropy' in the analysis of time-series data?",
+            "options": {
+                "A": "Measuring the mutual information between time series",
+                "B": "Identifying causal relationships between variables",
+                "C": "Reducing noise in time-series data",
+                "D": "Estimating the autocorrelation function"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

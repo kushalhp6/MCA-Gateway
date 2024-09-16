@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 2",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "In which SDLC phase is feasibility study performed?",
+            "options": {
+                "A": "Planning",
+                "B": "Design",
+                "C": "Analysis",
+                "D": "Implementation"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is not a software development life cycle model?",
+            "options": {
+                "A": "Waterfall",
+                "B": "Spiral",
+                "C": "Iterative",
+                "D": "Rapid Deployment"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is a measure of how well a system meets the needs of its users?",
+            "options": {
+                "A": "Reliability",
+                "B": "Usability",
+                "C": "Performance",
+                "D": "Functionality"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does a software design document typically include?",
+            "options": {
+                "A": "Code structure",
+                "B": "Requirements analysis",
+                "C": "Design models and architecture",
+                "D": "Test cases"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which testing technique is primarily focused on user interactions?",
+            "options": {
+                "A": "Unit Testing",
+                "B": "Integration Testing",
+                "C": "Alpha Testing",
+                "D": "Usability Testing"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of software metrics assesses the quality of the software product?",
+            "options": {
+                "A": "Process metrics",
+                "B": "Design metrics",
+                "C": "Product metrics",
+                "D": "Requirement metrics"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software process model is characterized by frequent iterations and customer collaboration?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Spiral model",
+                "C": "Prototype model",
+                "D": "V-Model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of system models in software engineering?",
+            "options": {
+                "A": "To document code comments",
+                "B": "To visualize and understand the software architecture",
+                "C": "To create user interfaces",
+                "D": "To perform unit testing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which stage of the software development process involves creating detailed designs for the software?",
+            "options": {
+                "A": "Requirements engineering",
+                "B": "System modeling",
+                "C": "Design engineering",
+                "D": "Testing strategies"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of testing focuses on evaluating the software's compliance with user requirements?",
+            "options": {
+                "A": "Unit testing",
+                "B": "Integration testing",
+                "C": "System testing",
+                "D": "Acceptance testing"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does the term 'quality management' refer to in software engineering?",
+            "options": {
+                "A": "Managing the development team",
+                "B": "Ensuring the software is error-free",
+                "C": "Managing project schedules",
+                "D": "Ensuring the software meets quality standards"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is a common approach to gather software requirements from stakeholders?",
+            "options": {
+                "A": "Writing code directly",
+                "B": "Conducting usability testing",
+                "C": "Using version control systems",
+                "D": "Interviews and surveys"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of coupling involves one module controlling the flow of another module?",
+            "options": {
+                "A": "Data coupling",
+                "B": "Control coupling",
+                "C": "Content coupling",
+                "D": "Stamp coupling"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of using metrics in software engineering?",
+            "options": {
+                "A": "To slow down the development process",
+                "B": "To measure the number of lines of code",
+                "C": "To monitor and improve the quality of both processes and products",
+                "D": "To replace testing activities"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the first step in the risk management process?",
+            "options": {
+                "A": "Risk mitigation",
+                "B": "Risk identification",
+                "C": "Risk assessment",
+                "D": "Risk monitoring"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which process involves transforming software requirements into a design representation?",
+            "options": {
+                "A": "Requirements analysis",
+                "B": "Design engineering",
+                "C": "System modeling",
+                "D": "Testing strategies"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which model encourages incremental development and aims to deliver functional software at each iteration?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Agile model",
+                "C": "Prototype model",
+                "D": "V-Model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main purpose of conducting acceptance testing?",
+            "options": {
+                "A": "To find syntax errors in the code",
+                "B": "To verify the correctness of individual modules",
+                "C": "To ensure the software meets user requirements",
+                "D": "To simulate real-world usage scenarios"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of software metric measures the time taken to fix defects?",
+            "options": {
+                "A": "Cyclomatic complexity",
+                "B": "Defect removal efficiency",
+                "C": "Lines of code",
+                "D": "Code coverage"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main goal of risk management in software engineering?",
+            "options": {
+                "A": "To eliminate all risks",
+                "B": "To avoid any changes during development",
+                "C": "To identify and mitigate potential problems that could affect project success",
+                "D": "To speed up the development process"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

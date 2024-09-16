@@ -1,0 +1,207 @@
+{
+    "exam_name": "Machine Learning Set 4",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the main advantage of using an ensemble method like Random Forest?",
+            "options": {
+                "A": "It simplifies the model",
+                "B": "It reduces bias by combining multiple models",
+                "C": "It works only with linear data",
+                "D": "It reduces computation time"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following methods is used for clustering data?",
+            "options": {
+                "A": "Logistic Regression",
+                "B": "Naive Bayes",
+                "C": "K-means Clustering",
+                "D": "Support Vector Machine"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the role of the activation function in a neural network?",
+            "options": {
+                "A": "To compute the error of the model",
+                "B": "To transform the input data into output predictions",
+                "C": "To normalize the data",
+                "D": "To split the dataset into training and testing sets"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which method is used to prevent a model from learning too much from the noise in the training data?",
+            "options": {
+                "A": "Feature Scaling",
+                "B": "Pruning",
+                "C": "Data Augmentation",
+                "D": "Grid Search"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following techniques is used for feature selection?",
+            "options": {
+                "A": "Principal Component Analysis (PCA)",
+                "B": "K-means Clustering",
+                "C": "Decision Trees",
+                "D": "Cross-validation"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which clustering algorithm is density-based and can find arbitrarily shaped clusters?",
+            "options": {
+                "A": "K-Means",
+                "B": "DBSCAN",
+                "C": "Agglomerative Hierarchical Clustering",
+                "D": "GMM (Gaussian Mixture Model)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Hidden Markov Models, what does the term 'hidden' refer to?",
+            "options": {
+                "A": "States with unknown transitions",
+                "B": "States with known transitions",
+                "C": "States with high probabilities",
+                "D": "States with low probabilities"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Ensemble methods combine multiple models to improve predictive performance. Which ensemble method focuses on correcting errors of previous models?",
+            "options": {
+                "A": "Bagging",
+                "B": "Boosting",
+                "C": "Stacking",
+                "D": "Pruning"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary disadvantage of using a very deep neural network?",
+            "options": {
+                "A": "Slower training",
+                "B": "Lower accuracy",
+                "C": "Overfitting",
+                "D": "Increased bias"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Support Vector Machines, what are support vectors?",
+            "options": {
+                "A": "Training examples that contribute the least to the model",
+                "B": "Data points located closest to the decision boundary",
+                "C": "Weights assigned to each feature",
+                "D": "Parameters that control the regularization term"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Bayesian Learning, the likelihood represents the probability of:",
+            "options": {
+                "A": "The prior knowledge",
+                "B": "The observed data given the model parameters",
+                "C": "The posterior distribution",
+                "D": "The class labels"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary advantage of using Gaussian Mixture Models (GMMs) over K-Means for clustering?",
+            "options": {
+                "A": "GMMs can handle non-linear data",
+                "B": "GMMs converge faster",
+                "C": "GMMs provide probabilistic clustering",
+                "D": "GMMs require fewer iterations"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Decision Trees, which attribute selection measure is based on the concept of information entropy?",
+            "options": {
+                "A": "Gini Index",
+                "B": "Information Gain",
+                "C": "Chi-squared statistic",
+                "D": "Mean Squared Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Recurrent Neural Networks (RNNs) are well-suited for tasks involving:",
+            "options": {
+                "A": "Image recognition",
+                "B": "Text classification",
+                "C": "Dimensionality reduction",
+                "D": "Speech generation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which method is used to handle missing data during the training of a neural network?",
+            "options": {
+                "A": "Ignoring the missing data",
+                "B": "Substituting missing data with zeros",
+                "C": "Data augmentation",
+                "D": "Imputation techniques"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In Support Vector Machines, what is the role of the kernel function?",
+            "options": {
+                "A": "To increase the number of support vectors",
+                "B": "To transform the data into a higher-dimensional space",
+                "C": "To reduce the number of features",
+                "D": "To reduce overfitting"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of Hidden Markov Models, what does the term 'emission probability' refer to?",
+            "options": {
+                "A": "The likelihood of transitioning from one state to another",
+                "B": "The probability of observing a particular output given a state",
+                "C": "The probability of entering a specific state",
+                "D": "The rate of change of hidden states"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which clustering algorithm is sensitive to the initial placement of cluster centroids?",
+            "options": {
+                "A": "K-Means",
+                "B": "Agglomerative Hierarchical Clustering",
+                "C": "DBSCAN",
+                "D": "Mean Shift"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Bayesian networks, what does the term 'parent nodes' refer to?",
+            "options": {
+                "A": "Nodes that have the highest conditional probabilities",
+                "B": "Nodes that have no incoming edges",
+                "C": "Nodes that directly influence the current node",
+                "D": "Nodes with the lowest information gain"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In a neural network, what is the vanishing gradient problem?",
+            "options": {
+                "A": "When gradients become too large, causing divergence",
+                "B": "When gradients become too small during backpropagation",
+                "C": "When gradients fluctuate unpredictably",
+                "D": "When gradients are equal to zero"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

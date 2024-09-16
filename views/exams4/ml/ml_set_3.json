@@ -1,0 +1,207 @@
+{
+    "exam_name": "Machine Learning Set 3",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which method is used to reduce the overfitting of a model?",
+            "options": {
+                "A": "Increasing the number of features",
+                "B": "Using more complex algorithms",
+                "C": "Applying regularization techniques",
+                "D": "Increasing the training data size"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of cross-validation in machine learning?",
+            "options": {
+                "A": "To increase the complexity of the model",
+                "B": "To validate the model on unseen data",
+                "C": "To evaluate the model's performance on the training data",
+                "D": "To split the dataset into training and test sets"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is a method for dimensionality reduction?",
+            "options": {
+                "A": "K-Nearest Neighbors",
+                "B": "Naive Bayes",
+                "C": "Principal Component Analysis (PCA)",
+                "D": "Random Forest"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which algorithm is best suited for time-series forecasting?",
+            "options": {
+                "A": "K-means Clustering",
+                "B": "Decision Trees",
+                "C": "ARIMA",
+                "D": "Linear Regression"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which metric is commonly used to evaluate the performance of a classification model in a balanced dataset?",
+            "options": {
+                "A": "Mean Absolute Error",
+                "B": "Precision",
+                "C": "R-squared",
+                "D": "F1 Score"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "K-Means is an example of which type of machine learning algorithm?",
+            "options": {
+                "A": "Classification",
+                "B": "Clustering",
+                "C": "Regression",
+                "D": "Dimensionality Reduction"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of Hidden Markov Models (HMMs) in machine learning?",
+            "options": {
+                "A": "Time series prediction",
+                "B": "Image classification",
+                "C": "Speech recognition",
+                "D": "Text summarization"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which machine learning technique is most suitable for identifying patterns within data without labeled examples?",
+            "options": {
+                "A": "Supervised Learning",
+                "B": "Unsupervised Learning",
+                "C": "Reinforcement Learning",
+                "D": "Semi-Supervised Learning"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the basic building block of a Decision Tree?",
+            "options": {
+                "A": "Leaf node",
+                "B": "Root node",
+                "C": "Parent node",
+                "D": "Child node"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Artificial Neural Networks, what is the function of an activation function?",
+            "options": {
+                "A": "Summing input values",
+                "B": "Normalizing data",
+                "C": "Making predictions",
+                "D": "Introducing non-linearity"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which algorithm tries to find the best hyperplane that separates different classes in a dataset?",
+            "options": {
+                "A": "K-Means",
+                "B": "Decision Tree",
+                "C": "Support Vector Machine",
+                "D": "Neural Network"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which technique is used for estimating the probabilities of different states in Hidden Markov Models?",
+            "options": {
+                "A": "Backpropagation",
+                "B": "Gradient Descent",
+                "C": "Forward-Backward Algorithm",
+                "D": "Principal Component Analysis"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the 'Naive' in Naive Bayes refer to?",
+            "options": {
+                "A": "It makes strong assumptions about feature independence",
+                "B": "It uses a large number of features",
+                "C": "It's a simple, single-layer algorithm",
+                "D": "It's a fast training algorithm"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which clustering algorithm aims to create a hierarchy of clusters in a dataset?",
+            "options": {
+                "A": "K-Means",
+                "B": "DBSCAN",
+                "C": "Agglomerative Hierarchical Clustering",
+                "D": "SOM (Self-Organizing Map)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In Decision Tree Learning, what is entropy used to measure?",
+            "options": {
+                "A": "Data complexity",
+                "B": "Predictive accuracy",
+                "C": "Information gain",
+                "D": "Model complexity"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which machine learning algorithm is known for its ability to handle non-linear decision boundaries effectively?",
+            "options": {
+                "A": "Linear Regression",
+                "B": "Support Vector Machine",
+                "C": "Naive Bayes",
+                "D": "Principal Component Analysis"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which technique is often used for feature extraction and dimensionality reduction?",
+            "options": {
+                "A": "Clustering",
+                "B": "Decision Tree Learning",
+                "C": "Principal Component Analysis",
+                "D": "Bayesian Learning"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of the Expectation-Maximization (EM) algorithm?",
+            "options": {
+                "A": "Classification",
+                "B": "Clustering",
+                "C": "Dimensionality Reduction",
+                "D": "Reinforcement Learning"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In which phase of a neural network's training does backpropagation occur?",
+            "options": {
+                "A": "Forward Pass",
+                "B": "Initialization",
+                "C": "Testing",
+                "D": "Evaluation"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of machine learning technique is suitable for predicting a continuous value, such as stock prices?",
+            "options": {
+                "A": "Classification",
+                "B": "Clustering",
+                "C": "Regression",
+                "D": "Dimensionality Reduction"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

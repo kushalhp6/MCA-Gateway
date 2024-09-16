@@ -1,0 +1,207 @@
+{
+    "exam_name": "Machine Learning Set 7",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What does the term 'overfitting' refer to in machine learning?",
+            "options": {
+                "A": "When a model performs well on both training and testing data",
+                "B": "When a model performs poorly on training data",
+                "C": "When a model performs exceptionally well on training data but poorly on unseen data",
+                "D": "When a model is too simple to capture the complexity of the data"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which method is used to handle missing values in a dataset?",
+            "options": {
+                "A": "Feature Scaling",
+                "B": "Imputation",
+                "C": "Normalization",
+                "D": "Encoding"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of machine learning problem involves predicting the next value in a sequence?",
+            "options": {
+                "A": "Classification",
+                "B": "Regression",
+                "C": "Clustering",
+                "D": "Time-Series Forecasting"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is not a common technique for model evaluation?",
+            "options": {
+                "A": "Cross-validation",
+                "B": "Grid Search",
+                "C": "Confusion Matrix",
+                "D": "Principal Component Analysis (PCA)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What does 'regularization' aim to achieve in machine learning models?",
+            "options": {
+                "A": "Increase the model complexity",
+                "B": "Improve the training time",
+                "C": "Reduce overfitting by penalizing large coefficients",
+                "D": "Increase the number of features"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which clustering algorithm aims to find clusters with similar density and shape?",
+            "options": {
+                "A": "K-Means",
+                "B": "DBSCAN",
+                "C": "Hierarchical clustering",
+                "D": "Principal Component Analysis"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Hidden Markov Models (HMMs) are commonly used for tasks involving:",
+            "options": {
+                "A": "Regression",
+                "B": "Sequence prediction and modeling",
+                "C": "Clustering",
+                "D": "Anomaly detection"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of pruning in decision tree learning?",
+            "options": {
+                "A": "To increase tree depth",
+                "B": "To reduce overfitting",
+                "C": "To add more branches",
+                "D": "To increase accuracy"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In an artificial neural network, what is the purpose of the bias term?",
+            "options": {
+                "A": "To improve convergence speed",
+                "B": "To reduce model complexity",
+                "C": "To offset the neuron's input",
+                "D": "To add regularization"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which clustering algorithm does not require specifying the number of clusters beforehand?",
+            "options": {
+                "A": "K-Means",
+                "B": "Agglomerative Hierarchical Clustering",
+                "C": "Gaussian Mixture Model",
+                "D": "DBSCAN"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary advantage of using a Gaussian Naive Bayes classifier?",
+            "options": {
+                "A": "It can handle high-dimensional data efficiently",
+                "B": "It works well with non-Gaussian distributed data",
+                "C": "It requires no training",
+                "D": "It is robust to outliers"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "The goal of the Expectation-Maximization (EM) algorithm is to:",
+            "options": {
+                "A": "Minimize model complexity",
+                "B": "Maximize the likelihood of observed data",
+                "C": "Reduce the number of features",
+                "D": "Improve classification accuracy"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In which phase of the K-Means algorithm are cluster centroids updated?",
+            "options": {
+                "A": "Initialization",
+                "B": "Assignment",
+                "C": "Convergence",
+                "D": "Evaluation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of SVM kernel is often used when dealing with non-linearly separable data?",
+            "options": {
+                "A": "Linear kernel",
+                "B": "Polynomial kernel",
+                "C": "Radial Basis Function (RBF) kernel",
+                "D": "Sigmoid kernel"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What type of neural network architecture is designed for processing sequences and time-series data?",
+            "options": {
+                "A": "Convolutional Neural Network (CNN)",
+                "B": "Recurrent Neural Network (RNN)",
+                "C": "Feedforward Neural Network (FNN)",
+                "D": "Self-Organizing Map (SOM)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "The term 'Bayesian learning' is associated with:",
+            "options": {
+                "A": "Decision trees",
+                "B": "Naive Bayes",
+                "C": "Support Vector Machines",
+                "D": "K-Means clustering"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of the Viterbi algorithm in Hidden Markov Models (HMMs)?",
+            "options": {
+                "A": "Training the model",
+                "B": "Decoding the most likely sequence of states",
+                "C": "Calculating posterior probabilities",
+                "D": "Feature selection"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the silhouette score measure in clustering?",
+            "options": {
+                "A": "Separation between clusters",
+                "B": "Cluster purity",
+                "C": "Variability within clusters",
+                "D": "The number of clusters"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a decision tree, which node is responsible for making predictions?",
+            "options": {
+                "A": "Root node",
+                "B": "Internal nodes",
+                "C": "Leaf nodes",
+                "D": "Branch nodes"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In an artificial neural network, what is backpropagation used for?",
+            "options": {
+                "A": "Initializing the network weights",
+                "B": "Forward pass computations",
+                "C": "Training and updating weights",
+                "D": "Activation function selection"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

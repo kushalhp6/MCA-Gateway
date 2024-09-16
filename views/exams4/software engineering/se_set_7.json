@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 7",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which term refers to a situation where software requirements change during development?",
+            "options": {
+                "A": "Requirement Creep",
+                "B": "Requirement Drift",
+                "C": "Requirement Change",
+                "D": "Requirement Volatility"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of coupling is preferred in software design for better maintainability?",
+            "options": {
+                "A": "Tight Coupling",
+                "B": "Loose Coupling",
+                "C": "High Coupling",
+                "D": "Low Coupling"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of a use case diagram in UML?",
+            "options": {
+                "A": "To depict the system architecture",
+                "B": "To show interactions between system components",
+                "C": "To illustrate system functionalities and user interactions",
+                "D": "To define the system's data model"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of testing focuses on the interactions between different software components?",
+            "options": {
+                "A": "Unit Testing",
+                "B": "System Testing",
+                "C": "Integration Testing",
+                "D": "Acceptance Testing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is an agile methodology?",
+            "options": {
+                "A": "Scrum",
+                "B": "Waterfall",
+                "C": "Spiral",
+                "D": "V-Model"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In software engineering, what does the term 'SDLC' stand for?",
+            "options": {
+                "A": "Software Deployment Life Cycle",
+                "B": "System Development Life Cycle",
+                "C": "Software Design and Logic Control",
+                "D": "Systematic Development of Logical Code"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What type of development model is characterized by a linear, sequential approach?",
+            "options": {
+                "A": "Agile",
+                "B": "Waterfall",
+                "C": "Spiral",
+                "D": "Scrum"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software development model focuses on rigorous testing and verification at each stage?",
+            "options": {
+                "A": "Agile",
+                "B": "Waterfall",
+                "C": "V-Model",
+                "D": "RAD (Rapid Application Development)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the acronym 'QA' typically stand for in software engineering?",
+            "options": {
+                "A": "Quality Assessment",
+                "B": "Quality Analysis",
+                "C": "Quality Assurance",
+                "D": "Quantitative Analysis"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of testing evaluates how well a system performs under expected conditions?",
+            "options": {
+                "A": "Stress testing",
+                "B": "Usability testing",
+                "C": "Functional testing",
+                "D": "Regression testing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary goal of risk management in software engineering?",
+            "options": {
+                "A": "To eliminate all project risks",
+                "B": "To identify and mitigate potential issues",
+                "C": "To speed up the development process",
+                "D": "To increase project complexity"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What are software metrics used for in the development process?",
+            "options": {
+                "A": "Determining project deadlines",
+                "B": "Measuring software quality and performance",
+                "C": "Identifying software requirements",
+                "D": "Managing project finances"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of metric is used to evaluate the overall quality of a software product?",
+            "options": {
+                "A": "Process metric",
+                "B": "Product metric",
+                "C": "Performance metric",
+                "D": "Project metric"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software development, what does the term 'CMMI' refer to?",
+            "options": {
+                "A": "Code Management and Maintenance Interface",
+                "B": "Capability Maturity Model Integration",
+                "C": "Computer Model for Multifunctional Integration",
+                "D": "Continuous Monitoring and Measurement Instrument"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which phase of software development involves translating system requirements into a detailed design?",
+            "options": {
+                "A": "Testing phase",
+                "B": "Design phase",
+                "C": "Requirements phase",
+                "D": "Implementation phase"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does 'UML' stand for in the context of software engineering?",
+            "options": {
+                "A": "Unified Modeling Language",
+                "B": "Uniform Model Logic",
+                "C": "Universal Markup Language",
+                "D": "Unique Modeling Logic"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In software development, what is the primary goal of configuration management?",
+            "options": {
+                "A": "Documenting user requirements",
+                "B": "Managing changes to software artifacts",
+                "C": "Creating project schedules",
+                "D": "Designing user interfaces"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of a software design pattern?",
+            "options": {
+                "A": "To document software requirements",
+                "B": "To provide a template for code implementation",
+                "C": "To manage project budgets",
+                "D": "To automate software testing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software engineering principle emphasizes breaking down a complex problem into smaller, manageable components?",
+            "options": {
+                "A": "Abstraction",
+                "B": "Encapsulation",
+                "C": "Modularity",
+                "D": "Inheritance"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary objective of the Software Development Life Cycle (SDLC)?",
+            "options": {
+                "A": "To ensure code is written efficiently",
+                "B": "To minimize documentation",
+                "C": "To produce high-quality software",
+                "D": "To reduce development costs"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

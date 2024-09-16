@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 6",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following is a non-functional requirement?",
+            "options": {
+                "A": "The system should authenticate users.",
+                "B": "The system should have a response time of less than 2 seconds.",
+                "C": "The system should allow users to create accounts.",
+                "D": "The system should support multi-language features."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which design principle involves dividing a system into smaller, manageable pieces?",
+            "options": {
+                "A": "Modularity",
+                "B": "Encapsulation",
+                "C": "Inheritance",
+                "D": "Abstraction"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of static testing?",
+            "options": {
+                "A": "Unit Testing",
+                "B": "Integration Testing",
+                "C": "Code Review",
+                "D": "System Testing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software process model emphasizes risk assessment and iterative development?",
+            "options": {
+                "A": "Waterfall",
+                "B": "Spiral",
+                "C": "Agile",
+                "D": "V-Model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the acronym UML stand for?",
+            "options": {
+                "A": "Unified Modeling Language",
+                "B": "Universal Modeling Language",
+                "C": "User Modeling Language",
+                "D": "Unified Methodology Language"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of software quality management, what does the 'ISO 9000' series of standards primarily focus on?",
+            "options": {
+                "A": "Security testing",
+                "B": "Process improvement and quality assurance",
+                "C": "User interface design",
+                "D": "Project scheduling"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software design principle promotes the idea that a class should have only one reason to change?",
+            "options": {
+                "A": "Encapsulation",
+                "B": "Cohesion",
+                "C": "Single Responsibility Principle (SRP)",
+                "D": "Inheritance"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the main purpose of a software configuration management (SCM) system?",
+            "options": {
+                "A": "To store customer requirements",
+                "B": "To manage and control changes to software artifacts",
+                "C": "To generate code automatically",
+                "D": "To conduct load testing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software development approach focuses on delivering small, frequent, and potentially shippable increments of a product?",
+            "options": {
+                "A": "Waterfall",
+                "B": "Scrum",
+                "C": "Big Bang",
+                "D": "RUP (Rational Unified Process)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of the Clean Code concept in software development?",
+            "options": {
+                "A": "Minimizing the lines of code in a program",
+                "B": "Creating code that is easy to read, understand, and maintain",
+                "C": "Maximizing code complexity for robustness",
+                "D": "Reducing code reuse"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In risk management, what is the difference between a threat and a vulnerability?",
+            "options": {
+                "A": "Threats are weaknesses in a system, while vulnerabilities are potential incidents.",
+                "B": "Threats are potential incidents, while vulnerabilities are weaknesses in a system.",
+                "C": "Threats and vulnerabilities are synonymous terms.",
+                "D": "Threats represent external factors, while vulnerabilities are internal weaknesses."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which metric measures the average time taken to repair a defect in a software project?",
+            "options": {
+                "A": "Mean Time to Failure (MTTF)",
+                "B": "Mean Time Between Failures (MTBF)",
+                "C": "Mean Time to Repair (MTTR)",
+                "D": "Defect Density"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the term 'DevOps' refer to in software engineering?",
+            "options": {
+                "A": "A software development methodology",
+                "B": "A collaboration between development and operations teams",
+                "C": "A version control system",
+                "D": "A database management system"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software testing level focuses on validating whether the system as a whole meets its specified requirements?",
+            "options": {
+                "A": "Unit testing",
+                "B": "Integration testing",
+                "C": "System testing",
+                "D": "Acceptance testing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of software process models, what does the 'V' in the V-Model represent?",
+            "options": {
+                "A": "Validation",
+                "B": "Verification",
+                "C": "Volatility",
+                "D": "Variability"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of a software fault tolerance mechanism?",
+            "options": {
+                "A": "To eliminate all software faults",
+                "B": "To detect and correct software faults in real-time",
+                "C": "To prevent software faults from occurring",
+                "D": "To increase software complexity"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of a Use Case in requirements engineering?",
+            "options": {
+                "A": "To document system design details",
+                "B": "To describe the system's architecture",
+                "C": "To capture and define interactions between users and the system",
+                "D": "To provide a detailed description of the testing process"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In software quality assurance, what is 'ISO 9126' primarily used for?",
+            "options": {
+                "A": "Software testing methodologies",
+                "B": "Software product quality evaluation",
+                "C": "Software project management",
+                "D": "Software development processes"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary focus of the Capability Maturity Model Integration (CMMI)?",
+            "options": {
+                "A": "Identifying software vulnerabilities",
+                "B": "Assessing project risks",
+                "C": "Improving and measuring the maturity of an organization's processes",
+                "D": "Defining software requirements"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of diagram in UML is used to represent the dynamic behavior of a system over time?",
+            "options": {
+                "A": "Class diagram",
+                "B": "State diagram",
+                "C": "Sequence diagram",
+                "D": "Component diagram"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "exam_name": "Machine Learning Set 5",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the primary purpose of using the ROC curve?",
+            "options": {
+                "A": "To visualize the distribution of data",
+                "B": "To evaluate the performance of a classification model",
+                "C": "To improve the performance of a regression model",
+                "D": "To reduce the dimensionality of the data"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following algorithms is best for a large-scale classification problem?",
+            "options": {
+                "A": "Decision Trees",
+                "B": "Naive Bayes",
+                "C": "K-means Clustering",
+                "D": "Linear Regression"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is a common use case for logistic regression?",
+            "options": {
+                "A": "Predicting a continuous variable",
+                "B": "Predicting binary outcomes",
+                "C": "Reducing dimensionality",
+                "D": "Clustering data"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following is not a common technique for model evaluation?",
+            "options": {
+                "A": "Cross-validation",
+                "B": "A/B Testing",
+                "C": "Feature Engineering",
+                "D": "Confusion Matrix"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In which scenario is it appropriate to use a support vector machine (SVM)?",
+            "options": {
+                "A": "When the dataset has a large number of features and a small number of samples",
+                "B": "When the data is linearly separable",
+                "C": "For unsupervised learning tasks",
+                "D": "For time-series forecasting"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of a validation set in machine learning?",
+            "options": {
+                "A": "To train the model",
+                "B": "To test the model's performance on unseen data",
+                "C": "To fine-tune hyperparameters",
+                "D": "To preprocess the data"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In hierarchical clustering, how are clusters merged together?",
+            "options": {
+                "A": "Based on the closest data points",
+                "B": "Randomly",
+                "C": "Based on a pre-defined number of clusters",
+                "D": "Based on the farthest data points"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the main advantage of using a decision tree for classification tasks?",
+            "options": {
+                "A": "It can model complex relationships between features.",
+                "B": "It is resistant to overfitting.",
+                "C": "It does not require feature selection.",
+                "D": "It is computationally efficient."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which machine learning algorithm is used for finding associations and patterns in transactional data?",
+            "options": {
+                "A": "Support Vector Machine (SVM)",
+                "B": "Apriori algorithm",
+                "C": "Logistic Regression",
+                "D": "K-Nearest Neighbors (KNN)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of the 'bagging' technique in ensemble learning?",
+            "options": {
+                "A": "Reducing overfitting by training multiple models on the same data",
+                "B": "Combining the predictions of multiple models through voting",
+                "C": "Feature selection",
+                "D": "Dimensionality reduction"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which clustering algorithm is sensitive to the initial placement of cluster centroids and can converge to local optima?",
+            "options": {
+                "A": "DBSCAN",
+                "B": "K-Means",
+                "C": "Agglomerative Hierarchical Clustering",
+                "D": "Mean Shift"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Bayesian networks, what is a conditional probability distribution represented by?",
+            "options": {
+                "A": "A probability table",
+                "B": "A directed acyclic graph (DAG)",
+                "C": "A set of hyperparameters",
+                "D": "A decision tree"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the term 'overfitting' refer to in machine learning?",
+            "options": {
+                "A": "The model performs well on the training data but poorly on unseen data.",
+                "B": "The model performs consistently on both training and testing data.",
+                "C": "The model is too simple to capture complex patterns in the data.",
+                "D": "The model is underfitting the data."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which regularization technique adds a penalty term to the loss function to discourage large weight values in a neural network?",
+            "options": {
+                "A": "L1 regularization",
+                "B": "L2 regularization",
+                "C": "Dropout",
+                "D": "Batch normalization"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In k-nearest neighbors (KNN) classification, how is the class of a data point determined?",
+            "options": {
+                "A": "By averaging the classes of its k nearest neighbors",
+                "B": "By selecting the class of the nearest data point",
+                "C": "By comparing its features to a threshold",
+                "D": "By randomly assigning a class"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary objective of the Markov Chain Monte Carlo (MCMC) method in Bayesian learning?",
+            "options": {
+                "A": "To compute the exact posterior distribution",
+                "B": "To minimize the likelihood function",
+                "C": "To maximize the prior distribution",
+                "D": "To perform feature selection"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of the term frequency-inverse document frequency (TF-IDF) representation in text analysis?",
+            "options": {
+                "A": "To convert text data into numerical format",
+                "B": "To remove stop words from text data",
+                "C": "To calculate word frequencies in a document",
+                "D": "To create word embeddings"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In a confusion matrix, which element represents the number of true negative predictions?",
+            "options": {
+                "A": "Top-left element",
+                "B": "Top-right element",
+                "C": "Bottom-left element",
+                "D": "Bottom-right element"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary goal of dimensionality reduction techniques like Principal Component Analysis (PCA)?",
+            "options": {
+                "A": "To increase the number of features in the dataset",
+                "B": "To improve model interpretability",
+                "C": "To reduce the number of features while preserving important information",
+                "D": "To create new features from existing ones"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In reinforcement learning, what is the reward signal used for?",
+            "options": {
+                "A": "To determine the optimal policy",
+                "B": "To initialize the Q-values",
+                "C": "To regulate exploration and exploitation",
+                "D": "To assign labels to training data"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

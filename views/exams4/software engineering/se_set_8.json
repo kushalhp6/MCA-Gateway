@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 8",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the main objective of regression testing?",
+            "options": {
+                "A": "To ensure new code changes do not adversely affect existing functionalities",
+                "B": "To verify that the system meets user requirements",
+                "C": "To evaluate the performance of the software",
+                "D": "To confirm the software's compliance with regulations"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which document describes the overall architecture and design of the software system?",
+            "options": {
+                "A": "Requirements Specification",
+                "B": "Design Document",
+                "C": "Test Plan",
+                "D": "User Manual"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which term refers to the process of finding and fixing errors in software code?",
+            "options": {
+                "A": "Debugging",
+                "B": "Testing",
+                "C": "Validation",
+                "D": "Verification"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the acronym API stand for in software development?",
+            "options": {
+                "A": "Application Programming Interface",
+                "B": "Application Program Interface",
+                "C": "Automated Programming Interface",
+                "D": "Application Protocol Interface"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is a characteristic of high cohesion in software design?",
+            "options": {
+                "A": "Modules are highly dependent on each other",
+                "B": "Modules perform closely related functions",
+                "C": "Modules have many external interfaces",
+                "D": "Modules are designed to be reused across different applications"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of 'pair programming' in Agile software development?",
+            "options": {
+                "A": "To ensure that code is always written by two developers",
+                "B": "To improve code quality and provide continuous review",
+                "C": "To increase individual productivity",
+                "D": "To speed up the development process"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software project management, what does 'PERT' stand for?",
+            "options": {
+                "A": "Project Evaluation and Review Technique",
+                "B": "Program Evaluation and Risk Technique",
+                "C": "Performance Evaluation and Requirements Tracking",
+                "D": "Product Evaluation and Resource Technology"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which software metric measures the number of interconnections between software modules or components?",
+            "options": {
+                "A": "Complexity",
+                "B": "Cohesion",
+                "C": "Coupling",
+                "D": "Cyclomatic complexity"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In software risk management, what is the term for a risk that has been identified but no action has been taken to address it?",
+            "options": {
+                "A": "Known risk",
+                "B": "Accepted risk",
+                "C": "Unidentified risk",
+                "D": "Mitigated risk"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of quality management, what is the 'Cost of Quality' (COQ)?",
+            "options": {
+                "A": "The financial cost of developing a software product",
+                "B": "The price customers are willing to pay for a high-quality product",
+                "C": "The total cost of both preventing and fixing defects in a product",
+                "D": "The cost of implementing quality standards"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software modeling technique is used to depict the dynamic behavior of a system over time?",
+            "options": {
+                "A": "Data Flow Diagram (DFD)",
+                "B": "Entity-Relationship Diagram (ERD)",
+                "C": "Sequence Diagram",
+                "D": "Statechart Diagram"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In software testing, what is 'code coverage'?",
+            "options": {
+                "A": "The amount of code executed by test cases",
+                "B": "The percentage of code that has been documented",
+                "C": "The ratio of comments to code in the source files",
+                "D": "The number of lines of code in a software project"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary goal of the 'ISO/IEC 15504' standard in the context of software process assessment?",
+            "options": {
+                "A": "To provide guidelines for software architecture",
+                "B": "To define a set of metrics for software development",
+                "C": "To assess and improve software development processes",
+                "D": "To establish a standard for software documentation"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In software risk management, what is the term for a risk that could have a catastrophic impact on a project but has a very low probability of occurring?",
+            "options": {
+                "A": "High-risk risk",
+                "B": "Low-impact risk",
+                "C": "High-impact risk",
+                "D": "Low-probability risk"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of software requirement defines the conditions and qualities that the system must exhibit in operation?",
+            "options": {
+                "A": "Functional requirements",
+                "B": "Non-functional requirements",
+                "C": "Business requirements",
+                "D": "Architectural requirements"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of software development, what does 'CI/CD' stand for?",
+            "options": {
+                "A": "Computer-Integrated/Continuous Development",
+                "B": "Continuous Integration/Continuous Delivery",
+                "C": "Code Inspection/Code Deployment",
+                "D": "Configuration Item/Change Detection"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of 'test-driven development' (TDD) in software development?",
+            "options": {
+                "A": "To write unit tests after writing code",
+                "B": "To ensure that code is never tested",
+                "C": "To write code and tests concurrently, with tests driving the development",
+                "D": "To write tests before writing code"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In software configuration management, what does 'version control' or 'source control' refer to?",
+            "options": {
+                "A": "Controlling the flow of the software's version",
+                "B": "Managing the approval process for software releases",
+                "C": "Tracking and managing changes to source code and documents",
+                "D": "Managing software requirements"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software quality attribute reflects the capability of a system to remain operational and available for use?",
+            "options": {
+                "A": "Reliability",
+                "B": "Maintainability",
+                "C": "Availability",
+                "D": "Scalability"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In software architecture, what is the 'microservices' architectural style?",
+            "options": {
+                "A": "An architectural style that promotes a single, monolithic application",
+                "B": "An architectural style that decomposes a system into small, independently deployable services",
+                "C": "An architectural style that relies on a centralized, client-server model",
+                "D": "An architectural style that emphasizes tight coupling between components"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

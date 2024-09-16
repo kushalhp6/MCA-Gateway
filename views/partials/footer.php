@@ -26,9 +26,9 @@
             <div>
                 <h4 class="text-xl font-bold text-white mb-4">Support</h4>
                 <ul class="space-y-2">
-                    <li><a href="/support/report-bug.php" class="hover:text-white transition duration-300">Report a Bug</a></li>
-                    <li><a href="/support/tech-support.php" class="hover:text-white transition duration-300">Technical Support</a></li>
-                    <li><a href="/support/report-question.php" class="hover:text-white transition duration-300">Report a Question</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-300">Report a Bug</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-300">Technical Support</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-300">Report a Question</a></li>
                 </ul>
                 <h4 class="text-xl font-bold text-white mt-4 mb-4">Legal</h4>
                 <ul class="space-y-2">

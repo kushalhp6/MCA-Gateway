@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 9",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following best describes 'technical debt'?",
+            "options": {
+                "A": "The cost of fixing software defects",
+                "B": "The accumulated cost of maintaining poor-quality code",
+                "C": "The expense associated with hardware upgrades",
+                "D": "The investment needed for new software features"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main goal of software performance testing?",
+            "options": {
+                "A": "To ensure the software meets functional requirements",
+                "B": "To evaluate the software's speed, responsiveness, and stability",
+                "C": "To verify the correctness of the software code",
+                "D": "To assess the usability of the software"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of software testing is performed by end-users to validate the system's functionality in a real-world environment?",
+            "options": {
+                "A": "Alpha Testing",
+                "B": "Beta Testing",
+                "C": "System Testing",
+                "D": "Integration Testing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software project management, what does the acronym PERT stand for?",
+            "options": {
+                "A": "Project Evaluation and Review Technique",
+                "B": "Program Evaluation and Review Technique",
+                "C": "Project Execution and Review Technique",
+                "D": "Program Execution and Review Technique"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is a technique for ensuring that software requirements are correctly and completely captured?",
+            "options": {
+                "A": "Requirements Traceability",
+                "B": "Requirements Elicitation",
+                "C": "Requirements Validation",
+                "D": "Requirements Verification"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the purpose of 'refactoring' in software development?",
+            "options": {
+                "A": "Creating new features and functionality",
+                "B": "Rewriting the entire codebase from scratch",
+                "C": "Improving the structure and maintainability of existing code",
+                "D": "Debugging and fixing software defects"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software development approach is based on the principles of iterative and incremental development, with a focus on self-organizing cross-functional teams?",
+            "options": {
+                "A": "Extreme Programming (XP)",
+                "B": "Waterfall model",
+                "C": "Big Design Up Front (BDUF)",
+                "D": "Lean software development"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In software project management, what is the purpose of a Work Breakdown Structure (WBS)?",
+            "options": {
+                "A": "To estimate the project's duration",
+                "B": "To create a hierarchical list of project tasks",
+                "C": "To define the project's goals and objectives",
+                "D": "To assign team members to specific roles"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software metric measures the extent to which a software component is self-contained and does not rely on external dependencies?",
+            "options": {
+                "A": "Coupling",
+                "B": "Cohesion",
+                "C": "Cyclomatic complexity",
+                "D": "Halstead complexity"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software risk management, what is the term for a risk that has been identified but is not yet acted upon?",
+            "options": {
+                "A": "Unknown risk",
+                "B": "Mitigated risk",
+                "C": "Latent risk",
+                "D": "Accepted risk"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software quality management principle emphasizes the importance of establishing and maintaining a strong relationship with suppliers and partners?",
+            "options": {
+                "A": "Customer focus",
+                "B": "Leadership",
+                "C": "Mutually beneficial supplier relationships",
+                "D": "Process approach"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which modeling technique in software engineering is used to visualize the structure of a database, including tables, relationships, and attributes?",
+            "options": {
+                "A": "Data Flow Diagram (DFD)",
+                "B": "Entity-Relationship Diagram (ERD)",
+                "C": "Sequence Diagram",
+                "D": "Statechart Diagram"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software testing technique involves introducing faults or errors into the software to assess the effectiveness of the testing process?",
+            "options": {
+                "A": "Black-box testing",
+                "B": "White-box testing",
+                "C": "Grey-box testing",
+                "D": "Mutation testing"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary objective of the ISO 9000 family of standards in the context of software engineering?",
+            "options": {
+                "A": "Ensuring software security",
+                "B": "Improving software performance",
+                "C": "Establishing quality management systems",
+                "D": "Defining software development methodologies"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which risk response strategy in software risk management involves identifying and implementing measures to reduce the impact and likelihood of a risk occurring?",
+            "options": {
+                "A": "Risk acceptance",
+                "B": "Risk avoidance",
+                "C": "Risk mitigation",
+                "D": "Risk transfer"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In software requirements engineering, what does 'FURPS' stand for?",
+            "options": {
+                "A": "Functional, Usability, Reliability, Performance, and Supportability",
+                "B": "Feature, User, Requirement, Performance, and Schedule",
+                "C": "Form, Usability, Reliability, Performance, and Security",
+                "D": "Function, User, Resource, Performance, and Safety"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which software development process model involves a series of sprints, with each sprint resulting in a potentially shippable product increment?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Scrum",
+                "C": "V-Model",
+                "D": "Spiral model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software configuration management, what is the purpose of 'baseline' versions of software and documentation?",
+            "options": {
+                "A": "To track changes made to the code",
+                "B": "To provide a stable reference point for project management and auditing",
+                "C": "To ensure that the software is always in a cutting-edge state",
+                "D": "To lock down and prevent any future changes"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software quality attribute refers to the ability of a system to adapt to changes and support modifications without incurring excessive cost or risk?",
+            "options": {
+                "A": "Reliability",
+                "B": "Maintainability",
+                "C": "Availability",
+                "D": "Scalability"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary objective of 'model-driven engineering' in software development?",
+            "options": {
+                "A": "Automating code generation",
+                "B": "Reducing software complexity",
+                "C": "Enhancing software security",
+                "D": "Streamlining project management"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

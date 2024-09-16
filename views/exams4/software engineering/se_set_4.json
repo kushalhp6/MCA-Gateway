@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 4",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which software development model allows software to be developed incrementally with each release adding functionality?",
+            "options": {
+                "A": "Waterfall",
+                "B": "Agile",
+                "C": "Spiral",
+                "D": "V-Model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software maintenance, which category involves adapting the software to new hardware or software environments?",
+            "options": {
+                "A": "Corrective",
+                "B": "Adaptive",
+                "C": "Perfective",
+                "D": "Preventive"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does 'traceability' mean in the context of software requirements?",
+            "options": {
+                "A": "Linking requirements to their source",
+                "B": "Detecting errors in code",
+                "C": "Tracking progress of development",
+                "D": "None of the above"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which testing level ensures that individual software modules work together as a group?",
+            "options": {
+                "A": "Unit Testing",
+                "B": "System Testing",
+                "C": "Integration Testing",
+                "D": "Regression Testing"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is not a part of the design phase in SDLC?",
+            "options": {
+                "A": "Data flow diagrams",
+                "B": "Coding",
+                "C": "ER diagrams",
+                "D": "Architecture design"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which process model is characterized by dividing the software development process into a set of fixed-duration timeboxes?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Scrum model",
+                "C": "V-Model",
+                "D": "Cleanroom model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of 'static analysis' in software development?",
+            "options": {
+                "A": "Identifying defects by executing the code",
+                "B": "Validating the software with real-world data",
+                "C": "Analyzing the code without executing it to find defects",
+                "D": "Testing software performance under varying conditions"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of software configuration management, what does the term 'baseline' refer to?",
+            "options": {
+                "A": "A version of the software that is ready for release",
+                "B": "A document outlining project requirements",
+                "C": "A tool for version control",
+                "D": "A testing environment for developers"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of requirement addresses the interactions between the software and external systems or users?",
+            "options": {
+                "A": "Functional requirement",
+                "B": "Non-functional requirement",
+                "C": "User requirement",
+                "D": "System requirement"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the main purpose of 'dynamic testing' in software engineering?",
+            "options": {
+                "A": "To evaluate the software's performance under various conditions",
+                "B": "To analyze the code structure without executing it",
+                "C": "To verify the software's compliance with coding standards",
+                "D": "To execute the software and test its behavior"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of software metric measures the amount of functionality implemented within a specific time frame?",
+            "options": {
+                "A": "Code coverage",
+                "B": "Productivity metric",
+                "C": "Defect density",
+                "D": "Cyclomatic complexity"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of 'user acceptance testing'?",
+            "options": {
+                "A": "To find defects in the code",
+                "B": "To validate that the software meets user requirements",
+                "C": "To simulate real-world usage scenarios",
+                "D": "To assess software performance under stress"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In the context of software risk management, what is a 'mitigation plan'?",
+            "options": {
+                "A": "A plan for eliminating all risks",
+                "B": "A plan for avoiding all risks",
+                "C": "A plan for reducing the impact and probability of identified risks",
+                "D": "A plan for identifying new risks"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the main goal of the 'Cleanroom model' in software development?",
+            "options": {
+                "A": "To ensure the software's user interface is well-designed",
+                "B": "To eliminate the need for testing through rigorous code review",
+                "C": "To emphasize risk analysis throughout the development process",
+                "D": "To speed up the development process through automation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of software testing focuses on how the software behaves under normal conditions?",
+            "options": {
+                "A": "Load testing",
+                "B": "Stress testing",
+                "C": "Regression testing",
+                "D": "Smoke testing"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the main purpose of 'code walkthroughs' in software development?",
+            "options": {
+                "A": "To simulate real-world usage scenarios",
+                "B": "To conduct load testing on the code",
+                "C": "To review the code with a focus on defect identification",
+                "D": "To optimize code performance"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software development model involves constructing the software in small, incremental builds?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Incremental model",
+                "C": "V-Model",
+                "D": "RAD (Rapid Application Development) model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'Defect Removal Efficiency' (DRE) measure in software engineering?",
+            "options": {
+                "A": "The speed of defect fixing",
+                "B": "The number of defects found during testing",
+                "C": "The effectiveness of testing in finding defects",
+                "D": "The complexity of the code"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software development model emphasizes the importance of early prototypes to gather user feedback?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Incremental model",
+                "C": "RAD (Rapid Application Development) model",
+                "D": "Cleanroom model"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In software quality management, what is the purpose of 'Six Sigma' methodology?",
+            "options": {
+                "A": "To define project schedules",
+                "B": "To optimize code performance",
+                "C": "To minimize defects in processes and products",
+                "D": "To maximize the number of software features"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

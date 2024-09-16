@@ -1,0 +1,207 @@
+{
+    "exam_name": "Machine Learning Set 10",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which technique is used to determine the most influential features for a model?",
+            "options": {
+                "A": "Feature Scaling",
+                "B": "Feature Selection",
+                "C": "Data Augmentation",
+                "D": "Cross-validation"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the purpose of the 'test set' in machine learning?",
+            "options": {
+                "A": "To train the model",
+                "B": "To validate the model during training",
+                "C": "To evaluate the model’s performance on unseen data",
+                "D": "To preprocess the data"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the term 'epoch' refer to in training neural networks?",
+            "options": {
+                "A": "A single pass through the entire dataset",
+                "B": "The number of features in the dataset",
+                "C": "A single iteration of gradient descent",
+                "D": "The size of the training batch"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of a distance-based algorithm?",
+            "options": {
+                "A": "Decision Trees",
+                "B": "K-Nearest Neighbors (KNN)",
+                "C": "Naive Bayes",
+                "D": "Principal Component Analysis (PCA)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In which scenario would you use a Recurrent Neural Network (RNN)?",
+            "options": {
+                "A": "For image classification",
+                "B": "For text generation",
+                "C": "For dimensionality reduction",
+                "D": "For feature selection"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In support vector machines (SVM), what is the role of the hyperplane?",
+            "options": {
+                "A": "To separate data points into different classes",
+                "B": "To represent the optimal kernel function",
+                "C": "To define the feature space",
+                "D": "To compute the gradient for optimization"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which technique is used to tackle the vanishing gradient problem in training deep neural networks?",
+            "options": {
+                "A": "Batch Normalization",
+                "B": "Weight Initialization",
+                "C": "Learning Rate Scheduling",
+                "D": "Data Augmentation"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of the Expectation-Maximization (EM) algorithm in clustering?",
+            "options": {
+                "A": "Minimizing the within-cluster variance",
+                "B": "Finding the number of clusters",
+                "C": "Estimating parameters in the presence of hidden variables",
+                "D": "Discovering the optimal initial centroids"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In reinforcement learning, what is the Q-learning algorithm used to approximate?",
+            "options": {
+                "A": "The optimal policy",
+                "B": "The reward function",
+                "C": "The state transition probabilities",
+                "D": "The value function"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "In the context of text classification, what does 'word embedding' refer to?",
+            "options": {
+                "A": "A vector representation of words in a continuous space",
+                "B": "A binary encoding of words",
+                "C": "A preprocessed version of a text document",
+                "D": "A measure of word frequency"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Bayesian learning, what is the 'MAP estimate'?",
+            "options": {
+                "A": "Maximum A Priori estimate",
+                "B": "Most Accurate Prediction estimate",
+                "C": "Minimum Allowable Probability estimate",
+                "D": "Maximum Accuracy Point estimate"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which clustering algorithm is particularly useful for finding clusters with non-convex shapes?",
+            "options": {
+                "A": "K-Means",
+                "B": "Agglomerative Hierarchical Clustering",
+                "C": "DBSCAN",
+                "D": "Gaussian Mixture Models (GMM)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In the context of reinforcement learning, what is the 'exploration-exploitation trade-off'?",
+            "options": {
+                "A": "Balancing the use of different reward functions",
+                "B": "Choosing between taking a known action and exploring new actions",
+                "C": "Managing the computational resources during training",
+                "D": "Determining the optimal policy for exploration"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In Hidden Markov Models, what are the parameters of the model that are typically learned from data?",
+            "options": {
+                "A": "Initial state probabilities",
+                "B": "Transition probabilities",
+                "C": "Emission probabilities",
+                "D": "All of the above"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which loss function is commonly used in neural networks for multiclass classification tasks?",
+            "options": {
+                "A": "Mean Squared Error (MSE)",
+                "B": "Cross-Entropy Loss",
+                "C": "Hinge Loss",
+                "D": "L1 Loss"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does the term 'hyperparameter tuning' refer to in machine learning?",
+            "options": {
+                "A": "Adjusting the model's internal parameters",
+                "B": "Tuning the learning rate",
+                "C": "Fine-tuning the architecture of a neural network",
+                "D": "Finding the optimal values for model settings external to the training process"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which algorithm is used for instance-based learning and is based on finding the nearest neighbors of a given data point?",
+            "options": {
+                "A": "k-Means",
+                "B": "Random Forest",
+                "C": "k-Nearest Neighbors (KNN)",
+                "D": "Principal Component Analysis (PCA)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary goal of the Expectation-Maximization (EM) algorithm in Gaussian Mixture Models (GMM)?",
+            "options": {
+                "A": "Finding the optimal number of clusters",
+                "B": "Maximizing the likelihood of the observed data",
+                "C": "Estimating the parameters of the mixture components",
+                "D": "Minimizing the entropy of the data"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In deep learning, what is the 'vanishing gradient problem' and how is it typically addressed?",
+            "options": {
+                "A": "It occurs when gradients become too large, and it's addressed by gradient clipping.",
+                "B": "It occurs when gradients become too small, and it's addressed by using activation functions with non-vanishing derivatives.",
+                "C": "It occurs when weights are initialized improperly, and it's addressed by using random weight initialization.",
+                "D": "It occurs when training data is insufficient, and it's addressed by data augmentation."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of the 'Curse of Dimensionality' in machine learning and how can it be mitigated?",
+            "options": {
+                "A": "It refers to the increased difficulty of visualizing high-dimensional data and can be mitigated by dimensionality reduction techniques.",
+                "B": "It refers to the challenge of optimizing deep neural networks and can be mitigated by using advanced optimization algorithms.",
+                "C": "It refers to the problem of overfitting and can be mitigated by using simpler models.",
+                "D": "It refers to the issue of class imbalance in classification and can be mitigated by using different evaluation metrics."
+            },
+            "correct_answer": "A"
+        }
+    ]
+}

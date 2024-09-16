@@ -1,0 +1,207 @@
+{
+    "exam_name": "Machine Learning Set 8",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following algorithms is used for unsupervised learning?",
+            "options": {
+                "A": "Linear Regression",
+                "B": "Decision Tree",
+                "C": "K-means Clustering",
+                "D": "Logistic Regression"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the term 'bias-variance tradeoff' refer to?",
+            "options": {
+                "A": "The balance between training and testing data",
+                "B": "The tradeoff between model complexity and performance",
+                "C": "The balance between bias and variance in model predictions",
+                "D": "The tradeoff between feature selection and feature scaling"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is a commonly used algorithm for regression tasks?",
+            "options": {
+                "A": "K-Nearest Neighbors",
+                "B": "Naive Bayes",
+                "C": "Linear Regression",
+                "D": "K-means Clustering"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which method is used to combine multiple models to improve performance?",
+            "options": {
+                "A": "Cross-validation",
+                "B": "Ensemble Learning",
+                "C": "Feature Scaling",
+                "D": "Dimensionality Reduction"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of neural network is primarily used for image recognition tasks?",
+            "options": {
+                "A": "Recurrent Neural Network (RNN)",
+                "B": "Convolutional Neural Network (CNN)",
+                "C": "Generative Adversarial Network (GAN)",
+                "D": "Long Short-Term Memory (LSTM)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary goal of 'reinforcement learning from human feedback' in machine learning?",
+            "options": {
+                "A": "Learning from supervised data",
+                "B": "Training a model with high computational cost",
+                "C": "Rewarding agents based on their exploration",
+                "D": "Adapting models to different environments"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In generative adversarial networks (GANs), what is the primary role of the 'discriminator' network?",
+            "options": {
+                "A": "Generating data samples",
+                "B": "Assigning labels to data",
+                "C": "Evaluating the quality of generated data",
+                "D": "Adversarial training of the generator"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the main challenge of 'fairness-aware machine learning'?",
+            "options": {
+                "A": "Increasing model complexity",
+                "B": "Ensuring that machine learning models are fair and unbiased",
+                "C": "Improving interpretability of models",
+                "D": "Balancing the trade-off between precision and recall"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In reinforcement learning, what does the term 'off-policy' mean?",
+            "options": {
+                "A": "Learning from human feedback",
+                "B": "Learning from the agent's own experiences",
+                "C": "Evaluating the policy while following a different policy",
+                "D": "Learning from a fixed set of labeled data"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does 'model interpretability' refer to in machine learning?",
+            "options": {
+                "A": "The ability to explain the inner workings of a model",
+                "B": "The computational cost of training a model",
+                "C": "The capacity of a model to generalize to unseen data",
+                "D": "The size of the model's training dataset"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In the context of reinforcement learning, what is the 'reward shaping' technique used for?",
+            "options": {
+                "A": "Accelerating the convergence of the agent",
+                "B": "Decreasing the agent's exploration",
+                "C": "Assigning rewards to states and actions",
+                "D": "Estimating the optimal policy"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary goal of 'domain adaptation' in machine learning?",
+            "options": {
+                "A": "Transferring knowledge from one domain to another",
+                "B": "Learning from labeled data",
+                "C": "Enhancing model complexity",
+                "D": "Balancing the exploration-exploitation trade-off"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In text generation, what is the 'GPT-3' model known for?",
+            "options": {
+                "A": "Sequence-to-sequence translation",
+                "B": "Reinforcement learning",
+                "C": "Large-scale language modeling",
+                "D": "Named entity recognition"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which technique is commonly used for 'transfer learning' in computer vision, allowing pre-trained models to be fine-tuned for specific tasks?",
+            "options": {
+                "A": "Siamese Networks",
+                "B": "Gradient Boosting",
+                "C": "Genetic Algorithms",
+                "D": "Hidden Markov Models (HMMs)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of the 'ResNet' architecture in deep learning?",
+            "options": {
+                "A": "Reducing the complexity of neural networks",
+                "B": "Addressing the vanishing gradient problem",
+                "C": "Improving memory efficiency",
+                "D": "Enhancing model interpretability"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In reinforcement learning, what is the 'Actor-Critic' architecture used for?",
+            "options": {
+                "A": "Estimating the value function",
+                "B": "Training convolutional neural networks",
+                "C": "Combining value estimation and policy optimization",
+                "D": "Reinforcing model parameters"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What does the term 'universality' refer to in machine learning?",
+            "options": {
+                "A": "The ability of a model to generalize across various domains",
+                "B": "The capability of a model to learn without labeled data",
+                "C": "The reduction of dimensionality in feature engineering",
+                "D": "The capacity of a model to interpolate between data points"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which algorithm is commonly used for 'link prediction' in network analysis, such as predicting connections between users in a social network?",
+            "options": {
+                "A": "Principal Component Analysis (PCA)",
+                "B": "Recurrent Neural Networks (RNNs)",
+                "C": "Naive Bayes",
+                "D": "Graph Neural Networks (GNNs)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary challenge of 'explanation-based machine learning'?",
+            "options": {
+                "A": "Explaining complex machine learning models",
+                "B": "Reducing the computational cost of model training",
+                "C": "Balancing the exploration-exploitation trade-off",
+                "D": "Dealing with imbalanced datasets"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In 'zero-shot learning,' what does the term 'unseen classes' refer to?",
+            "options": {
+                "A": "Classes with insufficient training data",
+                "B": "Classes that have already been seen during training",
+                "C": "Classes with ambiguous labels",
+                "D": "Classes that were not part of the training set"
+            },
+            "correct_answer": "D"
+        }
+    ]
+}

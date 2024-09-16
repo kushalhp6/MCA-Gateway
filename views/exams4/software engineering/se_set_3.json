@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 3",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following metrics assesses how easy it is to modify a software system?",
+            "options": {
+                "A": "Maintainability",
+                "B": "Portability",
+                "C": "Testability",
+                "D": "Security"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "The term 'software crisis' refers to:",
+            "options": {
+                "A": "Lack of skilled programmers",
+                "B": "Difficulty in writing programs",
+                "C": "Managing large software systems effectively",
+                "D": "Shortage of resources for development"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following describes the degree to which the software performs its intended functions?",
+            "options": {
+                "A": "Reliability",
+                "B": "Efficiency",
+                "C": "Correctness",
+                "D": "Availability"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In object-oriented design, what is a blueprint for creating objects that defines its properties and behaviors?",
+            "options": {
+                "A": "Class",
+                "B": "Object",
+                "C": "Interface",
+                "D": "Attribute"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which process ensures that the final product meets both functional and non-functional requirements?",
+            "options": {
+                "A": "Validation",
+                "B": "Verification",
+                "C": "Debugging",
+                "D": "Coding"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary goal of the V-Model (Verification and Validation Model)?",
+            "options": {
+                "A": "To emphasize documentation over working software",
+                "B": "To improve communication among development teams",
+                "C": "To ensure each development phase has a corresponding testing phase",
+                "D": "To encourage frequent changes to requirements"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software metric measures the complexity of a program's control flow?",
+            "options": {
+                "A": "Lines of code",
+                "B": "Cyclomatic complexity",
+                "C": "Defect density",
+                "D": "Code coverage"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main objective of 'code refactoring' in software development?",
+            "options": {
+                "A": "Adding new features to the software",
+                "B": "Rewriting the entire codebase",
+                "C": "Optimizing the code's structure and design without changing its behavior",
+                "D": "Conducting security testing on the code"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In which phase of the software development life cycle are acceptance criteria typically defined?",
+            "options": {
+                "A": "Design phase",
+                "B": "Testing phase",
+                "C": "Requirements phase",
+                "D": "Implementation phase"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of software testing aims to find defects that occur when software components interact?",
+            "options": {
+                "A": "Unit testing",
+                "B": "Integration testing",
+                "C": "System testing",
+                "D": "Regression testing"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the primary purpose of a 'traceability matrix' in requirements engineering?",
+            "options": {
+                "A": "To track changes made during the coding phase",
+                "B": "To visualize the architecture of the software",
+                "C": "To map requirements to design elements and test cases",
+                "D": "To create user documentation"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of software requirement specifies what the system should not do?",
+            "options": {
+                "A": "Functional requirement",
+                "B": "Non-functional requirement",
+                "C": "User requirement",
+                "D": "System requirement"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main difference between 'verification' and 'validation' in software testing?",
+            "options": {
+                "A": "Verification ensures that the software meets user requirements, while validation ensures that it meets technical specifications.",
+                "B": "Verification focuses on individual modules, while validation assesses the overall system.",
+                "C": "Verification is performed by developers, while validation is performed by independent testers.",
+                "D": "Verification involves testing the software's functionality, while validation involves reviewing the code."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which software development model places a strong emphasis on risk assessment and mitigation?",
+            "options": {
+                "A": "Waterfall model",
+                "B": "Spiral model",
+                "C": "Prototype model",
+                "D": "Agile model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main goal of a 'walkthrough' in the context of requirements engineering?",
+            "options": {
+                "A": "To find defects in the code",
+                "B": "To review and discuss the requirements with stakeholders",
+                "C": "To conduct performance testing",
+                "D": "To simulate real-world usage scenarios"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of testing aims to assess the software's performance under realistic conditions?",
+            "options": {
+                "A": "Stress testing",
+                "B": "Unit testing",
+                "C": "White-box testing",
+                "D": "Code review"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does the term 'COCOMO' refer to in software engineering?",
+            "options": {
+                "A": "A software process model",
+                "B": "A software metric for code quality",
+                "C": "A project estimation model",
+                "D": "A software testing technique"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which stage of the software development process involves translating system requirements into a programming language?",
+            "options": {
+                "A": "Design engineering",
+                "B": "Requirements analysis",
+                "C": "System modeling",
+                "D": "Testing strategies"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the purpose of a 'defect tracking system' in software development?",
+            "options": {
+                "A": "To track the time spent on coding",
+                "B": "To manage project schedules",
+                "C": "To document user requirements",
+                "D": "To log and manage software defects"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which type of coupling indicates a strong interdependence between software modules?",
+            "options": {
+                "A": "Data coupling",
+                "B": "Control coupling",
+                "C": "Content coupling",
+                "D": "Stamp coupling"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

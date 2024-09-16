@@ -1,0 +1,207 @@
+{
+    "exam_name": "Machine Learning Set 6",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "Which of the following is a key difference between supervised and unsupervised learning?",
+            "options": {
+                "A": "Supervised learning uses labeled data, while unsupervised learning uses unlabeled data.",
+                "B": "Unsupervised learning is faster than supervised learning.",
+                "C": "Supervised learning is used for clustering tasks.",
+                "D": "Unsupervised learning requires more training data."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which algorithm is specifically designed for handling large datasets with many features?",
+            "options": {
+                "A": "K-Nearest Neighbors",
+                "B": "Naive Bayes",
+                "C": "Support Vector Machines (SVM)",
+                "D": "Decision Trees"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which evaluation metric is used to measure the proportion of actual positives correctly identified by a classification model?",
+            "options": {
+                "A": "Recall",
+                "B": "Precision",
+                "C": "F1 Score",
+                "D": "Accuracy"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of feature scaling in machine learning?",
+            "options": {
+                "A": "To increase the number of features",
+                "B": "To ensure all features have equal importance",
+                "C": "To normalize the range of feature values",
+                "D": "To reduce the dimensionality of data"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following methods is used for dimensionality reduction?",
+            "options": {
+                "A": "K-means Clustering",
+                "B": "Principal Component Analysis (PCA)",
+                "C": "Naive Bayes",
+                "D": "Decision Tree"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which clustering algorithm is sensitive to the order of data points and can yield different results with different initializations?",
+            "options": {
+                "A": "K-Means",
+                "B": "Hierarchical Agglomerative Clustering",
+                "C": "Gaussian Mixture Model (GMM)",
+                "D": "Spectral Clustering"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Bayesian networks, what does a directed acyclic graph (DAG) represent?",
+            "options": {
+                "A": "Conditional dependencies among variables",
+                "B": "A fully connected network",
+                "C": "The hierarchy of variables",
+                "D": "Causal relationships among variables"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which method is commonly used for feature selection in machine learning to reduce dimensionality and improve model efficiency?",
+            "options": {
+                "A": "Principal Component Analysis (PCA)",
+                "B": "Recursive Feature Elimination (RFE)",
+                "C": "K-Means clustering",
+                "D": "Hidden Markov Models (HMMs)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which type of ensemble learning technique combines the predictions of multiple models through a weighted voting system?",
+            "options": {
+                "A": "Bagging",
+                "B": "Boosting",
+                "C": "Stacking",
+                "D": "Random Subspace Method"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the primary purpose of the Expectation-Maximization (EM) algorithm in unsupervised learning?",
+            "options": {
+                "A": "It estimates the parameters of a statistical model when some data is missing.",
+                "B": "It maximizes the likelihood of the observed data by iteratively updating model parameters.",
+                "C": "It computes the posterior probabilities of data points belonging to different clusters.",
+                "D": "It prevents overfitting by regularizing model weights."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which metric is commonly used to evaluate the quality of clusters in hierarchical clustering?",
+            "options": {
+                "A": "Silhouette score",
+                "B": "F1-score",
+                "C": "Root Mean Square Error (RMSE)",
+                "D": "Confusion Matrix"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In Hidden Markov Models (HMMs), what does the transition matrix represent?",
+            "options": {
+                "A": "The probability of transitioning between hidden states",
+                "B": "The probability of emitting observations from hidden states",
+                "C": "The initial probabilities of each hidden state",
+                "D": "The likelihood of observed sequences"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary advantage of using a Bayesian neural network over a standard neural network?",
+            "options": {
+                "A": "Faster training convergence",
+                "B": "Improved interpretability of model predictions",
+                "C": "Better handling of uncertainty through probabilistic modeling",
+                "D": "Lower computational requirements"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which method is commonly used for outlier detection in high-dimensional datasets?",
+            "options": {
+                "A": "DBSCAN",
+                "B": "Isolation Forest",
+                "C": "K-Means clustering",
+                "D": "PCA"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In reinforcement learning, what is the purpose of the 'exploration vs. exploitation' dilemma?",
+            "options": {
+                "A": "Balancing the trade-off between discovering new actions and exploiting known actions for maximum reward",
+                "B": "Identifying the best policy for a given environment",
+                "C": "Minimizing the variance in reward estimates",
+                "D": "Maximizing the state space exploration"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which type of learning is characterized by a model that can adapt and improve its performance over time as it receives more data?",
+            "options": {
+                "A": "Supervised learning",
+                "B": "Unsupervised learning",
+                "C": "Semi-supervised learning",
+                "D": "Reinforcement learning"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the primary goal of the forward pass in a neural network during training?",
+            "options": {
+                "A": "Calculating gradient updates",
+                "B": "Propagating errors backward through the layers",
+                "C": "Making predictions and comparing them to target values",
+                "D": "Regularizing model weights"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In machine learning, what does the term 'bias-variance trade-off' refer to?",
+            "options": {
+                "A": "Balancing the bias of a model with the variance of its predictions",
+                "B": "Increasing the bias of a model to reduce overfitting",
+                "C": "Maximizing both bias and variance to improve model accuracy",
+                "D": "Minimizing both bias and variance to achieve the best model performance"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary purpose of the Baum-Welch algorithm in Hidden Markov Models (HMMs)?",
+            "options": {
+                "A": "Estimating the initial state probabilities",
+                "B": "Decoding the most likely state sequence",
+                "C": "Learning the model parameters from observed sequences",
+                "D": "Calculating the posterior probabilities of states"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which technique is used to address the vanishing gradient problem in deep neural networks?",
+            "options": {
+                "A": "Gradient clipping",
+                "B": "Batch normalization",
+                "C": "Weight decay",
+                "D": "Dropout regularization"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

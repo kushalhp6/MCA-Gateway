@@ -1,0 +1,207 @@
+{
+    "exam_name": "Software Engineering Set 10",
+    "total_marks": 20,
+    "time_limit": 20,
+    "questions": [
+        {
+            "question": "What is the main purpose of a software requirement specification (SRS) document?",
+            "options": {
+                "A": "To outline the software design and architecture",
+                "B": "To provide a detailed description of the software requirements",
+                "C": "To define the software testing strategy",
+                "D": "To describe the user interface design"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following describes a situation where a software system is designed to operate in various environments?",
+            "options": {
+                "A": "Maintainability",
+                "B": "Portability",
+                "C": "Usability",
+                "D": "Scalability"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which development model involves regular adjustments and iterations based on user feedback?",
+            "options": {
+                "A": "Agile",
+                "B": "Waterfall",
+                "C": "V-Model",
+                "D": "Spiral"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the role of a software configuration management (SCM) system?",
+            "options": {
+                "A": "To track and manage changes to software code",
+                "B": "To automate the software build process",
+                "C": "To perform system performance analysis",
+                "D": "To manage user access and permissions"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which software development practice emphasizes writing tests before coding?",
+            "options": {
+                "A": "Test-Driven Development (TDD)",
+                "B": "Behavior-Driven Development (BDD)",
+                "C": "Continuous Integration (CI)",
+                "D": "Agile Development"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In software engineering, what is the purpose of a Gantt chart?",
+            "options": {
+                "A": "To represent the project's critical path",
+                "B": "To show the flow of data in a system",
+                "C": "To visualize project tasks and their timelines",
+                "D": "To model the relationships between objects in an object-oriented system"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which metric measures the extent to which a software system can be modified without introducing errors?",
+            "options": {
+                "A": "Cyclomatic complexity",
+                "B": "Maintainability index",
+                "C": "Lines of code (LOC)",
+                "D": "Halstead complexity"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What does 'KLOC' stand for in the context of software metrics?",
+            "options": {
+                "A": "Knowledge of Lines of Code",
+                "B": "Kilobytes of Logical Operations and Code",
+                "C": "Key Lines of Code",
+                "D": "K-Value for Line Of Code"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In software risk management, what is the term for a risk that has occurred and requires immediate action to mitigate its impact?",
+            "options": {
+                "A": "Preventive risk",
+                "B": "Mitigated risk",
+                "C": "Reactive risk",
+                "D": "Contingency risk"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software quality management principle focuses on the need for a systematic approach to achieving an organization's quality objectives?",
+            "options": {
+                "A": "Factual approach to decision making",
+                "B": "Mutually beneficial supplier relationships",
+                "C": "System approach to management",
+                "D": "Process approach"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which modeling technique in software engineering focuses on visualizing the interactions between different components of a system?",
+            "options": {
+                "A": "Data Flow Diagram (DFD)",
+                "B": "Entity-Relationship Diagram (ERD)",
+                "C": "Sequence Diagram",
+                "D": "Statechart Diagram"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which software testing technique assesses the system's ability to recover from failures and errors gracefully?",
+            "options": {
+                "A": "Recovery testing",
+                "B": "Usability testing",
+                "C": "Alpha testing",
+                "D": "Gamma testing"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the primary goal of the Capability Maturity Model (CMM)?",
+            "options": {
+                "A": "To assess an organization's capability to perform software development",
+                "B": "To measure software complexity",
+                "C": "To improve software security",
+                "D": "To standardize software development tools"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In software engineering, which metric measures the amount of time it takes to execute a program or a specific task within the program?",
+            "options": {
+                "A": "Cyclomatic complexity",
+                "B": "Execution time",
+                "C": "McCabe complexity",
+                "D": "Response time"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "What is the main purpose of a Software Configuration Management (SCM) system?",
+            "options": {
+                "A": "To automate software testing",
+                "B": "To track changes to the software and documentation",
+                "C": "To perform code reviews",
+                "D": "To create software architecture diagrams"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software project risk management, what is the term for risks that are unknown or unpredictable?",
+            "options": {
+                "A": "Known risks",
+                "B": "Unforeseen risks",
+                "C": "Contingency risks",
+                "D": "Unknown risks"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "question": "Which of the following is NOT a characteristic of a well-defined software requirement?",
+            "options": {
+                "A": "Testable",
+                "B": "Ambiguous",
+                "C": "Unambiguous",
+                "D": "Complete"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software development process model is known for its focus on documentation and strict phase gates?",
+            "options": {
+                "A": "Agile model",
+                "B": "Waterfall model",
+                "C": "Scrum model",
+                "D": "RAD (Rapid Application Development) model"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In software quality management, what does 'QA' stand for?",
+            "options": {
+                "A": "Quality Analysis",
+                "B": "Quality Assurance",
+                "C": "Quality Assessment",
+                "D": "Quick Analysis"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which software testing technique involves examining the internal structure of the software, including the code and algorithms?",
+            "options": {
+                "A": "Black-box testing",
+                "B": "White-box testing",
+                "C": "Grey-box testing",
+                "D": "Boundary value analysis"
+            },
+            "correct_answer": "B"
+        }
+    ]
+}

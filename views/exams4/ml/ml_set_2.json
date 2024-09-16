@@ -1,0 +1,147 @@
+{
+    "exam_name": "Machine Learning Set 2",
+    "total_marks": 14,
+    "time_limit": 14,
+    "questions": [
+        {
+            "question": "Which of the following is an example of a regression problem?",
+            "options": {
+                "A": "Predicting the likelihood of a customer purchasing a product",
+                "B": "Predicting the price of a stock based on historical data",
+                "C": "Classifying emails as spam or not spam",
+                "D": "Identifying the category of a news article"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Which of the following algorithms is used for classification?",
+            "options": {
+                "A": "K-means Clustering",
+                "B": "Principal Component Analysis (PCA)",
+                "C": "Support Vector Machine (SVM)",
+                "D": "Linear Regression"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which type of learning is used to find hidden patterns in data without labeled outcomes?",
+            "options": {
+                "A": "Supervised Learning",
+                "B": "Unsupervised Learning",
+                "C": "Reinforcement Learning",
+                "D": "Semi-supervised Learning"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "In which scenario would you use a decision tree?",
+            "options": {
+                "A": "To reduce the dimensionality of data",
+                "B": "To predict a continuous variable",
+                "C": "To classify data into distinct categories",
+                "D": "To identify clusters in data"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "Which of the following is used to evaluate the performance of a regression model?",
+            "options": {
+                "A": "ROC Curve",
+                "B": "Confusion Matrix",
+                "C": "Mean Squared Error (MSE)",
+                "D": "Precision-Recall Curve"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "In neural networks, what function is often used to introduce non-linearity?",
+            "options": {
+                "A": "Linear function",
+                "B": "Sigmoid function",
+                "C": "Identity function",
+                "D": "Exponential function"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "What is the main goal of Support Vector Machines (SVM)?",
+            "options": {
+                "A": "Maximizing bias",
+                "B": "Minimizing variance",
+                "C": "Maximizing margin",
+                "D": "Minimizing accuracy"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "question": "What is the hyperplane that best separates classes in an SVM called?",
+            "options": {
+                "A": "Decision boundary",
+                "B": "Decision tree",
+                "C": "Marginal line",
+                "D": "Support vector"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Bayesian learning is based on which fundamental theorem of probability?",
+            "options": {
+                "A": "Bayes' theorem",
+                "B": "Pythagoras' theorem",
+                "C": "Fermat's theorem",
+                "D": "Newton's theorem"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What does Bayesian learning update as more evidence or data is collected?",
+            "options": {
+                "A": "Prior probabilities",
+                "B": "Posterior probabilities",
+                "C": "Likelihoods",
+                "D": "Priors"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "question": "Clustering is a technique used to:",
+            "options": {
+                "A": "Categorize data into classes",
+                "B": "Assign labels to data points",
+                "C": "Predict future values",
+                "D": "Reduce data dimensionality"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "Which clustering algorithm aims to partition data into a predetermined number of clusters?",
+            "options": {
+                "A": "K-Means",
+                "B": "Hierarchical clustering",
+                "C": "DBSCAN",
+                "D": "Agglomerative clustering"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "What is the main idea behind Hidden Markov Models (HMM)?",
+            "options": {
+                "A": "Modeling data as a sequence of hidden states",
+                "B": "Modeling data with visible and hidden layers",
+                "C": "Modeling data using decision trees",
+                "D": "Modeling data using neural networks"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "question": "In HMM, what is the process of determining the underlying state given the observations?",
+            "options": {
+                "A": "Forward-backward algorithm",
+                "B": "Backtracking algorithm",
+                "C": "Clustering algorithm",
+                "D": "Naive Bayes algorithm"
+            },
+            "correct_answer": "A"
+        }
+    ]
+}
