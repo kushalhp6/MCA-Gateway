@@ -1,0 +1,1106 @@
+{
+    "exam_name": "Jeca Set 2022",
+    "total_marks": 120,
+    "time_limit": 120,
+    "questions": [
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>void main() {<br>    const int a = 4;<br>    float b;<br>    b = ++a;<br>    printf(\"%d, %f\", a, ++b);<br>}<br></pre>",
+                "options": {
+                    "a": "Compiler error",
+                    "b": "5,5",
+                    "c": "4,5",
+                    "d": "5,4"
+                },
+                "correct_answer": "a"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>#define I char<br>void main() {<br>    I i = 65;<br>    printf(\"sizeof(i) = %d\", sizeof(i));<br>}<br></pre>",
+                "options": {
+                    "a": "Compiler Error",
+                    "b": "sizeof(i) = 1",
+                    "c": "sizeof(i) = 65",
+                    "d": "sizeof(i) = 66"
+                },
+                "correct_answer": "b"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int x = 0, y = 0;<br>    if (x && y++)<br>        printf(\"%d..%d\", x++, y);<br>    printf(\"%d..%d\", x, y);<br>}<br></pre>",
+                "options": {
+                    "a": "0..0",
+                    "b": "0..1",
+                    "c": "1..1",
+                    "d": "1..0"
+                },
+                "correct_answer": "a"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>enum colors { BLACK, BLUE, CYAN };<br>void main() {<br>    printf(\"%d, %d, %d\", BLACK, BLUE, CYAN);<br>}<br></pre>",
+                "options": {
+                    "a": "BLACK, BLUE, CYAN",
+                    "b": "0, 0, 0",
+                    "c": "0, 1, 2",
+                    "d": "No output"
+                },
+                "correct_answer": "c"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>void main() {<br>    char xy = 0;<br>    for(;xy>0;xy++);<br>    printf(\"%d\\n\", xy);<br>}<br></pre>",
+                "options": {
+                    "a": "2",
+                    "b": "0",
+                    "c": "Compiler error",
+                    "d": "1"
+                },
+                "correct_answer": "b"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int *j;<br>    {<br>        int i = 1000;<br>        j = &i;<br>    }<br>    printf(\"%d\", *j);<br>}<br></pre>",
+                "options": {
+                    "a": "1000",
+                    "b": "0",
+                    "c": "Garbage value",
+                    "d": "Compiler error"
+                },
+                "correct_answer": "a"
+            },        
+        {
+            "type": "single",
+            "question": "Which of the following statements immediately terminates the execution of a loop?",
+            "options": {
+                "a": "else",
+                "b": "break",
+                "c": "return",
+                "d": "goto"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "An unrestricted use of the 'goto' statement is harmful because:",
+            "options": {
+                "a": "It is difficult to verify program",
+                "b": "Memory requirement is increased",
+                "c": "It increases execution time of the program",
+                "d": "Compiler generates longer machine code"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "In object-oriented programming, inheritance is a technique to:",
+            "options": {
+                "a": "Pass arguments and improve data hiding",
+                "b": "Pass arguments and add features to existing classes without rewriting them",
+                "c": "Automatically acquire features from its parent object",
+                "d": "Improve data hiding and encapsulation"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "In object-oriented programming, the visibility mode by default is:",
+            "options": {
+                "a": "Public",
+                "b": "Private",
+                "c": "Protected",
+                "d": "Anywhere"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which statement is false based on the concept of object-oriented programming?",
+            "options": {
+                "a": "Method overloading is an example of compile-time polymorphism.",
+                "b": "Method overriding is an example of runtime polymorphism.",
+                "c": "Derived class does not need a base class.",
+                "d": "Object-oriented programming supports inheritance."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Method overloading in respect of object-oriented programming is:",
+            "options": {
+                "a": "Overloading without argument passing",
+                "b": "Overloading the method that has the same name but different parameters",
+                "c": "A feature in which multiple functions with different names and same parameters",
+                "d": "Not possible"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In object-oriented programming, _________ can be declared in a class template?",
+            "options": {
+                "a": "Global data members",
+                "b": "Constant data members",
+                "c": "Static data members",
+                "d": "Statistical data members"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "In object-oriented programming, the same function or object behaves differently in different situations. This is known as:",
+            "options": {
+                "a": "Inheritance",
+                "b": "Polymorphism",
+                "c": "Memory addressing",
+                "d": "Encapsulation"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following class constructor will be invoked first in object-oriented programming?",
+            "options": {
+                "a": "Base class",
+                "b": "Virtual base class",
+                "c": "Abstract class",
+                "d": "Derived class"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In object-oriented programming, public members of a base class become protected members of the derived class. This happens in:",
+            "options": {
+                "a": "Virtual inheritance",
+                "b": "Protected inheritance",
+                "c": "Private inheritance",
+                "d": "Public inheritance"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In Unix/Linux platform, which vi editor command copies the current line of the file?",
+            "options": {
+                "a": "yy",
+                "b": "yw",
+                "c": "yc",
+                "d": "zz"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "In Unix/Linux platform, which command is used to delete a line in vi editor?",
+            "options": {
+                "a": "P",
+                "b": "dd",
+                "c": "X",
+                "d": "q"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In Unix/Linux platform, which set is correct to move the cursor within the vi editor?",
+            "options": {
+                "a": "h - Move cursor up, k - Move cursor down, j - Move cursor left, l - Move cursor right",
+                "b": "k - Move cursor up, j - Move cursor down, h - Move cursor left, l - Move cursor right",
+                "c": "k - Move cursor up, l - Move cursor down, h - Move cursor left, j - Move cursor right",
+                "d": "l - Move cursor up, j - Move cursor down, k - Move cursor left, h - Move cursor right"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In Unix/Linux platform, which command is used to see the path of the working directory?",
+            "options": {
+                "a": "ls",
+                "b": "dir",
+                "c": "vi",
+                "d": "pwd"
+            },
+            "correct_answer": "d"
+        },{
+            "type": "single",
+            "question": "In Unix/Linux platform, which command is used to view the first n number of lines of a particular file (consider the file name is 'filename')?",
+            "options": {
+                "a": "head -n filename",
+                "b": "tail -n filename",
+                "c": "head -n -tail filename",
+                "d": "top -n filename"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "In Unix/Linux platform, which command is used to search for a pattern within a file?",
+            "options": {
+                "a": "cd",
+                "b": "cp",
+                "c": "paste",
+                "d": "grep"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "In Unix/Linux platform, hidden files can be viewed using:",
+            "options": {
+                "a": "ls -a",
+                "b": "ls -l",
+                "c": "ls -h",
+                "d": "ls -k"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "In Unix/Linux platform, what is the output of the following command (consider the file name is 'filename')?\ngrep -v 'hello' filename",
+            "options": {
+                "a": "Show the current directory",
+                "b": "Show the pattern ignoring case",
+                "c": "Show the lines which don't match the pattern",
+                "d": "Show the line numbers in the result"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "In shell script, what is the output of the following program?\n\ncounter=1\nwhile [ $counter -le 10 ]\ndo \n    echo $counter\n    ((counter++))\ndone",
+            "options": {
+                "a": "Lists all the numbers from 1 to 10",
+                "b": "Lists all the odd numbers from 1 to 10",
+                "c": "Lists all the even numbers from 1 to 10",
+                "d": "Lists only the 10th position number"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "Stack is a __________ in data structure concept.",
+            "options": {
+                "a": "Basic data type",
+                "b": "Derived data type",
+                "c": "Float data type",
+                "d": "Char data type"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In data structure, the stack is a linear type of data structure in which data is stored and retrieved in a __________ manner.",
+            "options": {
+                "a": "No out only in",
+                "b": "Last In First Out",
+                "c": "First In First Out",
+                "d": "Last Out Last In"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In bubble sort algorithm, the worst-case time complexity is (consider 'n' as the number of elements):",
+            "options": {
+                "a": "O(1)",
+                "b": "O(n²)",
+                "c": "O(n)",
+                "d": "O(n log n)"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In data structure, a binary tree with 'n' nodes has:",
+            "options": {
+                "a": "n edges",
+                "b": "n+1 edges",
+                "c": "n-1 edges",
+                "d": "n-2 edges"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Merge sort follows __________ in data structure.",
+            "options": {
+                "a": "Divide and conquer strategy",
+                "b": "Backtracking approach",
+                "c": "Heuristic search",
+                "d": "Greedy approach"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "In data structure, the maximum degree of a vertex in a typical graph with 'n' vertices is:",
+            "options": {
+                "a": "n",
+                "b": "n-1",
+                "c": "n+1",
+                "d": "2n-1"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In data structure, a graph is represented as a pair of sets (V, E), where:",
+            "options": {
+                "a": "V is the set of variables and E is the set of edges",
+                "b": "V is the set of vertices and E is the set of edges",
+                "c": "V is the set of vertices and E is the set of elements",
+                "d": "V is the set of variables and E is the set of element"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In binary search tree data structure, in-order traversal means the nodes are being searched in the order:",
+            "options": {
+                "a": "Left child node — Right child node — Root node",
+                "b": "Right child node — Root node — Left child node",
+                "c": "Root node — Right child node — Left child node",
+                "d": "Left child node — Root node — Right child node"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "Queue data structure can be utilized for the implementation of:",
+            "options": {
+                "a": "Radix sort",
+                "b": "Quick sort",
+                "c": "Recursion",
+                "d": "Depth first search (DFS)"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "The hardware device used for direct memory access is known as:",
+            "options": {
+                "a": "DMA scheduler",
+                "b": "DMA controller",
+                "c": "DMA disk",
+                "d": "DMA monitor"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Hit ratio means:",
+            "options": {
+                "a": "[number of hits / (number of hits + number of misses)]",
+                "b": "[number of misses / (number of hits + number of misses)]",
+                "c": "A negative value based on specific software",
+                "d": "A negative value based on specific hardware"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "A suspension of a process, caused by an event external to that process and performed in such a way that the process can be resumed, is known as:",
+            "options": {
+                "a": "Scheduler",
+                "b": "Interrupt",
+                "c": "Deadlock",
+                "d": "Virtual memory"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Operating system supports FCFS scheduling, which is __________ type.",
+            "options": {
+                "a": "Viral",
+                "b": "Non-preemptive",
+                "c": "Preemptive",
+                "d": "Multi-layer"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Round robin is a type of __________ in the context of the operating system.",
+            "options": {
+                "a": "Fragmentation",
+                "b": "Process scheduling",
+                "c": "Process synchronization",
+                "d": "Deadlock"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In operating system, the dispatcher module helps in __________ between the processes at CPU.",
+            "options": {
+                "a": "Spawning",
+                "b": "Processing",
+                "c": "Killing",
+                "d": "Switching"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "Belady's anomaly happens in __________ page replacement policy.",
+            "options": {
+              "A": "FIFO",
+              "B": "LRU",
+              "C": "LFU",
+              "D": "NRU"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In operating system, a thread is considered as a:",
+            "options": {
+              "A": "Heavy Weight Process",
+              "B": "Light Weight Process",
+              "C": "Process",
+              "D": "Program"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In operating system, Inter Process Communication (IPC) is required for __________ activity.",
+            "options": {
+              "A": "Cache",
+              "B": "DMA",
+              "C": "Synchronization",
+              "D": "Disk"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "Paging is a __________ management function in the operating system.",
+            "options": {
+              "A": "CPU",
+              "B": "Memory",
+              "C": "Disk",
+              "D": "Process"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "What do you mean by the best fit algorithm in memory management?",
+            "options": {
+              "A": "Allocate the program to a specific memory partition which is the smallest available partition able to allocate the whole program.",
+              "B": "Allocate the program to a specific disk partition which is the smallest available partition able to allocate the whole program.",
+              "C": "Allocate the process to a specific memory partition which is the smallest available partition able to allocate the whole process.",
+              "D": "Allocate the process to a specific disk partition which is the smallest available partition able to allocate the whole process."
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "In operating system, Banker's algorithm is used for:",
+            "options": {
+              "A": "Mutual exclusion",
+              "B": "Deadlock recovery",
+              "C": "Deadlock avoidance",
+              "D": "Cache allocation"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "In operating system, a state is considered as a __________ only if the system is capable of allocating resources to each process following resource allocation methods avoiding a deadlock situation.",
+            "options": {
+              "A": "Starvation",
+              "B": "Greedy allocation",
+              "C": "Unsafe state",
+              "D": "Safe state"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "type": "single",
+            "question": "SCAN, C-SCAN, LOOK, C-LOOK are types of _________ scheduling.",
+            "options": {
+              "A": "Process",
+              "B": "CPU",
+              "C": "Memory",
+              "D": "Disk"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "type": "single",
+            "question": "In Computer Network, TFTP stands for:",
+            "options": {
+              "A": "Transition File Transfer Protocol",
+              "B": "Transport File Transfer Protocol",
+              "C": "Trimmed File Transfer Protocol",
+              "D": "Trivial File Transfer Protocol"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "type": "single",
+            "question": "In Computer Network, SGMP stands for:",
+            "options": {
+              "A": "Simplex Gateway Monitoring Protocol",
+              "B": "Simplex Gateway Memory Protocol",
+              "C": "Simple Gateway Monitoring Protocol",
+              "D": "Simple Gateway Memory Protocol"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "In a computer network, Token Ring (IEEE 802.5) is a type of:",
+            "options": {
+              "A": "Monitoring protocol",
+              "B": "Communication protocol",
+              "C": "Visibility protocol",
+              "D": "Chaos protocol"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In a network, a _____device can transmit data in a bi-directional way at a particular time instance.",
+            "options": {
+              "A": "Simplex",
+              "B": "Half duplex",
+              "C": "Multiplex",
+              "D": "Full duplex"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "type": "single",
+            "question": "IEEE 802.2 specifies LLC which stands for:",
+            "options": {
+              "A": "Logical Link Control",
+              "B": "Logistic Link Control",
+              "C": "Length-wise Link Control",
+              "D": "Layer Link Control"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In a computer network, the Open Systems Interconnection (OSI) model has seven layers. Which layer is used for routing?",
+            "options": {
+              "A": "Application",
+              "B": "Network",
+              "C": "Session",
+              "D": "Transport"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In a computer network, __________ helps to find out the hardware address of a host from its known IP address.",
+            "options": {
+              "A": "Address Resolution Protocol (ARP)",
+              "B": "Reverse Address Resolution Protocol (RARP)",
+              "C": "Simple Network Management Protocol (SNMP)",
+              "D": "Simple Mail Transfer Protocol (SMTP)"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In a computer network, error control is considered as a function of the __________ layer.",
+            "options": {
+              "A": "Application",
+              "B": "Presentation",
+              "C": "Session",
+              "D": "Data link"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "type": "single",
+            "question": "If the hexadecimal notation of an IP address is F32C1483, then the equivalent decimal notation (separated by dots) is:",
+            "options": {
+              "A": "241.44.20.131",
+              "B": "243.42.20.135",
+              "C": "243.44.20.131",
+              "D": "243.44.20.135"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "Based on DBMS, choose the correct option for a composite attribute:",
+            "options": {
+              "A": "Address",
+              "B": "Birth date",
+              "C": "Phone number",
+              "D": "Age"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In DBMS, what do you mean by a tuple?",
+            "options": {
+              "A": "One column",
+              "B": "Two columns",
+              "C": "One row",
+              "D": "Two rows"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "Rho (ρ) indicates __________ in relational algebra.",
+            "options": {
+              "A": "Selection",
+              "B": "Projection",
+              "C": "Rename",
+              "D": "Join"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "Normalization is the technique to organize data in a database to __________ redundancy.",
+            "options": {
+              "A": "Maximize",
+              "B": "Minimize",
+              "C": "Average",
+              "D": "Diffuse"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In DBMS, a relation is in __________ Normal Form if it contains only atomic values.",
+            "options": {
+              "A": "First",
+              "B": "Second",
+              "C": "Third",
+              "D": "Fourth"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In software engineering, the tester does not know the internal designs of the software application in case of __________ testing.",
+            "options": {
+              "A": "White box",
+              "B": "Black box",
+              "C": "Acceptance",
+              "D": "Beta"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In software engineering, a context diagram is termed as a:",
+            "options": {
+              "A": "Level 0 DFD",
+              "B": "Level 1 DFD",
+              "C": "Level 2 DFD",
+              "D": "Level 3 DFD"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In software engineering, SRS stands for:",
+            "options": {
+              "A": "System Requirements Specification",
+              "B": "System Readable Specification",
+              "C": "Software Requirements Specification",
+              "D": "Software Readable Specification"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "In software engineering, the degree of interdependence between software modules is termed as:",
+            "options": {
+              "A": "Data",
+              "B": "Coupling",
+              "C": "Control",
+              "D": "Pointer"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In software engineering, Alpha testing is the product testing executed by:",
+            "options": {
+              "A": "Development team",
+              "B": "Friendly set of customers",
+              "C": "Management team",
+              "D": "Beta testing team"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In software engineering, COCOMO stands for:",
+            "options": {
+              "A": "Constructive Cost Model",
+              "B": "Conclusive Cost Model",
+              "C": "Constructive Cohesion Model",
+              "D": "Conclusive Cohesion Model"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is NOT a software life cycle model?",
+            "options": {
+              "A": "Waterfall model",
+              "B": "Prototyping model",
+              "C": "Spiral model",
+              "D": "Seed model"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "type": "single",
+            "question": "In software engineering, Build and Fix model has __________ number of phases.",
+            "options": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "4"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In software engineering, the Waterfall model maintains the sequence of stages as follows:",
+            "options": {
+              "A": "Testing the Product → Requirement Analysis and Planning → Designing the Product Architecture → Building or Developing the Product → Feasibility Study → Deployment in the Market and Maintenance",
+              "B": "Requirement Analysis and Planning → Feasibility Study → Designing the Product Architecture → Building or Developing the Product → Testing the Product → Deployment in the Market and Maintenance",
+              "C": "Designing the Product Architecture → Requirement Analysis and Planning → Feasibility Study → Building or Developing the Product → Testing the Product → Deployment in the Market and Maintenance",
+              "D": "Feasibility Study → Requirement Analysis and Planning → Designing the Product Architecture → Building or Developing the Product → Testing the Product → Deployment in the Market and Maintenance"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "type": "single",
+            "question": "In machine learning, the Bayes error rate is considered as the __________ possible error rate for a given class of classifier.",
+            "options": {
+              "A": "Highest",
+              "B": "Medium",
+              "C": "Lowest",
+              "D": "Median"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "The Markov property supports:",
+            "options": {
+              "A": "Only current state",
+              "B": "Current & previous states",
+              "C": "Only previous state",
+              "D": "Only next state"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In machine learning, __________ is considered as the generalized formula of distance measurement.",
+            "options": {
+              "A": "Distance metric",
+              "B": "Minkowski metric",
+              "C": "Classification",
+              "D": "Clustering"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In machine learning, Viterbi path is used in:",
+            "options": {
+              "A": "Dynamic programming algorithm for clustering",
+              "B": "Dynamic programming algorithm for classification",
+              "C": "Static programming algorithm for clustering",
+              "D": "Static programming algorithm for classification"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In machine learning, CART stands for:",
+            "options": {
+              "A": "Classification and regression tree-based algorithm",
+              "B": "Clustering and regression tree-based algorithm",
+              "C": "Decision tree algorithm",
+              "D": "Artificial neural algorithm"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "type": "single",
+            "question": "In machine learning, perceptron can be considered as an artificial __________.",
+            "options": {
+              "A": "Neutron",
+              "B": "Neuron",
+              "C": "Nucleus",
+              "D": "Atom"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "type": "single",
+            "question": "In a linear discriminant function-based classifier, the decision boundary is considered as a:",
+            "options": {
+              "A": "Plane",
+              "B": "Hypoplane",
+              "C": "Hyperplane",
+              "D": "Pseudoplane"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "In hierarchical clustering, a CF tree is a __________ tree that stores clustering features.",
+            "options": {
+              "A": "Weight balanced",
+              "B": "Width balanced",
+              "C": "Height balanced",
+              "D": "Not balanced"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "type": "single",
+            "question": "Loss function states __________ in Bayesian decision theory.",
+            "options": {
+              "A": "Normal distribution",
+              "B": "Normal density",
+              "C": "Exactly how cheap each action is",
+              "D": "Exactly how costly each action is"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "type": "multiple",
+            "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int z = 50;<br>    printf(\"%d\", z++++++z);<br>}<br></pre>",
+            "options": {
+                "A": "53",
+                "B": "Compiler error",
+                "C": "52",
+                "D": "Ivalue required"
+            },
+            "correct_answer": ["B", "D"]
+        },               
+        {
+            "type": "multiple",
+            "question": "Select the memory handling functions from the following options:",
+            "options": {
+                "A": "malloc",
+                "B": "free",
+                "C": "calloc",
+                "D": "realloc"
+            },
+            "correct_answer": ["A", "B", "C", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are good reasons to use an object-oriented language?",
+            "options": {
+                "A": "You can define your own data types",
+                "B": "An object-oriented program can be taught to correct its own errors",
+                "C": "It is easier to conceptualize an object-oriented program",
+                "D": "You can use polymorphism"
+            },
+            "correct_answer": ["A", "C", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "In view of object-oriented programming, select the correct statement(s):",
+            "options": {
+                "A": "Constructors return values",
+                "B": "Constructors do not return values",
+                "C": "Constructors cannot be overloaded",
+                "D": "Destructors do not have return values"
+            },
+            "correct_answer": ["B", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "In Unix/Linux platform, which of the following statement(s) is(are) not correct?",
+            "options": {
+                "A": "Vim editor is the improved version of vi editor",
+                "B": "vi editor commands are not case sensitive",
+                "C": "vi editor has two modes of operation: command mode and insert mode",
+                "D": "vi is not a text editor"
+            },
+            "correct_answer": ["B", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "Example of a linear data structure is:",
+            "options": {
+                "A": "Linked-list",
+                "B": "Graph",
+                "C": "Tree",
+                "D": "Stack"
+            },
+            "correct_answer": ["A", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "In operating system, a process means:",
+            "options": {
+                "A": "A program in high-level language",
+                "B": "Instance of a computer program",
+                "C": "A job in secondary memory",
+                "D": "A program in execution"
+            },
+            "correct_answer": ["B", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which type of operating system fetches data and gives response in terms of actual time?",
+            "options": {
+                "A": "Time sharing system",
+                "B": "RTOS",
+                "C": "Real-time operating system",
+                "D": "Job processing system"
+            },
+            "correct_answer": ["B", "C"]
+        },
+        {
+            "type": "multiple",
+            "question": "In operating system, fork is:",
+            "options": {
+                "A": "Dispatching of a task",
+                "B": "Creation of a child process",
+                "C": "Creation of a new process",
+                "D": "Increasing priority of a task"
+            },
+            "correct_answer": ["B", "C"]
+        },
+        {
+            "type": "multiple",
+            "question": "In operating system, file attributes are:",
+            "options": {
+                "A": "Name",
+                "B": "Type",
+                "C": "Location",
+                "D": "Processor"
+            },
+            "correct_answer": ["A", "B", "C"]
+        },
+        {
+            "type": "multiple",
+            "question": "Producer-consumer is a __________ problem in operating system level.",
+            "options": {
+                "A": "Deadlock",
+                "B": "Synchronization",
+                "C": "Memory",
+                "D": "Multi-process synchronization"
+            },
+            "correct_answer": ["B", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "What do you mean by binary semaphore? Select the correct option(s).",
+            "options": {
+                "A": "Only one entity can access the critical section at any time instance.",
+                "B": "Make available several access tokens to a given critical section.",
+                "C": "It can have only two values (0, 1).",
+                "D": "It can have only three values (—1, 0, +1)."
+            },
+            "correct_answer": ["A", "C"]
+        },
+        {
+            "type": "multiple",
+            "question": "Select the protocol(s) utilized for delivering email over Internet:",
+            "options": {
+                "A": "FTP",
+                "B": "SMTP",
+                "C": "POP",
+                "D": "IMAP"
+            },
+            "correct_answer": ["B", "C", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "IPv4 header consists of:",
+            "options": {
+                "A": "Version",
+                "B": "TTL",
+                "C": "Source IP address",
+                "D": "Destination IP address"
+            },
+            "correct_answer": ["A", "B", "C", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "Choose the correct option(s) for functions of DBMS:",
+            "options": {
+                "A": "Concurrency",
+                "B": "Non-shareable database",
+                "C": "Backup and recovery",
+                "D": "Database schema"
+            },
+            "correct_answer": ["A", "C"]
+        },
+        {
+            "type": "multiple",
+            "question": "Select the correct option(s) regarding 'Union' and 'Union All' in SQL:",
+            "options": {
+                "A": "\"Union\" removes duplicate rows.",
+                "B": "\"Union\" does not remove duplicate rows.",
+                "C": "\"Union All\" removes duplicate rows.",
+                "D": "\"Union All\" does not remove duplicate rows."
+            },
+            "correct_answer": ["A", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "Choose the correct option(s) for the type of ordered index used in DBMS:",
+            "options": {
+                "A": "Light index",
+                "B": "Dense index",
+                "C": "Sparse index",
+                "D": "Thread index"
+            },
+            "correct_answer": ["B", "C"]
+        },
+        {
+            "type": "multiple",
+            "question": "Select the correct option(s) for query processing in DBMS:",
+            "options": {
+                "A": "Parsing",
+                "B": "Translation",
+                "C": "Optimization",
+                "D": "Evaluation"
+            },
+            "correct_answer": ["A", "B", "C", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "Select the process metrics used in software engineering for typical measurements to evaluate the performance of the proposed system:",
+            "options": {
+                "A": "Productivity",
+                "B": "Error Rate",
+                "C": "Plan",
+                "D": "Efficiency"
+            },
+            "correct_answer": ["A", "B", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "In Support Vector Machine (SVM), hyperplane is selected based on:",
+            "options": {
+                "A": "Largest separation between two classes",
+                "B": "Shortest separation between two classes",
+                "C": "Average margin between two classes",
+                "D": "Largest margin between two classes"
+            },
+            "correct_answer": ["A", "D"]
+        }
+    ]
+}

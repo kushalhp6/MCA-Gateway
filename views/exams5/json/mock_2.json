@@ -1,0 +1,95 @@
+{
+    "exam_name": "Mock Exam 2",
+    "total_marks": 120,
+    "time_limit": 120,
+    "questions": [
+        {
+            "type": "single",
+            "question": "What is 2 + 2?",
+            "options": {
+                "a": "3",
+                "b": "4",
+                "c": "5",
+                "d": "6"
+            },
+            "correct_answer": "b"
+        },
+        
+        {
+            "type": "single",
+            "question": "What is the capital of France?",
+            "options": {
+                "a": "Berlin",
+                "b": "Madrid",
+                "c": "Paris",
+                "d": "Rome"
+            },
+            "correct_answer": "c"
+        },
+        
+        {
+            "type": "single",
+            "question": "Which planet is known as the Red Planet?",
+            "options": {
+                "a": "Earth",
+                "b": "Mars",
+                "c": "Jupiter",
+                "d": "Saturn"
+            },
+            "correct_answer": "b"
+        },
+        
+        {
+            "type": "single",
+            "question": "Which element has the chemical symbol 'O'?",
+            "options": {
+                "a": "Oxygen",
+                "b": "Gold",
+                "c": "Hydrogen",
+                "d": "Iron"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "multiple",
+            "question": "Select countries in Europe",
+            "options": {
+                "a": "France",
+                "b": "Brazil",
+                "c": "Germany",
+                "d": "Australia"
+            },
+            "correct_answer": ["a", "c"]
+        }, {
+            "type": "multiple",
+            "question": "Select prime numbers",
+            "options": {
+                "a": "2",
+                "b": "4",
+                "c": "5",
+                "d": "6"
+            },
+            "correct_answer": ["a", "c"]
+        },{
+            "type": "multiple",
+            "question": "Select the programming languages",
+            "options": {
+                "a": "Python",
+                "b": "Java",
+                "c": "HTML",
+                "d": "C++"
+            },
+            "correct_answer": ["a", "b", "d"]
+        },{
+            "type": "multiple",
+            "question": "Select even numbers",
+            "options": {
+                "a": "1",
+                "b": "2",
+                "c": "3",
+                "d": "4"
+            },
+            "correct_answer": ["b", "d"]
+        }
+    ]
+}

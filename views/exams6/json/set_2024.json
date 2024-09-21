@@ -1,0 +1,1107 @@
+{
+    "exam_name": "Jeca Set 2024",
+    "total_marks": 120,
+    "time_limit": 120,
+    "questions": [
+        {
+            "type": "single",
+            "question": "Which of the following can't be used for polymorphism?",
+            "options": {
+                "A": "Static member functions",
+                "B": "Member function overloading",
+                "C": "Predefined operator overloading",
+                "D": "Constructor overloading"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "If there are 32 segments each of size 1K bytes, then the logical address should have:",
+            "options": {
+                "A": "12 bits",
+                "B": "13 bits",
+                "C": "14 bits",
+                "D": "15 bits"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "In software engineering, the tester does not know the internal designs of the software application in case of testing.",
+            "options": {
+                "A": "White Box",
+                "B": "Black Box",
+                "C": "Beta",
+                "D": "Acceptance"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following C code?<br><pre>int main() {<br>    int x = 2, y = 1;<br>    x*=x+y;<br>    printf(\"%d\", x);<br>}</pre>",
+            "options": {
+                "A": "compilation error",
+                "B": "Varies on Compiler",
+                "C": "5",
+                "D": "6"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "______ is a measure of the degree of interdependence between modules.",
+            "options": {
+                "A": "Cohesion",
+                "B": "Coupling",
+                "C": "None of the above mentioned",
+                "D": "Both (A) and (B)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "The permission -rwx r--r-- represented in octal expression will be:",
+            "options": {
+                "A": "777",
+                "B": "744",
+                "C": "666",
+                "D": "711"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "What will be the output of the C code?<br><pre><br>int main() {<br>    int a = 1;<br>    if (a--) <br>    printf(\"True\");<br>    if (a++) <br>    printf(\"False\");<br>}</pre>",
+            "options": {
+                "A": "True",
+                "B": "False",
+                "C": "True False",
+                "D": "No output"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code snippet?<br><pre><br>int main() {<br>    int x;<br>    x=5>8?10 : 1 !=2 < 5 ? 20: 30;<br>    printf(\"%d\", x);<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "5",
+                "B": "10",
+                "C": "20",
+                "D": "30"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is an example of a classification problem?",
+            "options": {
+                "A": "Predicting the price of a house based on its features",
+                "B": "Predicting the weight of a person based on their height",
+                "C": "Predicting whether a customer will churn or not",
+                "D": "Predicting the age of a person based on their income"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the C program?<br><pre><br>int main() {<br>    int i = 0;<br>    int x =i++;<br>    y = ++I;<br>    printf(\"%d %d\", x, y);<br>}</pre>",
+            "options": {
+                "A": "0 2",
+                "B": "1 2",
+                "C": "1 1",
+                "D": "Compilation error"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "What is the difference between supervised and unsupervised learning?",
+            "options": {
+                "A": "Supervised learning requires labelled data while unsupervised learning does not.",
+                "B": "Unsupervised learning requires labelled data while supervised learning does not.",
+                "C": "Supervised learning does not require data while unsupervised learning does.",
+                "D": "There is no difference between supervised and unsupervised learning."
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Which command changes a file's group owner?",
+            "options": {
+                "A": "cgrp",
+                "B": "group",
+                "C": "change",
+                "D": "chgrp"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "If a file has read and write permission for the owner, then the octal representation of the permissions will be:",
+            "options": {
+                "A": "7",
+                "B": "5",
+                "C": "6",
+                "D": "3"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "In an ER diagram, an entity set is represented by a:",
+            "options": {
+                "A": "Rectangle",
+                "B": "Ellipse",
+                "C": "Diamond",
+                "D": "Circle"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the C program?<br><pre><br>int main() {<br>    int i = 0;<br>    while (i = 0) <br>    printf(\"\\n True\");<br>    printf(\"\\n False\");<br>}</pre>",
+            "options": {
+                "A": "True (infinite time)",
+                "B": "Compiler dependent",
+                "C": "False",
+                "D": "True (1 time)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Identify the incorrect constructor type:",
+            "options": {
+                "A": "Friend Constructor",
+                "B": "Copy Constructor",
+                "C": "Default Constructor",
+                "D": "Parameterized Constructor"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following features is shown by function overriding?",
+            "options": {
+                "A": "Abstraction",
+                "B": "Polymorphism",
+                "C": "Encapsulation",
+                "D": "Inheritance"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code snippet?<br><pre><br>int main() {<br>    int i, k = 5;<br>    if (i = k) {<br>        printf(\"YES\\n\");<br>    } else {<br>        printf(\"NO\\n\");<br>    }<br>    return 0;<br>}</pre>",
+            "options": {
+                "A": "5",
+                "B": "YES",
+                "C": "NO",
+                "D": "Will give error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following(s) is/are not shared by threads?",
+            "options": {
+                "A": "Stack",
+                "B": "Program counter",
+                "C": "Both program counter and stack",
+                "D": "None of the above"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "______ specification is also known as the SRS document.",
+            "options": {
+                "A": "White-box",
+                "B": "Grey-box",
+                "C": "Black-box",
+                "D": "None of the above"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Which one of the following is a synchronization tool?",
+            "options": {
+                "A": "Thread",
+                "B": "Pipe",
+                "C": "Semaphore",
+                "D": "Socket"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "When a process is in a 'Blocked' state waiting for some I/O service, when the service is completed, it goes to the:",
+            "options": {
+                "A": "Terminated state",
+                "B": "Suspended state",
+                "C": "Running state",
+                "D": "Ready state"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "A process is thrashing if:",
+            "options": {
+                "A": "It spends more time in execution rather than paging",
+                "B": "It spends more time in paging rather than in execution",
+                "C": "It has no memory allocated to it",
+                "D": "It indefinitely waits for a resource"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Which is not among the eight principles followed by the Software Code of Ethics and Professional Practice?",
+            "options": {
+                "A": "PRODUCT",
+                "B": "ENVIRONMENT",
+                "C": "PUBLIC",
+                "D": "PROFESSION"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Given an unsorted array with the property that every element is at most k distance from its position in a sorted array, where k is a positive integer smaller than the size of the array, which sorting algorithm can be easily modified for sorting this array and what is the obtainable time complexity?",
+            "options": {
+                "A": "Insertion Sort with time complexity O(kn)",
+                "B": "Heap Sort with time complexity O(n log k)",
+                "C": "Quick Sort with time complexity O(k log k)",
+                "D": "Merge Sort with time complexity O(k log k)"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "In a relational database, what does the term 'ACID' stand for?",
+            "options": {
+                "A": "Atomicity, Consistency, Isolation, Durability",
+                "B": "Association, Constraint, Index, Database",
+                "C": "Authorization, Compatibility, Isolation, Dependency",
+                "D": "Aggregate, Collection, Inheritance, Design"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Which of the given statements is the correct recurrence for the worst case of Binary Search?",
+            "options": {
+                "A": "T(n) = 2T(n/2) + O(1) & T(1) = O(1)=T(0).",
+                "B": "T(n) = T(n-1) + O(1) & T(1) = O(1)=T(0)",
+                "C": "T(n) = T(n/2) + O(1) & T(1) = O(1)=O(1)",
+                "D": "T(n) = T(n-2) + O(1) & T(1) = O(1)=O(1)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following statements about primary key in a database table is correct?",
+            "options": {
+                "A": "A table can have multiple primary keys.",
+                "B": "A primary key uniquely identifies each record in a table.",
+                "C": "Primary keys can contain NULL values.",
+                "D": "Primary keys are used to establish relationships between tables."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following data structures is required to convert an arithmetic expression in infix form to its equivalent postfix form?",
+            "options": {
+                "A": "Queue",
+                "B": "Linked List",
+                "C": "Binary Search Tree",
+                "D": "Stack"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Making class members inaccessible to non-member functions is an example of:",
+            "options": {
+                "A": "Polymorphism",
+                "B": "Data hiding",
+                "C": "Redundancy",
+                "D": "Recursion"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "A clustering index is defined on fields which are of types:",
+            "options": {
+                "A": "Non-key and ordering",
+                "B": "Non-key and non-ordering",
+                "C": "Key and ordering",
+                "D": "Key and non-ordering"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Suppose the numbers 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 are inserted in that order into an initially empty binary search tree. The binary search tree uses usual ordering on natural numbers. What is the in-order traversal sequence of the resultant tree?",
+            "options": {
+                "A": "7,5,1,0,3,2,4,6,8,9",
+                "B": "0,2,4,3,1,6,5,9,8,7",
+                "C": "0,1,2,3,4,5,6,7,8,9",
+                "D": "9,8,6,4,2,3,0,1,5,7"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is popular for applications such as storage of log files in a database management system since it offers the best write performance?",
+            "options": {
+                "A": "RAID level 0",
+                "B": "RAID level 1",
+                "C": "RAID level 2",
+                "D": "RAID level 3"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following statements is correct?",
+            "options": {
+                "A": "Pre-order traversal of a Binary Search Tree gives a sorted list.",
+                "B": "In-order traversal of a Binary Search Tree gives a sorted list.",
+                "C": "Post-order traversal of a Binary Search Tree gives a sorted list.",
+                "D": "None of the above."
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Which is the correct statement about operator overloading?",
+            "options": {
+                "A": "Only arithmetic operators can be overloaded.",
+                "B": "Only non-arithmetic operators can be overloaded.",
+                "C": "Precedence of operators is changed after overloading.",
+                "D": "Associativity and precedence of operators do not change."
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Which command is used to set the three permissions for all the three categories of users of a file?",
+            "options": {
+                "A": "chgrp",
+                "B": "chown",
+                "C": "chmod",
+                "D": "chusr"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Which command is used for printing the current working directory?",
+            "options": {
+                "A": "dir",
+                "B": "HOME",
+                "C": "cd",
+                "D": "pwd"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place, it is called:",
+            "options": {
+                "A": "Race condition",
+                "B": "Critical condition",
+                "C": "Virtual condition",
+                "D": "Linear condition"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Baud means:",
+            "options": {
+                "A": "The number of bits transmitted per unit time",
+                "B": "The number of bytes transmitted per unit time",
+                "C": "The rate at which the signal changes",
+                "D": "None of the above"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Which option will be used with the sort command to start sorting after the nth column of the (m + 1)th field?",
+            "options": {
+                "A": "-m . n",
+                "B": "+m . ln",
+                "C": "+n . m + 1",
+                "D": "+(m+1) . n"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Which one of the following is a deadlock avoidance algorithm?",
+            "options": {
+                "A": "Elevator algorithm",
+                "B": "Banker's algorithm",
+                "C": "LRU algorithm",
+                "D": "SCAN algorithm"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Which command is used for displaying the beginning of a file in Unix?",
+            "options": {
+                "A": "lp",
+                "B": "begin",
+                "C": "pr",
+                "D": "head"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Consider three CPU-intensive processes, which require 10, 20, and 30 time units and arrive at times 0, 2, and 6 respectively. How many context switches are needed if the operating system implements a Shortest Remaining Time First (SRTF) scheduling algorithm? Do not count the context switches at time zero and at the end.",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "What is the result of the following postfix expression ab*cd* + where a=2, b=2, c=3, d=4?",
+            "options": {
+                "A": "16",
+                "B": "12",
+                "C": "14",
+                "D": "10"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Which one of the following does not have a Net ID and Host ID?",
+            "options": {
+                "A": "Class A",
+                "B": "Class B",
+                "C": "Class C",
+                "D": "Class D"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Which command is used to extract specific columns from a file?",
+            "options": {
+                "A": "cat",
+                "B": "cut",
+                "C": "grep",
+                "D": "paste"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Which layer of the OSI model is responsible for routing and forwarding packets?",
+            "options": {
+                "A": "Network Layer (Layer 3)",
+                "B": "Transport Layer (Layer 4)",
+                "C": "Data Link Layer (Layer 2)",
+                "D": "Physical Layer (Layer 1)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is not a communication command?",
+            "options": {
+                "A": "write",
+                "B": "mesg",
+                "C": "mail",
+                "D": "grep"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "A deadlock avoidance algorithm dynamically examines the _____to ensure that a circular wait condition can never exist.",
+            "options": {
+                "A": "Operating system",
+                "B": "Resources",
+                "C": "System Storage State",
+                "D": "Resource Allocation State"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "A Port in TCP/IP is:",
+            "options": {
+                "A": "32 bits long",
+                "B": "48 bits long",
+                "C": "16 bits long",
+                "D": "None of the above"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "What is the worst-case time complexity of inserting an element into an empty linear linked list, if it needs to be maintained in sorted order after every insertion?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(n^2)",
+                "D": "O(1)"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "In IPv4, network ID and host ID in class A are:",
+            "options": {
+                "A": "8 bits network ID, 24 bits host ID",
+                "B": "24 bits network ID, 8 bits host ID",
+                "C": "14 bits network ID, 16 bits host ID",
+                "D": "16 bits network ID, 14 bits host ID"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "In the OSI model, encryption and decryption are functions of the:",
+            "options": {
+                "A": "Transport Layer",
+                "B": "Session Layer",
+                "C": "Presentation Layer",
+                "D": "Application Layer"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Virtual memory is normally implemented by:",
+            "options": {
+                "A": "Demand Paging",
+                "B": "Buses",
+                "C": "Virtualization",
+                "D": "All of the above methods"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following sorting algorithms will be the most efficient if the elements are already in sorted order?",
+            "options": {
+                "A": "Bubble sort",
+                "B": "Selection sort",
+                "C": "Insertion sort",
+                "D": "Merge sort"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "______ server is used to create a secure tunnel connection.",
+            "options": {
+                "A": "Radius",
+                "B": "VPN",
+                "C": "Proxy",
+                "D": "DNS"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "What is the prefix of the following expression A-B/(C*D^E)?",
+            "options": {
+                "A": "- A/B*C^DE",
+                "B": "- A?BC*^DE",
+                "C": "- ABCD*^DE",
+                "D": "- /*^ACBDE"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Hamming code is used for:",
+            "options": {
+                "A": "Error detection",
+                "B": "Error correction",
+                "C": "Error encapsulation",
+                "D": "Both error detection and correction"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "What is the worst-case complexity of inserting a node in a doubly linked list?",
+            "options": {
+                "A": "O(log n)",
+                "B": "O(n)",
+                "C": "O(n log n)",
+                "D": "O(1)"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "ROM is a:",
+            "options": {
+                "A": "Combinational Circuit",
+                "B": "Static Circuit",
+                "C": "Sequential Circuit",
+                "D": "Magnetic Circuit"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "A computer with a 32-bit wide data bus uses 4 k × 8 static RAM memory chips. The smallest memory this computer has is:",
+            "options": {
+                "A": "8 KB",
+                "B": "16 KB",
+                "C": "24 KB",
+                "D": "32 KB"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Each stage in pipelining should be completed within:",
+            "options": {
+                "A": "One cycle",
+                "B": "Two cycles",
+                "C": "Three cycles",
+                "D": "Four cycles"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Relational calculus is a:",
+            "options": {
+                "A": "Procedural language",
+                "B": "Non-procedural language",
+                "C": "Data definition language",
+                "D": "High-level language"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code snippet?\n\nint main() {\n    int x = 65, *p = &x;\n    void *q = p;\n    char *r = q;\n    printf(\"%c\", *r);\n}",
+            "options": {
+                "A": "A",
+                "B": "Z",
+                "C": "65",
+                "D": "None of the above"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "An artificially intelligent car decreases its speed based on its distance from the car in front of it. Which method is used?",
+            "options": {
+                "A": "Naive Bayes",
+                "B": "Decision Tree",
+                "C": "Linear Regression",
+                "D": "Logistic Regression"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "The keyword friend does not appear in:",
+            "options": {
+                "A": "The class allowing access to another class.",
+                "B": "The class desiring access to another class.",
+                "C": "The private section of a class.",
+                "D": "The public section of a class."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "What is the maximum number of level-2 DFD possible if the number of processes in level-1 DFD is n?",
+            "options": {
+                "A": "n/2",
+                "B": "2",
+                "C": "n^2",
+                "D": "n"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "The small extremely fast RAM's are termed as:",
+            "options": {
+                "A": "Heaps",
+                "B": "Accumulators",
+                "C": "Stacks",
+                "D": "Cache"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "K-means clustering method is an example of which type of clustering method?",
+            "options": {
+                "A": "Hierarchical",
+                "B": "Random",
+                "C": "Density based",
+                "D": "Partitioning"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "How many parameters does a default constructor require?",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "0",
+                "D": "3"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following C-program?\nint main() {\n    const int a = 10;\n    printf(\"%d\", ++a);\n    return 0;\n}",
+            "options": {
+                "A": "11",
+                "B": "10",
+                "C": "Compilation Error",
+                "D": "0"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "How can you display a list of all files including the hidden files?",
+            "options": {
+                "A": "find all",
+                "B": "find -a",
+                "C": "ls -a",
+                "D": "All of these"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Which C keyword is used to extend the visibility of variables?",
+            "options": {
+                "A": "extend",
+                "B": "extends",
+                "C": "extern",
+                "D": "auto"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following should not have transitive dependency?",
+            "options": {
+                "A": "First normal form",
+                "B": "Second normal form",
+                "C": "Third normal form",
+                "D": "Fourth normal form"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Regression is a type of:",
+            "options": {
+                "A": "Supervised learning",
+                "B": "Unsupervised learning",
+                "C": "Reinforcement learning",
+                "D": "None of the above"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "The store and forward mechanism is used in:",
+            "options": {
+                "A": "Packet switching",
+                "B": "Message switching",
+                "C": "Circuit switching",
+                "D": "Datagram switching"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "The ______ is an asymmetric key cryptographic algorithm.",
+            "options": {
+                "A": "RSA",
+                "B": "Huffman code",
+                "C": "Mono-alphabetic substitution",
+                "D": "Steganography"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "What is the purpose of the confusion matrix in machine learning?",
+            "options": {
+                "A": "To visualize the distribution of the data in a dataset",
+                "B": "To compare the performance of different models",
+                "C": "To evaluate the performance of a classification model",
+                "D": "To evaluate the performance of a regression model"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "In DMA transfers, the required signals and addresses are given by the:",
+            "options": {
+                "A": "Processor",
+                "B": "Device drivers",
+                "C": "DMA controllers",
+                "D": "The program itself"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following C-program?\n\n#define CUBE(x) (x*x*x)\nint main() {\n    int a, b = 3;\n    a = CUBE(b++);\n    printf(\"%d, %d\\n\", a, b);\n    return 0;\n}",
+            "options": {
+                "A": "9,4",
+                "B": "27, 4",
+                "C": "60, 6",
+                "D": "Error"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "multiple",
+            "question": "Relation R has eight attributes A, B, C, D, E, F, G, H. The field of R contains only atomic values. X = {CH->G, A -> BC, B -> CFH, E -> A, F -> EG} is a set of Functional Dependencies (FDs) so that F+ is exactly the set of FDs that hold for R. How many candidate keys does the relation R have?",
+            "options": {
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "6"
+            },
+            "correct_answer": ["B"]
+        },
+        {
+            "type": "multiple",
+            "question": "What are the valid shells in Linux?",
+            "options": {
+                "A": "Kernel shell",
+                "B": "C shell",
+                "C": "Vi shell",
+                "D": "Korn shell"
+            },
+            "correct_answer": ["B", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "What are the valid layers of the OSI model?",
+            "options": {
+                "A": "Internet layer",
+                "B": "Transport layer",
+                "C": "Data Link layer",
+                "D": "Session layer"
+            },
+            "correct_answer": ["B", "C", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "A subnet has been assigned a subnet mask of 255.255.255.192. What is the maximum number of hosts that can belong to this subnet?",
+            "options": {
+                "A": "14",
+                "B": "30",
+                "C": "62",
+                "D": "126"
+            },
+            "correct_answer": ["C"]
+        },
+        {
+            "type": "multiple",
+            "question": "Identify the incorrect phase of the Software Testing Life Cycle (STLC).",
+            "options": {
+                "A": "Test Closure",
+                "B": "Coding",
+                "C": "Requirement Analysis",
+                "D": "Test Planning"
+            },
+            "correct_answer": ["B"]
+        },
+        {
+            "type": "multiple",
+            "question": "For which one of the following reasons does Internet Protocol (IP) use the time-to-live (TTL) field in the IP datagram header?",
+            "options": {
+                "A": "Ensure packets reach the destination within that time.",
+                "B": "Discard packets that reach later than that time.",
+                "C": "Prevent packets from looping indefinitely.",
+                "D": "Limit the time for which a packet gets queued in an intermediate router."
+            },
+            "correct_answer": ["C"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following is not supervised learning?",
+            "options": {
+                "A": "PCA",
+                "B": "Naive Bayes",
+                "C": "Linear Regression",
+                "D": "Decision Tree"
+            },
+            "correct_answer": ["A"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following statements is not true about pruning in the decision tree?",
+            "options": {
+                "A": "When the decision tree is created, many of the branches will reflect anomalies in the training data due to noise.",
+                "B": "The overfitting happens when the learning algorithm continues to develop hypotheses that reduce training set error at the cost of increased test set errors.",
+                "C": "It optimizes the computational efficiency.",
+                "D": "It reduces the classification accuracy."
+            },
+            "correct_answer": ["D"]
+        },
+        {
+            "type": "multiple",
+            "question": "If 2 classes derive one base class and redefine a function of the base class, also overload some operators inside the class body. Among these two things of function and operator overloading, where is polymorphism used?",
+            "options": {
+                "A": "Function overloading only",
+                "B": "Operator overloading only",
+                "C": "Both (A) and (B) are using polymorphism",
+                "D": "Either function overloading or operator overloading because polymorphism can be applied only once in a program"
+            },
+            "correct_answer": ["C"]
+        },
+        {
+            "type": "multiple",
+            "question": "What is the output of the following C-program?<br><pre><br>int main() {<br>    int a = 20;<br>    printf(\"CINEMA\");<br>    return 1;<br>    printf(\"DINOSAUR\");<br>    return 1;<br>}</pre>",
+            "options": {
+                "A": "CINEMA DINOSAUR",
+                "B": "CINEMA",
+                "C": "DINOSAUR",
+                "D": "Compilation Error"
+            },
+            "correct_answer": ["B"]
+        },
+        {
+            "type": "multiple",
+            "question": "A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor has a translation look-aside buffer (TLB) which can hold a total of 128 page table entries and is 4-way set associative. The minimum size of the TLB tag is:",
+            "options": {
+                "A": "11 bits",
+                "B": "13 bits",
+                "C": "15 bits",
+                "D": "20 bits"
+            },
+            "correct_answer": ["C"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following statements about polymorphism in C++ are correct?",
+            "options": {
+                "A": "Polymorphism allows a function to perform different tasks based on the object that invokes it.",
+                "B": "C++ supports compile-time polymorphism through function overloading and runtime polymorphism through virtual functions.",
+                "C": "Polymorphism is achieved by hiding the implementation details of a class.",
+                "D": "In C++, polymorphism can only be achieved through inheritance."
+            },
+            "correct_answer": ["A", "B"]
+        },
+        {
+            "type": "multiple",
+            "question": "What is the return value of f(p, p), if the value of p is initialized to 5 before the call?<br><pre>int f(int &x, int c) {<br>    c = c - 1;<br>    if (c == 0) return 1;<br>    x = x + 1;<br>    return f(x, c) * x;<br>}</pre>",
+            "options": {
+                "A": "3024",
+                "B": "6561",
+                "C": "55440",
+                "D": "161051"
+            },
+            "correct_answer": ["A"]
+        },
+        {
+            "type": "multiple",
+            "question": "What could ideally be the optimal page replacement algorithm?",
+            "options": {
+                "A": "Replace the page that has not been used for a long time.",
+                "B": "Replace the page that has been used for a long time.",
+                "C": "Replace the page that will not be used for a long time.",
+                "D": "None of the above mentioned policies."
+            },
+            "correct_answer": ["C"]
+        },
+        {
+            "type": "multiple",
+            "question": "If memory access takes 20 ns with cache and 110 ns without cache, then the hit-ratio (cache uses a 10 ns memory) is:",
+            "options": {
+                "A": "87%",
+                "B": "88%",
+                "C": "90%",
+                "D": "93%"
+            },
+            "correct_answer": ["C"]
+        },
+        {
+            "type": "multiple",
+            "question": "What is the full form of PERT and CPM in Software Engineering?",
+            "options": {
+                "A": "Project Evaluation and Review Technique; Computer Program Management",
+                "B": "Program Evaluation and Review Technique; Critical Path Method",
+                "C": "Project Execution and Resource Tracking; Code Performance Monitoring",
+                "D": "Program Execution and Regression Testing; Continuous Process Modeling"
+            },
+            "correct_answer": ["B"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are not types of inheritance?",
+            "options": {
+                "A": "Hierarchical Inheritance",
+                "B": "Linear Inheritance",
+                "C": "Multilevel Inheritance",
+                "D": "Distributed Inheritance"
+            },
+            "correct_answer": ["B", "D"]
+        },
+        {
+            "type": "multiple",
+            "question": "There are three IP addresses as given below:<br><pre>x = 202.23.14.150<br>y = 168.19.200.12<br>z = 72.192.52.210</pre>Which of the following statements is correct?",
+            "options": {
+                "A": "x is Class A, y is Class B, z is Class C",
+                "B": "x is Class C, y is Class A, z is Class B",
+                "C": "x is Class A, y is Class C, z is Class B",
+                "D": "x is Class C, y is Class B, z is Class A"
+            },
+            "correct_answer": ["D"]
+        },
+        {
+            "type": "multiple",
+            "question": "A process refers to 5 pages namely A, B, C, D, and E in the order \"A, B, C, D, A, B, E, A, B, C, D, E\". If the page replacement algorithm is FIFO, the number of page transfers with an empty internal store of 3 frames is:",
+            "options": {
+                "A": "8",
+                "B": "10",
+                "C": "9",
+                "D": "7"
+            },
+            "correct_answer": ["C"]
+        },
+        {
+            "type": "multiple",
+            "question": "What are non-linear data structures?",
+            "options": {
+                "A": "Graph",
+                "B": "Linked List",
+                "C": "Queue",
+                "D": "Tree"
+            },
+            "correct_answer": ["A", "D"]
+        }
+    ]
+}

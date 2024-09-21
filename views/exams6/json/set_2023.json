@@ -1,0 +1,1107 @@
+{
+    "exam_name": "Jeca Set 2023",
+    "total_marks": 120,
+    "time_limit": 120,
+    "questions": [
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int a = 40;<br>    float b;<br>    b = ++a;<br>    printf(\"%d, %f\", a, ++b);<br>}</pre>",
+            "options": {
+                "A": "41, 42.000000",
+                "B": "41, 42",
+                "C": "41, 41.000000",
+                "D": "41, 41"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int a = -7;<br>    float b;<br>    b = a++;<br>    printf(\"%d, %f\", a, ++b);<br>}</pre>",
+            "options": {
+                "A": "-6, -7.000000",
+                "B": "-5, -6",
+                "C": "-6, -6.000000",
+                "D": "-6, -6"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int i = -1;<br>    printf(\"sizeof(i) = %d\", sizeof(i));<br>}</pre>",
+            "options": {
+                "A": "Compiler Error",
+                "B": "sizeof(i) = -1",
+                "C": "sizeof(i) = 1",
+                "D": "sizeof(i) = 4"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int x = -1, y = 1, z = 0;<br>    if(x && y++ && z)<br>        ++x, y++, --z;<br>    printf(\"%d, %d, %d\", x++, y++, z++);<br>}</pre>",
+            "options": {
+                "A": "0, 3, 0",
+                "B": "Compiler Error",
+                "C": "-1, 2, 0",
+                "D": "1, 0"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br>enum colors { RED, BROWN, ORANGE };<br>void main() {<br>    printf(\"%ld..%f..%d\", RED, BROWN, ORANGE);<br>}</pre>",
+            "options": {
+                "A": "Compiler Error",
+                "B": "0..0.000000..1",
+                "C": "0..1.000000..2",
+                "D": "Runtime Error"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br>void main() {<br>    char M = 'M';<br>    printf(\"%d, %c\", M, M);<br>}</pre>",
+            "options": {
+                "A": "Runtime Error",
+                "B": "Compiler Error",
+                "C": "76, M",
+                "D": "77, M"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int i = -9;<br>    printf(\"%d %d %d\", i++, ++i, ++i);<br>}</pre>",
+            "options": {
+                "A": "Compiler Error",
+                "B": "-6 -7 -8",
+                "C": "-7 -7 -8",
+                "D": "-7 -6 -6"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br>void main() {<br>    int **ptr;<br>    int temp = 65;<br>    ptr[0] = &temp;<br>    printf(\"%d\", ptr[0][0]);<br>}</pre>",
+            "options": {
+                "A": "Compiler Error",
+                "B": "65",
+                "C": "Segmentation Fault",
+                "D": "Runtime Error"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><br><br>void main() {<br>    int *ptr;<br>    ptr = (int*) calloc(3, sizeof(int));<br>    ptr[2] = 30;<br>    printf(\"%d\", *ptr);<br>    free(ptr);<br>}</pre>",
+            "options": {
+                "A": "30",
+                "B": "0",
+                "C": "calloc",
+                "D": "Error"
+            },
+            "correct_answer": "B"
+        },        
+        {
+            "type": "single",
+            "question": "______________ interrupt may happen due to power failure.",
+            "options": {
+                "A": "I/O",
+                "B": "Timer",
+                "C": "Hardware",
+                "D": "Program"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Address of the next instruction to be executed is specified by ______________.",
+            "options": {
+                "A": "MBR",
+                "B": "MAR",
+                "C": "PSW",
+                "D": "PC"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Auxiliary memory is also known as ______________ memory.",
+            "options": {
+                "A": "Primary",
+                "B": "Secondary",
+                "C": "Binary",
+                "D": "Quad"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "BIOS means ______________.",
+            "options": {
+                "A": "Basic Input/Output System",
+                "B": "Best Input/Output System",
+                "C": "Basic Input System",
+                "D": "Basic Output System"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "_________ is the most appropriate scheduling in case of a time-shared operating system.",
+            "options": {
+                "A": "FCFS",
+                "B": "RR",
+                "C": "SJF",
+                "D": "SRTF"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "If only one process can be able to access a particular resource at a time, then it is known as ______________.",
+            "options": {
+                "A": "Mutual Execution",
+                "B": "Mutual Exclusion",
+                "C": "Multiple Execution",
+                "D": "Multiple Exclusion"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "Resource allocation graph is used to represent ______________.",
+            "options": {
+                "A": "Deadlock",
+                "B": "Virtual Memory",
+                "C": "Main Memory",
+                "D": "Scheduling"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "Banker’s algorithm for resource allocation deals with ______________.",
+            "options": {
+                "A": "Mutual Exclusion",
+                "B": "Mutual Inclusion",
+                "C": "Deadlock Recovery",
+                "D": "Deadlock Avoidance"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Page fault means ______________.",
+            "options": {
+                "A": "Required page is available in main memory",
+                "B": "Required page is not available in main memory",
+                "C": "Segment Number",
+                "D": "Reduce Page I/O"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "___________ is a technique to move a process from main memory to secondary memory.",
+            "options": {
+                "A": "Deadlock",
+                "B": "Synchronization",
+                "C": "Caching",
+                "D": "Swapping"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "Demand paging is considered as ______________.",
+            "options": {
+                "A": "Fetching a page when not needed",
+                "B": "Switching between two processes",
+                "C": "Fetching a page only when needed",
+                "D": "Switching between two threads"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "Thrashing means a condition having ______________.",
+            "options": {
+                "A": "Minimum Paging",
+                "B": "Optimized Paging",
+                "C": "Synchronized Paging",
+                "D": "Excessive Paging"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "A counting semaphore is initialized to 15. Then, 4 wait operations and 2 signal operations are completed on this semaphore. The resulting value of the semaphore is ____________.",
+            "options": {
+                "A": "11",
+                "B": "13",
+                "C": "17",
+                "D": "19"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "What do you mean by fork()? Choose the correct option.",
+            "options": {
+                "A": "Starvation",
+                "B": "Creation of New Task",
+                "C": "Demand Paging",
+                "D": "Semaphore"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "In file management, FAT means ______________.",
+            "options": {
+                "A": "Feature Access Table",
+                "B": "File Access Table",
+                "C": "Fault Allocation Table",
+                "D": "File Allocation Table"
+            },
+            "correct_answer": "D"
+        },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>using namespace std;<br><br>int addition(int a, int b) {<br>    return a + b;<br>}<br><br>double addition(double a, double b) {<br>    return a + b;<br>}<br><br>int main() {<br>    cout << addition(35, 20) << \";\";<br>    cout << addition(34.1, 12.7);<br>    return 0;<br>}</pre>",
+                "options": {
+                    "A": "55;46.8",
+                    "B": "Compile Error",
+                    "C": "Runtime Error",
+                    "D": "Segmentation Fault"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>using namespace std;<br><br>template <class C1, class C2><br>bool is_equal(C1 var1, C2 var2) {<br>    return (var1 == var2);<br>}<br><br>int main() {<br>    if (is_equal(10, 10.0))<br>        cout << \"Equal\";<br>    else<br>        cout << \"Not equal\";<br>    return 0;<br>}</pre>",
+                "options": {
+                    "A": "Equal",
+                    "B": "Not Equal",
+                    "C": "Compile Error",
+                    "D": "Runtime Error"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>using namespace std;<br><br>int main() {<br>    int var = 0;<br>    while (var < 10) {<br>        cout << var << \" \";<br>        var++;<br>    }<br>    cout << var;<br>    return 0;<br>}</pre>",
+                "options": {
+                    "A": "0 1 2 3 4 5 6 7 8 9 10",
+                    "B": "0 1 2 3 4 5 6 7 8 9",
+                    "C": "1 2 3 4 5 6 7 8 9 10",
+                    "D": "1 2 3 4 5 6 7 8 9"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>using namespace std;<br><br>struct demo {<br>    int var;<br>};<br><br>int main() {<br>    demo str;<br>    demo *ptr;<br>    str.var = 100;<br>    ptr = &str;<br>    cout << ptr->var;<br>    return 0;<br>}</pre>",
+                "options": {
+                    "A": "100",
+                    "B": "Memory address of var",
+                    "C": "Compile Error",
+                    "D": "L-value Error"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>using namespace std;<br><br>int main() {<br>    int c1 = 10;<br>    int c2 = 20;<br>    {<br>        int c1;<br>        c1 = 50;<br>        c2 = 50;<br>        cout << \"c1= \" << c1 << \", c2= \" << c2;<br>    }<br>    cout << \"; c1= \" << c1 << \", c2= \" << c2;<br>    return 0;<br>}</pre>",
+                "options": {
+                    "A": "c1= 50, c2= 50; c1= 10, c2= 50",
+                    "B": "c1= 10, c2= 20; c1= 10, c2= 20",
+                    "C": "c1= 50, c2= 50; c1= 10, c2= 20",
+                    "D": "c1= 10, c2= 20; c1= 10, c2= 50"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>using namespace std;<br><br>class Demo {<br>public:<br>    static int count;<br>    Demo() { count++; }<br>};<br><br>int Demo::count = 0;<br><br>int main() {<br>    Demo var1;<br>    Demo var2[5];<br>    cout << var1.count;<br>    return 0;<br>}</pre>",
+                "options": {
+                    "A": "6",
+                    "B": "1",
+                    "C": "2",
+                    "D": "5"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>using namespace std;<br><br>void print();<br><br>int main() {<br>    int var = 0;<br>    var = print();<br>    cout << var;<br>    return 0;<br>}<br><br>void print() {<br>    cout << \"Hi\";<br>}</pre>",
+                "options": {
+                    "A": "Compile Error",
+                    "B": "Hi",
+                    "C": "0",
+                    "D": "Hi0"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "What is the output of the following program?<br><pre><br>using namespace std;<br><br>int main() {<br>    int var = 2;<br>    do {<br>        cout << var;<br>    } while (var--);<br>    return 0;<br>}</pre>",
+                "options": {
+                    "A": "210",
+                    "B": "21",
+                    "C": "2",
+                    "D": "1"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In shell script, which command is used to create a new directory?",
+                "options": {
+                    "A": "vi",
+                    "B": "touch",
+                    "C": "cd",
+                    "D": "mkdir"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "In shell script, which command is used to copy a file?",
+                "options": {
+                    "A": "copy",
+                    "B": "cpy",
+                    "C": "cp",
+                    "D": "cy"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "type": "single",
+                "question": "In shell script, which command is used to delete a file?",
+                "options": {
+                    "A": "delete",
+                    "B": "del",
+                    "C": "remove",
+                    "D": "rm"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "In Unix/Linux platform, which command is used to find out the difference between two files?",
+                "options": {
+                    "A": "diff",
+                    "B": "comm",
+                    "C": "du",
+                    "D": "whereis"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In Unix/Linux platform, which command is used to create a symbolic link?",
+                "options": {
+                    "A": "ls -s",
+                    "B": "ls -i",
+                    "C": "ln -sym",
+                    "D": "ln -s"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "In Unix/Linux platform, which command is used to view the inode number of a file?",
+                "options": {
+                    "A": "ls -i",
+                    "B": "ls -a",
+                    "C": "ls -l",
+                    "D": "ls -r"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In Unix/Linux platform, which command is used to specify the access mode for files?",
+                "options": {
+                    "A": "chmod",
+                    "B": "cm",
+                    "C": "am",
+                    "D": "chacc"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In Unix/Linux platform, _________ command is used to show current running processes.",
+                "options": {
+                    "A": "ps",
+                    "B": "ls",
+                    "C": "sh",
+                    "D": "du"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In singly linked list, the time complexity for insertion at a particular node is ___________.",
+                "options": {
+                    "A": "O(1)",
+                    "B": "O(n^2)",
+                    "C": "O(n)",
+                    "D": "O(n log n)"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "type": "single",
+                "question": "In stack data structure, ______________ operation is not permitted.",
+                "options": {
+                    "A": "Push",
+                    "B": "Pop",
+                    "C": "Empty_Check",
+                    "D": "Enqueue"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "In tree data structure, the in-degree of the root node is always ______________.",
+                "options": {
+                    "A": "0",
+                    "B": "1",
+                    "C": "2",
+                    "D": "3"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In binary tree data structure, using depth-first approach, preorder traversal means _______.",
+                "options": {
+                    "A": "Root → Left-Subtree → Right-Subtree",
+                    "B": "Left-Subtree → Root → Right-Subtree",
+                    "C": "Left-Subtree → Right-Subtree → Root",
+                    "D": "Left-Subtree → Right-Subtree"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Find out the wrong statement based on the characteristics of AVL tree data structure.",
+                "options": {
+                    "A": "AVL tree is a binary search tree in nature.",
+                    "B": "AVL tree is known as height-balanced tree.",
+                    "C": "AVL tree has O(log2 n) search time complexity considering ‘n’ as number of nodes.",
+                    "D": "AVL tree has O(n) search time complexity considering ‘n’ as number of nodes."
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "Example of non-linear data structure is ______________.",
+                "options": {
+                    "A": "Linked-list",
+                    "B": "Graph",
+                    "C": "Queue",
+                    "D": "Stack"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "type": "single",
+                "question": "Bubble sort algorithm has a worst-case time complexity of ______________.",
+                "options": {
+                    "A": "O(n)",
+                    "B": "O(n^2)",
+                    "C": "O(n^3)",
+                    "D": "O(n^4)"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "type": "single",
+                "question": "Insertion sort algorithm has a best-case time complexity of ______________.",
+                "options": {
+                    "A": "O(n)",
+                    "B": "O(n^2)",
+                    "C": "O(n^3)",
+                    "D": "O(n^4)"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In machine learning, VC dimension is used to measure the capacity of a set of functions. VC means ______________.",
+                "options": {
+                    "A": "Vapnik–Chervonenkis",
+                    "B": "Vipnak–Charvonenkis",
+                    "C": "Virtual Connectivity",
+                    "D": "Variable Connectivity"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Artificial Neural Networks are ______________ algorithms.",
+                "options": {
+                    "A": "Computational",
+                    "B": "Non-computational",
+                    "C": "Fictional",
+                    "D": "Ready-made"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "One-class SVM is ______________ algorithm.",
+                "options": {
+                    "A": "Unsupervised",
+                    "B": "Supervised",
+                    "C": "Wrapper",
+                    "D": "Filter"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Time complexity of K-Means clustering is ______________.",
+                "options": {
+                    "A": "O(kN)",
+                    "B": "O(kN^2)",
+                    "C": "O(k+N)",
+                    "D": "O(k+N^2)"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "______________ algorithm is used to find out the shortest path between two points in a connected weighted graph.",
+                "options": {
+                    "A": "Kruskal",
+                    "B": "K-Means",
+                    "C": "BIRCH",
+                    "D": "Ward"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Forward–backward algorithm is used in case of HMM to compute ______________ of all hidden state variables.",
+                "options": {
+                    "A": "Posterior marginal",
+                    "B": "Posterior vacuum",
+                    "C": "Prior marginal",
+                    "D": "Prior vacuum"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "HMM is a specific instance of CRF which is known as ______________.",
+                "options": {
+                    "A": "Conditional random fields",
+                    "B": "Characterised routine fields",
+                    "C": "Characterised random fields",
+                    "D": "Conditional routine fields"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In FP-Growth Algorithm, FP means ______________.",
+                "options": {
+                    "A": "Frequent pattern",
+                    "B": "First pattern",
+                    "C": "Favourite pattern",
+                    "D": "Find pattern"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In software engineering, what is the full form for PERT chart?",
+                "options": {
+                    "A": "Project Evaluation and Review Technique",
+                    "B": "Performance Evaluation and Review Technique",
+                    "C": "Program Evaluation and Review Technique",
+                    "D": "Part Evaluation and Review Technique"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "type": "single",
+                "question": "In software engineering, the testing performed by development team is known as _______.",
+                "options": {
+                    "A": "Acceptance testing",
+                    "B": "α testing",
+                    "C": "β testing",
+                    "D": "Validation testing"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "type": "single",
+                "question": "In software engineering, a prototyping model can be used when ______________.",
+                "options": {
+                    "A": "Technical solutions are unclear to the development team",
+                    "B": "Technical solutions are clear to the development team",
+                    "C": "Models are unclear to the development team",
+                    "D": "Feasibility solutions are unclear to the development team"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In classical waterfall model, which phase comes before the design phase?",
+                "options": {
+                    "A": "Maintenance",
+                    "B": "Coding and unit testing",
+                    "C": "Integration and system testing",
+                    "D": "Requirements analysis and specification"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "In software engineering, which of the following is not a type of cohesion?",
+                "options": {
+                    "A": "Projection",
+                    "B": "Procedural",
+                    "C": "Logical",
+                    "D": "Temporal"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In software engineering, which of the following is not a type of coupling?",
+                "options": {
+                    "A": "Data",
+                    "B": "Connection",
+                    "C": "Control",
+                    "D": "Stamp"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "type": "single",
+                "question": "Choose the correct option as the activities of the first quadrant of Spiral model.",
+                "options": {
+                    "A": "Determine objectives, alternatives and constraints",
+                    "B": "Evaluate alternatives",
+                    "C": "A detailed analysis of each project task",
+                    "D": "Develop and validate next level of the product"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Choose the appropriate black-box testing technique in software engineering.",
+                "options": {
+                    "A": "Boundary value analysis",
+                    "B": "Verification testing",
+                    "C": "Validation testing",
+                    "D": "Acceptance testing"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "In User Datagram packet format, the size of the header is ______________.",
+                "options": {
+                    "A": "8 bytes",
+                    "B": "8 bits",
+                    "C": "4 bytes",
+                    "D": "4 bits"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Transmission Control Protocol (TCP) offers ______________ service in which data can flow in both directions at the same time.",
+                "options": {
+                    "A": "Full-duplex",
+                    "B": "Half-duplex",
+                    "C": "Bit-duplex",
+                    "D": "Byte-duplex"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Example of a two-layer switch is ______________.",
+                "options": {
+                    "A": "Bridge",
+                    "B": "Router",
+                    "C": "LAN",
+                    "D": "WAN"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "A ______________ routing table contains information entered manually.",
+                "options": {
+                    "A": "Static",
+                    "B": "Dynamic",
+                    "C": "RIP",
+                    "D": "OSPF"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "BOOTP is ______________ layer protocol.",
+                "options": {
+                    "A": "Application",
+                    "B": "Physical",
+                    "C": "Network",
+                    "D": "Datalink"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "ICMP always reports error messages to the original ______________.",
+                "options": {
+                    "A": "Source",
+                    "B": "Destination",
+                    "C": "Router",
+                    "D": "Bridge"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "The ____________ program uses ICMP messages and TTL field in IP packet to find route.",
+                "options": {
+                    "A": "Traceroute",
+                    "B": "FTP",
+                    "C": "Trace",
+                    "D": "TFTP"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "SNMP is ______________ level protocol.",
+                "options": {
+                    "A": "Application",
+                    "B": "Physical",
+                    "C": "Network",
+                    "D": "Datalink"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Which key can be derived directly from a Super Key?",
+                "options": {
+                    "A": "Primary key",
+                    "B": "Foreign key",
+                    "C": "Candidate key",
+                    "D": "Database key"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "type": "single",
+                "question": "Relational Algebra is ______________ query language.",
+                "options": {
+                    "A": "Non-procedural",
+                    "B": "Schema",
+                    "C": "Singleton",
+                    "D": "Procedural"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "In case of union compatibility, ______________",
+                "options": {
+                    "A": "Two relations must have same set of attributes.",
+                    "B": "Relations can have any set of attributes.",
+                    "C": "Two relations must have different set of attributes.",
+                    "D": "No relations are union compatible."
+                },
+                "correct_answer": "A"
+            },
+            {
+                "type": "single",
+                "question": "Which option cannot be used with “ALTER table” command in SQL?",
+                "options": {
+                    "A": "Modify",
+                    "B": "Drop",
+                    "C": "Add",
+                    "D": "Delete"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "Third normal form (3NF) removes ______________ from a relation.",
+                "options": {
+                    "A": "MVD",
+                    "B": "Determinants",
+                    "C": "Transitive dependency",
+                    "D": "Schemas"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "type": "single",
+                "question": "Which option is not a step for query processing?",
+                "options": {
+                    "A": "Scanning, parsing and semantic analysis",
+                    "B": "Query optimization",
+                    "C": "Query code generator",
+                    "D": "Meta data organizer"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "Which of the following option is not a transaction state?",
+                "options": {
+                    "A": "Active",
+                    "B": "Partially committed",
+                    "C": "Terminated",
+                    "D": "Updated"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "type": "single",
+                "question": "Which of the following option does not have any partial functional dependencies?",
+                "options": {
+                    "A": "BCNF",
+                    "B": "4NF",
+                    "C": "3NF",
+                    "D": "2NF"
+                },
+                "correct_answer": "A"
+            },        
+            {
+                "type": "multiple",
+                "question": "In C programming, which file operations are valid?",
+                "options": {
+                    "A": "fopen",
+                    "B": "fclose",
+                    "C": "fprintf",
+                    "D": "fscanf"
+                },
+                "correct_answer": ["A", "B", "C", "D"]
+            },
+            {
+                "type": "multiple",
+                "question": "Specify the functions mentioned in “string.h” header file.",
+                "options": {
+                    "A": "strcat",
+                    "B": "strcmp",
+                    "C": "strlen",
+                    "D": "strpoly"
+                },
+                "correct_answer": ["A", "B", "C"]
+            },
+            {
+                "type": "multiple",
+                "question": "Basic elements of a computer mean ______________.",
+                "options": {
+                    "A": "Central Processing Unit",
+                    "B": "Centered Processing Unit",
+                    "C": "Main Memory",
+                    "D": "Daemon Process"
+                },
+                "correct_answer": ["A", "C"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select the correct I/O communication techniques from the following options.",
+                "options": {
+                    "A": "Direct Memory Access",
+                    "B": "Virtual Drum Access",
+                    "C": "Programmed I/O",
+                    "D": "Interrupt Driven I/O"
+                },
+                "correct_answer": ["A", "C", "D"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select the correct buffering types in I/O management.",
+                "options": {
+                    "A": "Single buffering",
+                    "B": "Multiple buffering",
+                    "C": "Double buffering",
+                    "D": "Circular buffering"
+                },
+                "correct_answer": ["A", "C", "D"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select the correct disk scheduling algorithms.",
+                "options": {
+                    "A": "FCFS",
+                    "B": "SSTF",
+                    "C": "SCAN",
+                    "D": "C-SCAN"
+                },
+                "correct_answer": ["A", "B", "C", "D"]
+            },
+            {
+                "type": "multiple",
+                "question": "Choose the correct options from the following statements.",
+                "options": {
+                    "A": "while loop is known as entry-controlled loop.",
+                    "B": "do-while loop is known as entry-controlled loop.",
+                    "C": "while loop is known as exit-controlled loop.",
+                    "D": "do-while loop is known as exit-controlled loop."
+                },
+                "correct_answer": ["A", "D"]
+            },
+            {
+                "type": "multiple",
+                "question": "Choose the correct bitwise operators from the options.",
+                "options": {
+                    "A": "!=",
+                    "B": "%",
+                    "C": "&",
+                    "D": "|"
+                },
+                "correct_answer": ["C", "D"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select the correct UNIX wildcard characters from the options.",
+                "options": {
+                    "A": "*",
+                    "B": "?",
+                    "C": "[ ]",
+                    "D": "{ }"
+                },
+                "correct_answer": ["A", "B", "C", "D"]
+            },
+            {
+                "type": "multiple",
+                "question": "In shell script, what is the command to show the list of files?",
+                "options": {
+                    "A": "ls",
+                    "B": "ls -l",
+                    "C": "ps",
+                    "D": "pwd"
+                },
+                "correct_answer": ["A", "B"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select the correct Linked list types from the options.",
+                "options": {
+                    "A": "Linear linked list",
+                    "B": "Circular linked list",
+                    "C": "Doubly linked list",
+                    "D": "Char linked list"
+                },
+                "correct_answer": ["A", "B", "C"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select the correct Linked list operations from the options.",
+                "options": {
+                    "A": "Insertion of a node",
+                    "B": "Deletion of a node",
+                    "C": "Search a node",
+                    "D": "Re-shaping a node"
+                },
+                "correct_answer": ["A", "B", "C"]
+            },
+            {
+                "type": "multiple",
+                "question": "In machine learning, there are various types of learning. Choose the correct options based on learning types.",
+                "options": {
+                    "A": "Supervised",
+                    "B": "Unsupervised",
+                    "C": "Reinforcement",
+                    "D": "HMM"
+                },
+                "correct_answer": ["A", "B", "C"]
+            },
+            {
+                "type": "multiple",
+                "question": "Apriori algorithm was proposed by ______________ and ______________ in 1994.",
+                "options": {
+                    "A": "Agrawal",
+                    "B": "Srikant",
+                    "C": "Ramesh",
+                    "D": "Roy"
+                },
+                "correct_answer": ["A", "B"]
+            },
+            {
+                "type": "multiple",
+                "question": "In software engineering, choose the correct activities undertaken during maintenance in SDLC.",
+                "options": {
+                    "A": "Corrective maintenance",
+                    "B": "Perfective maintenance",
+                    "C": "Non-adaptive maintenance",
+                    "D": "Error ratio maintenance"
+                },
+                "correct_answer": ["A", "B"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select the appropriate properties of a good Software Requirement Specification (SRS).",
+                "options": {
+                    "A": "Correctness",
+                    "B": "Completeness",
+                    "C": "Consistency",
+                    "D": "Risk"
+                },
+                "correct_answer": ["A", "B", "C"]
+            },
+            {
+                "type": "multiple",
+                "question": "User Datagram Protocol (UDP) is ______________ transport protocol.",
+                "options": {
+                    "A": "Reliable",
+                    "B": "Unreliable",
+                    "C": "Connectionless",
+                    "D": "Connection-oriented"
+                },
+                "correct_answer": ["B", "C"]
+            },
+            {
+                "type": "multiple",
+                "question": "Congestion in a network occurs because ______________ and ______________ have queues (buffers) to hold the packets before and after processing.",
+                "options": {
+                    "A": "Routers",
+                    "B": "Switches",
+                    "C": "Source",
+                    "D": "Destination"
+                },
+                "correct_answer": ["A", "B"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select correct options as the levels of Data Abstraction in architecture for Database system.",
+                "options": {
+                    "A": "View level",
+                    "B": "Logical level",
+                    "C": "Schema level",
+                    "D": "Structured level"
+                },
+                "correct_answer": ["A", "B"]
+            },
+            {
+                "type": "multiple",
+                "question": "Select correct options as the examples of multi-valued attributes.",
+                "options": {
+                    "A": "Address",
+                    "B": "Email ID",
+                    "C": "PAN card number",
+                    "D": "Roll number"
+                },
+                "correct_answer": ["A", "B"]
+            }
+    ]
+}
