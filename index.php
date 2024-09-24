@@ -15,7 +15,7 @@ $loggedIn = isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true;
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="mcagateway.in - JECA Mock Tests for Aspirants">
+    <meta property="og:title" content="mcagateway.in - JECA Mock Tests for MCA Aspirants">
     <meta property="og:description" content="Take over 100+ mock tests for JECA and crack the MCA entrance exam with mcagateway.in. Perfect platform for JECA aspirants aiming for MCA programs in Kolkata.">
     <meta property="og:image" content="/assets/images/image.svg">
     <meta property="og:url" content="https://mcagateway.in">

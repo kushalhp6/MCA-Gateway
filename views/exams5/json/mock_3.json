@@ -5,91 +5,1103 @@
     "questions": [
         {
             "type": "single",
-            "question": "What is 2 + 2?",
+            "question": "Which command lists all files and directories in the current directory?",
             "options": {
-                "a": "3",
-                "b": "4",
-                "c": "5",
-                "d": "6"
-            },
-            "correct_answer": "b"
-        },
-        
-        {
-            "type": "single",
-            "question": "What is the capital of France?",
-            "options": {
-                "a": "Berlin",
-                "b": "Madrid",
-                "c": "Paris",
-                "d": "Rome"
-            },
-            "correct_answer": "c"
-        },
-        
-        {
-            "type": "single",
-            "question": "Which planet is known as the Red Planet?",
-            "options": {
-                "a": "Earth",
-                "b": "Mars",
-                "c": "Jupiter",
-                "d": "Saturn"
-            },
-            "correct_answer": "b"
-        },
-        
-        {
-            "type": "single",
-            "question": "Which element has the chemical symbol 'O'?",
-            "options": {
-                "a": "Oxygen",
-                "b": "Gold",
-                "c": "Hydrogen",
-                "d": "Iron"
+              "a": "ls",
+              "b": "dir",
+              "c": "list",
+              "d": "show"
             },
             "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which command is used to search for a text pattern within files?",
+            "options": {
+              "a": "grep",
+              "b": "search",
+              "c": "find",
+              "d": "locate"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which command is used to create a new empty file?",
+            "options": {
+              "a": "create",
+              "b": "touch",
+              "c": "newfile",
+              "d": "mkfile"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of a system call in a computer's operating system?",
+            "options": {
+              "a": "To execute subroutines",
+              "b": "To manage memory access",
+              "c": "To facilitate communication with hardware devices",
+              "d": "To request services from the operating system"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "Which type of memory is non-volatile and retains its data even when the power is turned off?",
+            "options": {
+              "a": "RAM",
+              "b": "Cache Memory",
+              "c": "ROM",
+              "d": "Pipeline"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which option is used with the chmod command to add execute permission for the owner?",
+            "options": {
+              "a": "+x",
+              "b": "-x",
+              "c": "=x",
+              "d": "/x"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "A cache memory has an access time of 15 ns, while main memory access takes 100 ns. If 80% of accesses are cache hits, what is the effective memory access time?",
+            "options": {
+              "a": "30 ns",
+              "b": "40 ns",
+              "c": "32 ns",
+              "d": "35 ns"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In a 4-stage pipeline, each stage takes 5 ns to complete. If there is a 1-cycle delay due to branch instructions, what is the time required to execute 50 instructions?",
+            "options": {
+              "a": "250 ns",
+              "b": "260 ns",
+              "c": "245 ns",
+              "d": "265 ns"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "Which command is used to navigate to the home directory?",
+            "options": {
+              "a": "cd /",
+              "b": "cd ~",
+              "c": "cd ..",
+              "d": "home"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the size of the TLB tag if a CPU generates 36-bit virtual addresses, the page size is 4 KB, and the TLB has 512 entries?",
+            "options": {
+              "a": "24 bits",
+              "b": "25 bits",
+              "c": "26 bits",
+              "d": "28 bits"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code><br>int main() {<br>    int a = 2, b = 2;<br>    a = a++ + a++;<br>    b = b++ + ++b;<br>    printf(\"%d %d\\n\", a, b);<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "4 6",
+              "b": "5 6",
+              "c": "4 5",
+              "d": "Undefined behavior"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code><br>int main() {<br>    int a = 0, b = 1, c = 2;<br>    if (a++ && ++b || ++c) {<br>        printf(\"%d %d %d\\n\", a, b, c);<br>    } else {<br>        printf(\"%d %d %d\\n\", a, b, c);<br>    }<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "1 2 2",
+              "b": "1 1 3",
+              "c": "1 2 3",
+              "d": "0 1 3"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of this C code?<br><pre><code>int main() {<br>    int a = 2, b = 3, c = 4;<br>    a = b = c;<br>    printf(\"%d %d %d\", a, b, c);<br>}</code></pre>",
+            "options": {
+              "a": "4 4 4",
+              "b": "2 3 4",
+              "c": "2 2 2",
+              "d": "Compilation error"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code><br>int main() {<br>    for (int i = 0; i < 10; i++) {<br>        if (i % 3 == 0 && i != 0) {<br>            break;<br>        }<br>        printf(\"%d \", i);<br>    }<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "0 1 2 3 4 5 6 7 8 9",
+              "b": "0 1 2 3",
+              "c": "0 1 2",
+              "d": "0 1 2 4 5 6"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Consider the following code:<br><pre><code><br>int main() {<br>    char ch = '0';<br>    printf(\"%d\\n\", ch);<br>    return 0;<br>}</code></pre>What is the output?",
+            "options": {
+              "a": "0",
+              "b": "48",
+              "c": "1",
+              "d": "Undefined behavior"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What will be printed by the following code?<br><pre><code>int main() {<br>    int a = 10;<br>    while (a-- > 5)<br>        printf(\"%d \", a);<br>}</code></pre>",
+            "options": {
+              "a": "10 9 8 7 6",
+              "b": "9 8 7 6 5",
+              "c": "9 8 7 6",
+              "d": "Infinite loop"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code><br>enum numbers {ONE = 1, TWO, THREE, FOUR = 10, FIVE};<br>int main() {<br>    printf(\"%d %d %d %d %d\\n\", ONE, TWO, THREE, FOUR, FIVE);<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "1 2 3 4 5",
+              "b": "1 2 3 10 11",
+              "c": "1 2 3 10 5",
+              "d": "Undefined behavior"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What will be the output of the following program?<br><pre><code><br>void main() {<br>    int a = 5, b = 7;<br>    printf(\"%d\", a+++b);<br>}</code></pre>",
+            "options": {
+              "a": "12",
+              "b": "11",
+              "c": "6",
+              "d": "Compiler Error"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Consider the following code:<br><pre><code><br><br>int main() {<br>    int *ptr = (int *)calloc(5, sizeof(int));<br>    if (ptr == NULL) {<br>        printf(\"Memory not allocated\\n\");<br>        return 1;<br>    }<br>    for (int i = 0; i < 5; ++i) {<br>        printf(\"%d \", ptr[i]);<br>    }<br>    free(ptr);<br>    return 0;<br>}</code></pre>What is the output?",
+            "options": {
+              "a": "0 0 0 0 0",
+              "b": "1 1 1 1 1",
+              "c": "5 5 5 5 5",
+              "d": "Undefined behavior"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What does the command 'ls -l' do?",
+            "options": {
+              "a": "List all files in the current directory.",
+              "b": "List files with detailed information.",
+              "c": "List all files in long format.",
+              "d": "List files recursively."
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Given the code below, which function will be called?<br><pre><code><br>using namespace std;<br>void func(int a) {<br>    cout << \"func(int)\" << endl;<br>}<br>void func(double a) {<br>    cout << \"func(double)\" << endl;<br>}<br>void func(float a) {<br>    cout << \"func(float)\" << endl;<br>}<br>int main() {<br>    func('A');<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "func(int)",
+              "b": "func(double)",
+              "c": "func(float)",
+              "d": "Compilation error"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What will be the output of the following code?<br><pre><code><br>using namespace std;<br>template <typename T><br>class Test {<br>public:<br>    static int count;<br>    Test() { count++; }<br>};<br>template <typename T><br>int Test<T>::count = 0;<br>int main() {<br>    Test<int> obj1, obj2;<br>    Test<double> obj3;<br>    cout << Test<int>::count << \" \" << Test<double>::count << endl;<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "3 3",
+              "b": "2 1",
+              "c": "1 2",
+              "d": "3 0"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Consider the following code. What will be the output?<br><pre><code><br>using namespace std;<br><br>struct Node {<br>    int data;<br>    Node* next;<br>    Node(int d) : data(d), next(nullptr) {}<br>};<br><br>int main() {<br>    Node a(1);<br>    Node b(2);<br>    a.next = &b;<br>    cout << a.next->data << endl;<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "1",
+              "b": "2",
+              "c": "Memory address of b",
+              "d": "Compilation error"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which operator cannot be overloaded?",
+            "options": {
+              "a": "+",
+              "b": "?",
+              "c": "[]",
+              "d": "::"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What will be the output of the following code?<br><pre><code><br>using namespace std;<br><br>void func() {<br>    static int x = 0;<br>    x++;<br>    cout << x << \" \";<br>}<br><br>int main() {<br>    for (int i = 0; i &lt; 5; ++i) {<br>        func();<br>    }<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "1 1 1 1 1",
+              "b": "1 2 3 4 5",
+              "c": "0 1 2 3 4",
+              "d": "1 2 1 2 1"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which among the following have least security according to the access permissions allowed?",
+            "options": {
+              "a": "Private",
+              "b": "Default",
+              "c": "Protected",
+              "d": "Public"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of this program?<br><pre><code><br>using namespace std;<br><br>int add(int& x, int& y) {<br>    x++;<br>    y++;<br>    return x + y;<br>}<br><br>int main() {<br>    int a = 3, b = 4;<br>    cout << add(a, b) << endl;<br>    cout << a << \" \" << b << endl;<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "8\n4 5",
+              "b": "8\n3 4",
+              "c": "9\n4 5",
+              "d": "Compilation Error"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of this program?<br><pre><code><br>using namespace std;<br><br>class MyClass {<br>    int x;<br>public:<br>    MyClass(int a) : x(a) {}<br>    friend void modify(MyClass& obj);<br>};<br><br>void modify(MyClass& obj) {<br>    obj.x = 10;<br>}<br><br>int main() {<br>    MyClass obj(5);<br>    modify(obj);<br>    cout << obj.x << endl;<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "5",
+              "b": "10",
+              "c": "Compilation Error",
+              "d": "Undefined Behavior"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of this program?<br><pre><code><br>using namespace std;<br><br>class Base {<br>public:<br>    virtual void display() {<br>        cout << \"Base display\" << endl;<br>    }<br>};<br><br>class Derived : public Base {<br>public:<br>    void display() {<br>        cout << \"Derived display\" << endl;<br>    }<br>};<br><br>int main() {<br>    Derived obj;<br>    obj.display();<br>    return 0;<br>}</code></pre>",
+            "options": {
+              "a": "Base display",
+              "b": "Derived display",
+              "c": "Compilation Error",
+              "d": "Undefined Behavior"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "To change the permissions of a file in Unix/Linux, which command is used?",
+            "options": {
+              "a": "chmod",
+              "b": "chperm",
+              "c": "permchange",
+              "d": "permission"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which command is used to display the current directory?",
+            "options": {
+              "a": "pwd",
+              "b": "dir",
+              "c": "ls",
+              "d": "currentdir"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In an ER diagram, what does a diamond shape represent?",
+            "options": {
+              "a": "Entity",
+              "b": "Attribute",
+              "c": "Relationship",
+              "d": "Constraint"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which type of testing focuses on evaluating the software's compliance with user requirements?",
+            "options": {
+              "a": "Unit testing",
+              "b": "Integration testing",
+              "c": "System testing",
+              "d": "Acceptance testing"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "Relational algebra is a mathematical query language that operates on _____ and produces _____ as output.",
+            "options": {
+              "a": "Relations, attributes",
+              "b": "Tuples, attributes",
+              "c": "Relations, relations",
+              "d": "Attributes, attributes"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In the context of a relational database, what does \"denormalization\" refer to?",
+            "options": {
+              "a": "Splitting a table into multiple tables to reduce redundancy.",
+              "b": "Combining multiple tables into a single table to improve performance.",
+              "c": "Ensuring all attributes are fully dependent on the primary key.",
+              "d": "Creating indexes to speed up queries."
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "If a database transaction is said to be \"isolated,\" what does it mean?",
+            "options": {
+              "a": "It cannot access any data.",
+              "b": "It does not interfere with other transactions.",
+              "c": "It runs in a separate database.",
+              "d": "It is performed without any locks."
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "The process of organizing data to minimize redundancy is known as:",
+            "options": {
+              "a": "Normalization",
+              "b": "Indexing",
+              "c": "Query Optimization",
+              "d": "Denormalization"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which normal form focuses on eliminating partial dependencies?",
+            "options": {
+              "a": "1NF",
+              "b": "2NF",
+              "c": "3NF",
+              "d": "BCNF"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In the context of transactions, what does ACID stand for?",
+            "options": {
+              "a": "Atomicity, Consistency, Isolation, Durability",
+              "b": "All, Complete, Integrated, Durable",
+              "c": "Association, Computation, Isolation, Data",
+              "d": "Atomicity, Consistency, Inheritance, Division"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is used to speed up data retrieval operations in a database?",
+            "options": {
+              "a": "Normalization",
+              "b": "Indexing",
+              "c": "Denormalization",
+              "d": "Query Optimization"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which data structure can efficiently support the operations of insertion, deletion, and finding the minimum element in O(log n)?",
+            "options": {
+              "a": "Binary Tree",
+              "b": "Binary Heap",
+              "c": "Fibonacci Heap",
+              "d": "AVL Tree"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In the N-Queens problem, what is the primary technique used to eliminate unnecessary computations?",
+            "options": {
+              "a": "Dynamic Programming",
+              "b": "Greedy Approach",
+              "c": "Pruning",
+              "d": "Branch and Bound"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the amortized time complexity of inserting n elements into a dynamic array that doubles its size when full?",
+            "options": {
+              "a": "O(1)",
+              "b": "O(log n)",
+              "c": "O(n)",
+              "d": "O(n log n)"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which sorting algorithm works by repeatedly selecting the minimum element from the unsorted part of the array and putting it in the sorted part?",
+            "options": {
+              "a": "Insertion Sort",
+              "b": "Quick Sort",
+              "c": "Bubble Sort",
+              "d": "Selection Sort"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the time complexity of finding an element in a balanced binary search tree (BST) with n nodes?",
+            "options": {
+              "a": "O(n)",
+              "b": "O(log n)",
+              "c": "O(n log n)",
+              "d": "O(2^n)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In a binary search tree, elements to the left of a node are:",
+            "options": {
+              "a": "Smaller than the node",
+              "b": "Larger than the node",
+              "c": "Unordered",
+              "d": "None of the above"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which traversal of a binary tree visits the left subtree, then the root, and finally the right subtree?",
+            "options": {
+              "a": "Preorder",
+              "b": "Inorder",
+              "c": "Postorder",
+              "d": "Level-order"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What does the term 'Technical Debt' refer to?",
+            "options": {
+              "a": "The cost of fixing bugs",
+              "b": "Shortcuts taken in development",
+              "c": "The total number of features",
+              "d": "The budget for software development"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a software development life cycle (SDLC) model?",
+            "options": {
+              "a": "Waterfall",
+              "b": "Incremental",
+              "c": "Agile",
+              "d": "Architectural"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "Which sorting algorithm repeatedly compares and swaps adjacent elements if they are in the wrong order?",
+            "options": {
+              "a": "Bubble Sort",
+              "b": "Merge Sort",
+              "c": "Quick Sort",
+              "d": "Insertion Sort"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary goal of classification in machine learning?",
+            "options": {
+              "a": "Grouping data into clusters",
+              "b": "Assigning labels to data instances",
+              "c": "Reducing dimensionality",
+              "d": "Calculating centroids"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which software process model is characterized by frequent iterations and customer collaboration?",
+            "options": {
+              "a": "Waterfall model",
+              "b": "Spiral model",
+              "c": "Prototype model",
+              "d": "V-Model"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is overfitting in machine learning?",
+            "options": {
+              "a": "A model that performs well on training data but poorly on unseen data",
+              "b": "A model that generalizes well to new data",
+              "c": "A model that underfits the training data",
+              "d": "A model with too few parameters"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What technique is used to prevent overfitting in decision trees?",
+            "options": {
+              "a": "Feature scaling",
+              "b": "Cross-validation",
+              "c": "Pruning",
+              "d": "Clustering"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which type of software metrics assesses the quality of the software product?",
+            "options": {
+              "a": "Process metrics",
+              "b": "Design metrics",
+              "c": "Product metrics",
+              "d": "Requirement metrics"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In neural networks, what function is often used to introduce non-linearity?",
+            "options": {
+              "a": "Linear function",
+              "b": "Sigmoid function",
+              "c": "Identity function",
+              "d": "Exponential function"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the main goal of Support Vector Machines (SVM)?",
+            "options": {
+              "a": "Maximizing bias",
+              "b": "Minimizing variance",
+              "c": "Maximizing margin",
+              "d": "Minimizing accuracy"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the hyperplane that best separates classes in an SVM called?",
+            "options": {
+              "a": "Decision boundary",
+              "b": "Decision tree",
+              "c": "Marginal line",
+              "d": "Support vector"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Bayesian learning is based on which fundamental theorem of probability?",
+            "options": {
+              "a": "Bayes' theorem",
+              "b": "Pythagoras' theorem",
+              "c": "Fermat's theorem",
+              "d": "Newton's theorem"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What does Bayesian learning update as more evidence or data is collected?",
+            "options": {
+              "a": "Prior probabilities",
+              "b": "Posterior probabilities",
+              "c": "Likelihoods",
+              "d": "Priors"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What does NAT stand for in networking?",
+            "options": {
+              "a": "Network Address Translation",
+              "b": "Network Allocation Table",
+              "c": "Network Authentication Technology",
+              "d": "None of the above"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In a network using IPv6, what is the multicast address range?",
+            "options": {
+              "a": "224.0.0.0 to 224.0.0.255",
+              "b": "224.0.0.0 to 239.255.255.255",
+              "c": "127.0.0.1 to 127.255.255.255",
+              "d": "239.0.0.0 to 239.255.255.255"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which protocol is used for sending email?",
+            "options": {
+              "a": "FTP",
+              "b": "HTTP",
+              "c": "SMTP",
+              "d": "SNMP"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the main focus of risk management in software engineering?",
+            "options": {
+              "a": "Creating test cases",
+              "b": "Identifying potential problems and planning for their mitigation",
+              "c": "Developing user requirements",
+              "d": "Designing the software architecture"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which network component connects multiple networks and operates at the Network Layer of the OSI model?",
+            "options": {
+              "a": "Router",
+              "b": "Switch",
+              "c": "Hub",
+              "d": "Modem"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which protocol is responsible for translating domain names (URLs) into IP addresses?",
+            "options": {
+              "a": "DNS",
+              "b": "DHCP",
+              "c": "FTP",
+              "d": "HTTP"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary purpose of Network Address Translation (NAT)?",
+            "options": {
+              "a": "To secure network communication from eavesdroppers.",
+              "b": "To assign IP addresses dynamically to devices.",
+              "c": "To translate private IP addresses to public IP addresses.",
+              "d": "To manage routing tables within a network."
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a transport layer protocol that does not provide reliability or error recovery?",
+            "options": {
+              "a": "UDP",
+              "b": "TCP",
+              "c": "ICMP",
+              "d": "SMTP"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which encryption protocol ensures secure communication over a network, commonly used for secure websites (https)?",
+            "options": {
+              "a": "SSL",
+              "b": "SSH",
+              "c": "SMTP",
+              "d": "SNMP"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a Class C IP address?",
+            "options": {
+              "a": "10.0.0.1",
+              "b": "172.16.0.1",
+              "c": "192.168.1.1",
+              "d": "169.254.0.1"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In a system with a semaphore initialized to 1, if Process P1 executes the wait operation twice followed by Process P2 executing the signal operation once and then Process P3 executing the wait operation once, what will be the state of the semaphore?",
+            "options": {
+              "a": "0",
+              "b": "1",
+              "c": "-1",
+              "d": "2"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In a system using dynamic partitioning with a memory block size of 256 KB, if a process requires 120 KB and there are no available partitions of exactly 120 KB, what technique could be used to allocate memory for the process without causing internal fragmentation?",
+            "options": {
+              "a": "Best-fit",
+              "b": "Worst-fit",
+              "c": "First-fit",
+              "d": "Buddy system"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "Consider a system with the following processes:<br><br><table><tr><th>Process</th><th>Arrival Time</th><th>Burst Time</th></tr><tr><td>P1</td><td>0</td><td>5</td></tr><tr><td>P2</td><td>1</td><td>3</td></tr><tr><td>P3</td><td>3</td><td>6</td></tr><tr><td>P4</td><td>5</td><td>4</td></tr></table><br>If the system uses Round Robin scheduling with a time quantum of 2 units, what is the average turnaround time?",
+            "options": {
+              "a": "7.75",
+              "b": "9.75",
+              "c": "11.75",
+              "d": "12.75"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "How many context switches occur if three processes each require 5 time units and they are scheduled using Round Robin with a time quantum of 2 units?",
+            "options": {
+              "a": "5",
+              "b": "6",
+              "c": "7",
+              "d": "8"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Consider a system with a 32KB physical memory and a page size of 4KB. If a process references the following pages: 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, how many page faults occur if the system uses the LRU (Least Recently Used) page replacement algorithm with a 3-frame memory?",
+            "options": {
+              "a": "12",
+              "b": "9",
+              "c": "10",
+              "d": "13"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "In a disk system with 500 tracks numbered from 0 to 499, the disk arm is initially at track 250. The queue of disk access requests is as follows: 225, 450, 175, 50, 350, 400. If the disk arm movement is unidirectional and we use the SSTF disk scheduling algorithm, what is the total arm movement?",
+            "options": {
+              "a": "500",
+              "b": "550",
+              "c": "600",
+              "d": "650"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "The formula for calculating the hit ratio is:",
+            "options": {
+              "a": "(Hits / Total Accesses) × 100",
+              "b": "(Misses / Total Accesses) × 100",
+              "c": "(Total Accesses / Hits) × 100",
+              "d": "(Hits + Misses) / Total Accesses"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which process model is known for its sequential, linear approach?",
+            "options": {
+              "a": "Agile model",
+              "b": "Waterfall model",
+              "c": "Prototype model",
+              "d": "Spiral model"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary goal of requirements engineering?",
+            "options": {
+              "a": "To design the software architecture",
+              "b": "To create detailed design documents",
+              "c": "To define and document user needs and system features",
+              "d": "To implement the software system"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which CPU scheduling algorithm gives each process an equal amount of time in a round-robin fashion?",
+            "options": {
+              "a": "FCFS (First-Come, First-Served)",
+              "b": "SJF (Shortest Job First)",
+              "c": "RR (Round Robin)",
+              "d": "Priority Scheduling"
+            },
+            "correct_answer": "c"
+          },          
+          {
+            "type": "multiple",
+            "question": "A network uses 192.168.1.0/24. What is the broadcast address for this network?",
+            "options": {
+                "a": "192.168.1.0",
+                "b": "192.168.1.255",
+                "c": "192.168.1.1",
+                "d": "192.168.1.128"
+            },
+            "correct_answer": ["b"]
         },
         {
             "type": "multiple",
-            "question": "Select countries in Europe",
+            "question": "Which of the following are valid file handling functions in C?",
             "options": {
-                "a": "France",
-                "b": "Brazil",
-                "c": "Germany",
-                "d": "Australia"
-            },
-            "correct_answer": ["a", "c"]
-        }, {
-            "type": "multiple",
-            "question": "Select prime numbers",
-            "options": {
-                "a": "2",
-                "b": "4",
-                "c": "5",
-                "d": "6"
-            },
-            "correct_answer": ["a", "c"]
-        },{
-            "type": "multiple",
-            "question": "Select the programming languages",
-            "options": {
-                "a": "Python",
-                "b": "Java",
-                "c": "HTML",
-                "d": "C++"
+                "a": "fopen",
+                "b": "fread",
+                "c": "fdelete",
+                "d": "fwrite"
             },
             "correct_answer": ["a", "b", "d"]
-        },{
+        },
+        {
             "type": "multiple",
-            "question": "Select even numbers",
+            "question": "Which of the following are true about dynamic memory allocation in C?",
             "options": {
-                "a": "1",
-                "b": "2",
-                "c": "3",
-                "d": "4"
+                "a": "malloc() allocates a block of memory.",
+                "b": "free() deallocates a block of memory.",
+                "c": "realloc() changes the size of a previously allocated memory block.",
+                "d": "calloc() allocates memory for an array and initializes it to zero."
             },
-            "correct_answer": ["b", "d"]
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are correct about function overloading in C++?",
+            "options": {
+                "a": "Functions must have the same name.",
+                "b": "Functions must have different parameter lists.",
+                "c": "Functions must have the same return type.",
+                "d": "Functions must be in the same scope."
+            },
+            "correct_answer": ["a", "b", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are characteristics of constructors in C++?",
+            "options": {
+                "a": "Constructors do not have a return type.",
+                "b": "Constructors can be overloaded.",
+                "c": "Constructors are called automatically when an object is created.",
+                "d": "Constructors can be virtual."
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following sorting algorithms are comparison-based?",
+            "options": {
+                "a": "Bubble Sort",
+                "b": "Merge Sort",
+                "c": "Quick Sort",
+                "d": "Counting Sort"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are applications of graphs in computer science?",
+            "options": {
+                "a": "Social networks",
+                "b": "Pathfinding algorithms (e.g., shortest path)",
+                "c": "Network topology",
+                "d": "Memory allocation"
+            },
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following commands are used to navigate directories in UNIX?",
+            "options": {
+                "a": "cd",
+                "b": "pwd",
+                "c": "ls",
+                "d": "mv"
+            },
+            "correct_answer": ["a", "b"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following commands are used to view the contents of a file in UNIX?",
+            "options": {
+                "a": "cat",
+                "b": "less",
+                "c": "more",
+                "d": "view"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are types of pipelining hazards?",
+            "options": {
+                "a": "Structural hazards",
+                "b": "Data hazards",
+                "c": "Control hazards",
+                "d": "Memory hazards"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are types of interrupts in computer architecture?",
+            "options": {
+                "a": "Hardware interrupts",
+                "b": "Software interrupts",
+                "c": "Maskable interrupts",
+                "d": "Non-maskable interrupts"
+            },
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are memory management techniques?",
+            "options": {
+                "a": "Paging",
+                "b": "Segmentation",
+                "c": "Swapping",
+                "d": "Contiguous allocation"
+            },
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about deadlocks in operating systems?",
+            "options": {
+                "a": "Deadlock prevention is a strategy to ensure that at least one of the necessary conditions for deadlock cannot hold.",
+                "b": "Deadlock avoidance requires that the system has some additional information about how resources are to be requested.",
+                "c": "Deadlock detection involves determining if a deadlock has occurred and finding a way to recover.",
+                "d": "Deadlock can be resolved by terminating all processes involved."
+            },
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "If the hash function h(x) = x mod 10, what is the hash value of the key 27?",
+            "options": {
+                "a": "7",
+                "b": "17",
+                "c": "27",
+                "d": "37"
+            },
+            "correct_answer": ["a"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following protocols are used for email communication?",
+            "options": {
+                "a": "SMTP",
+                "b": "IMAP",
+                "c": "POP3",
+                "d": "FTP"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are SQL Data Definition Language (DDL) commands?",
+            "options": {
+                "a": "CREATE",
+                "b": "ALTER",
+                "c": "DROP",
+                "d": "SELECT"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are types of data anomalies?",
+            "options": {
+                "a": "Insertion anomaly",
+                "b": "Deletion anomaly",
+                "c": "Update anomaly",
+                "d": "Retrieval anomaly"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "How many bits are required to represent the number 255 in binary?",
+            "options": {
+                "a": "7 bits",
+                "b": "8 bits",
+                "c": "9 bits",
+                "d": "10 bits"
+            },
+            "correct_answer": ["b"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are types of software maintenance?",
+            "options": {
+                "a": "Corrective maintenance",
+                "b": "Adaptive maintenance",
+                "c": "Perfective maintenance",
+                "d": "Predictive maintenance"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "What is the primary advantage of using indexes in databases?",
+            "options": {
+                "a": "They increase data redundancy.",
+                "b": "They improve query performance.",
+                "c": "They simplify database design.",
+                "d": "They reduce storage costs."
+            },
+            "correct_answer": ["b"]
         }
     ]
 }
