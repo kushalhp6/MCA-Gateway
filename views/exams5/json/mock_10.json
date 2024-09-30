@@ -1,95 +1,1107 @@
 {
-    "exam_name": "Mock Exam 1",
+    "exam_name": "Mock Exam 10",
     "total_marks": 120,
     "time_limit": 120,
     "questions": [
         {
             "type": "single",
-            "question": "What is 2 + 2?",
+            "question": "What Unix command is used to count the number of lines, words, and characters in a file?",
             "options": {
-                "a": "3",
-                "b": "4",
-                "c": "5",
-                "d": "6"
-            },
-            "correct_answer": "b"
-        },
-        
-        {
-            "type": "single",
-            "question": "What is the capital of France?",
-            "options": {
-                "a": "Berlin",
-                "b": "Madrid",
-                "c": "Paris",
-                "d": "Rome"
+                "a": "count",
+                "b": "check",
+                "c": "wc",
+                "d": "tally"
             },
             "correct_answer": "c"
         },
-        
         {
             "type": "single",
-            "question": "Which planet is known as the Red Planet?",
+            "question": "The chmod 777 filename command grants:",
             "options": {
-                "a": "Earth",
-                "b": "Mars",
-                "c": "Jupiter",
-                "d": "Saturn"
-            },
-            "correct_answer": "b"
-        },
-        
-        {
-            "type": "single",
-            "question": "Which element has the chemical symbol 'O'?",
-            "options": {
-                "a": "Oxygen",
-                "b": "Gold",
-                "c": "Hydrogen",
-                "d": "Iron"
+                "a": "Read, write, and execute permissions to everyone",
+                "b": "Read and write to owner only",
+                "c": "No permissions",
+                "d": "Read for owner and group only"
             },
             "correct_answer": "a"
         },
         {
-            "type": "multiple",
-            "question": "Select countries in Europe",
+            "type": "single",
+            "question": "If a CPU generates 48-bit virtual addresses and the page size is 64 KB, how many page table entries are needed for a fully indexed page table?",
             "options": {
-                "a": "France",
-                "b": "Brazil",
-                "c": "Germany",
-                "d": "Australia"
+                "a": "2^28",
+                "b": "2^30",
+                "c": "2^36",
+                "d": "2^34"
             },
-            "correct_answer": ["a", "c"]
-        }, {
-            "type": "multiple",
-            "question": "Select prime numbers",
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "What command is used to display disk usage statistics for files and directories in Unix?",
+            "options": {
+                "a": "ds",
+                "b": "disk",
+                "c": "df",
+                "d": "du"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "In Unix, which command is used to terminate a running process?",
+            "options": {
+                "a": "stop",
+                "b": "halt",
+                "c": "kill",
+                "d": "end"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Which Unix command is used to pause the execution of a script or command for a specified amount of time?",
+            "options": {
+                "a": "sleep",
+                "b": "pause",
+                "c": "wait",
+                "d": "delay"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "In Unix, which command is used to change the permissions of a file or directory?",
+            "options": {
+                "a": "chperm",
+                "b": "change",
+                "c": "chmod",
+                "d": "perm"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "A CPU with a clock cycle time of 3 ns has a CPI of 2.5 for a particular benchmark. How long will it take to execute 10^6 instructions?",
+            "options": {
+                "a": "7.5 ms",
+                "b": "7.5 µs",
+                "c": "7.5 ns",
+                "d": "2.5 ns"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which Unix command is used to change the group ownership of a file or directory?",
+            "options": {
+                "a": "grpown",
+                "b": "changegrp",
+                "c": "chgrp",
+                "d": "owngrp"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "In shell scripting, what is the purpose of a wildcard character '*'?",
+            "options": {
+                "a": "It represents the current working directory.",
+                "b": "It matches any single character.",
+                "c": "It matches zero or more characters in a filename.",
+                "d": "It represents a space character."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What is the main purpose of a version control system (VCS) in software development?",
+            "options": {
+                "a": "To manage changes to source code and documents",
+                "b": "To write code automatically",
+                "c": "To design user interfaces",
+                "d": "To perform system testing"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "In the context of software design principles, what does \"DRY\" stand for?",
+            "options": {
+                "a": "Don't Repeat Yourself",
+                "b": "Design, Review, Yield",
+                "c": "Detailed Requirements Yield",
+                "d": "Document, Reflect, Yield"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "Which phase of software development involves translating system requirements into a detailed design?",
+            "options": {
+                "a": "Testing phase",
+                "b": "Design phase",
+                "c": "Requirements phase",
+                "d": "Implementation phase"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "What is the primary objective of the Capability Maturity Model Integration (CMMI)?",
+            "options": {
+                "a": "Identifying software vulnerabilities",
+                "b": "Assessing project risks",
+                "c": "Improving and measuring the maturity of an organization's processes",
+                "d": "Defining software requirements"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Which software testing level focuses on validating whether the individual components/modules of the software function correctly?",
+            "options": {
+                "a": "Unit testing",
+                "b": "Integration testing",
+                "c": "System testing",
+                "d": "Acceptance testing"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "What does \"ROI\" stand for in the context of software development?",
+            "options": {
+                "a": "Return on Investment",
+                "b": "Requirements for Optimal Integration",
+                "c": "Release of Incremental Objectives",
+                "d": "Resource Optimization Index"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "Which document typically outlines the roles and responsibilities of project team members in software development?",
+            "options": {
+                "a": "Use case diagram",
+                "b": "Gantt chart",
+                "c": "Software requirements specification",
+                "d": "Roles and responsibilities matrix"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "In a system with 16 KB pages and a 64-bit address space, how many bits are used for the page offset?",
+            "options": {
+                "a": "14 bits",
+                "b": "16 bits",
+                "c": "12 bits",
+                "d": "18 bits"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In C, which preprocessor directive is used to define a macro?",
+            "options": {
+                "a": "#define",
+                "b": "#include",
+                "c": "#ifdef",
+                "d": "#pragma"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "Which software development approach aims to deliver a complete, fully-tested product at the end of the project?",
+            "options": {
+                "a": "Incremental development",
+                "b": "Agile development",
+                "c": "Waterfall development",
+                "d": "Rapid Application Development (RAD)"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "In a disk scheduling algorithm, if the current head position is 50 and the request queue is [30, 20, 60, 10], what is the total seek time for the Shortest Seek Time First (SSTF) algorithm?",
+            "options": {
+                "a": "30",
+                "b": "40",
+                "c": "50",
+                "d": "60"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "A disk has 1000 cylinders, numbered from 0 to 999. The disk request queue has pending requests for cylinders in the following order: 4, 63, 33, 120, 10, 600. If the disk arm is currently at cylinder 50 and moving towards higher-numbered cylinders, what is the total distance traversed by the arm using the SCAN disk scheduling algorithm?",
+            "options": {
+                "a": "1948 cylinders",
+                "b": "1944 cylinders",
+                "c": "1146 cylinders",
+                "d": "1150 cylinders"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Consider two processes, A and B, executing concurrently and sharing a semaphore initialized to 2. Process A executes 4 wait operations followed by 3 signal operations, while Process B executes 3 wait operations followed by 4 signal operations. What will be the final value of the semaphore?",
             "options": {
                 "a": "2",
-                "b": "4",
-                "c": "5",
-                "d": "6"
+                "b": "3",
+                "c": "4",
+                "d": "5"
             },
-            "correct_answer": ["a", "c"]
-        },{
-            "type": "multiple",
-            "question": "Select the programming languages",
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "The number of page frames required to load a program of 1 MB using a page size of 4 KB is:",
             "options": {
-                "a": "Python",
-                "b": "Java",
-                "c": "HTML",
-                "d": "C++"
+                "a": "128",
+                "b": "256",
+                "c": "512",
+                "d": "1024"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "What is a common technique used to prevent disk fragmentation in file management?",
+            "options": {
+                "a": "Defragmentation",
+                "b": "Compression",
+                "c": "Encryption",
+                "d": "Synchronization"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "In a priority scheduling algorithm, if two processes have the same priority, what is the scheduling order?",
+            "options": {
+                "a": "First-Come, First-Served",
+                "b": "Shortest Job First",
+                "c": "Round Robin",
+                "d": "Random"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "If a process requires 10 CPU time units and it is preempted after 4 units in a Round Robin scheduling with a time quantum of 3, how many total time units does it take before it completes?",
+            "options": {
+                "a": "10",
+                "b": "12",
+                "c": "15",
+                "d": "16"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "What will be the output of the following code?<br><pre><code><br>int main() {<br>    int x = 5, y = 10;<br>    int z = x+++y--;<br>    printf(\"%d %d\\n\", x, y);<br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "6 10",
+                "b": "5 9",
+                "c": "6 9",
+                "d": "5 10"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is a common method of implementing file locking for synchronization in file management?",
+            "options": {
+                "a": "Semaphore",
+                "b": "Mutex",
+                "c": "Page replacement",
+                "d": "Directory entry"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code snippet?<br><pre><code><br><br>int main() {<br>    FILE *fp = fopen(\"sample.txt\", \"r\");<br>    if (fp != NULL) {<br>        int ch;<br>        while ((ch = fgetc(fp)) != EOF) {<br>            putchar(ch);<br>        }<br>        fclose(fp);<br>    }<br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "Prints the contents of \"sample.txt\"",
+                "b": "Compiler error",
+                "c": "Runtime error",
+                "d": "Creates a new file named \"sample.txt\""
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "Consider the following code snippet:<br><pre><code><br><br>struct Point {<br>    int x;<br>    int y;<br>};<br><br>int main() {<br>    struct Point p1 = {2, 3};<br>    struct Point p2 = {4, 5};<br><br>    p1 = p2;<br><br>    printf(\"%d, %d\", p1.x, p1.y);<br><br>    return 0;<br>}</code></pre><br>What is the output of this program?",
+            "options": {
+                "a": "2, 3",
+                "b": "4, 5",
+                "c": "5, 4",
+                "d": "Compiler error"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which protocol is used to resolve domain names (e.g., www.example.com) to IP addresses?",
+            "options": {
+                "a": "DHCP (Dynamic Host Configuration Protocol)",
+                "b": "DNS (Domain Name System)",
+                "c": "SNMP (Simple Network Management Protocol)",
+                "d": "ARP (Address Resolution Protocol)"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is a feature of IPv4?",
+            "options": {
+                "a": "Larger address space than IPv6",
+                "b": "128-bit address length",
+                "c": "32-bit address length",
+                "d": "None of the above"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What is the primary purpose of the \"ping\" command?",
+            "options": {
+                "a": "To send emails",
+                "b": "To test network connectivity and measure round-trip time",
+                "c": "To browse websites",
+                "d": "To transfer files between devices"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which protocol is commonly used for sending and receiving email messages?",
+            "options": {
+                "a": "FTP",
+                "b": "POP3 (Post Office Protocol version 3)",
+                "c": "HTTP",
+                "d": "SSH"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "What is the primary goal of a Virtual Private Network (VPN)?",
+            "options": {
+                "a": "To enhance physical network security",
+                "b": "To connect to the internet",
+                "c": "To provide secure communication over public networks",
+                "d": "To allocate IP addresses to devices"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "In the context of network management, what is the purpose of a \"traceroute\" command?",
+            "options": {
+                "a": "To locate lost devices on the network",
+                "b": "To measure the network bandwidth",
+                "c": "To identify the physical location of network cables",
+                "d": "To trace the route of packets through the network"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "Which type of cable is used for long-distance, high-speed data transmission and is immune to electromagnetic interference?",
+            "options": {
+                "a": "Coaxial cable",
+                "b": "Twisted pair cable",
+                "c": "Optical fiber cable",
+                "d": "Ethernet cable"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What does \"LAN\" stand for in the context of networking?",
+            "options": {
+                "a": "Local Area Network",
+                "b": "Large Area Network",
+                "c": "Link Access Node",
+                "d": "Layered Area Network"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is an example of a private IP address range commonly used within local networks?",
+            "options": {
+                "a": "10.0.0.0 to 10.255.255.255",
+                "b": "172.16.0.0 to 172.31.255.255",
+                "c": "192.168.0.0 to 192.168.255.255",
+                "d": "255.255.255.0 to 255.255.255.255"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What is the purpose of the #ifdef preprocessor directive in C?",
+            "options": {
+                "a": "To define a constant",
+                "b": "To check if a macro is defined",
+                "c": "To include a header file",
+                "d": "To define a function"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "In Bayesian networks, what is a conditional probability distribution represented by?",
+            "options": {
+                "a": "A probability table",
+                "b": "A directed acyclic graph (DAG)",
+                "c": "A set of hyperparameters",
+                "d": "A decision tree"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "What does the term \"overfitting\" refer to in machine learning?",
+            "options": {
+                "a": "The model performs well on the training data but poorly on unseen data.",
+                "b": "The model performs consistently on both training and testing data.",
+                "c": "The model is too simple to capture complex patterns in the data.",
+                "d": "The model is underfitting the data."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "What does \"underfitting\" mean in a machine learning context?",
+            "options": {
+                "a": "The model performs well on training data but poorly on new data.",
+                "b": "The model is too complex and learns noise from the training data.",
+                "c": "The model is too simple to capture the underlying data patterns.",
+                "d": "The model is perfect and has zero error."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "In k-nearest neighbors (KNN) classification, how is the class of a data point determined?",
+            "options": {
+                "a": "By averaging the classes of its k nearest neighbors",
+                "b": "By selecting the class of the nearest data point",
+                "c": "By comparing its features to a threshold",
+                "d": "By randomly assigning a class"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "What is the primary objective of the Markov Chain Monte Carlo (MCMC) method in Bayesian learning?",
+            "options": {
+                "a": "To compute the exact posterior distribution",
+                "b": "To minimize the likelihood function",
+                "c": "To maximize the prior distribution",
+                "d": "To perform feature selection"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code>int main() {<br>&nbsp;&nbsp;&nbsp;&nbsp;int a = 5;<br>&nbsp;&nbsp;&nbsp;&nbsp;a += a += 10;<br>&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\", a);<br>}</code></pre>",
+            "options": {
+              "a": "10",
+              "b": "15",
+              "c": "25",
+              "d": "Undefined behavior"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In a confusion matrix, which element represents the number of true negative predictions?",
+            "options": {
+              "a": "Top-left element",
+              "b": "Top-right element",
+              "c": "Bottom-left element",
+              "d": "Bottom-right element"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary goal of dimensionality reduction techniques like Principal Component Analysis (PCA)?",
+            "options": {
+              "a": "To increase the number of features in the dataset",
+              "b": "To improve model interpretability",
+              "c": "To reduce the number of features while preserving important information",
+              "d": "To create new features from existing ones"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In reinforcement learning, what is the reward signal used for?",
+            "options": {
+              "a": "To determine the optimal policy",
+              "b": "To initialize the Q-values",
+              "c": "To regulate exploration and exploitation",
+              "d": "To assign labels to training data"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In a doubly linked list, what is the time complexity of inserting an element at the beginning?",
+            "options": {
+              "a": "O(1)",
+              "b": "O(log n)",
+              "c": "O(n)",
+              "d": "O(n^2)"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In a singly linked list, what is the time complexity of searching for an element?",
+            "options": {
+              "a": "O(1)",
+              "b": "O(log n)",
+              "c": "O(n)",
+              "d": "O(n^2)"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which representation of a graph allows for efficient edge insertion and deletion?",
+            "options": {
+              "a": "Adjacency List",
+              "b": "Adjacency Matrix",
+              "c": "Edge List",
+              "d": "Incidence Matrix"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is a key property of red-black trees that helps maintain balance?",
+            "options": {
+              "a": "Every node is either red or black",
+              "b": "The root is always red",
+              "c": "All leaves are black",
+              "d": "Red nodes cannot have red children"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following data structures can be efficiently implemented using a stack?",
+            "options": {
+              "a": "Queue",
+              "b": "Heap",
+              "c": "Binary Search Tree",
+              "d": "Postfix expression evaluation"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the time complexity of accessing an element in a dynamic array?",
+            "options": {
+              "a": "O(n)",
+              "b": "O(1)",
+              "c": "O(log n)",
+              "d": "O(n log n)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In which of the following searching algorithms is the search element compared with the middle element of the array repeatedly?",
+            "options": {
+              "a": "Linear Search",
+              "b": "Binary Search",
+              "c": "Interpolation Search",
+              "d": "Jump Search"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In a binary search algorithm, what is the worst-case time complexity for searching an element in an array of size n?",
+            "options": {
+              "a": "O(1)",
+              "b": "O(log n)",
+              "c": "O(n)",
+              "d": "O(n log n)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In C, which library function is used to write a string to a file?",
+            "options": {
+              "a": "fputc()",
+              "b": "putc()",
+              "c": "fwrite()",
+              "d": "fprintf()"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of the const keyword in C?",
+            "options": {
+              "a": "To declare a constant variable",
+              "b": "To declare a variable as global",
+              "c": "To include a header file",
+              "d": "To define a macro"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following SQL statements correctly creates an index on the last_name column of the employees table?",
+            "options": {
+              "a": "CREATE INDEX idx_last_name ON employees(last_name);",
+              "b": "INDEX CREATE idx_last_name ON employees(last_name);",
+              "c": "CREATE INDEX employees.last_name;",
+              "d": "ALTER TABLE employees ADD INDEX idx_last_name(last_name);"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In the context of transactions, what is a \"phantom read\"?",
+            "options": {
+              "a": "Reading uncommitted changes from another transaction",
+              "b": "Reading committed changes from another transaction",
+              "c": "Reading changes only after they are committed",
+              "d": "Reading a range of values that is being concurrently modified by other transactions"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of the SQL WINDOW functions?",
+            "options": {
+              "a": "To modify the structure of a table",
+              "b": "To group rows based on a condition",
+              "c": "To perform aggregate calculations on a range of rows",
+              "d": "To drop columns from a table"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a type of join that returns all rows from both tables, combining matching rows and displaying NULL for non-matching rows?",
+            "options": {
+              "a": "INNER JOIN",
+              "b": "LEFT JOIN",
+              "c": "RIGHT JOIN",
+              "d": "FULL OUTER JOIN"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of the SQL CHECK constraint?",
+            "options": {
+              "a": "To ensure referential integrity between tables",
+              "b": "To limit the number of rows returned by a query",
+              "c": "To ensure that data in a column meets a specified condition",
+              "d": "To create a relationship between primary and foreign keys"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In the context of database transactions, what does the term \"isolation\" refer to?",
+            "options": {
+              "a": "The separation of transactions from each other",
+              "b": "The ability to roll back a transaction",
+              "c": "The execution of transactions in parallel",
+              "d": "The persistence of data changes after a transaction is committed"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of the SQL HAVING clause?",
+            "options": {
+              "a": "To filter rows based on a condition",
+              "b": "To order the results of the query",
+              "c": "To group data based on a column",
+              "d": "To filter groups based on aggregate values"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "In database management systems, what is a \"view\"?",
+            "options": {
+              "a": "A virtual machine that stores data",
+              "b": "A physical storage structure for data",
+              "c": "A predefined query stored as an object",
+              "d": "A programming construct for creating database schemas"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is a potential drawback of using indexes in a database?",
+            "options": {
+              "a": "Improved query performance",
+              "b": "Increased storage requirements",
+              "c": "Simplified query syntax",
+              "d": "Enhanced data security"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What does the term \"two-phase commit\" refer to in the context of transactions?",
+            "options": {
+              "a": "A transaction with two steps: write and read",
+              "b": "A transaction with two actions: commit and rollback",
+              "c": "A protocol for coordinating distributed transactions",
+              "d": "A type of transaction isolation level"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What happens when an attempt is made to instantiate an object of an abstract base class?",
+            "options": {
+              "a": "Compilation Error",
+              "b": "Runtime Error",
+              "c": "The object is instantiated successfully.",
+              "d": "The object is instantiated but throws a warning message."
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In C++, an abstract base class:",
+            "options": {
+              "a": "Cannot have any member variables.",
+              "b": "Must have at least one pure virtual function.",
+              "c": "Cannot be inherited by any derived class.",
+              "d": "Must have all member functions defined."
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In C++, if a derived class overrides a virtual function of the base class, which keyword is used in the derived class to indicate that the function is being overridden?",
+            "options": {
+              "a": "override",
+              "b": "virtual",
+              "c": "inherit",
+              "d": "replace"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code>using namespace std;<br><br>class Base {<br>public:<br>&nbsp;&nbsp;&nbsp;&nbsp;virtual void print() {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout << \"Base\";<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>};<br><br>class Derived : public Base {<br>public:<br>&nbsp;&nbsp;&nbsp;&nbsp;void print() override {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout << \"Derived\";<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>};<br><br>int main() {<br>&nbsp;&nbsp;&nbsp;&nbsp;Base* ptr = new Derived;<br>&nbsp;&nbsp;&nbsp;&nbsp;Derived* dptr = dynamic_cast<Derived*>(ptr);<br>&nbsp;&nbsp;&nbsp;&nbsp;dptr->print();<br>&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>}</code></pre>",
+            "options": {
+              "a": "Base",
+              "b": "Derived",
+              "c": "DerivedBase",
+              "d": "Compile Error"
+            },
+            "correct_answer": "b"
+          },                    
+          {
+            "type": "single",
+            "question": "Which of the following is not an access specifier in C++?",
+            "options": {
+              "a": "public",
+              "b": "private",
+              "c": "protected",
+              "d": "secure"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following statements is true regarding virtual functions in C++?",
+            "options": {
+              "a": "Virtual functions must be defined in the base class.",
+              "b": "Virtual functions can be declared as private in the base class.",
+              "c": "Virtual functions are resolved at compile-time.",
+              "d": "Virtual functions cannot be overridden in derived classes."
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In C++, polymorphism achieved through function overriding is:",
+            "options": {
+              "a": "Compile-time polymorphism",
+              "b": "Run-time polymorphism",
+              "c": "Static polymorphism",
+              "d": "Dynamic polymorphism"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In C++, which access specifier specifies that a member of the base class is accessible in the derived class but not by the objects of the derived class?",
+            "options": {
+              "a": "private",
+              "b": "public",
+              "c": "protected",
+              "d": "friend"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of a destructor in a class?",
+            "options": {
+              "a": "To initialize objects",
+              "b": "To clean up resources",
+              "c": "To overload operators",
+              "d": "To construct objects"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In C++, can an abstract base class have data members?",
+            "options": {
+              "a": "Yes, but only static data members.",
+              "b": "Yes, but only if they are constant.",
+              "c": "Yes, there are no restrictions on data members in an abstract base class.",
+              "d": "No, abstract base classes cannot have data members."
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "multiple",
+            "question": "Which of the following are true about file handling in C?",
+            "options": {
+                "a": "fopen() function is used to open a file.",
+                "b": "fclose() function is used to close a file.",
+                "c": "fprintf() function is used to write formatted output to a file.",
+                "d": "fread() function is used to read a single character from a file."
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are valid loop constructs in C?",
+            "options": {
+                "a": "for",
+                "b": "while",
+                "c": "repeat",
+                "d": "do-while"
             },
             "correct_answer": ["a", "b", "d"]
-        },{
+        },
+        {
             "type": "multiple",
-            "question": "Select even numbers",
+            "question": "Which of the following are true about function overloading in C++?",
             "options": {
-                "a": "1",
-                "b": "2",
-                "c": "3",
-                "d": "4"
+                "a": "Function overloading allows multiple functions with the same name but different parameters.",
+                "b": "Function overloading is resolved at runtime.",
+                "c": "Function overloading can include differences in return type.",
+                "d": "Function overloading increases code readability."
             },
-            "correct_answer": ["b", "d"]
+            "correct_answer": ["a", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about copy constructors in C++?",
+            "options": {
+                "a": "A copy constructor initializes an object using another object of the same class.",
+                "b": "If you don't provide a copy constructor, C++ generates a default one.",
+                "c": "A copy constructor can be called explicitly.",
+                "d": "A copy constructor can be private."
+            },
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about linked lists?",
+            "options": {
+                "a": "They allow efficient insertion and deletion of elements.",
+                "b": "They provide O(1) time complexity for accessing an element by index.",
+                "c": "They can be singly or doubly linked.",
+                "d": "They require contiguous memory allocation."
+            },
+            "correct_answer": ["a", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about balanced binary trees?",
+            "options": {
+                "a": "AVL trees and Red-Black trees are types of balanced binary trees.",
+                "b": "They ensure O(log n) height.",
+                "c": "They can have unbalanced subtrees.",
+                "d": "They are used to maintain order statistics."
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following commands are used to manage processes in Unix?",
+            "options": {
+                "a": "ps",
+                "b": "top",
+                "c": "kill",
+                "d": "nice"
+            },
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about Unix file permissions?",
+            "options": {
+                "a": "Permissions can be set for the owner, group, and others.",
+                "b": "Permissions include read, write, and execute.",
+                "c": "Permissions can be changed using the chmod command.",
+                "d": "Permissions are inherited from the parent directory."
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about virtual memory?",
+            "options": {
+                "a": "It provides an abstraction of large memory space.",
+                "b": "It uses disk space to extend physical memory.",
+                "c": "It allows for more efficient process isolation.",
+                "d": "It eliminates the need for physical memory."
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about the control unit in a CPU?",
+            "options": {
+                "a": "It fetches instructions from memory.",
+                "b": "It decodes instructions.",
+                "c": "It executes instructions.",
+                "d": "It manages the execution of instructions by coordinating with the ALU and other components."
+            },
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about thrashing in an operating system?",
+            "options": {
+                "a": "It occurs when there is excessive paging.",
+                "b": "It leads to high CPU utilization.",
+                "c": "It can be mitigated by increasing the level of multiprogramming.",
+                "d": "It results in low system performance."
+            },
+            "correct_answer": ["a", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about semaphores in operating systems?",
+            "options": {
+                "a": "They are used for process synchronization.",
+                "b": "They can be binary or counting.",
+                "c": "They are a type of hardware interrupt.",
+                "d": "They help in avoiding race conditions."
+            },
+            "correct_answer": ["a", "b", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about firewalls?",
+            "options": {
+                "a": "They monitor and control incoming and outgoing network traffic.",
+                "b": "They can be hardware or software-based.",
+                "c": "They are used to establish a barrier between a trusted and an untrusted network.",
+                "d": "They operate at the Application Layer only."
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about VPN (Virtual Private Network)?",
+            "options": {
+                "a": "It provides secure access to a private network over the internet.",
+                "b": "It uses tunneling protocols to encrypt data.",
+                "c": "It can provide anonymity by masking the user's IP address.",
+                "d": "It only works with wired networks."
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about normalization in a database?",
+            "options": {
+                "a": "It reduces data redundancy.",
+                "b": "It involves dividing large tables into smaller ones.",
+                "c": "It ensures referential integrity.",
+                "d": "It can sometimes lead to more complex queries."
+            },
+            "correct_answer": ["a", "b", "c", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are SQL JOIN types?",
+            "options": {
+                "a": "INNER JOIN",
+                "b": "OUTER JOIN",
+                "c": "CROSS JOIN",
+                "d": "CONDITIONAL JOIN"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about the Waterfall model?",
+            "options": {
+                "a": "It is a linear and sequential approach.",
+                "b": "Each phase must be completed before the next phase begins.",
+                "c": "It is highly adaptable to changes.",
+                "d": "It is best suited for projects with well-defined requirements."
+            },
+            "correct_answer": ["a", "b", "d"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are types of software prototypes?",
+            "options": {
+                "a": "Throwaway prototype",
+                "b": "Evolutionary prototype",
+                "c": "Incremental prototype",
+                "d": "Final prototype"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are types of neural networks?",
+            "options": {
+                "a": "Convolutional Neural Networks (CNNs)",
+                "b": "Recurrent Neural Networks (RNNs)",
+                "c": "Feedforward Neural Networks (FNNs)",
+                "d": "Decision Neural Networks (DNNs)"
+            },
+            "correct_answer": ["a", "b", "c"]
+        },
+        {
+            "type": "multiple",
+            "question": "Which of the following are true about overfitting in machine learning?",
+            "options": {
+                "a": "It occurs when a model performs well on training data but poorly on test data.",
+                "b": "It can be mitigated by using regularization techniques.",
+                "c": "It indicates that the model has learned the underlying patterns in the data.",
+                "d": "It can be identified using cross-validation."
+            },
+            "correct_answer": ["a", "b", "d"]
         }
     ]
 }

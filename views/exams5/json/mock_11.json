@@ -1,95 +1,1107 @@
 {
-    "exam_name": "Mock Exam 1",
+    "exam_name": "Mock Exam 11",
     "total_marks": 120,
     "time_limit": 120,
     "questions": [
         {
             "type": "single",
-            "question": "What is 2 + 2?",
+            "question": "In Unix, which command is used to create a hard link to a file?",
             "options": {
-                "a": "3",
-                "b": "4",
-                "c": "5",
-                "d": "6"
+              "a": "ln",
+              "b": "link",
+              "c": "hardlink",
+              "d": "hlink"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In a multiprocessing system, what is a contention-free interrupt handling mechanism?",
+            "options": {
+              "a": "Round-robin scheduling",
+              "b": "Priority-based interrupt handling",
+              "c": "Maskable interrupts",
+              "d": "Non-maskable interrupts"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In Unix, which command is used to set a process's scheduling priority?",
+            "options": {
+              "a": "setprio",
+              "b": "prioset",
+              "c": "nice",
+              "d": "prio"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What command is used to change the scheduling priority of a running process in Unix?",
+            "options": {
+              "a": "alterprio",
+              "b": "changeprio",
+              "c": "renice",
+              "d": "adjustprio"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In Unix, what command is used to extract specific columns from a text file?",
+            "options": {
+              "a": "cut",
+              "b": "extract",
+              "c": "filter",
+              "d": "slice"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "A cache memory has 64 blocks, and the block size is 32 bytes. If the main memory size is 512 KB, what is the size of the tag field in bits for a direct-mapped cache?",
+            "options": {
+              "a": "7 bits",
+              "b": "10 bits",
+              "c": "12 bits",
+              "d": "14 bits"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In Unix, which command is used to search for patterns within files?",
+            "options": {
+              "a": "locate",
+              "b": "search",
+              "c": "find",
+              "d": "grep"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What command is used to determine the file type in Unix?",
+            "options": {
+              "a": "identify",
+              "b": "filetype",
+              "c": "file",
+              "d": "type"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In Unix, which command is used to display the full path to an executable file?",
+            "options": {
+              "a": "where",
+              "b": "pathfind",
+              "c": "which",
+              "d": "locate"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which Unix command is used to print environment variables?",
+            "options": {
+              "a": "vars",
+              "b": "showenv",
+              "c": "printenv",
+              "d": "envprint"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In a software project, what does the term 'scope creep' refer to?",
+            "options": {
+              "a": "An increase in the project budget",
+              "b": "Expanding project goals without proper approval",
+              "c": "Efficiently managing project resources",
+              "d": "Meeting project deadlines ahead of schedule"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which software development methodology is known for its emphasis on documentation, detailed planning, and extensive requirements gathering?",
+            "options": {
+              "a": "Scrum",
+              "b": "Extreme Programming (XP)",
+              "c": "Waterfall",
+              "d": "Kanban"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of a system call in an operating system?",
+            "options": {
+              "a": "To provide low-level hardware access",
+              "b": "To terminate the current process",
+              "c": "To request a service from the operating system kernel",
+              "d": "To allocate memory dynamically"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which software testing technique involves intentionally injecting faults or errors into a system to evaluate its resilience?",
+            "options": {
+              "a": "Black-box testing",
+              "b": "White-box testing",
+              "c": "Mutation testing",
+              "d": "Alpha testing"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is 'Pair Programming' in Extreme Programming (XP)?",
+            "options": {
+              "a": "A technique for writing code in pairs to increase productivity",
+              "b": "A method for debugging code in pairs",
+              "c": "A way to document code in pairs",
+              "d": "A technique for code review in pairs"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In the context of software quality management, what does the 'ISO 9000' series of standards primarily focus on?",
+            "options": {
+              "a": "Security testing",
+              "b": "Process improvement and quality assurance",
+              "c": "User interface design",
+              "d": "Project scheduling"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In the context of system calls, what is a 'trap' or 'software interrupt'?",
+            "options": {
+              "a": "A hardware fault",
+              "b": "A privileged instruction",
+              "c": "A mechanism for switching between user and kernel mode",
+              "d": "A type of cache memory"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the main purpose of a software configuration management (SCM) system?",
+            "options": {
+              "a": "To store customer requirements",
+              "b": "To manage and control changes to software artifacts",
+              "c": "To generate code automatically",
+              "d": "To conduct load testing"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which software development approach focuses on delivering small, frequent, and potentially shippable increments of a product?",
+            "options": {
+              "a": "Waterfall",
+              "b": "Scrum",
+              "c": "Big Bang",
+              "d": "RUP (Rational Unified Process)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary goal of the Clean Code concept in software development?",
+            "options": {
+              "a": "Minimizing the lines of code in a program",
+              "b": "Creating code that is easy to read, understand, and maintain",
+              "c": "Maximizing code complexity for robustness",
+              "d": "Reducing code reuse"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "When a computer system uses virtual memory, what happens when a page fault occurs?",
+            "options": {
+              "a": "The program terminates",
+              "b": "A new process is created",
+              "c": "A page is fetched from secondary storage into RAM",
+              "d": "The CPU enters a sleep state"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "In C, how can command-line arguments be passed to the main function?",
+            "options": {
+              "a": "By declaring them as global variables.",
+              "b": "By passing them as arguments to the main function.",
+              "c": "By using the scanf function inside the main function.",
+              "d": "By using the argv array and argc parameter of the main function."
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which scheduling algorithm aims to minimize the average waiting time for processes?",
+            "options": {
+              "a": "Shortest Job First (SJF)",
+              "b": "Priority Scheduling",
+              "c": "Earliest Deadline First (EDF)",
+              "d": "Lottery Scheduling"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In the context of thread synchronization, what is a semaphore with a count of 0 often referred to as?",
+            "options": {
+              "a": "Binary Semaphore",
+              "b": "Mutex",
+              "c": "Deadlock Semaphore",
+              "d": "Counting Semaphore"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is a critical section in the context of process synchronization?",
+            "options": {
+              "a": "A section of code that must be executed atomically by one process at a time",
+              "b": "A section of code that can be executed concurrently by multiple processes",
+              "c": "A section of code that is exempt from synchronization",
+              "d": "A section of code responsible for memory allocation"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which memory allocation algorithm aims to minimize memory waste by allocating the smallest available block that fits a request?",
+            "options": {
+              "a": "Best Fit",
+              "b": "Worst Fit",
+              "c": "First Fit",
+              "d": "Buddy System"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In a system where cache hit time is 10 ns and main memory access time is 90 ns, if the hit ratio is 0.9, what is the effective memory access time?",
+            "options": {
+              "a": "12 ns",
+              "b": "18 ns",
+              "c": "19 ns",
+              "d": "17 ns"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "A 64-bit processor uses 8 KB pages. How many pages are required to map a 16 GB virtual address space?",
+            "options": {
+              "a": "2^20",
+              "b": "2^21",
+              "c": "2^22",
+              "d": "2^23"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following techniques is used for reducing disk arm movement and optimizing disk scheduling?",
+            "options": {
+              "a": "SCAN",
+              "b": "C-LOOK",
+              "c": "FIFO",
+              "d": "SJF"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary goal of demand paging in virtual memory systems?",
+            "options": {
+              "a": "To minimize CPU usage",
+              "b": "To maximize memory usage",
+              "c": "To minimize page faults",
+              "d": "To minimize process switching"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which routing algorithm takes into account factors such as link bandwidth and delay in addition to hop count to determine the best path?",
+            "options": {
+              "a": "Dijkstra's algorithm",
+              "b": "OSPF (Open Shortest Path First)",
+              "c": "Bellman-Ford algorithm",
+              "d": "RIP (Routing Information Protocol)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of the Spanning Tree Protocol (STP) in Ethernet networks?",
+            "options": {
+              "a": "Load balancing",
+              "b": "Redundancy elimination",
+              "c": "Quality of Service (QoS)",
+              "d": "Broadcast storm prevention"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of this C code?<pre><br><br>int main() {<br>    int a = 3;<br>    if (a & 1)<br>        printf(\"Odd\");<br>    else<br>        printf(\"Even\");<br>}<br><pre>",
+            "options": {
+              "a": "Odd",
+              "b": "Even",
+              "c": "Compilation error",
+              "d": "Undefined behavior"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which IPv6 extension header is used to specify the route that packets should take through the network, overriding normal routing decisions?",
+            "options": {
+              "a": "Destination Options Header",
+              "b": "Routing Header",
+              "c": "Fragmentation Header",
+              "d": "Hop-by-Hop Options Header"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which transport layer protocol is known for its low-latency and minimal overhead, making it suitable for real-time applications like VoIP and online gaming?",
+            "options": {
+              "a": "UDP (User Datagram Protocol)",
+              "b": "TCP (Transmission Control Protocol)",
+              "c": "SCTP (Stream Control Transmission Protocol)",
+              "d": "RDP (Real-time Data Protocol)"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What type of network attack involves flooding a network with an excessive amount of traffic to overwhelm its resources and cause a denial of service?",
+            "options": {
+              "a": "DDoS (Distributed Denial of Service)",
+              "b": "SQL Injection",
+              "c": "Phishing",
+              "d": "Spoofing"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In the context of Quality of Service (QoS), what is the purpose of the Differentiated Services Code Point (DSCP) field in IP headers?",
+            "options": {
+              "a": "It specifies the source IP address.",
+              "b": "It indicates the packet's priority and treatment.",
+              "c": "It encrypts the packet's payload.",
+              "d": "It defines the Time-to-Live (TTL) value."
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which cryptographic protocol is commonly used to secure email communications, providing encryption and authentication for email messages?",
+            "options": {
+              "a": "TLS (Transport Layer Security)",
+              "b": "SSH (Secure Shell)",
+              "c": "IPsec (Internet Protocol Security)",
+              "d": "PGP (Pretty Good Privacy)"
+            },
+            "correct_answer": "d"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary purpose of the BGP (Border Gateway Protocol) in the context of the global Internet?",
+            "options": {
+              "a": "It ensures end-to-end encryption of data.",
+              "b": "It controls the routing of data between autonomous systems (ASes).",
+              "c": "It assigns IP addresses to network devices.",
+              "d": "It filters malicious traffic at the network edge."
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which network addressing technique allows multiple devices to share a single public IP address, typically used in home networks?",
+            "options": {
+              "a": "NAT (Network Address Translation)",
+              "b": "CIDR (Classless Inter-Domain Routing)",
+              "c": "DHCP (Dynamic Host Configuration Protocol)",
+              "d": "ARP (Address Resolution Protocol)"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "In a Random Forest ensemble, what is the purpose of bootstrapping?",
+            "options": {
+              "a": "It ensures that each tree is built from the entire dataset.",
+              "b": "It reduces overfitting by using a small subset of data for each tree.",
+              "c": "It increases the number of features considered for each split.",
+              "d": "It improves the interpretability of the ensemble."
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which optimization algorithm is commonly used to train deep neural networks with many layers?",
+            "options": {
+              "a": "Gradient Descent",
+              "b": "Stochastic Gradient Descent (SGD)",
+              "c": "Adam",
+              "d": "Levenberg-Marquardt"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary drawback of using a Long Short-Term Memory (LSTM) network compared to a Gated Recurrent Unit (GRU) network?",
+            "options": {
+              "a": "Slower convergence during training",
+              "b": "Increased complexity",
+              "c": "Greater risk of vanishing gradients",
+              "d": "Inability to model sequential data"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is a common use case for decision trees?",
+            "options": {
+              "a": "Image recognition",
+              "b": "Time series forecasting",
+              "c": "Predicting customer segmentation",
+              "d": "Natural language processing"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the main benefit of using deep learning?",
+            "options": {
+              "a": "It requires less data than traditional methods.",
+              "b": "It is always faster to train than other algorithms.",
+              "c": "It can automatically extract features from raw data.",
+              "d": "It is easier to interpret than other models."
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "Which clustering algorithm is sensitive to the order of data points and can yield different results with different initializations?",
+            "options": {
+              "a": "K-Means",
+              "b": "Hierarchical Agglomerative Clustering",
+              "c": "Gaussian Mixture Model (GMM)",
+              "d": "Spectral Clustering"
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of the fclose() function in C?",
+            "options": {
+              "a": "To close a file opened with fopen().",
+              "b": "To flush the output buffer.",
+              "c": "To close the standard input stream.",
+              "d": "To close the standard output stream."
+            },
+            "correct_answer": "a"
+          },
+          {
+            "type": "single",
+            "question": "Which method is commonly used for feature selection in machine learning to reduce dimensionality and improve model efficiency?",
+            "options": {
+              "a": "Principal Component Analysis (PCA)",
+              "b": "Recursive Feature Elimination (RFE)",
+              "c": "K-Means clustering",
+              "d": "Hidden Markov Models (HMMs)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "Which type of ensemble learning technique combines the predictions of multiple models through a weighted voting system?",
+            "options": {
+              "a": "Bagging",
+              "b": "Boosting",
+              "c": "Stacking",
+              "d": "Random Subspace Method"
+            },
+            "correct_answer": "c"
+          },
+          {
+            "type": "single",
+            "question": "What is the output of the following code snippet?<br><pre><code><br><br>int main() {<br>    char str[] = \"C Programming\";<br>    int len = sizeof(str) / sizeof(str[0]);<br><br>    printf(\"%d\", len);<br><br>    return 0;<br>}<br></code></pre>",
+            "options": {
+              "a": "13",
+              "b": "14",
+              "c": "12",
+              "d": "Compiler error"
+            },
+            "correct_answer": "b"
+          },          
+          {
+            "type": "single",
+            "question": "Which of the following pre-processor directives is used to define a macro in C?",
+            "options": {
+              "a": "#ifdef",
+              "b": "#define",
+              "c": "#include",
+              "d": "#ifndef"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "In a binary search tree (BST), what is the time complexity for searching an element?",
+            "options": {
+              "a": "O(1)",
+              "b": "O(log n)",
+              "c": "O(n)",
+              "d": "O(n^2)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the time complexity of Counting Sort when the range of input values is k?",
+            "options": {
+              "a": "O(n)",
+              "b": "O(n + k)",
+              "c": "O(k)",
+              "d": "O(n log n)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What is the time complexity of finding the Lowest Common Ancestor (LCA) of two nodes in a Binary Tree using Binary Lifting?",
+            "options": {
+              "a": "O(n)",
+              "b": "O(log n)",
+              "c": "O(n log n)",
+              "d": "O(1)"
+            },
+            "correct_answer": "b"
+          },
+          {
+            "type": "single",
+            "question": "What does the following code snippet do?<br><pre><code><br>union Data {<br>    int i;<br>    float f;<br>    char str[20];<br>};<br><br>int main() {<br>    union Data data;<br>    <br>    data.i = 10;<br>    data.f = 20.5;<br>    <br>    printf(\"%d, %f\", data.i, data.f);<br>    <br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "Prints \"10, 20.5\"",
+                "b": "Prints \"20, 20.5\"",
+                "c": "Compiler error",
+                "d": "Undefined behavior"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "What is the time complexity to find the inorder successor of a given node in a Binary Search Tree?",
+            "options": {
+                "a": "O(1)",
+                "b": "O(log n)",
+                "c": "O(n)",
+                "d": "O(n log n)"
             },
             "correct_answer": "b"
         },
-        
         {
             "type": "single",
-            "question": "What is the capital of France?",
+            "question": "In a singly linked list, how can you efficiently delete the last node?",
             "options": {
-                "a": "Berlin",
-                "b": "Madrid",
-                "c": "Paris",
-                "d": "Rome"
+                "a": "O(1)",
+                "b": "O(n)",
+                "c": "O(log n)",
+                "d": "O(n^2)"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is not a type of tree traversal?",
+            "options": {
+                "a": "Preorder",
+                "b": "Postorder",
+                "c": "Inorder",
+                "d": "Depth-First"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "What is the maximum number of children a node can have in a binary tree?",
+            "options": {
+                "a": "0",
+                "b": "1",
+                "c": "2",
+                "d": "3"
             },
             "correct_answer": "c"
         },
-        
         {
             "type": "single",
-            "question": "Which planet is known as the Red Planet?",
+            "question": "Which of the following is a non-linear data structure that can represent hierarchical relationships?",
             "options": {
-                "a": "Earth",
-                "b": "Mars",
-                "c": "Jupiter",
-                "d": "Saturn"
+                "a": "Linked List",
+                "b": "Graph",
+                "c": "Stack",
+                "d": "Queue"
             },
             "correct_answer": "b"
         },
-        
         {
             "type": "single",
-            "question": "Which element has the chemical symbol 'O'?",
+            "question": "In a typical relational database, which of the following ensures that a primary key does not allow NULL values?",
             "options": {
-                "a": "Oxygen",
-                "b": "Gold",
-                "c": "Hydrogen",
-                "d": "Iron"
+                "a": "Referential integrity",
+                "b": "Domain integrity",
+                "c": "Entity integrity",
+                "d": "User-defined integrity"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following best describes the CAP theorem in distributed databases?",
+            "options": {
+                "a": "Consistency, Availability, Partition tolerance",
+                "b": "Consistency, Accessibility, Performance",
+                "c": "Capacity, Availability, Partitioning",
+                "d": "Consistency, Accuracy, Performance"
             },
             "correct_answer": "a"
         },
         {
-            "type": "multiple",
-            "question": "Select countries in Europe",
+            "type": "single",
+            "question": "Which SQL command is used to retrieve data from a database?",
             "options": {
-                "a": "France",
-                "b": "Brazil",
-                "c": "Germany",
-                "d": "Australia"
+                "a": "INSERT",
+                "b": "UPDATE",
+                "c": "SELECT",
+                "d": "DELETE"
             },
-            "correct_answer": ["a", "c"]
-        }, {
-            "type": "multiple",
-            "question": "Select prime numbers",
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What is the purpose of the \"WHERE\" clause in an SQL query?",
             "options": {
-                "a": "2",
-                "b": "4",
-                "c": "5",
-                "d": "6"
+                "a": "To specify the columns to retrieve",
+                "b": "To specify the table to query",
+                "c": "To filter rows based on a condition",
+                "d": "To order the result set"
             },
-            "correct_answer": ["a", "c"]
-        },{
-            "type": "multiple",
-            "question": "Select the programming languages",
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is a valid data type in SQL?",
             "options": {
-                "a": "Python",
-                "b": "Java",
-                "c": "HTML",
-                "d": "C++"
+                "a": "ARRAY",
+                "b": "BOOLEAN",
+                "c": "SET",
+                "d": "ENUM"
             },
-            "correct_answer": ["a", "b", "d"]
-        },{
-            "type": "multiple",
-            "question": "Select even numbers",
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code snippet?<br><pre><code><br>#define SQUARE(x) x*x<br><br>int main() {<br>    int a = 4, result;<br>    result = SQUARE(a + 2);<br>    printf(\"%d\\n\", result);<br>    return 0;<br>}</code></pre>",
             "options": {
-                "a": "1",
-                "b": "2",
-                "c": "3",
-                "d": "4"
+                "a": "16",
+                "b": "36",
+                "c": "20",
+                "d": "14"
             },
-            "correct_answer": ["b", "d"]
-        }
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following SQL commands is used to add a new column to an existing table?",
+            "options": {
+                "a": "CREATE TABLE",
+                "b": "ALTER TABLE",
+                "c": "MODIFY TABLE",
+                "d": "INSERT INTO"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "What is the purpose of the \"GROUP BY\" clause in an SQL query?",
+            "options": {
+                "a": "To sort the result set",
+                "b": "To group rows with similar values and perform aggregate functions",
+                "c": "To filter rows based on a condition",
+                "d": "To join multiple tables"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is not an aggregate function in SQL?",
+            "options": {
+                "a": "COUNT",
+                "b": "SUM",
+                "c": "AVG",
+                "d": "JOIN"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "Consider the following structure definition:<br><pre><code>struct Point {<br>    int x;<br>    int y;<br>};</code></pre>What is the size of an instance of this structure on a typical 32-bit system?",
+            "options": {
+                "a": "2 bytes",
+                "b": "4 bytes",
+                "c": "8 bytes",
+                "d": "16 bytes"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following program?<br><pre><code>using namespace std;<br><br>class A {<br>public:<br>    virtual void display() {<br>        cout << \"A\";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    void display() override {<br>        cout << \"B\";<br>    }<br>};<br><br>int main() {<br>    A* ptr = new B;<br>    ptr->display();<br>    delete ptr;<br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "AB",
+                "b": "Compile Error",
+                "c": "B",
+                "d": "A"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following statements about friend functions and friend classes in C++ is false?",
+            "options": {
+                "a": "Friend functions can be declared in the private or public section of a class.",
+                "b": "Friend functions and friend classes violate encapsulation.",
+                "c": "Friendship is mutual; if class A is a friend of class B, then class B is automatically a friend of class A.",
+                "d": "Friend functions and friend classes have access to private and protected members of the class they are friends with."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code>using namespace std;<br><br>class Base {<br>public:<br>    Base() {<br>        cout << \"Base \";<br>    }<br>};<br><br>class Derived : public Base {<br>public:<br>    Derived() {<br>        cout << \"Derived \";<br>    }<br>};<br><br>int main() {<br>    Derived d;<br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "Derived",
+                "b": "Base Derived",
+                "c": "Base",
+                "d": "Compile Error"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following is true about template specialization in C++?",
+            "options": {
+                "a": "It allows specialization of functions but not classes.",
+                "b": "It is not allowed in C++.",
+                "c": "It allows providing a different implementation for a specific type.",
+                "d": "It is used to specify default template arguments."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What will be the output of the following program?<br><pre><code>using namespace std;<br><br>class A {<br>public:<br>    virtual void print() {<br>        cout << \"A\";<br>    }<br>};<br><br>class B : public A {<br>public:<br>    void print() override {<br>        cout << \"B\";<br>    }<br>};<br><br>int main() {<br>    A obj;<br>    A* ptr = &obj;<br>    B* bptr = dynamic_cast<B*>(ptr);<br>    if (bptr) {<br>        bptr->print();<br>    } else {<br>        cout << \"C\";<br>    }<br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "B",
+                "b": "A",
+                "c": "C",
+                "d": "Compile Error"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code>using namespace std;<br><br>class Base {<br>public:<br>    virtual void print() {<br>        cout << \"Base\";<br>    }<br>};<br><br>class Derived : public Base {<br>public:<br>    void print() override {<br>        cout << \"Derived\";<br>    }<br>};<br><br>int main() {<br>    Derived d;<br>    Base* ptr = &d;<br>    ptr->print();<br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "Derived",
+                "b": "Base",
+                "c": "Base Derived",
+                "d": "Compile Error"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following statements about static members in C++ is incorrect?",
+            "options": {
+                "a": "Static members can be accessed using the scope resolution operator.",
+                "b": "Static members are shared among all instances of the class.",
+                "c": "Static members can be initialized inside the class declaration.",
+                "d": "Static members can be declared as const."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "Which of the following statements about operator overloading is false?",
+            "options": {
+                "a": "An overloaded operator must have at least one operand that is a user-defined type.",
+                "b": "Overloaded operators can have default arguments.",
+                "c": "Overloaded operators must preserve the precedence and associativity of the built-in operators.",
+                "d": "Overloaded operators cannot change the fundamental meaning of the operators."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code?<br><pre><code>using namespace std;<br><br>int main() {<br>    int x = 3;<br>    while (--x > 0) {<br>        cout << x;<br>    }<br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "3",
+                "b": "210",
+                "c": "21",
+                "d": "12"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "type": "single",
+            "question": "What is the output of the following code snippet?<br><pre><code><br>enum Days {SUNDAY, MONDAY, TUESDAY, WEDNESDAY};<br><br>int main() {<br>    enum Days today = WEDNESDAY;<br>    int nextDay = today + 1;<br>    <br>    printf(\"%d\", nextDay);<br>    <br>    return 0;<br>}</code></pre>",
+            "options": {
+                "a": "0",
+                "b": "3",
+                "c": "4",
+                "d": "Compiler error"
+            },
+            "correct_answer": "c"
+        },
+        {
+                "type": "multiple",
+                "question": "Which of the following are true about the switch statement in C?",
+                "options": {
+                    "a": "The switch statement can be used to replace multiple if-else-if statements.",
+                    "b": "Each case label must be a constant expression.",
+                    "c": "The default case is optional.",
+                    "d": "The break statement is not required to terminate each case."
+                },
+                "correct_answer": ["a", "b", "c", "d"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are valid declarations of main() function in C?",
+                "options": {
+                    "a": "int main()",
+                    "b": "void main()",
+                    "c": "int main(int argc, char *argv[])",
+                    "d": "main()"
+                },
+                "correct_answer": ["a", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about friend functions in C++?",
+                "options": {
+                    "a": "Friend functions can access private and protected members of the class.",
+                    "b": "Friend functions are members of the class.",
+                    "c": "Friend functions can be declared inside or outside the class.",
+                    "d": "Friend functions can be used for operator overloading."
+                },
+                "correct_answer": ["a", "c", "d"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about the 'this' pointer in C++?",
+                "options": {
+                    "a": "'this' is a pointer to the current object.",
+                    "b": "'this' is accessible only within non-static member functions.",
+                    "c": "'this' pointer can be used to access members of the object.",
+                    "d": "'this' can be assigned a new value."
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about the depth-first search (DFS) algorithm?",
+                "options": {
+                    "a": "It uses a stack data structure, either implicitly or explicitly.",
+                    "b": "It can be used to detect cycles in a graph.",
+                    "c": "It is more suitable for finding the shortest path in unweighted graphs compared to BFS.",
+                    "d": "It can be used to perform a topological sort."
+                },
+                "correct_answer": ["a", "b", "d"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about circular linked lists?",
+                "options": {
+                    "a": "The last node points to the first node.",
+                    "b": "They can be singly or doubly linked.",
+                    "c": "They allow traversal of the list starting from any node.",
+                    "d": "They provide O(1) access time for any element."
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about the find command in Unix?",
+                "options": {
+                    "a": "It is used to search for files and directories.",
+                    "b": "It supports searching by name, size, and modification time.",
+                    "c": "It can execute commands on the files found.",
+                    "d": "It only searches in the current directory."
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about Unix signals?",
+                "options": {
+                    "a": "They are used for inter-process communication.",
+                    "b": "The kill command can be used to send signals.",
+                    "c": "Signals can be caught and handled by processes.",
+                    "d": "Signals are always fatal and terminate the process."
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are characteristics of a real-time operating system (RTOS)?",
+                "options": {
+                    "a": "It guarantees that certain tasks will be completed within a specific time frame.",
+                    "b": "It is used in systems requiring high reliability and predictability.",
+                    "c": "It does not support multitasking.",
+                    "d": "It is suitable for time-critical applications."
+                },
+                "correct_answer": ["a", "b", "d"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about disk scheduling algorithms?",
+                "options": {
+                    "a": "They determine the order in which disk I/O requests are processed.",
+                    "b": "They include algorithms like FCFS, SSTF, and SCAN.",
+                    "c": "They have no impact on system performance.",
+                    "d": "They aim to reduce seek time and latency."
+                },
+                "correct_answer": ["a", "b", "d"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about routing?",
+                "options": {
+                    "a": "Static routing requires manual configuration.",
+                    "b": "Dynamic routing uses algorithms to find optimal paths.",
+                    "c": "Routers operate at the Network Layer.",
+                    "d": "Routing tables are used to determine the best path for data packets."
+                },
+                "correct_answer": ["a", "b", "c", "d"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about UDP (User Datagram Protocol)?",
+                "options": {
+                    "a": "It provides a connectionless service.",
+                    "b": "It ensures data integrity and reliability.",
+                    "c": "It is faster than TCP.",
+                    "d": "It is suitable for real-time applications like video streaming."
+                },
+                "correct_answer": ["a", "c", "d"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about indexing in a database?",
+                "options": {
+                    "a": "It improves the speed of data retrieval.",
+                    "b": "It can slow down data insertion and updates.",
+                    "c": "It requires additional storage space.",
+                    "d": "It eliminates the need for primary keys."
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about the ER (Entity-Relationship) model?",
+                "options": {
+                    "a": "It uses entities to represent real-world objects.",
+                    "b": "It uses relationships to connect entities.",
+                    "c": "It uses attributes to describe properties of entities.",
+                    "d": "It is primarily used for hierarchical databases."
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about database transactions?",
+                "options": {
+                    "a": "A transaction is a sequence of one or more SQL operations.",
+                    "b": "Transactions can be committed or rolled back.",
+                    "c": "Transactions ensure the ACID properties.",
+                    "d": "Transactions are only used in NoSQL databases."
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about NoSQL databases?",
+                "options": {
+                    "a": "They are designed to handle large volumes of unstructured data.",
+                    "b": "They use a fixed schema.",
+                    "c": "They can be document-based, key-value stores, column-oriented, or graph databases.",
+                    "d": "They are suitable for distributed data storage."
+                },
+                "correct_answer": ["a", "c", "d"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about software quality assurance (SQA)?",
+                "options": {
+                    "a": "It focuses on improving the software development process.",
+                    "b": "It includes activities such as reviews and audits.",
+                    "c": "It ensures that the final product meets user requirements.",
+                    "d": "It is only performed at the end of the development cycle."
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are activities involved in risk management in software projects?",
+                "options": {
+                    "a": "Risk identification",
+                    "b": "Risk analysis",
+                    "c": "Risk mitigation",
+                    "d": "Risk amplification"
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are common regularization techniques?",
+                "options": {
+                    "a": "L1 regularization",
+                    "b": "L2 regularization",
+                    "c": "Dropout",
+                    "d": "Gradient descent"
+                },
+                "correct_answer": ["a", "b", "c"]
+            },
+            {
+                "type": "multiple",
+                "question": "Which of the following are true about feature selection in machine learning?",
+                "options": {
+                    "a": "It involves selecting a subset of relevant features for model training.",
+                    "b": "It can improve model performance.",
+                    "c": "It is necessary for all types of machine learning models.",
+                    "d": "It can reduce the risk of overfitting."
+                },
+                "correct_answer": ["a", "b", "d"]
+            }            
     ]
 }
