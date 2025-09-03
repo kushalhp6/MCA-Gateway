@@ -115,8 +115,8 @@ foreach ($card_names as $card_name) {
         <?php if (!$has_full_access): ?>
             <div class="text-center mb-8">
                 <div class="bg-gradient-to-r from-blue-500 to-teal-500 text-white py-4 px-6 rounded-lg shadow-lg font-semibold text-lg">
-                    <p class="mb-2 text-2xl">Total Prep Costs: <span class="font-bold">₹8000</span></p>
-                    <p class="text-lg">Buy at Once and Save <span class="bg-yellow-300 text-black px-2 py-1 rounded-lg font-bold">₹1000</span>!</p>
+                    <p class="mb-2 text-2xl">Total Prep Costs: <span class="line-through mr-2">₹2999</span> <span class="text-green-300">₹999</span></p>
+                    <p class="text-lg">Buy at Once and Save <span class="bg-yellow-300 text-black px-2 py-1 rounded-lg font-bold">₹2000</span>!</p>
                 </div>
             </div>
         <?php endif; ?>
@@ -151,7 +151,7 @@ foreach ($card_names as $card_name) {
         <div class="flex gap-4 items-center">
             <a href="pay.php">
                 <button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">
-                    <span class="line-through mr-2">₹8000</span> <span class="text-green-300">₹7000</span>
+                    <span class="line-through mr-2">₹2999</span> <span class="text-green-300 line-through">₹999</span>
                 </button>
             </a>
         </div>
@@ -169,7 +169,7 @@ foreach ($card_names as $card_name) {
     <?php if ($card_access['Mock'] || $has_full_access): ?>
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">Try Mock Tests</button></a> 
     <?php else: ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 999</button></a>
+            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors"><span class="line-through">Pay 999</span></button></a>
     <?php endif; ?>
 </div>
 
@@ -188,7 +188,7 @@ foreach ($card_names as $card_name) {
     <?php if ($card_access['Module1'] || $has_full_access): ?>
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
     <?php else: ?>
-        <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 2000</button></a> 
+        <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors"><span class="line-through">Pay 2000</span></button></a> 
     <?php endif; ?>
 </div>
 
@@ -207,7 +207,7 @@ foreach ($card_names as $card_name) {
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
     <?php else: ?>
         <?php if ($card_access['Module1'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 2000</button></a>
+            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors"><span class="line-through">Pay 2000</span></button></a>
         <?php else: ?>
             <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
         <?php endif; ?>
@@ -229,7 +229,7 @@ foreach ($card_names as $card_name) {
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
     <?php else: ?>
         <?php if ($card_access['Module2'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 2000</button></a>
+            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors"><span class="line-through">Pay 2000</span></button></a>
         <?php else: ?>
             <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
         <?php endif; ?>
@@ -250,7 +250,7 @@ foreach ($card_names as $card_name) {
         <a href="resources.php"><button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">View</button></a>
     <?php else: ?>
         <?php if ($card_access['Module3'] || $has_full_access): ?>
-            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors">Pay 2000</button></a>
+            <a href="pay.php"><button class="bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none transition-colors"><span class="line-through">Pay 2000</span></button></a>
         <?php else: ?>
             <button class="bg-gray-600 text-white py-2 px-4 rounded-md cursor-not-allowed transition-colors" disabled>Locked</button>
         <?php endif; ?>
