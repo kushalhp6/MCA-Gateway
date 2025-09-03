@@ -151,7 +151,7 @@ foreach ($card_names as $card_name) {
         <div class="flex gap-4 items-center">
             <a href="pay.php">
                 <button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none transition-colors">
-                    <span class="line-through mr-2">₹2999</span> <span class="text-green-300 line-through">₹999</span>
+                    <span class="line-through mr-2">₹2999</span> <span class="text-green-300">₹999</span>
                 </button>
             </a>
         </div>
